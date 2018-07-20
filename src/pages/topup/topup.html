@@ -14,34 +14,30 @@
                   <img class="tra_img" src="assets/imgs/eth.png">
               </div>
               <div  class="centex"> 
-                Etherium 
+                <h1>Etherium</h1>
+              </div>
+              <div class="wal-amount row" text-center>
+                <div class="col"><span class="strong">Balance :</span> {{selectedAccount.balance  | number }} ETH</div>
+                <div class="v-div"></div>
+                <div class="col"><span class="strong">Price :</span> {{1 / todayPrice.ETH | number}} USD</div>
               </div>
               <div>
-                <p>Balance : {{selectedAccount.balance | number }} ETH</p>
-                <p>Price : {{ 1 / todayPrice.ETH | number }} USD</p>
-              </div>
-              <div>
-                <h3>Recent Activity:</h3>
-                <ng-container *ngFor="let trans of ethTransaction"  >
+                <h4 text-center>Recent Activity</h4>
+                <ng-container >
                   <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
                      
-                        <div class="row header trans_date">
-                          <div class="col">Date</div>
-                          <div class="col">{{trans.date}}</div>
-                         
+                        <div class="row header trans_date txn-data">
+                          <div class="col"><span class="strong">Date</span></div>
+                          <div class="col" text-right><span class="strong">Amount</span></div>
+                          <div class="col" text-left><span class="strong">Type</span></div>
                         </div>
-                        <div class="row header trans_am">
-                            <div class="col">Amount</div>
-                            <div class="col">{{trans.amount | number}}</div>
-                            <!-- <div class="col">Status</div> -->
-                          </div>
-                        <div class="row header trans_type"  >
-                           
-                          <div class="col">Type</div>
-                            <div class="col">{{trans.mode}}</div>
-                            <!-- <div class="col">{{trans.status}}</div> -->
-                            <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
-                          </div>
+
+                        <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                            <div class="col">{{trans.date}}</div>
+                            <div class="col" text-right>{{trans.amount | number}}</div>
+                            <div class="col" text-left>{{trans.mode}}</div>
+                        </div>
+
                   </ion-card>
                 
                 </ng-container>
@@ -64,34 +60,30 @@
                   <img class="tra_img" src="assets/imgs/evens.png">
               </div>
               <div  class="centex">
-                Evens  
+                <h1> Evens </h1>
+              </div>
+              <div class="wal-amount row" text-center>
+                <div class="col"><span class="strong">Balance :</span> {{selectedAccount.balance  | number }} EVENS</div>
+                <div class="v-div"></div>
+                <div class="col"><span class="strong">Price :</span> {{1 / todayPrice.BTT | number}} USD</div>
               </div>
               <div>
-                <p>Balance : {{selectedAccount.balance  | number }} EVENS</p>
-                <p>Price : {{1 / todayPrice.BTT | number}} USD</p>
-              </div>
-              <div>
-                <h3>Recent Activity:</h3>
-                <ng-container *ngFor="let trans of ethTransaction"  >
+                <h4 text-center>Recent Activity</h4>
+                <ng-container  >
                     <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
                        
-                          <div class="row header trans_date">
-                            <div class="col">Date</div>
-                            <div class="col">{{trans.date}}</div>
-                           
-                          </div>
-                          <div class="row header trans_am">
-                              <div class="col">Amount</div>
-                              <div class="col">{{trans.amount }}</div>
-                              <!-- <div class="col">Status</div> -->
-                            </div>
-                          <div class="row header trans_type"  >
-                             
-                            <div class="col">Type</div>
-                              <div class="col">{{trans.mode}}</div>
-                              <!-- <div class="col">{{trans.status}}</div> -->
-                              <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
-                            </div>
+                      <div class="row header trans_date txn-data">
+                        <div class="col"><span class="strong">Date</span></div>
+                        <div class="col" text-right><span class="strong">Amount</span></div>
+                        <div class="col" text-left><span class="strong">Type</span></div>
+                      </div>
+
+                      <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                        <div class="col">{{trans.date}}</div>
+                        <div class="col" text-right>{{trans.amount}}</div>
+                        <div class="col" text-left>{{trans.mode}}</div>
+                      </div>
+
                     </ion-card>
                   
                   </ng-container>
@@ -102,34 +94,30 @@
                 <img class="tra_img" src="assets/imgs/usd.png">
             </div>
             <div  class="centex">
-              {{selectedAccount.tokenOneSym}}
+              <h1>{{selectedAccount.tokenOneSym}}</h1>
+            </div>
+            <div class="wal-amount row" text-center>
+              <div class="col"><span class="strong">Balance :</span> {{selectedAccount.balance  | number }} {{selectedAccount.tokenOneSym}}</div>
+              <div class="v-div"></div>
+              <div class="col"><span class="strong">Price :</span> {{1 / todayPrice.INR | number}} USD</div>
             </div>
             <div>
-              <p>Balance : {{selectedAccount.balance  | number }} {{selectedAccount.tokenOneSym}}</p>
-              <p>Price : {{1 / todayPrice.INR | number}} USD</p>
-            </div>
-            <div>
-              <h3>Recent Activity:</h3>
-              <ng-container *ngFor="let trans of ethTransaction"  >
+              <h4 text-center>Recent Activity</h4>
+              <ng-container>
                   <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
-                     
-                        <div class="row header trans_date">
-                          <div class="col">Date</div>
-                          <div class="col">{{trans.date}}</div>
-                         
-                        </div>
-                        <div class="row header trans_am">
-                            <div class="col">Amount</div>
-                            <div class="col">{{trans.amount }}</div>
-                            <!-- <div class="col">Status</div> -->
-                          </div>
-                        <div class="row header trans_type"  >
-                           
-                          <div class="col">Type</div>
-                            <div class="col">{{trans.mode}}</div>
-                            <!-- <div class="col">{{trans.status}}</div> -->
-                            <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
-                          </div>
+                    
+                    <div class="row header trans_date txn-data">
+                      <div class="col"><span class="strong">Date</span></div>
+                      <div class="col" text-right><span class="strong">Amount</span></div>
+                      <div class="col" text-left><span class="strong">Type</span></div>
+                    </div>
+
+                    <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                      <div class="col">{{trans.date}}</div>
+                      <div class="col" text-right>{{trans.amount}}</div>
+                      <div class="col" text-left>{{trans.mode}}</div>
+                    </div>
+
                   </ion-card>
                 
                 </ng-container>
@@ -140,34 +128,30 @@
               <img class="tra_img" src="assets/imgs/thai.png">
           </div>
           <div  class="centex">
-            {{selectedAccount.tokenTwoSym}}
+            <h1>{{selectedAccount.tokenTwoSym}}</h1>
+          </div>
+          <div class="wal-amount row" text-center>
+            <div class="col"><span class="strong">Balance :</span> {{selectedAccount.balance  | number }} {{selectedAccount.tokenTwoSym}}</div>
+            <div class="v-div"></div>
+            <div class="col"><span class="strong">Price :</span> {{1 / todayPrice.THB| number}} USD</div>
           </div>
           <div>
-            <p>Balance : {{selectedAccount.balance  | number }} {{selectedAccount.tokenTwoSym}}</p>
-            <p>Price : {{1 / todayPrice.THB | number}} USD</p>
-          </div>
-          <div>
-            <h3>Recent Activity:</h3>
-            <ng-container *ngFor="let trans of ethTransaction"  >
+            <h4 text-center>Recent Activity</h4>
+            <ng-container>
                 <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
                    
-                      <div class="row header trans_date">
-                        <div class="col">Date</div>
-                        <div class="col">{{trans.date}}</div>
-                       
-                      </div>
-                      <div class="row header trans_am">
-                          <div class="col">Amount</div>
-                          <div class="col">{{trans.amount }}</div>
-                          <!-- <div class="col">Status</div> -->
-                        </div>
-                      <div class="row header trans_type"  >
-                         
-                        <div class="col">Type</div>
-                          <div class="col">{{trans.mode}}</div>
-                          <!-- <div class="col">{{trans.status}}</div> -->
-                          <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
-                        </div>
+                  <div class="row header trans_date txn-data">
+                    <div class="col"><span class="strong">Date</span></div>
+                    <div class="col" text-right><span class="strong">Amount</span></div>
+                    <div class="col" text-left><span class="strong">Type</span></div>
+                  </div>
+
+                  <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                    <div class="col">{{trans.date}}</div>
+                    <div class="col" text-right>{{trans.amount}}</div>
+                    <div class="col" text-left>{{trans.mode}}</div>
+                  </div>
+
                 </ion-card>
               
               </ng-container>
@@ -178,34 +162,30 @@
             <img class="tra_img" src="assets/imgs/kye.png">
         </div>
         <div  class="centex">
-          {{selectedAccount.tokenThreeSym}}
+          <h1>{{selectedAccount.tokenThreeSym}}</h1>
+        </div>
+        <div class="wal-amount row" text-center>
+          <div class="col"><span class="strong">Balance :</span> {{selectedAccount.balance  | number }} {{selectedAccount.tokenThreeSym}}</div>
+          <div class="v-div"></div>
+          <div class="col"><span class="strong">Price :</span> {{1 / todayPrice.KRW| number}} USD</div>
         </div>
         <div>
-          <p>Balance : {{selectedAccount.balance  | number }} {{selectedAccount.tokenThreeSym}}</p>
-          <p>Price : {{1 / todayPrice.KRW | number}} USD</p>
-        </div>
-        <div>
-          <h3>Recent Activity:</h3>
-          <ng-container *ngFor="let trans of ethTransaction"  >
+          <h4 text-center>Recent Activity</h4>
+          <ng-container >
               <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
                  
-                    <div class="row header trans_date">
-                      <div class="col">Date</div>
-                      <div class="col">{{trans.date}}</div>
-                     
-                    </div>
-                    <div class="row header trans_am">
-                        <div class="col">Amount</div>
-                        <div class="col">{{trans.amount }}</div>
-                        <!-- <div class="col">Status</div> -->
-                      </div>
-                    <div class="row header trans_type"  >
-                       
-                      <div class="col">Type</div>
-                        <div class="col">{{trans.mode}}</div>
-                        <!-- <div class="col">{{trans.status}}</div> -->
-                        <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
-                      </div>
+                <div class="row header trans_date txn-data">
+                  <div class="col"><span class="strong">Date</span></div>
+                  <div class="col" text-right><span class="strong">Amount</span></div>
+                  <div class="col" text-left><span class="strong">Type</span></div>
+                </div>
+
+                <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction" >
+                  <div class="col">{{trans.date}}</div>
+                  <div class="col" text-right>{{trans.amount}}</div>
+                  <div class="col" text-left>{{trans.mode}}</div>
+                </div>   
+
               </ion-card>
             
             </ng-container>

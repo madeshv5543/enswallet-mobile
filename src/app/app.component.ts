@@ -54,6 +54,10 @@ export class MyApp {
     
   }
 
+  goToPricePage(){
+    this.nav.push(MyRewardsPage);
+  }
+
   goToProfilePage(){
     this.menu.close();
     this.nav.push(ProfilePage);

@@ -106,3 +106,49 @@
 .sidemenu_item:hover{
     background: #ec455f;
 }
+.strong {
+    font-weight: 600;
+    font-size: 17px;
+}
+.wal-amount{
+    padding-bottom: 20px;
+}
+.v-div {
+    width: 2px;
+    height: auto;
+    background: #FFF;
+}
+.toolbar-md-primary {
+    .toolbar-background-md{
+        background:transparent
+      }
+}
+.tabs-md-primary {
+    .tabbar{
+        background-color:transparent;
+        box-shadow: None;
+      }
+}
+.toolbar-ios-primary {
+    .toolbar-background-ios{
+        background:transparent
+      }
+}
+.tabs-ios-primary {
+    .tabbar{
+        background-color:transparent;
+        border: none;
+    }
+}
+.tabs-md-primary .tab-button:hover:not(.disable-hover), .tabs-md-primary .tab-button[aria-selected=true], .tabs-md-primary .tab-button[aria-selected=true] .tab-button-icon {
+    background: #fff !important;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    color: #666;
+}
+.tabs-ios-primary .tab-button:hover:not(.disable-hover), .tabs-ios-primary .tab-button[aria-selected=true], .tabs-ios-primary .tab-button[aria-selected=true] .tab-button-icon {
+    background: #fff !important;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    color: #666;
+}
