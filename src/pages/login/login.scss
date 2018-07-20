@@ -1,0 +1,17 @@
+.signup-btn {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+.login-box {
+    .list-md[inset] {
+        .item:last-child {
+            display: none;
+        }
+    }
+}

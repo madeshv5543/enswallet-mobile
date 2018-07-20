@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>
+        Add Rewards Card
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content>
+    <form>
+      <div class="qr-scanner" padding>
+          <ion-label stacked>Scan your card QR code or Enter card number</ion-label>
+          <img src='../../assets/imgs/qr.png'>
+      </div>
+      <ion-list>
+          <ion-item>
+              <ion-label stacked>Rewards Card Number</ion-label>
+              <ion-input type="number"></ion-input>
+            </ion-item>
+          <ion-item>
+            <ion-label stacked>Merchant Name</ion-label>
+            <ion-input disabled="true" type="text"></ion-input>
+          </ion-item>
+      </ion-list>
+      <div padding>
+        <button ion-button color="primary" block>Add card</button>
+      </div>
+    </form>
+  </ion-content>

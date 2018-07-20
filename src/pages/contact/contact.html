@@ -1,0 +1,125 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      My Profile
+    </ion-title>
+  </ion-navbar>
+
+  <ion-toolbar no-border-top>
+      <ion-segment [(ngModel)]="Account">
+        <ion-segment-button value="Profile">
+          Profile
+        </ion-segment-button>
+        <ion-segment-button value="CP">
+          Change Password
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div [ngSwitch]="Account">
+    <ion-list *ngSwitchCase="'Profile'">
+      <ion-item-group>
+          <ion-item-divider color="light">Personal Details</ion-item-divider>
+          <ion-item>
+            <ion-label stacked>First Name</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Last Name</ion-label>
+              <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Gendar</ion-label>
+              <ion-select class="toolbar-select" [(ngModel)]="gender" interface="action-sheet">
+                  <ion-option value="male">Male</ion-option>
+                  <ion-option value="female">Female</ion-option>
+                </ion-select>
+            </ion-item>
+          <ion-item>
+            <ion-label stacked>Date of Birth</ion-label>
+            <ion-input type="date"></ion-input>
+            <!-- <ion-icon name="calendar" item-end></ion-icon> -->
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Street Address</ion-label>
+              <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Postal Code</ion-label>
+              <ion-input type="number"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>City</ion-label>
+              <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Country</ion-label>
+              <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Phone Number</ion-label>
+              <ion-input type="tel"></ion-input>
+          </ion-item>
+      </ion-item-group>
+      <ion-item-group>
+          <ion-item-divider color="light">Company Details</ion-item-divider>
+          <ion-item>
+            <ion-label stacked>Company Name</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Tax Identification Name</ion-label>
+              <ion-input type="text"></ion-input>
+          </ion-item>
+      </ion-item-group>
+      <ion-item-group>
+          <ion-item-divider color="light">Agreements</ion-item-divider>
+          <ion-item>
+            <ion-label stacked> Legal agreement </ion-label>
+            <ion-toggle color="primary" checked="true"></ion-toggle>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked> Marketing agreement </ion-label>
+            <ion-toggle color="primary" checked="false"></ion-toggle>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked> Data processing agreement </ion-label>
+            <ion-toggle color="primary" checked="false"></ion-toggle>
+          </ion-item>
+      </ion-item-group>
+      <ion-item-group>
+          <ion-item-divider color="light">Notifications</ion-item-divider>
+          <ion-item>
+            <ion-label stacked> I want to receive email notifications </ion-label>
+            <ion-toggle color="primary" checked="true"></ion-toggle>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked> I want to receive SMS notifications </ion-label>
+            <ion-toggle color="primary" disabled checked="false"></ion-toggle>
+          </ion-item>
+      </ion-item-group>
+      <div padding>
+          <button ion-button color="primary" block> Update </button>
+      </div>
+    </ion-list>
+    <ion-list *ngSwitchCase="'CP'">
+        <ion-item>
+            <ion-label stacked>Current Password</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>New Password</ion-label>
+              <ion-input type="password"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked>Confirm Password</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+          <div padding>
+              <button ion-button color="primary" block> Update </button>
+          </div>
+    </ion-list>
+    </div>
+</ion-content>

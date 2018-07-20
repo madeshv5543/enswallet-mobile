@@ -1,0 +1,33 @@
+
+.sendtitle{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 5vw;
+}
+.button-md{
+  background-color:red;
+}
+.item-md{
+  background-color:transparent;
+}
+
+.content-md {
+  color: #fff;
+  background: linear-gradient(to top, #2175bb, #f5435a);
+}
+
+.ow_address{
+  font-size: 3.7vw;
+}
+.item-input .label-md, .item-select .label-md, .item-datetime .label-md{
+  color: white
+}
+form, input, optgroup, select{
+  color:white;
+}
+.tran_card{
+  background: gray !important;
+  color: white;
+  // height: 70px;
+}

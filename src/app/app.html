@@ -1,0 +1,34 @@
+<ion-menu [content]='content'>
+
+    <ion-header>
+        <ion-toolbar class="user-bg">
+            <!-- <ion-title>Menu</ion-title> -->
+            <ion-list class="user-detail">
+                <ion-item no-lines  >
+                    <ion-thumbnail  class="avabor" item-start>
+                    <img class="user-img" src="assets/imgs/user.png">
+                    </ion-thumbnail>
+                    
+                    <!-- <p>India</p> -->
+                </ion-item>
+                <ion-item no-lines >
+                        <h2>TharunKumar V</h2>
+                </ion-item>
+            </ion-list>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content class="side_bar">
+        <ion-item-group>
+               <ion-item no-lines *ngFor='let p of pages' class="sidemenu_item" >
+                    <ion-icon class="icon_colr" [name]="p.icon" item-start></ion-icon>
+                    <button ion-item  class="menu_item"   (click)="openPage(p)">
+                            {{p.title}}
+                        </button>
+               </ion-item>
+            <!-- <ion-item-divider color="primary">Smart Service</ion-item-divider> -->
+          
+        </ion-item-group>
+    </ion-content>
+
+</ion-menu>
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

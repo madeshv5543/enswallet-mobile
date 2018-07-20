@@ -1,0 +1,39 @@
+<ion-header>
+        <ion-navbar color="primary">
+          <ion-title>
+            Reward Redemption
+          </ion-title>
+        </ion-navbar>
+      </ion-header>
+      
+      <ion-content padding>
+          <ion-list>
+    
+            <ion-item>
+              <ion-label stacked> Merchant Name</ion-label>
+              <ion-input disabled="true" type="text"></ion-input>
+            </ion-item>
+    
+            <ion-item>
+              <ion-label stacked>Card Number</ion-label>
+              <ion-input disabled="true" type="number"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Available Points</ion-label>
+                <ion-input disabled="true" type="number"></ion-input>
+            </ion-item>
+        </ion-list>
+        <ion-grid class="redemption-card">
+            <ion-card-content>
+                <img src='../../assets/imgs/logo.png' width="100px">
+                <div>
+                    <h6>Reward Title</h6>
+                    <p>Description</p>
+                </div>
+            </ion-card-content>
+        </ion-grid>
+        <div padding>
+            <button ion-button color="primary" (click)='confirmRedemption()' block>Confirm</button>
+        </div>
+      </ion-content>

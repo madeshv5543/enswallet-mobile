@@ -1,0 +1,96 @@
+<ion-header>
+        <ion-navbar color="primary">
+              <ion-title>
+                Transfer
+              </ion-title>
+        </ion-navbar>
+          <ion-segment [(ngModel)]="pet">
+            <ion-segment-button value="bt">
+              Balance Transfer
+            </ion-segment-button>
+            <ion-segment-button value="ttf">
+              Transfer to Friend
+            </ion-segment-button>
+          </ion-segment>
+    </ion-header>
+    <ion-content>
+        <div [ngSwitch]="pet">
+            <ion-list *ngSwitchCase="'bt'">
+              <ion-item>
+                <ion-label stacked> Merchant Name</ion-label>
+                <ion-input disabled="true" type="text"></ion-input>
+              </ion-item>
+
+              <ion-item>
+                <ion-label stacked> From Card Number</ion-label>
+                <ion-input disabled="true" type="number"></ion-input>
+              </ion-item>
+              
+              <ion-item>
+                <ion-label stacked>Available Balance</ion-label>
+                <ion-input disabled="true" type="number"></ion-input>
+              </ion-item>
+
+              <ion-item>
+                <ion-label stacked> TO Card Number</ion-label>
+                <ion-select [(ngModel)]="tc1">
+                  <ion-option value="tc1">46334654356</ion-option>
+                  <ion-option value="tc2">46563464356</ion-option>
+                </ion-select>
+              </ion-item>
+        
+              <ion-item>
+                <ion-label stacked>Transfer Amount</ion-label>
+                <ion-input type="number"></ion-input>
+              </ion-item>
+      
+              <ion-item>
+                <ion-label stacked>Enter Pin Number</ion-label>
+                <ion-input type="password"></ion-input>
+              </ion-item>
+
+              <div padding>
+                <button ion-button color="primary" (click)='confirmTransfer()' block>Confirm</button>
+              </div>
+
+            </ion-list>
+
+            <ion-list *ngSwitchCase="'ttf'">
+                <ion-item>
+                    <ion-label stacked> Merchant Name</ion-label>
+                    <ion-input disabled="true" type="text"></ion-input>
+                  </ion-item>
+  
+                  <ion-item>
+                    <ion-label stacked> From Card Number</ion-label>
+                    <ion-input disabled="true" type="number"></ion-input>
+                  </ion-item>
+                  
+                  <ion-item>
+                    <ion-label stacked>Available Balance</ion-label>
+                    <ion-input disabled="true" type="number"></ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                    <ion-label stacked> TO Card Number</ion-label>
+                    <ion-input type="number"></ion-input>
+                  </ion-item>
+            
+                  <ion-item>
+                    <ion-label stacked>Transfer Amount</ion-label>
+                    <ion-input type="number"></ion-input>
+                  </ion-item>
+          
+                  <ion-item>
+                    <ion-label stacked>Enter Pin Number</ion-label>
+                    <ion-input type="password"></ion-input>
+                  </ion-item>
+  
+                  <div padding>
+                    <button ion-button color="primary" (click)='confirmFriendTransfer()' block>Confirm</button>
+                  </div>
+              </ion-list>
+
+              </div>
+    </ion-content>
+      

@@ -1,0 +1,31 @@
+<ion-header>
+        <ion-navbar no-border-bottom color="primary">
+          <ion-title>
+            Instructions
+          </ion-title>
+        </ion-navbar>
+        <ion-segment [(ngModel)]="ins">
+          <ion-segment-button value="hte">
+            How to Earn
+          </ion-segment-button>
+          <ion-segment-button value="htr">
+            How to Redeem
+          </ion-segment-button>
+        </ion-segment>
+      </ion-header>
+      <ion-content>
+          <div [ngSwitch]="ins">
+              <ion-list *ngSwitchCase="'hte'">
+                <div padding>Members can earn 1 point for every SGD 10 purchase on any Metro Department store.</div>
+                <div padding>Your Rewards can be redeemed as vouchers on your next purchase use.</div>
+                <div padding>Metro reserves the right to increase or decrease the number of points accrued on qualifying purchases at its sole discretion, or to change the mechanics on how reward points are earned.</div>
+              </ion-list>
+
+              <ion-list *ngSwitchCase="'htr'">
+                <div padding>Member must present the card at the time of redemption of any reward and may only be used by the person named on the card.</div>
+                <div padding>Points may be used to purchase any item(s) for sale in any Metro store.</div>
+                <div padding>Each point has an equivalent value of SGD 1.</div>  
+              </ion-list>
+          </div>
+      </ion-content>
+      

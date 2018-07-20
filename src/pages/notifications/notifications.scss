@@ -1,0 +1,42 @@
+.coinimg{
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 13%;
+}
+.card_trans{
+    background: gray !important;
+    color: white;
+    height: 70px;
+}
+.fontWhite{
+    color: white !important
+}
+.wallat_main{
+    min-height: 150px;
+    text-align: center;
+    background: #926969;
+    // background: #545e698c; 
+}
+
+.mywalletTxt{
+    color: white !important;
+    font-size: 8vw !important;
+}
+
+.wall_amount{
+    margin-top: 4px;
+    color: white !important;
+    font-size: 5vw !important;
+}
+
+.wall_txt_cen{
+    position: relative;
+    top: 35px;
+}
+
+.item_text{
+    margin: 10px 0px 0px 0 !important;;
+    font-size: 3vw !important;
+    text-align: left;
+}

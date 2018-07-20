@@ -1,0 +1,65 @@
+<ion-header>
+        <ion-navbar>
+          <ion-title>
+            Create Account
+          </ion-title>
+        </ion-navbar>
+</ion-header>
+<ion-content>
+        <ion-list>
+            <ion-item-group>
+                    <ion-item-divider color="light">Personal Details</ion-item-divider>
+                    <ion-item>
+                        <ion-label stacked>First Name</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label stacked>Last Name</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label stacked>Password</ion-label>
+                        <ion-input type="password"></ion-input>
+                      </ion-item>
+                      <ion-item>
+                          <ion-label stacked>Confirm Password</ion-label>
+                          <ion-input type="password"></ion-input>
+                      </ion-item>
+                    <ion-item>
+                            <ion-label stacked>Gendar</ion-label>
+                            <ion-select class="toolbar-select" [(ngModel)]="gender" interface="action-sheet">
+                                <ion-option value="male">Male</ion-option>
+                                <ion-option value="female">Female</ion-option>
+                              </ion-select>
+                          </ion-item>
+                    <ion-item>
+                        <ion-label stacked>Date of Birth</ion-label>
+                        <ion-input type="date"></ion-input>
+                        <!-- <ion-icon name="calendar" item-end></ion-icon> -->
+                    </ion-item>
+                    <ion-item>
+                        <ion-label stacked>Street Address</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label stacked>Postal Code</ion-label>
+                        <ion-input type="number"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label stacked>City</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label stacked>Country</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label stacked>Phone Number</ion-label>
+                        <ion-input type="tel"></ion-input>
+                    </ion-item>
+                </ion-item-group>
+                <div padding>
+                    <button ion-button color="primary" block (click)="goToAddCardPage()" > Create Account </button>
+                </div>
+            </ion-list>
+</ion-content>

@@ -1,0 +1,217 @@
+
+  <ion-content >
+      <ion-navbar color="primary">
+          <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+          <ion-title>
+            Evens
+          </ion-title>
+        </ion-navbar>
+        <div padding > 
+          <div *ngIf="selectedCur == 'Etheriun'">
+              <div class="centex">
+                  <img class="tra_img" src="assets/imgs/eth.png">
+              </div>
+              <div  class="centex"> 
+                Etherium 
+              </div>
+              <div>
+                <p>Balance : {{selectedAccount.balance | number }} ETH</p>
+                <p>Price : {{ 1 / todayPrice.ETH | number }} USD</p>
+              </div>
+              <div>
+                <h3>Recent Activity:</h3>
+                <ng-container *ngFor="let trans of ethTransaction"  >
+                  <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                     
+                        <div class="row header trans_date">
+                          <div class="col">Date</div>
+                          <div class="col">{{trans.date}}</div>
+                         
+                        </div>
+                        <div class="row header trans_am">
+                            <div class="col">Amount</div>
+                            <div class="col">{{trans.amount | number}}</div>
+                            <!-- <div class="col">Status</div> -->
+                          </div>
+                        <div class="row header trans_type"  >
+                           
+                          <div class="col">Type</div>
+                            <div class="col">{{trans.mode}}</div>
+                            <!-- <div class="col">{{trans.status}}</div> -->
+                            <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
+                          </div>
+                  </ion-card>
+                
+                </ng-container>
+          
+                <!-- <ion-list>
+                    <ion-card *ngFor="let trans of ethTransaction"  class="card_trans">
+                    <ion-item (click)="OpenUrl(trans.link)"> 
+                        <p class="fontWhite">{{trans.amount | number}}</p>
+                        <p class="fontWhite">{{trans.date}}</p>
+                        <p class="fontWhite"> {{trans.mode}}</p>
+                        <p class="fontWhite">{{trans.status}}</p>
+                        <p class="fontWhite">{{trans.receipt}}</p>
+                       </ion-item>
+                       </ion-card>
+                </ion-list> -->
+              </div>
+          </div>
+          <div *ngIf="selectedCur == 'evenscoin'">
+              <div class="centex">
+                  <img class="tra_img" src="assets/imgs/evens.png">
+              </div>
+              <div  class="centex">
+                Evens  
+              </div>
+              <div>
+                <p>Balance : {{selectedAccount.balance  | number }} EVENS</p>
+                <p>Price : {{1 / todayPrice.BTT | number}} USD</p>
+              </div>
+              <div>
+                <h3>Recent Activity:</h3>
+                <ng-container *ngFor="let trans of ethTransaction"  >
+                    <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                       
+                          <div class="row header trans_date">
+                            <div class="col">Date</div>
+                            <div class="col">{{trans.date}}</div>
+                           
+                          </div>
+                          <div class="row header trans_am">
+                              <div class="col">Amount</div>
+                              <div class="col">{{trans.amount }}</div>
+                              <!-- <div class="col">Status</div> -->
+                            </div>
+                          <div class="row header trans_type"  >
+                             
+                            <div class="col">Type</div>
+                              <div class="col">{{trans.mode}}</div>
+                              <!-- <div class="col">{{trans.status}}</div> -->
+                              <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
+                            </div>
+                    </ion-card>
+                  
+                  </ng-container>
+              </div>
+          </div>
+          <div *ngIf="selectedCur == 'tokenOne'">
+            <div class="centex">
+                <img class="tra_img" src="assets/imgs/usd.png">
+            </div>
+            <div  class="centex">
+              {{selectedAccount.tokenOneSym}}
+            </div>
+            <div>
+              <p>Balance : {{selectedAccount.balance  | number }} {{selectedAccount.tokenOneSym}}</p>
+              <p>Price : {{1 / todayPrice.INR | number}} USD</p>
+            </div>
+            <div>
+              <h3>Recent Activity:</h3>
+              <ng-container *ngFor="let trans of ethTransaction"  >
+                  <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                     
+                        <div class="row header trans_date">
+                          <div class="col">Date</div>
+                          <div class="col">{{trans.date}}</div>
+                         
+                        </div>
+                        <div class="row header trans_am">
+                            <div class="col">Amount</div>
+                            <div class="col">{{trans.amount }}</div>
+                            <!-- <div class="col">Status</div> -->
+                          </div>
+                        <div class="row header trans_type"  >
+                           
+                          <div class="col">Type</div>
+                            <div class="col">{{trans.mode}}</div>
+                            <!-- <div class="col">{{trans.status}}</div> -->
+                            <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
+                          </div>
+                  </ion-card>
+                
+                </ng-container>
+            </div>
+        </div>
+        <div *ngIf="selectedCur == 'tokenTwo'">
+          <div class="centex">
+              <img class="tra_img" src="assets/imgs/thai.png">
+          </div>
+          <div  class="centex">
+            {{selectedAccount.tokenTwoSym}}
+          </div>
+          <div>
+            <p>Balance : {{selectedAccount.balance  | number }} {{selectedAccount.tokenTwoSym}}</p>
+            <p>Price : {{1 / todayPrice.THB | number}} USD</p>
+          </div>
+          <div>
+            <h3>Recent Activity:</h3>
+            <ng-container *ngFor="let trans of ethTransaction"  >
+                <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                   
+                      <div class="row header trans_date">
+                        <div class="col">Date</div>
+                        <div class="col">{{trans.date}}</div>
+                       
+                      </div>
+                      <div class="row header trans_am">
+                          <div class="col">Amount</div>
+                          <div class="col">{{trans.amount }}</div>
+                          <!-- <div class="col">Status</div> -->
+                        </div>
+                      <div class="row header trans_type"  >
+                         
+                        <div class="col">Type</div>
+                          <div class="col">{{trans.mode}}</div>
+                          <!-- <div class="col">{{trans.status}}</div> -->
+                          <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
+                        </div>
+                </ion-card>
+              
+              </ng-container>
+          </div>
+      </div>
+      <div *ngIf="selectedCur == 'tokenThree'">
+        <div class="centex">
+            <img class="tra_img" src="assets/imgs/kye.png">
+        </div>
+        <div  class="centex">
+          {{selectedAccount.tokenThreeSym}}
+        </div>
+        <div>
+          <p>Balance : {{selectedAccount.balance  | number }} {{selectedAccount.tokenThreeSym}}</p>
+          <p>Price : {{1 / todayPrice.KRW | number}} USD</p>
+        </div>
+        <div>
+          <h3>Recent Activity:</h3>
+          <ng-container *ngFor="let trans of ethTransaction"  >
+              <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                 
+                    <div class="row header trans_date">
+                      <div class="col">Date</div>
+                      <div class="col">{{trans.date}}</div>
+                     
+                    </div>
+                    <div class="row header trans_am">
+                        <div class="col">Amount</div>
+                        <div class="col">{{trans.amount }}</div>
+                        <!-- <div class="col">Status</div> -->
+                      </div>
+                    <div class="row header trans_type"  >
+                       
+                      <div class="col">Type</div>
+                        <div class="col">{{trans.mode}}</div>
+                        <!-- <div class="col">{{trans.status}}</div> -->
+                        <!-- <div class="col"><button class="button" ng-click="ctrl.add($index)">Add</button></div> -->
+                      </div>
+              </ion-card>
+            
+            </ng-container>
+        </div>
+    </div>
+            
+        </div>
+  </ion-content>
+  

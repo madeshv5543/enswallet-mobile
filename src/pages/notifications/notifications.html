@@ -1,0 +1,133 @@
+
+
+<ion-content>
+    
+        <ion-navbar color="primary">
+                <button ion-button menuToggle>
+                        <ion-icon name="menu"></ion-icon>
+                      </button>
+            <ion-title>Wallet</ion-title>
+        </ion-navbar>
+    <ion-card class="wallat_main">
+        <div class="wall_txt_cen">
+                <h2 class="mywalletTxt">My Wallet</h2>
+                <p class="wall_amount">$49994.5</p>    
+                
+        </div>
+        
+    </ion-card>
+        <ion-list>
+            <ion-card class="card_trans">
+                    <ion-item  (click)='openSingleNotification("Etheriun","coin")'>
+                            <div class="row">
+                                    <div class="">
+                                                <ion-thumbnail  item-start>
+                                                                <img class="coinimg" src="assets/imgs/eth.png">
+                                                                </ion-thumbnail>
+                                    </div>
+                                    <div class="col">
+                                                <h3 class="fontWhite item_text">{{ allBalance.eth | number }} ETH</h3>
+
+                                    </div>
+                                    <div class="col">
+                                                <h3 class="fontWhite item_text"> {{  allBalance.eth / todayPrice.ETH | number }} $</h3>
+
+                                    </div>
+                            </div>
+                          
+                            <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
+                        </ion-item>
+            </ion-card>
+            <ion-card class="card_trans">
+                    <ion-item (click)='openSingleNotification("evenscoin","coin")'>
+                                <div class="row">
+                                        <div class="">
+                                                        <ion-thumbnail   item-start>
+                                                                        <img class="coinimg" src="assets/imgs/evens.png">
+                                                                        </ion-thumbnail>
+                                        </div>
+                                        <div class="col">
+                                                        <h3 class="fontWhite item_text">{{  allBalance.ens | number}} ENS</h3>
+                                        </div>
+                                        <div class="col">
+                                                        <h3 class="fontWhite item_text"> {{  allBalance.ens / todayPrice.BTT | number }} $ </h3>
+                                        </div>
+                                </div>
+                          
+                            
+                            
+                        </ion-item>
+            </ion-card>
+            <ion-card class="card_trans">
+                    <ion-item (click)='openSingleNotification("tokenOne","token")'>
+                            <div class="row">
+                                    <div>
+                                            <ion-thumbnail  item-start>
+                                                <img class="coinimg" src="assets/imgs/usd.png">
+                                                </ion-thumbnail>
+                                     </div> 
+                                    <div class="col">
+                                                <h3 class="fontWhite item_text">{{ allBalance.tokenOne | number }} {{allBalance.tokenOneSym}}</h3>
+                                    </div>
+                                    <div class="col">
+                                                <h3 class="fontWhite item_text"> {{  allBalance.tokenOne / todayPrice.INR | number }} $ </h3>
+                                    </div>
+                            </div>
+                            
+                           
+                        </ion-item>
+            </ion-card>
+            <ion-card class="card_trans">
+                        <ion-item (click)='openSingleNotification("tokenTwo","token")'>
+                                <div class="row">
+                                        <div>
+                                                        <ion-thumbnail  item-start>
+                                                            <img class="coinimg" src="assets/imgs/thai.png">
+                                                         </ion-thumbnail>
+                                        </div>
+                                        <div class="col">
+                                                <h3 class="fontWhite item_text">{{ allBalance.tokenTwo |  number }} {{allBalance.tokenTwoSym}} </h3>
+                                        </div>
+                                        <div class="col">
+                                                        <h3 class="fontWhite item_text"> {{  allBalance.tokenTwo / todayPrice.THB | number }} $</h3>
+                                        </div>
+                                </div>
+                                
+                                
+                            </ion-item>
+                </ion-card>
+                <ion-card class="card_trans">
+                                <ion-item (click)='openSingleNotification("tokenThree","token")'>
+                                        <div class="row">
+                                                <div>
+                                                                <ion-thumbnail  item-start>
+                                                                     <img class="coinimg" src="assets/imgs/kye.png">
+                                                                 </ion-thumbnail>
+                                                </div>
+                                                <div class="col"><h3 class="fontWhite item_text">{{ allBalance.tokenThree |  number }} {{allBalance.tokenThreeSym}}</h3></div>
+                                                <div class="col"><h3 class="fontWhite item_text"> {{  allBalance.tokenThree / todayPrice.KRW | number }} $ </h3></div>
+                                        </div>
+
+                                        
+                                    </ion-item>
+                        </ion-card>
+                        <ion-card class="card_trans">
+                                        <ion-item>
+                                <div class="row">
+                                        <div>
+                                                        <ion-thumbnail  item-start>
+                                                             <img class="coinimg" src="assets/imgs/inr.png">
+                                                          </ion-thumbnail>
+                                        </div>
+                                        <div class="col"> <h3 class="fontWhite item_text">480 TOK4</h3></div>
+                                        <div class="col"> <h3 class="fontWhite item_text"> 5073.98 TOK </h3></div>
+                                </div>
+                                      
+                                               
+                                               
+                                            </ion-item>
+                                </ion-card>
+            
+
+        </ion-list>
+</ion-content>
