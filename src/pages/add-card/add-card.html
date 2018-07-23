@@ -1,27 +1,9 @@
-<ion-header>
-  <ion-navbar color="primary">
-    <ion-title>
-      Add Card
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
 <ion-content padding>
-  <form>
-    <ion-list>
-        <ion-item>
-            <ion-label stacked>Add Card Number</ion-label>
-            <ion-input type="number"></ion-input>
-          </ion-item>
-          <ion-label stacked>or</ion-label>
-          <!-- Float the icon left -->
-          <button ion-button icon-left>
-            <ion-icon name="qr-scanner"></ion-icon>
-            Scan
-          </button>
-    </ion-list>
-    <div padding>
-      <button ion-button color="primary" block>Add card</button>
-    </div>
-  </form>
+  <P>These words are only way to restore your accounts. Save them somewhere safe and secret.</P>
+  <ion-card>
+    <p>{{data.seed}}</p>
+  </ion-card>
+  <button ion-button (click)="copyToClipboard()" >Copy to Clipboard</button>
+  <button ion-button (click)="goToHome()">I saved </button>
 </ion-content>

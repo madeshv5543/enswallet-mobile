@@ -1,29 +1,43 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import { ForgotPasswordPage } from '../forgot-password/forgot-password';
+import { NavController, MenuController } from 'ionic-angular';
 import { CreateAccountPage } from '../create-account/create-account';
-import { TabsPage } from '../tabs/tabs';
+import { WebservicProvider } from '../../providers/webservic/webservic';
+import { NotificationsPage } from '../notifications/notifications';
 
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html',
 })
 export class LoginPage {
-
-  constructor(public navCtrl: NavController) {
-
+	user:any= {};
+	public CreateAccount = CreateAccountPage;
+  constructor(public navCtrl: NavController,private menu:MenuController,private webService:WebservicProvider) {
+    this.menu.enable(false)
   }
 
-  goToForgotPasswordPage() {
-  this.navCtrl.push(ForgotPasswordPage);
-  }
-  
   goToCreateAccountPage(){
-  this.navCtrl.push(CreateAccountPage);
+  		this.navCtrl.push(CreateAccountPage);
   }
 
-  goToDashboard() {
-  this.navCtrl.setRoot(TabsPage,{tabIndex:0});
-  }
+	login(){
+		let self = this;
+		self.webService.login(self.user)
+		.then(
+			(res:any) => {
+				if(res.status == 200) {
+					let data = Object.assign({}, res.data)
+					data.password = self.user.password;
+					self.webService.saveLocalData(data,res.token);
+					self.navCtrl.setRoot(NotificationsPage)
+				}else{
+					alert(res.message)
+				}
+			},
+			err => {
+				console.log("error")
+			}
+		)
+	}
+
 }
 

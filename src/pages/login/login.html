@@ -1,46 +1,43 @@
 <ion-content class="login-content" padding>
-  <ion-row class="logo-row">
-    <ion-col></ion-col>
-    <ion-col width-67>
-      <img style="max-width: 303px !important;" src="http://placehold.it/500x300"/>
-    </ion-col>
-    <ion-col></ion-col>
-  </ion-row>
-  <ion-row>
-    <div class="title"><h1>Welcome</h1></div>
-  </ion-row>
-  <div class="login-box">
-    <form>
-      <ion-row>
-        <ion-col>
-          <ion-list inset>
-            
-            <ion-item>
-              <ion-input type="text" placeholder="Email" name="email" required></ion-input>
-            </ion-item>
-            
-            <ion-item>
-              <ion-input type="password" placeholder="Password" name="password" required></ion-input>
-            </ion-item>
-            
-            <ion-item></ion-item>
-          </ion-list>
-        </ion-col>
-      </ion-row>
-      
-      <ion-row>
-        <ion-col class="signup-col">
-          <button ion-button class="submit-btn" full type="submit" (click)="goToDashboard()">Login</button>
-          <button ion-button class="register-btn" float-right clear text-capitalize (click)="goToForgotPasswordPage()" >Forgot Password?</button>
-        </ion-col>
-      </ion-row>  
-      <ion-row clear>
-       <div class="signup-btn">Don't you have account? <a href="#" class="register-btn" clear (click)='goToCreateAccountPage()' >Create New Account</a></div>
-      </ion-row>
-      
-    </form>
-  </div>
-  <ion-row>
-    <div class="copyright"><p>Copyright © 2017 Revo Rewards</p></div>
-  </ion-row>
-</ion-content>
+    <ion-row class="logo-row">
+      <ion-col></ion-col>
+      <ion-col width-67 text-center>
+        <img style="max-width: 165px !important;margin-bottom: 20px;" src="assets/imgs/evens.png"/>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row>
+      <div class="title"><h1>Welcome</h1></div>
+    </ion-row>
+    <div class="login-box">
+      <form (ngSubmit)="login()">
+        <ion-row>
+          <ion-col>
+            <ion-list inset>
+  
+              <ion-item>
+                <ion-input type="text" placeholder="Address" [(ngModel)]="user.address" name="address" required></ion-input>
+              </ion-item>
+  
+              <ion-item>
+                <ion-input type="password" placeholder="Password" [(ngModel)]="user.password" name="password" required></ion-input>
+              </ion-item>
+  
+              <ion-item></ion-item>
+            </ion-list>
+          </ion-col>
+        </ion-row>
+  
+        <ion-row>
+          <ion-col class="signup-col">
+            <button ion-button class="submit-btn" full type="submit" >Login</button>
+            <!-- <button ion-button class="register-btn" [navPush]="ForgotPasswordPage"  type ="button" float-right clear text-capitalize>Forgot Password?</button> -->
+          </ion-col>
+        </ion-row>
+        <ion-row clear>
+          <div class="signup-btn">Don't you have account? <a href="#" class="register-btn" clear [navPush]="CreateAccount" >Create New Account</a></div>
+         </ion-row>
+      </form>
+    </div>
+  </ion-content>
+  

@@ -12,8 +12,9 @@ import * as moment from 'moment-timezone';
 */
 @Injectable()
 export class WebservicProvider {
-//  private serverUrl:any = 'http://192.168.1.5:3000/api';
- private serverUrl:any ="http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3200/api";
+ private serverUrl:any = 'http://192.168.1.5:3200/api';
+//  private serverUrl:any = 'http://localhost:3200/api';
+//  private serverUrl:any ="http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3200/api";
  private etherscanUrl:any = "https://api-rinkeby.etherscan.io/api?module=account&action=txlist&address="
  private params = "&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken";
  private evensparams = "&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken";
@@ -365,14 +366,63 @@ export class WebservicProvider {
   TransferTokenThree(data){
     let self = this;
     let promise = new Promise((resolve,reject)=>{
-     self.http.post(`${self.serverUrl}/sendTokenThree`,data)
-     .subscribe((result)=>{
-         resolve(result)
-     },err=>{
-         reject(err)
-     })
+      self.http.post(`${self.serverUrl}/sendTokenThree`,data)
+        .subscribe((result)=>{
+            resolve(result)
+        },err=>{
+            reject(err)
+        })
     })
     return promise;
   }
 
+  createAccont(data){
+    let self = this;
+    let promise = new Promise((resolve,reject) => {
+      self.http.post(`${self.serverUrl}/signUp`,data)
+      .subscribe((result)=>{
+          resolve(result)
+      },err=>{
+          reject(err)
+      })
+    })
+    return promise;
+  }
+
+  login(data) {
+    let self = this;
+    let promise = new Promise((resolve, reject) => {
+      self.http.post(`${self.serverUrl}/login`,data)
+      .subscribe((res) => {
+        resolve(res)
+      },
+      err => {
+        reject(err
+        )
+      })
+    })
+    return promise;
+  }
+
+  saveLocalData(data,token){
+    let self = this;
+    self.storage.set('user',JSON.stringify(data))
+    self.storage.set('token',token)
+  }
+
+  getStoredData(){
+    let self = this;
+    let promise = new Promise((resolve,reject) => {
+      self.storage.get('user')
+      .then((val)=>{
+        console.log("value data",val)
+       if(!val){
+         resolve(null) ;
+       }else{
+         resolve(JSON.parse(val))
+       }
+      })
+    })
+    return promise;
+  }
 }

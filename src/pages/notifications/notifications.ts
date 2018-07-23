@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, MenuController } from 'ionic-angular';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 
 import { TabsPage } from '../tabs/tabs';
@@ -37,11 +37,12 @@ export class NotificationsPage {
     tokenOnesym:'',
     tokenThreeSym:'' 
   }
-  constructor(public navCtrl: NavController,public webserve:WebservicProvider) {
+  constructor(public navCtrl: NavController,public webserve:WebservicProvider, private menu:MenuController) {
     this.gettodayPrice();
     this.getAllBalance()
+    this.menu.enable(true)
     // this.getBalance()
-    // this.evensBalance();
+    // this.evensBalance();1
   }
 
   

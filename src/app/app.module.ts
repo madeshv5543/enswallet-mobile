@@ -7,6 +7,9 @@ import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { IonicStorageModule } from '@ionic/storage';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { Clipboard } from '@ionic-native/clipboard';
+import { InterceptorModule } from '../providers/webservic/interceptor';
+import { Network } from '@ionic-native/network';
 
 import { WalletPage } from '../pages/wallet/wallet';
 import { ProfilePage } from '../pages/contact/contact';
@@ -42,6 +45,8 @@ import { SingleRewardPage } from '../pages/single-reward/single-reward';
 import { MyCataloguePage} from '../pages/my-catalogue/my-catalogue';
 import { RewardRedemptionPage } from '../pages/reward-redemption/reward-redemption';
 import { RRThanksPage } from '../pages/rr-thanks/rr-thanks';
+
+import  {EqualValidator} from "../pages/create-account/EqualValidator";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -83,12 +88,14 @@ import { WebservicProvider } from '../providers/webservic/webservic';
     SingleRewardPage,
     MyCataloguePage,
     RewardRedemptionPage,
-    RRThanksPage
+    RRThanksPage,
+    EqualValidator
         ],
   imports: [
     BrowserModule,
     HttpClientModule,
     NgxQRCodeModule,
+    InterceptorModule,
     IonicModule.forRoot(MyApp, {
       tabsHideOnSubPages:true
    }),
@@ -137,6 +144,8 @@ import { WebservicProvider } from '../providers/webservic/webservic';
     SplashScreen,
     BarcodeScanner,
     InAppBrowser,
+    Clipboard,
+    Network,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     WebservicProvider,
   ]
