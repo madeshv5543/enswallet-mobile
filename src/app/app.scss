@@ -25,6 +25,17 @@
 .user-img{
  border-radius: 50%;
 }
+.avabor {
+    width: 88px;
+    margin: auto;
+    border: 4px solid white;
+    border-radius: 48%;
+}
+.item-ios {
+    ion-thumbnail.avabor {
+        width: 64px;
+    }
+}
 .user-detail.list-md {
     margin: 0;
 }
@@ -94,10 +105,6 @@
 }
 .item-md{
     color: white
-}
-.avabor{
-    border: 4px solid white;
-    border-radius: 48%;
 }
 .menu_item.activated{
     background: none !important;
