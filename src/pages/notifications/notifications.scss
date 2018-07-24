@@ -5,9 +5,21 @@
     top: 13%;
 }
 .card_trans{
-    background: gray !important;
+    background: transparent;
     color: white;
     height: 70px;
+    border-bottom: 1px solid #fff;
+    box-shadow: none;
+}
+.card_trans:first-child {
+    border-top: 1px solid #fff;
+}
+.card_trans:last-child {
+    border-bottom: none;
+}
+.card_trans .item-md ion-thumbnail {
+    min-width: 45px;
+    min-height: 30px;
 }
 .fontWhite{
     color: white !important
@@ -15,8 +27,8 @@
 .wallat_main{
     min-height: 150px;
     text-align: center;
-    background: #926969;
-    // background: #545e698c; 
+    background: transparent; 
+    box-shadow: none;
 }
 
 .mywalletTxt{
@@ -30,13 +42,13 @@
     font-size: 5vw !important;
 }
 
-.wall_txt_cen{
+.wall_txt_cen {
     position: relative;
-    top: 35px;
+    top: 65px;
 }
 
 .item_text{
     margin: 10px 0px 0px 0 !important;;
     font-size: 3vw !important;
-    text-align: left;
+    text-align: center;
 }

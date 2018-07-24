@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, MenuController } from 'ionic-angular';
+import { NavController, MenuController, ToastController, LoadingController } from 'ionic-angular';
 import { AddCardPage } from '../add-card/add-card';
 
 
@@ -258,16 +258,45 @@ export class CreateAccountPage {
     {"name": "Zambia", "code": "ZM"},
     {"name": "Zimbabwe", "code": "ZW"}
     ];
-  constructor(public navCtrl: NavController,private WebService:WebservicProvider,private menu:MenuController) {
+  constructor(
+    public navCtrl: NavController,
+    private WebService:WebservicProvider,
+    private menu:MenuController,
+    private toastCtrl:ToastController,
+    private loadCtrl:LoadingController
+  ) {
     this.menu.enable(false)
   }
   siguUP(f:NgForm) {
     let self = this;
+    let loading = self.loadCtrl.create();
+    loading.present()
     self.WebService.createAccont(self.newUser)
-      .then((result:any) => {
-      self.navCtrl.setRoot(AddCardPage,{data:result.data})
-      },err=>{
-        console.log("err",err)
-      })
+    .then(
+      (result:any) => {
+        loading.dismiss()
+        if(result.status == 200) {
+          self.navCtrl.setRoot(
+            AddCardPage,
+            { data: result.data, token: result.token }
+          );
+				}else {
+					let toast = self.toastCtrl.create({ message : result.message, duration: 2000  })
+					toast.present();
+				}
+      },err=> {
+        loading.dismiss()
+        if('error' in err){
+          if(err.error.status){
+            let toast = self.toastCtrl.create({ message: err.error.message, duration: 2000 });
+            toast.present()
+          }
+        }
+        else {
+        let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+        toast.present()
+        }
+      }
+    )
   }
 }

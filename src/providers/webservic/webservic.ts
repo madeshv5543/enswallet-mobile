@@ -425,4 +425,18 @@ export class WebservicProvider {
     })
     return promise;
   }
+
+  getUserInfo() {
+    let self = this;
+    let promise = new Promise((resolve,reject) => {
+      self.http.get(`${self.serverUrl}/user`)
+      .subscribe((res) => {
+        resolve(res)
+      },
+      err => {
+        reject(err)
+      })
+    })
+    return promise;
+  }
 }

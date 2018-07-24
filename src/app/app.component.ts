@@ -12,6 +12,7 @@ import { MyRewardsPage } from '../pages/my-rewards/my-rewards';
 import { NotificationsPage } from '../pages/notifications/notifications';
 import { WebservicProvider } from '../providers/webservic/webservic';
 import { LoginPage } from '../pages/login/login';
+import { MyCataloguePage} from '../pages/my-catalogue/my-catalogue';
 
 @Component({
   templateUrl: 'app.html'
@@ -21,7 +22,7 @@ export class MyApp {
 
   rootPage:any;
   pages: Array<{title: string, component: any,icon:string}>;
-
+  public user:any ={};
   constructor(public platform: Platform, 
     public menu: MenuController, 
     public statusBar: StatusBar, 
@@ -33,13 +34,14 @@ export class MyApp {
   ) {
    this.initializeApp();
    this.setRootPage()
+   this.getUserInfo()
    events.subscribe('user:logout', (status) => {
-     let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token'})
+     let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000})
      toast.present();
      this.logOut()
    });   
    this.pages = [
-      {title: 'Wallet', component: NotificationsPage , icon:'photos'},
+      {title: 'Account', component: NotificationsPage , icon:'photos'},
       {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
       {title: 'Change Password', component: NotificationsPage, icon:'lock'},
       // {title: 'Invite Friends ', component: InviteFriendsPage},
@@ -68,7 +70,7 @@ export class MyApp {
   }
 
   openPage(page) {
-    if(page.title == 'Wallet'){
+    if(page.title == 'Account'){
       this.menu.close();
       this.nav.setRoot(page.component);
     }else if(page.title == 'Sign Out') {
@@ -79,6 +81,40 @@ export class MyApp {
       this.nav.push(page.component);
     }
     
+  }
+
+  getUserInfo(){
+    let self = this;
+    self.webservice.getUserInfo()
+    .then(
+      (res:any) => {
+        if(res.status == 200) {
+          console.log("user",res)
+          self.user = res.data;
+				}else {
+					let toast = self.toastCtrl.create({ message : res.message, duration: 2000  })
+					toast.present();
+				}
+      },
+      err => {
+        if('error' in err){
+          if(err.error.status){
+            let toast = self.toastCtrl.create({ message: err.error.message, duration: 2000  });
+            toast.present()
+          }
+        }
+        else {
+					let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+					toast.present()
+        }
+      }
+    )
+
+  }
+
+  goToprofile(){
+    let self = this;
+    this.nav.push(MyCataloguePage)
   }
 
   logOut(){

@@ -1,18 +1,47 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
 
 import { RewardRedemptionPage } from '../reward-redemption/reward-redemption'; 
+import { WebservicProvider } from '../../providers/webservic/webservic';
 
 @Component({
   selector: 'page-my-catalogue',
   templateUrl: 'my-catalogue.html'
 })
 export class MyCataloguePage {
-
-  constructor(public navCtrl: NavController) {
-
+  public user:any = {};
+  constructor(public navCtrl: NavController,public webService:WebservicProvider, private toastCtrl: ToastController) {
+    this.getUSerInfo();
   }
   rewardRedemption(){
     this.navCtrl.push(RewardRedemptionPage);
+  }
+
+  getUSerInfo(){
+    let self = this;
+    self.webService.getUserInfo()
+    .then(
+      (res:any) => {
+        if(res.status == 200) {
+          console.log("user",res)
+          self.user = res.data;
+				}else {
+					let toast = self.toastCtrl.create({ message : res.message, duration: 2000  })
+					toast.present();
+				}
+      },
+      err => {
+        if('error' in err){
+          if(err.error.status){
+            let toast = self.toastCtrl.create({ message: err.error.message, duration: 2000  });
+            toast.present()
+          }
+        }
+        else {
+					let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+					toast.present()
+        }
+      }
+    )
   }
 }

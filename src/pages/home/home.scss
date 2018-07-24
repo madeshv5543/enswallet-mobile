@@ -8,11 +8,21 @@
 .button-md{
   background-color:red;
 }
+.button-ios{
+  background-color:red;
+}
 .item-md{
   background-color:transparent;
 }
-
+.item-ios{
+  background-color:transparent;
+}
 .content-md {
+  color: #fff;
+  background: linear-gradient(to top, #2175bb, #f5435a);
+}
+
+.content-ios {
   color: #fff;
   background: linear-gradient(to top, #2175bb, #f5435a);
 }
@@ -23,11 +33,37 @@
 .item-input .label-md, .item-select .label-md, .item-datetime .label-md{
   color: white
 }
+.item-input {
+  .label-ios {
+    color: white
+  }
+}
+.item-select {
+  .label-ios {
+    color: white
+  }
+}
+.item-datetime {
+  .label-ios{
+    color: white
+  }
+}
 form, input, optgroup, select{
   color:white;
 }
 .tran_card{
-  background: gray !important;
+  background: transparent;
+  box-shadow: none;
   color: white;
-  // height: 70px;
+}
+.tran_card .txn-data {
+  line-height: 3;
+  background: transparent;
+  border-bottom: 1px solid #bbb;
+}
+.tran_card .txn-data:first-child {
+  border-bottom: 2px solid #fff;
+}
+.tran_card .txn-data:last-child {
+  border-bottom: none;
 }

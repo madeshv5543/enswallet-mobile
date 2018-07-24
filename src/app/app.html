@@ -4,15 +4,15 @@
         <ion-toolbar class="user-bg">
             <!-- <ion-title>Menu</ion-title> -->
             <ion-list class="user-detail">
-                <ion-item no-lines  >
+                <ion-item no-lines  (click)="goToprofile()">
                     <ion-thumbnail  class="avabor" item-start>
-                    <img class="user-img" src="assets/imgs/user.png">
+                    <img class="user-img" src="assets/imgs/user-defalut.png">
                     </ion-thumbnail>
                     
                     <!-- <p>India</p> -->
                 </ion-item>
                 <ion-item no-lines >
-                        <h2>TharunKumar V</h2>
+                        <h2>{{ user.firstName}} {{user.lastName}}</h2>
                 </ion-item>
             </ion-list>
         </ion-toolbar>

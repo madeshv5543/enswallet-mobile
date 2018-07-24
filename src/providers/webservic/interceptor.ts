@@ -26,7 +26,7 @@ export class HttpsRequestInterceptor implements HttpInterceptor {
             let toast = this.toastCtrl.create({ message : 'Please Connect to the network'});
             toast.present();
         }else {
-            if(req.url.includes('/api') && !req.url.includes('/login') && !req.url.includes('etherscan')){
+            if(req.url.includes('/api') && !req.url.includes('/login') && !req.url.includes('/signUp') && !req.url.includes('etherscan')){
                 return this.tokengetter()
                 .mergeMap(result => {
                     this.token = result;
