@@ -22,7 +22,7 @@
                             <div class="row">
                                     <div class="">
                                                 <ion-thumbnail  item-start>
-                                                                <img class="coinimg" src="assets/imgs/eth.png">
+                                                                <img class="coinimg" src="assets/imgs/icons8-ethereum-40.png">
                                                                 </ion-thumbnail>
                                     </div>
                                     <div class="col">
@@ -30,11 +30,11 @@
 
                                     </div>
                                     <div class="col">
-                                        <h3 class="fontWhite item_text">ETH</h3>
+                                        <h3 class="fontWhite item_text" text-left>ETH</h3>
 
                                     </div>
                                     <div class="col">
-                                                <h3 class="fontWhite item_text"> {{  allBalance.eth / todayPrice.ETH | number }} $</h3>
+                                                <h3 class="fontWhite item_text" text-right> {{  allBalance.eth / todayPrice.ETH | number }} $</h3>
 
                                     </div>
                             </div>
@@ -47,17 +47,17 @@
                                 <div class="row">
                                         <div class="">
                                                         <ion-thumbnail   item-start>
-                                                                        <img class="coinimg" src="assets/imgs/evens.png">
+                                                                        <img class="coinimg" style="height: 25px !important;margin-top: 10px;" src="assets/imgs/evens.png">
                                                                         </ion-thumbnail>
                                         </div>
                                         <div class="col">
                                                         <h3 class="fontWhite item_text" text-right>{{  allBalance.ens | number}}</h3>
                                         </div>
                                         <div class="col">
-                                                <h3 class="fontWhite item_text">ENS</h3>
+                                                <h3 class="fontWhite item_text" text-left>ENS</h3>
                                         </div>
                                         <div class="col">
-                                                        <h3 class="fontWhite item_text"> {{  allBalance.ens / todayPrice.BTT | number }} $ </h3>
+                                                        <h3 class="fontWhite item_text" text-right> {{  allBalance.ens / todayPrice.BTT | number }} $ </h3>
                                         </div>
                                 </div>
                           
@@ -70,17 +70,17 @@
                             <div class="row">
                                     <div>
                                             <ion-thumbnail  item-start>
-                                                <img class="coinimg" src="assets/imgs/usd.png">
+                                                <img class="coinimg" src="assets/imgs/icons8-rupee-40.png">
                                                 </ion-thumbnail>
                                      </div> 
                                     <div class="col">
                                                 <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number }} </h3>
                                     </div>
                                     <div class="col">
-                                        <h3 class="fontWhite item_text">{{allBalance.tokenOneSym}}</h3>
+                                        <h3 class="fontWhite item_text" text-left>{{allBalance.tokenOneSym}}</h3>
                                     </div>
                                     <div class="col">
-                                                <h3 class="fontWhite item_text"> {{  allBalance.tokenOne / todayPrice.INR | number }} $ </h3>
+                                                <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenOne / todayPrice.INR | number }} $ </h3>
                                     </div>
                             </div>
                             
@@ -92,17 +92,17 @@
                                 <div class="row">
                                         <div>
                                                         <ion-thumbnail  item-start>
-                                                            <img class="coinimg" src="assets/imgs/thai.png">
+                                                            <img class="coinimg" src="assets/imgs/icons8-bitcoin-40.png">
                                                          </ion-thumbnail>
                                         </div>
                                         <div class="col">
                                                 <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo |  number }}</h3>
                                         </div>
                                         <div class="col">
-                                                <h3 class="fontWhite item_text">{{allBalance.tokenTwoSym}} </h3>
+                                                <h3 class="fontWhite item_text" text-left>{{allBalance.tokenTwoSym}} </h3>
                                         </div>
                                         <div class="col">
-                                                        <h3 class="fontWhite item_text"> {{  allBalance.tokenTwo / todayPrice.THB | number }} $</h3>
+                                                        <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenTwo / todayPrice.THB | number }} $</h3>
                                         </div>
                                 </div>
                                 
@@ -114,18 +114,18 @@
                                         <div class="row">
                                                 <div>
                                                                 <ion-thumbnail  item-start>
-                                                                     <img class="coinimg" src="assets/imgs/kye.png">
+                                                                     <img class="coinimg" src="assets/imgs/icons8-won-40.png">
                                                                  </ion-thumbnail>
                                                 </div>
                                                 <div class="col"><h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree |  number }}</h3></div>
-                                                <div class="col"><h3 class="fontWhite item_text">{{allBalance.tokenThreeSym}}</h3></div>
-                                                <div class="col"><h3 class="fontWhite item_text"> {{  allBalance.tokenThree / todayPrice.KRW | number }} $ </h3></div>
+                                                <div class="col"><h3 class="fontWhite item_text" text-left>{{allBalance.tokenThreeSym}}</h3></div>
+                                                <div class="col"><h3 class="fontWhite item_text" text-right> {{  allBalance.tokenThree / todayPrice.KRW | number }} $ </h3></div>
                                         </div>
 
                                         
                                     </ion-item>
                         </ion-card>
-                        <ion-card class="card_trans">
+                        <!-- <ion-card class="card_trans">
                                         <ion-item>
                                 <div class="row">
                                         <div>
@@ -134,14 +134,14 @@
                                                           </ion-thumbnail>
                                         </div>
                                         <div class="col"> <h3 class="fontWhite item_text" text-right>480</h3></div>
-                                        <div class="col"> <h3 class="fontWhite item_text">TOK4</h3></div>
-                                        <div class="col"> <h3 class="fontWhite item_text"> 5073.98 TOK </h3></div>
+                                        <div class="col"> <h3 class="fontWhite item_text" text-left>TOK4</h3></div>
+                                        <div class="col"> <h3 class="fontWhite item_text" text-right> 5073.98 TOK </h3></div>
                                 </div>
                                       
                                                
                                                
                                             </ion-item>
-                                </ion-card>
+                                </ion-card> -->
             
 
         </ion-list>

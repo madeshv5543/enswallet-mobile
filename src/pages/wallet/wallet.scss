@@ -37,29 +37,32 @@
 .qrcode img {
   width: 40%;
 }
-.adddiv{
-  text-align: center
+.adddiv {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-.qr_text{
-  margin-bottom:  10px 
+.qr_text {
+  margin-bottom:  10px;
+  font-size: 20px
 }
-.texc{
+.texc {
   text-align: center;
   margin-top: 3%;
 }
 
-.baltxt1{
+.baltxt1 {
   font-size:3vw
 }
 
-.static_icon{
+.static_icon {
   height: 43px;
     position: absolute;
     top: 7%;
     right: 2%;
     z-index: 1000000;
 }
-.qr_textitem{
+.qr_textitem {
   margin: 16px 0px 24px 0 !important;
     font-size: 5vw !important;
 }
