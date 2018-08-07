@@ -64,7 +64,32 @@
                             
                         </ion-item>
             </ion-card>
-            <ion-card class="card_trans">
+            <ion-card *ngFor="let token of tokens" class="card_trans">
+                <ion-item (click)='openSingleNotification("tokenOne","token")'>
+                        <div class="row">
+                                <div>
+                                        <ion-thumbnail  item-start>
+                                            <img class="coinimg" src="assets/imgs/icons8-rupee-40.png">
+                                            </ion-thumbnail>
+                                 </div> 
+                                <div class="col">
+                                            <h3 class="fontWhite item_text" text-right>{{ token.balance | number:'.3' }} </h3>
+                                </div>
+                                <div class="col">
+                                    <h3 class="fontWhite item_text" text-left>{{token.symbol}}</h3>
+                                </div>
+                                <div class="col">
+                                                <h3 class="fontWhite item_text" text-right> 0 $ </h3>
+                                            <!-- <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenOne / todayPrice.INR | number:'.3' }} $ </h3> -->
+                                </div>
+                        </div>
+                        
+                       
+                    </ion-item>
+        </ion-card>
+        <button ion-button (click)="addToken()" full>Add Token</button>
+
+            <!-- <ion-card class="card_trans">
                     <ion-item (click)='openSingleNotification("tokenOne","token")'>
                             <div class="row">
                                     <div>
@@ -123,7 +148,7 @@
 
                                         
                                     </ion-item>
-                        </ion-card>
+                        </ion-card> -->
                         <!-- <ion-card class="card_trans">
                                         <ion-item>
                                 <div class="row">

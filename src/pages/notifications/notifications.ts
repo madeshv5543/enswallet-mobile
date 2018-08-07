@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { NavController, MenuController, Events } from 'ionic-angular';
+import { NavController, MenuController, Events, AlertController } from 'ionic-angular';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 
 import { TabsPage } from '../tabs/tabs';
 import { MyRewardsPage } from '../my-rewards/my-rewards';
+import { Title } from '@angular/platform-browser';
 
 
 
@@ -20,6 +21,8 @@ export class NotificationsPage {
     address:'-',
     balance:0
   }
+
+  tokens:any = [];
   todayPrice:any ={
     "BTT":1,
     "ETH":1,
@@ -38,9 +41,15 @@ export class NotificationsPage {
     tokenOnesym:'',
     tokenThreeSym:'' 
   }
-  constructor(public navCtrl: NavController,public webserve:WebservicProvider, private menu:MenuController,public events:Events) {
+  constructor(
+    public navCtrl: NavController,
+    public webserve:WebservicProvider,
+    private menu:MenuController,
+    public events:Events,
+    public alertCtrl:AlertController) {
     this.gettodayPrice();
     this.getAllBalance()
+    this.getTokens();
     this.menu.enable(true);
     this.events.publish('getUser', true);
     // this.getBalance()
@@ -58,6 +67,20 @@ export class NotificationsPage {
     },err=>{
       console.log("err",err)
     })
+   }
+
+   getTokens(){
+     let self = this;
+     self.webserve.getTokens()
+     .then(
+       (res:any ) => {
+         console.log("res", res)
+         self.tokens = res.data;
+       },
+       err => {
+         console.log("err",err)
+       }
+     )
    }
 
    getAllBalance (){
@@ -95,6 +118,48 @@ export class NotificationsPage {
     },err=>{
        console.log(err)
     })
+  }
+
+  addToken () {
+    let self = this;
+    let alert = self.alertCtrl.create({
+      title: 'Add Token',
+      inputs: [
+        {
+          name: 'tokenAddress',
+          placeholder: 'Contract Address',
+          type: "text"
+        }
+      ],
+      buttons: [
+        {
+          text: "Cancel",
+          role: "cancel",
+        },
+        {
+          text: "Add",
+          handler: data => {
+            if(data.tokenAddress) {
+              self.addnewToken(data)
+            }
+          }
+        }
+      ]
+    });
+    alert.present()
+  }
+
+  addnewToken(data){
+    let self = this;
+    self.webserve.addTokens(data.tokenAddress)
+    .then(
+      (res) => {
+        console.log("res token",res)
+      },
+      err => {
+        console.log("errr add token ", err)
+      }
+    )
   }
 
   goToPricePage(){
