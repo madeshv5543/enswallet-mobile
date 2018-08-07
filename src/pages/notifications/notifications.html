@@ -1,13 +1,12 @@
-
-
-<ion-content>
-    
+<ion-header>
         <ion-navbar color="primary">
                 <button ion-button menuToggle>
                         <ion-icon name="menu"></ion-icon>
-                      </button>
-            <ion-title>Wallet</ion-title>
+                </button>
+                <ion-title>Wallet</ion-title>
         </ion-navbar>
+</ion-header>
+<ion-content>
     <ion-card class="wallat_main">
         <div class="wall_txt_cen" (click)="goToPricePage()">
                 <h2 class="mywalletTxt">My Wallet</h2>
@@ -26,7 +25,7 @@
                                                                 </ion-thumbnail>
                                     </div>
                                     <div class="col">
-                                                <h3 class="fontWhite item_text" text-right>{{ allBalance.eth | number }}</h3>
+                                                <h3 class="fontWhite item_text" text-right>{{ allBalance.eth | number:'.3' }}</h3>
 
                                     </div>
                                     <div class="col">
@@ -34,7 +33,7 @@
 
                                     </div>
                                     <div class="col">
-                                                <h3 class="fontWhite item_text" text-right> {{  allBalance.eth / todayPrice.ETH | number }} $</h3>
+                                                <h3 class="fontWhite item_text" text-right> {{  allBalance.eth / todayPrice.ETH | number:'.3' }} $</h3>
 
                                     </div>
                             </div>
@@ -51,13 +50,13 @@
                                                                         </ion-thumbnail>
                                         </div>
                                         <div class="col">
-                                                        <h3 class="fontWhite item_text" text-right>{{  allBalance.ens | number}}</h3>
+                                                        <h3 class="fontWhite item_text" text-right>{{  allBalance.ens | number:'.3'}}</h3>
                                         </div>
                                         <div class="col">
                                                 <h3 class="fontWhite item_text" text-left>ENS</h3>
                                         </div>
                                         <div class="col">
-                                                        <h3 class="fontWhite item_text" text-right> {{  allBalance.ens / todayPrice.BTT | number }} $ </h3>
+                                                        <h3 class="fontWhite item_text" text-right> {{  allBalance.ens / todayPrice.BTT | number:'.3' }} $ </h3>
                                         </div>
                                 </div>
                           
@@ -74,13 +73,13 @@
                                                 </ion-thumbnail>
                                      </div> 
                                     <div class="col">
-                                                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number }} </h3>
+                                                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number:'.3' }} </h3>
                                     </div>
                                     <div class="col">
                                         <h3 class="fontWhite item_text" text-left>{{allBalance.tokenOneSym}}</h3>
                                     </div>
                                     <div class="col">
-                                                <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenOne / todayPrice.INR | number }} $ </h3>
+                                                <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenOne / todayPrice.INR | number:'.3' }} $ </h3>
                                     </div>
                             </div>
                             
@@ -96,13 +95,13 @@
                                                          </ion-thumbnail>
                                         </div>
                                         <div class="col">
-                                                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo |  number }}</h3>
+                                                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo |  number:'.3' }}</h3>
                                         </div>
                                         <div class="col">
                                                 <h3 class="fontWhite item_text" text-left>{{allBalance.tokenTwoSym}} </h3>
                                         </div>
                                         <div class="col">
-                                                        <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenTwo / todayPrice.THB | number }} $</h3>
+                                                        <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenTwo / todayPrice.THB | number:'.3' }} $</h3>
                                         </div>
                                 </div>
                                 
@@ -117,9 +116,9 @@
                                                                      <img class="coinimg" src="assets/imgs/icons8-won-40.png">
                                                                  </ion-thumbnail>
                                                 </div>
-                                                <div class="col"><h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree |  number }}</h3></div>
+                                                <div class="col"><h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree |  number:'.3' }}</h3></div>
                                                 <div class="col"><h3 class="fontWhite item_text" text-left>{{allBalance.tokenThreeSym}}</h3></div>
-                                                <div class="col"><h3 class="fontWhite item_text" text-right> {{  allBalance.tokenThree / todayPrice.KRW | number }} $ </h3></div>
+                                                <div class="col"><h3 class="fontWhite item_text" text-right> {{  allBalance.tokenThree / todayPrice.KRW | number:'.3' }} $ </h3></div>
                                         </div>
 
                                         

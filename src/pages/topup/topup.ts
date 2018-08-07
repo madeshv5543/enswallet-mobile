@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, ToastController } from 'ionic-angular';
 
-import { TopupThanksPage } from '../topup-thanks/topup-thanks';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
@@ -20,10 +19,16 @@ export class TopupPage {
   "ETH":1
 }
  public ethTransaction:any  =[];
-  constructor(public navCtrl: NavController,public navParams: NavParams,public webservice:WebservicProvider,private iab: InAppBrowser) {
-   this.selectedCur = this.webservice.getSelectedcoin()
-   this.getBalance()
-   this.gettodayPrice();
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+    public webservice:WebservicProvider,
+    private iab: InAppBrowser,
+    private toastCtrl:ToastController
+  ) {
+      this.selectedCur = this.webservice.getSelectedcoin()
+      this.getBalance()
+      this.gettodayPrice();
   }
 
   OpenUrl(url)
@@ -51,22 +56,14 @@ browser.show()
      default:
      servicecall = self.webservice.getBalance()
    }
-  //  if(this.selectedCur == 'Etheriun'){
-  //   servicecall = self.webservice.getBalance()
-  //  }
-  //  if(this.selectedCur == 'evenscoin'){
-  //   servicecall = self.webservice.evensBalance()
-  //  }
    servicecall
    .then(res=>{
-    console.log('res',res)
     self.selectedAccount = res;
-    
       this.getEtheriumTransaction(res.address);
-  
-  },err=>{
-    console.log("err",err)
-  })
+    },err=>{
+        let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+        toast.present()
+    })
   }
   
   ionViewWillEnter() { 
@@ -86,7 +83,6 @@ browser.show()
      if(this.selectedCur == 'Etheriun' || this.selectedCur == 'evenscoin' ){
       respromise.then(
         res=>{
-          console.log("transa",res)
           this.ethTransaction = res;
         }
       )
@@ -101,12 +97,9 @@ browser.show()
     .then(res=>{
        self.todayPrice = res;
     },err=>{
-       console.log(err)
+      let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+      toast.present()
     })
   }
   
-  
-  confirmTopup(){
-    this.navCtrl.push(TopupThanksPage);
-  }
 }

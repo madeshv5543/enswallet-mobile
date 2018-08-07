@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
-
-import { RewardRedemptionPage } from '../reward-redemption/reward-redemption'; 
+import { Clipboard } from '@ionic-native/clipboard';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 
 @Component({
@@ -10,11 +9,12 @@ import { WebservicProvider } from '../../providers/webservic/webservic';
 })
 export class MyCataloguePage {
   public user:any = {};
-  constructor(public navCtrl: NavController,public webService:WebservicProvider, private toastCtrl: ToastController) {
+  constructor(
+    public navCtrl: NavController,
+    public webService:WebservicProvider,
+    private toastCtrl: ToastController,
+    private clipboard: Clipboard) {
     this.getUSerInfo();
-  }
-  rewardRedemption(){
-    this.navCtrl.push(RewardRedemptionPage);
   }
 
   getUSerInfo(){
@@ -43,5 +43,16 @@ export class MyCataloguePage {
         }
       }
     )
+  }
+
+  copyAddress() {
+    let self = this;
+    this.clipboard.copy(self.user.address)
+    .then(
+      res => {
+        let toast = self.toastCtrl.create({ message: 'Address Copied.', duration: 2000  });
+        toast.present()
+      }
+    )  
   }
 }

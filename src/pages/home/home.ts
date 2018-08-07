@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
@@ -20,9 +20,15 @@ export class HomePage {
     tokenThreeSym:''
   };
   public selectedCur:any ;
-  constructor(public navCtrl: NavController,public webserve:WebservicProvider,private barcodeScanner: BarcodeScanner) {
+  constructor(
+    public navCtrl: NavController,
+    public webserve:WebservicProvider,
+    private barcodeScanner: BarcodeScanner,
+    private toastCtrl:ToastController
+  ) {
        this.getSelecetedCoin();
   }
+
 
   async getSelecetedCoin(){
     this.selectedCur = await this.webserve.getSelectedcoinpromise()
@@ -58,10 +64,10 @@ export class HomePage {
   //  }
    servicecall
    .then(res=>{
-     console.log('res',res)
      self.account = res;
    },err=>{
-     console.log("err",err)
+      let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+      toast.present()
    })
   }
 
@@ -92,13 +98,17 @@ export class HomePage {
     .then((res:any)=>{
       console.log("response",res)
       if(res.recepit){
-        alert('Transaction Completed Successfully');
+        let toast = self.toastCtrl.create({ message: 'Transaction Completed Successfully', duration: 2000  });
+        toast.present()
+        self.getBalance()
       }else{
-        alert('Transaction Failed');
+        let toast = self.toastCtrl.create({ message: 'Transaction Failed', duration: 2000  });
+        toast.present()
       }
      
     },err=>{
-      console.log('err',err)
+      let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+      toast.present()
     })
   }
 
@@ -111,11 +121,13 @@ export class HomePage {
           console.log(barcodeData.text)
          },
          err=>{
-          alert('Invalid Address')
+          let toast = self.toastCtrl.create({ message: 'Invalid Address', duration: 2000  });
+					toast.present()
          }
        )
      }).catch(err => {
-         console.log('Error', err);
+          let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+          toast.present()
      });
   }
  

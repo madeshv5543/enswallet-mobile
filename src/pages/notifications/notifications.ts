@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { NavController, MenuController } from 'ionic-angular';
+import { NavController, MenuController, Events } from 'ionic-angular';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 
 import { TabsPage } from '../tabs/tabs';
+import { MyRewardsPage } from '../my-rewards/my-rewards';
 
 
 
@@ -37,10 +38,11 @@ export class NotificationsPage {
     tokenOnesym:'',
     tokenThreeSym:'' 
   }
-  constructor(public navCtrl: NavController,public webserve:WebservicProvider, private menu:MenuController) {
+  constructor(public navCtrl: NavController,public webserve:WebservicProvider, private menu:MenuController,public events:Events) {
     this.gettodayPrice();
     this.getAllBalance()
-    this.menu.enable(true)
+    this.menu.enable(true);
+    this.events.publish('getUser', true);
     // this.getBalance()
     // this.evensBalance();1
   }
@@ -93,5 +95,10 @@ export class NotificationsPage {
     },err=>{
        console.log(err)
     })
+  }
+
+  goToPricePage(){
+    let self = this;
+    self.navCtrl.push(MyRewardsPage)
   }
 }

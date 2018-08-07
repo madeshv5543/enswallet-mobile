@@ -48,7 +48,7 @@ export class WebservicProvider {
                if(o.value != 0){
                 //  console.log(o.timeStamp)
                  let mode =o.from.toUpperCase() == address.toUpperCase()?'Sent':'Received';
-                 let status = o.txreceipt_status == 1?'Success':'Failure';
+                //  let status = o.txreceipt_status == 1?'Success':'Failure';
                  let amount:any = o.value/1e18 ;
                  let time = new Date(parseInt(o.timeStamp))
                  console.log("time",time)
@@ -56,9 +56,9 @@ export class WebservicProvider {
                    amount :parseFloat(amount).toFixed(3),
                    date:moment.tz(parseInt(o.timeStamp)*1000,'Asia/Kolkata').format('DD-MMM-YYYY'),
                    mode:mode,
-                   status:status,
+                  //  status:status,
                    receipt:o.hash,
-                   link:`https://rinkeby.etherscan.io/tx/${o.hash}`
+                   link:`http://rinkeby.etherscan.io/tx/${o.hash}`
                }
                temarr.push(obj)
                }

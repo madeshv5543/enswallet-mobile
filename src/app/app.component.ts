@@ -34,12 +34,16 @@ export class MyApp {
   ) {
    this.initializeApp();
    this.setRootPage()
-   this.getUserInfo()
-   events.subscribe('user:logout', (status) => {
-     let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000})
-     toast.present();
-     this.logOut()
-   });   
+   this.events.subscribe('user:logout', (status) => {
+     if(status){
+      let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000})
+      toast.present();
+      this.logOut()
+     }
+   });
+   this.events.subscribe('getUser', (status) => {
+    this.getUserInfo();
+   })
    this.pages = [
       {title: 'Account', component: NotificationsPage , icon:'photos'},
       {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
@@ -114,7 +118,8 @@ export class MyApp {
 
   goToprofile(){
     let self = this;
-    this.nav.push(MyCataloguePage)
+    self.menu.close()
+    self.nav.setRoot(MyCataloguePage)
   }
 
   logOut(){
