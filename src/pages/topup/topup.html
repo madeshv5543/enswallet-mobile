@@ -24,7 +24,7 @@
               <div>
                 <h4 text-center>Recent Activity</h4>
                 <ng-container >
-                  <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                  <ion-card class="tran_card" >
                      
                         <div class="row header trans_date txn-data">
                           <div class="col"><span class="strong">Date</span></div>
@@ -32,7 +32,7 @@
                           <div class="col" text-left><span class="strong">Type</span></div>
                         </div>
 
-                        <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                        <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">
                             <div class="col">{{trans.date}}</div>
                             <div class="col" text-right>{{trans.amount | number}}</div>
                             <div class="col" text-left>{{trans.mode}}</div>
@@ -70,7 +70,7 @@
               <div>
                 <h4 text-center>Recent Activity</h4>
                 <ng-container  >
-                    <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                    <ion-card class="tran_card" >
                        
                       <div class="row header trans_date txn-data">
                         <div class="col"><span class="strong">Date</span></div>
@@ -78,7 +78,7 @@
                         <div class="col" text-left><span class="strong">Type</span></div>
                       </div>
 
-                      <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                      <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">
                         <div class="col">{{trans.date}}</div>
                         <div class="col" text-right>{{trans.amount}}</div>
                         <div class="col" text-left>{{trans.mode}}</div>
@@ -104,7 +104,7 @@
             <div>
               <h4 text-center>Recent Activity</h4>
               <ng-container>
-                  <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                  <ion-card class="tran_card" >
                     
                     <div class="row header trans_date txn-data">
                       <div class="col"><span class="strong">Date</span></div>
@@ -112,7 +112,7 @@
                       <div class="col" text-left><span class="strong">Type</span></div>
                     </div>
 
-                    <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                    <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">
                       <div class="col">{{trans.date}}</div>
                       <div class="col" text-right>{{trans.amount}}</div>
                       <div class="col" text-left>{{trans.mode}}</div>
@@ -138,7 +138,7 @@
           <div>
             <h4 text-center>Recent Activity</h4>
             <ng-container>
-                <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+                <ion-card class="tran_card" >
                    
                   <div class="row header trans_date txn-data">
                     <div class="col"><span class="strong">Date</span></div>
@@ -146,7 +146,7 @@
                     <div class="col" text-left><span class="strong">Type</span></div>
                   </div>
 
-                  <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction">
+                  <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">
                     <div class="col">{{trans.date}}</div>
                     <div class="col" text-right>{{trans.amount}}</div>
                     <div class="col" text-left>{{trans.mode}}</div>
@@ -172,7 +172,7 @@
         <div>
           <h4 text-center>Recent Activity</h4>
           <ng-container >
-              <ion-card class="tran_card" (click)="OpenUrl(trans.link)">
+              <ion-card class="tran_card" >
                  
                 <div class="row header trans_date txn-data">
                   <div class="col"><span class="strong">Date</span></div>
@@ -180,7 +180,7 @@
                   <div class="col" text-left><span class="strong">Type</span></div>
                 </div>
 
-                <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction" >
+                <div class="row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)" >
                   <div class="col">{{trans.date}}</div>
                   <div class="col" text-right>{{trans.amount}}</div>
                   <div class="col" text-left>{{trans.mode}}</div>

@@ -12,14 +12,15 @@ import * as moment from 'moment-timezone';
 */
 @Injectable()
 export class WebservicProvider {
- private serverUrl:any = 'http://192.168.1.5:3200/api';
+ private serverUrl:any = 'http://192.168.1.8:3200/api';
 //  private serverUrl:any = 'http://localhost:3200/api';
 //  private serverUrl:any ="http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3200/api";
  private etherscanUrl:any = "https://api-rinkeby.etherscan.io/api?module=account&action=txlist&address="
  private params = "&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken";
  private evensparams = "&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken";
  private evenstokenUrl:any ="https://api-rinkeby.etherscan.io/api?module=account&action=tokentx&address="
- private  topriceurl = 'https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW'
+ private topriceurl = 'https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW'
+ private exploreUrl = 'http://localhost:3000'
  private selectedCoin:any;
  private USDvalue :any = {};
   constructor(public http: HttpClient,private storage: Storage) {
@@ -132,37 +133,6 @@ export class WebservicProvider {
     })
    return promise;
   }
-
-  // setEthTransactiom(data){
-  //    let self = this;
-  //   //  let data:any  = {};
-  //   //  data.receipt = '0x3e989e298fd15a967501203b21304f786bf1d274f0f006c0cfe67385a82b8140';
-  //   //  data.amount =0.01
-  //    let tranaction = [];
-  //    self.storage.get('eth')
-  //    .then((val)=>{
-  //     let trans ={
-  //       amount:data.amount,
-  //       receipt:data.receipt,
-  //       link:`https://rinkeby.etherscan.io/tx/${data.receipt}`
-  //     }
-  //     if(!val){
-  //       tranaction.push(trans)
-  //       let storeString = JSON.stringify(tranaction);
-  //       self.storage.set('eth',storeString)
-  //     }else{
-  //       tranaction = JSON.parse(val);
-  //       if(tranaction.length > 4){
-  //         tranaction.splice(4,1,
-  //         trans)
-  //       }else{
-  //         tranaction.push(trans)
-  //       }
-  //       let storeString = JSON.stringify(tranaction);
-  //       self.storage.set('eth',storeString)
-  //     }
-  //    })
-  // }
 
   getSelectedcoinpromise(){
     let promise = new Promise((resolve,reject)=>{
@@ -422,6 +392,39 @@ export class WebservicProvider {
          resolve(JSON.parse(val))
        }
       })
+    })
+    return promise;
+  }
+
+  getTokenTxList(tkaddr, addr){
+    let self = this;
+    let promise = new Promise((resolve, reject) => {
+      self.http.get(`${self.exploreUrl}/tokenTransaction?tkaddr=${tkaddr}&addr=${addr}&length=5`)
+      .subscribe(
+        (res:any) => {
+          if(res && res.data) {
+            if(res.data.length) {
+              let temArr = res.data.map((o:any) => {
+              let mode =o.from.toUpperCase() == addr.toUpperCase()?'Sent':'Received';
+              let obj ={
+                amount :parseFloat(o.value).toFixed(3),
+                    date:moment.tz(parseInt(o.timestamp)*1000,'Asia/Kolkata').format('DD-MMM-YYYY'),
+                    mode:mode,
+                    receipt:o.hash,
+                    link:`${self.exploreUrl}/tx/${o.hash}`
+                }
+              return obj;
+              })
+              resolve(temArr)
+            }
+          }else {
+            resolve([])
+          }
+        },
+        err => {
+          resolve([])
+        }
+      )
     })
     return promise;
   }

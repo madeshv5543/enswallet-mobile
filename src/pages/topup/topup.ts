@@ -82,15 +82,17 @@ browser.show()
      }
      if(this.selectedCur == 'evenscoin'){
       respromise = this.webservice.getTokenTransaction(address)
+     }else {
+       respromise = this.webservice.getTokenTxList(this.selectedAccount.tokenAddress, this.selectedAccount.address)
      }
-     if(this.selectedCur == 'Etheriun' || this.selectedCur == 'evenscoin' ){
+    //  if(this.selectedCur == 'Etheriun' || this.selectedCur == 'evenscoin' ){
       respromise.then(
         res=>{
           console.log("transa",res)
           this.ethTransaction = res;
         }
       )
-     }
+    //  }
    }
 
  
