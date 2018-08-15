@@ -12,20 +12,20 @@ import * as moment from 'moment-timezone';
 */
 @Injectable()
 export class WebservicProvider {
- private serverUrl:any = 'http://192.168.1.8:3200/api';
+//  private serverUrl:any = 'http://192.168.1.16:3200/api';
 //  private serverUrl:any = 'http://localhost:3200/api';
-//  private serverUrl:any ="http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3200/api";
+ private serverUrl:any ="http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3200/api";
  private etherscanUrl:any = "https://api-rinkeby.etherscan.io/api?module=account&action=txlist&address="
  private params = "&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken";
  private evensparams = "&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken";
  private evenstokenUrl:any ="https://api-rinkeby.etherscan.io/api?module=account&action=tokentx&address="
  private topriceurl = 'https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW'
- private exploreUrl = 'http://localhost:3000'
+ private exploreUrl = 'http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3000'
  private selectedCoin:any;
  private USDvalue :any = {};
   constructor(public http: HttpClient,private storage: Storage) {
     //  this.updateCurrence();
-  } 
+  }
 
   setSelecetedcoin(coin){
     let self = this;
@@ -49,7 +49,7 @@ export class WebservicProvider {
                if(o.value != 0){
                 //  console.log(o.timeStamp)
                  let mode =o.from.toUpperCase() == address.toUpperCase()?'Sent':'Received';
-                 let status = o.txreceipt_status == 1?'Success':'Failure';
+                //  let status = o.txreceipt_status == 1?'Success':'Failure';
                  let amount:any = o.value/1e18 ;
                  let time = new Date(parseInt(o.timeStamp))
                  console.log("time",time)
@@ -57,9 +57,9 @@ export class WebservicProvider {
                    amount :parseFloat(amount).toFixed(3),
                    date:moment.tz(parseInt(o.timeStamp)*1000,'Asia/Kolkata').format('DD-MMM-YYYY'),
                    mode:mode,
-                   status:status,
+                  //  status:status,
                    receipt:o.hash,
-                   link:`https://rinkeby.etherscan.io/tx/${o.hash}`
+                   link:`http://rinkeby.etherscan.io/tx/${o.hash}`
                }
                temarr.push(obj)
                }
@@ -172,206 +172,80 @@ export class WebservicProvider {
 
   getBalance(){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.get(`${this.serverUrl}/getBalance`)
-      .subscribe((result)=>{
-        resolve(result)
-      },err=>{
-           reject(err)
-      })
-    })
-    return promise;
+    return self.http.get(`${this.serverUrl}/getBalance`)
   }
 
   evensBalance(){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.get(`${this.serverUrl}/evensBalance`)
-      .subscribe((result)=>{
-        resolve(result)
-      },err=>{
-           reject(err)
-      })
-    })
-    return promise;
+    return  self.http.get(`${this.serverUrl}/evensBalance`)
   }
    
 
   checkAddress(add){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.get(`${this.serverUrl}/checkAdddress/${add}`)
-      .subscribe(
-        (res:any)=>{
-          resolve(res.status);
-        },
-        err=>{
-          reject(false);
-        }
-      )
-    })
-    return promise;
-  
+    return  self.http.get(`${this.serverUrl}/checkAdddress/${add}`)
   }
 
 
   Transfer(data){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-     self.http.post(`${self.serverUrl}/transfer`,data)
-     .subscribe((result)=>{
-         resolve(result)
-     },err=>{
-         reject(err)
-     })
-    })
-    return promise;
+    return self.http.post(`${self.serverUrl}/transfer`,data)
   }
 
   TransferEns(data){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-     self.http.post(`${self.serverUrl}/sendEns`,data)
-     .subscribe((result)=>{
-         resolve(result)
-     },err=>{
-         reject(err)
-     })
-    })
-    return promise;
+    return self.http.post(`${self.serverUrl}/sendEns`,data)
   }
   
    getTodayPrice (){
      let self = this;
-     let promise = new Promise((resolve,reject)=>{
-        self.http.get(self.topriceurl)
-        .subscribe(res=>{
-          resolve(res);
-        },err=>{
-          reject(err)
-        })
-     })
-     return promise;
+     return  self.http.get(self.topriceurl)
    }
 
   getAllBalance(){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.get(`${self.serverUrl}/allBalance`)
-      .subscribe(res=>{
-        resolve(res)
-      },err=>{
-        reject(err)
-      })
-    })
-    return promise;
+    return  self.http.get(`${self.serverUrl}/allBalance`)
   }
   
 
   getTokenOneBalance(){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.get(`${self.serverUrl}/tokenOneBalance`)
-      .subscribe(res=>{
-        resolve(res)
-      },err=>{
-        reject(err)
-      })
-    })
-    return promise;
+    return  self.http.get(`${self.serverUrl}/tokenOneBalance`)
   }
 
   getTokenTwoBalance(){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.get(`${self.serverUrl}/tokenTwoBalance`)
-      .subscribe(res=>{
-        resolve(res)
-      },err=>{
-        reject(err)
-      })
-    })
-    return promise;
+    return  self.http.get(`${self.serverUrl}/tokenTwoBalance`)
   }
 
   getTokenThreeBalance(){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.get(`${self.serverUrl}/tokenThreeBalance`)
-      .subscribe(res=>{
-        resolve(res)
-      },err=>{
-        reject(err)
-      })
-    })
-    return promise;
+    return  self.http.get(`${self.serverUrl}/tokenThreeBalance`)
   }
 
   TransferTokenOne(data){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-     self.http.post(`${self.serverUrl}/sendTokenOne`,data)
-     .subscribe((result)=>{
-         resolve(result)
-     },err=>{
-         reject(err)
-     })
-    })
-    return promise;
+    return self.http.post(`${self.serverUrl}/sendTokenOne`,data)
   }
 
   TransferTokenTwo(data){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-     self.http.post(`${self.serverUrl}/sendTokenTwo`,data)
-     .subscribe((result)=>{
-         resolve(result)
-     },err=>{
-         reject(err)
-     })
-    })
-    return promise;
+    return self.http.post(`${self.serverUrl}/sendTokenTwo`,data)
   }
 
   TransferTokenThree(data){
     let self = this;
-    let promise = new Promise((resolve,reject)=>{
-      self.http.post(`${self.serverUrl}/sendTokenThree`,data)
-        .subscribe((result)=>{
-            resolve(result)
-        },err=>{
-            reject(err)
-        })
-    })
-    return promise;
+    return  self.http.post(`${self.serverUrl}/sendTokenThree`,data)
   }
 
   createAccont(data){
     let self = this;
-    let promise = new Promise((resolve,reject) => {
-      self.http.post(`${self.serverUrl}/signUp`,data)
-      .subscribe((result)=>{
-          resolve(result)
-      },err=>{
-          reject(err)
-      })
-    })
-    return promise;
+    return  self.http.post(`${self.serverUrl}/signUp`,data)
   }
 
   login(data) {
     let self = this;
-    let promise = new Promise((resolve, reject) => {
-      self.http.post(`${self.serverUrl}/login`,data)
-      .subscribe((res) => {
-        resolve(res)
-      },
-      err => {
-        reject(err
-        )
-      })
-    })
-    return promise;
+    return  self.http.post(`${self.serverUrl}/login`,data)
   }
 
   saveLocalData(data,token){
@@ -431,15 +305,6 @@ export class WebservicProvider {
 
   getUserInfo() {
     let self = this;
-    let promise = new Promise((resolve,reject) => {
-      self.http.get(`${self.serverUrl}/user`)
-      .subscribe((res) => {
-        resolve(res)
-      },
-      err => {
-        reject(err)
-      })
-    })
-    return promise;
+    return  self.http.get(`${self.serverUrl}/user`)
   }
 }

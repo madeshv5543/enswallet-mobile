@@ -23,7 +23,7 @@ export class HttpsRequestInterceptor implements HttpInterceptor {
     }
     intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
         if(this.network.type == 'none') {
-            let toast = this.toastCtrl.create({ message : 'Please Connect to the network'});
+            let toast = this.toastCtrl.create({ message : 'Please Connect to the network', duration: 2000});
             toast.present();
         }else {
             if(req.url.includes('/api') && !req.url.includes('/login') && !req.url.includes('/signUp') && !req.url.includes('etherscan')){
@@ -44,6 +44,9 @@ export class HttpsRequestInterceptor implements HttpInterceptor {
                                         if (err.status === 403) {
                                             this.events.publish('user:logout', true);
                                             console.log("err",err)
+                                        }else{
+                                            let toast = this.toastCtrl.create({ message : 'Please try after sometime', duration: 2000});
+                                            toast.present();
                                         }
                                     }
                                 }

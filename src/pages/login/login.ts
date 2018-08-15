@@ -30,7 +30,7 @@ export class LoginPage {
 		let loading = self.loadCtrl.create();
 		loading.present()
 		self.webService.login(self.user)
-		.then(
+		.subscribe(
 			(res:any) => {
 				loading.dismiss()
 				if(res.status == 200) {

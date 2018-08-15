@@ -1,74 +1,70 @@
-  
-  <ion-content >
-      <ion-navbar color="primary">
-          <button ion-button menuToggle>
-            <ion-icon name="menu"></ion-icon>
-          </button>
-          <ion-title>Evens</ion-title>
-          <!-- <ion-buttons end>
-              <button ion-button icon-only color="royal" (click)="goToNotificationsPage()">
-                <ion-icon name="notifications"></ion-icon>
-              </button>
-            </ion-buttons> -->
-        </ion-navbar>
-        <div padding>
-            <div >
-                <img *ngIf="selectedCur == 'Etheriun'" class="static_icon" src="assets/imgs/eth.png">
-                <img *ngIf="selectedCur == 'evenscoin'" class="static_icon" src="assets/imgs/evens.png">
-                <img *ngIf="selectedCur == 'tokenOne'" class="static_icon" src="assets/imgs/usd.png">
-                <img *ngIf="selectedCur == 'tokenThree'" class="static_icon" src="assets/imgs/kye.png">
-                <img *ngIf="selectedCur == 'tokenTwo'" class="static_icon" src="assets/imgs/thai.png">
-        </div>
-            <p class="sendtitle">Send</p>
-            <div>
-              <form #form="ngForm" (ngSubmit)="transferAmount(form)" novalidate>
-                <ion-item>
-                  <ion-label floating >Amount</ion-label>
-                  <ion-input type="number" required  name="amount" [(ngModel)]="transfer.amount" ngControl="amount"></ion-input>
-                </ion-item>
-                <ion-item>
-                    <ion-label floating >Transfer To</ion-label>
-                    <ion-input type="text" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>
-                  </ion-item>
-                  <button ion-button round type="button" (click)="scanQr()"> Scan </button>
-                <button ion-button  [disabled]="form.invalid" type="submit" block round>Transfer</button>
-              </form>
-            </div>
-            <div>
-              <p>
-                <span>Address</span> 
-                <br>
-                <span class="ow_address">
-                    {{account.address}}
-                </span>
-              </p>
-              <p>
-               <span>Balance</span>
-               <br>
-               <span>
-                  {{account.balance | number}}<span *ngIf="selectedCur == 'Etheriun'">
-                        ETH
-                  </span>
-                  <span *ngIf="selectedCur == 'evenscoin'">
-                          ENS
-                  </span>
-                  <span *ngIf="selectedCur == 'tokenOne'">
-                    {{account.tokenOneSym}}
-            </span>
-            <span *ngIf="selectedCur == 'tokenTwo'">
-              {{account.tokenTwoSym}}
-      </span>
-      <span *ngIf="selectedCur == 'tokenThree'">
-        {{account.tokenThreeSym}}
-</span>
-               </span>
-              </p>
-            </div>
-            <div>
-              
-            </div>
-        </div>
-   
-      
-  </ion-content>
-  
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Evens</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div padding>
+    <div>
+      <img *ngIf="selectedCur == 'Etheriun'" class="static_icon" src="assets/imgs/eth.png">
+      <img *ngIf="selectedCur == 'evenscoin'" class="static_icon" src="assets/imgs/evens.png">
+      <img *ngIf="selectedCur == 'tokenOne'" class="static_icon" src="assets/imgs/usd.png">
+      <img *ngIf="selectedCur == 'tokenThree'" class="static_icon" src="assets/imgs/kye.png">
+      <img *ngIf="selectedCur == 'tokenTwo'" class="static_icon" src="assets/imgs/thai.png">
+    </div>
+    <p class="sendtitle">Send</p>
+    <div>
+      <form #form="ngForm" (ngSubmit)="transferAmount(form)" novalidate>
+        <ion-item>
+          <ion-label floating>Amount</ion-label>
+          <ion-input type="number" (blur)="checkbalance(transfer.amount);" required name="amount" [(ngModel)]="transfer.amount" ngControl="amount"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>Transfer To</ion-label>
+          <ion-input type="text" (blur)="checkAddress(transfer.address);" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>
+        </ion-item>
+        <button ion-button round type="button" (click)="scanQr()"> Scan </button>
+        <button ion-button [disabled]="form.invalid" type="submit" block round>Transfer</button>
+      </form>
+    </div>
+    <div>
+      <p>
+        <span>Address</span>
+        <br>
+        <span class="ow_address">
+          {{account.address}}
+        </span>
+      </p>
+      <p>
+        <span>Balance</span>
+        <br>
+        <span>
+          {{account.balance | number:'.3'}}
+          <span *ngIf="selectedCur == 'Etheriun'">
+            ETH
+          </span>
+          <span *ngIf="selectedCur == 'evenscoin'">
+            ENS
+          </span>
+          <span *ngIf="selectedCur == 'tokenOne'">
+            {{account.tokenOneSym}}
+          </span>
+          <span *ngIf="selectedCur == 'tokenTwo'">
+            {{account.tokenTwoSym}}
+          </span>
+          <span *ngIf="selectedCur == 'tokenThree'">
+            {{account.tokenThreeSym}}
+          </span>
+        </span>
+      </p>
+    </div>
+    <div>
+
+    </div>
+  </div>
+
+
+</ion-content>

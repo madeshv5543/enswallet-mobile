@@ -25688,6 +25688,24 @@ ion-navbar.toolbar {
   border-radius: 50%;
 }
 
+.avabor {
+  width: 88px;
+  margin: auto 27% !important;
+  border: 4px solid white;
+  border-radius: 48%;
+}
+
+.avabor_profile {
+  width: 88px;
+  margin: auto !important;
+  border: 4px solid white;
+  border-radius: 48%;
+}
+
+.item-ios ion-thumbnail.avabor {
+  width: 64px;
+}
+
 .user-detail.list-md {
   margin: 0;
 }
@@ -25766,11 +25784,6 @@ ion-navbar.toolbar {
   color: white;
 }
 
-.avabor {
-  border: 4px solid white;
-  border-radius: 48%;
-}
-
 .menu_item.activated {
   background: none !important;
 }
@@ -25827,8 +25840,26 @@ ion-navbar.toolbar {
   color: #666;
 }
 
-.qr-scanner {
+.profile-item p {
+  color: #dddddd;
+  padding-top: 5px;
+}
+
+.ctc {
+  padding: 15px;
+}
+
+.ctc p {
+  font-size: 1.6rem;
+}
+
+.ctc-btn-box {
   text-align: center;
+}
+
+.ctc-content {
+  font-size: 1.5rem;
+  padding-top: 25%;
 }
 
 .coupon-card {
@@ -25943,23 +25974,6 @@ form, input, optgroup, select {
   display: none;
 }
 
-.coupon-card {
-  -webkit-box-shadow: 0px 0px 3px 1px #ccc;
-  box-shadow: 0px 0px 3px 1px #ccc;
-  border-radius: 7px;
-}
-
-.coupon-card-img {
-  width: 45%;
-  margin: auto;
-  border-radius: 50%;
-}
-
-.coupon-qr-img {
-  width: 60%;
-  margin: auto;
-}
-
 .coinimg {
   width: 40px !important;
   height: 40px !important;
@@ -25971,7 +25985,7 @@ form, input, optgroup, select {
   background: transparent;
   color: white;
   height: 70px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #bbb;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -25987,6 +26001,10 @@ form, input, optgroup, select {
 .card_trans .item-md ion-thumbnail {
   min-width: 45px;
   min-height: 30px;
+}
+
+.card_trans h3 {
+  font-size: 14px !important;
 }
 
 .fontWhite {
@@ -26023,42 +26041,6 @@ form, input, optgroup, select {
   text-align: center;
 }
 
-.redemption-card {
-  -webkit-box-shadow: 0px 0px 3px 1px #ccc;
-  box-shadow: 0px 0px 3px 1px #ccc;
-  border-radius: 7px;
-  width: 50%;
-  text-align: center;
-}
-
-.gc-box {
-  text-align: center;
-  -webkit-box-shadow: 0px 0px 2px 2px #ccc;
-  box-shadow: 0px 0px 2px 2px #ccc;
-  border-radius: 10px;
-  font-size: 12px;
-  padding: 5px;
-}
-
-.gc-amount {
-  width: 100%;
-  font-size: 21px;
-  padding: 10px;
-  font-weight: 700;
-}
-
-.gc-box img {
-  margin: auto;
-}
-
-.amnt-color {
-  color: #FF4500;
-}
-
-.t-color {
-  color: #49cad5;
-}
-
 .tabs-ios .tab-button {
   font-size: 8px;
 }
@@ -26077,6 +26059,7 @@ form, input, optgroup, select {
 
 .tra_img {
   height: 100px;
+  margin-bottom: 20px;
 }
 
 .centex {
@@ -26099,41 +26082,6 @@ form, input, optgroup, select {
 
 .trans_type {
   background: #995d5d;
-}
-
-.txn-page-content .mname {
-  font-size: 1.8rem;
-  padding-top: 7px;
-  line-height: 1;
-  color: #298f98;
-  margin-bottom: 0;
-}
-
-.txn-page-content .tid {
-  font-size: 1.3rem;
-  margin: 5px auto;
-}
-
-.txn_label {
-  font-size: 1rem;
-  color: #49cad5;
-}
-
-.txn_amnt {
-  font-size: 2.2rem;
-  padding: 2px;
-  color: #FF4500;
-}
-
-.tnks-msg {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-shadow: 1px 1px 1px #999;
-}
-
-.tnks-amnt {
-  color: #FF4500;
 }
 
 .card-background-page ion-card {
@@ -26168,10 +26116,13 @@ form, input, optgroup, select {
 
 .adddiv {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .qr_text {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .texc {

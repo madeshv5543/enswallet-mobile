@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
@@ -20,9 +20,15 @@ export class HomePage {
     tokenThreeSym:''
   };
   public selectedCur:any ;
-  constructor(public navCtrl: NavController,public webserve:WebservicProvider,private barcodeScanner: BarcodeScanner) {
+  constructor(
+    public navCtrl: NavController,
+    public webserve:WebservicProvider,
+    private barcodeScanner: BarcodeScanner,
+    private toastCtrl:ToastController
+  ) {
        this.getSelecetedCoin();
   }
+
 
   async getSelecetedCoin(){
     this.selectedCur = await this.webserve.getSelectedcoinpromise()
@@ -50,18 +56,12 @@ export class HomePage {
     default:
     servicecall = self.webserve.getBalance()
   }
-  //  if(this.selectedCur == 'Etheriun'){
-  //   servicecall = self.webserve.getBalance()
-  //  }
-  //  if(this.selectedCur == 'evenscoin'){
-  //   servicecall = self.webserve.evensBalance()
-  //  }
    servicecall
-   .then(res=>{
-     console.log('res',res)
+   .subscribe(res=>{
      self.account = res;
    },err=>{
-     console.log("err",err)
+      let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+      toast.present()
    })
   }
 
@@ -89,34 +89,68 @@ export class HomePage {
       tranApi = self.webserve.Transfer(data)
     }
     tranApi
-    .then((res:any)=>{
+    .subscribe((res:any)=>{
       console.log("response",res)
       if(res.recepit){
-        alert('Transaction Completed Successfully');
+        let toast = self.toastCtrl.create({ message: 'Transaction Completed Successfully', duration: 2000  });
+        toast.present()
+        self.getBalance()
       }else{
-        alert('Transaction Failed');
+        let toast = self.toastCtrl.create({ message: 'Transaction Failed', duration: 2000  });
+        toast.present()
       }
      
     },err=>{
-      console.log('err',err)
+      let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+      toast.present()
     })
   }
 
    scanQr(){
     let self = this;
     this.barcodeScanner.scan().then(barcodeData => {
-       self.webserve.checkAddress(barcodeData.text).then(
-         (res)=>{
-          this.transfer.address = barcodeData.text;
-          console.log(barcodeData.text)
-         },
-         err=>{
-          alert('Invalid Address')
-         }
-       )
+      self.checkAddress(barcodeData.text)
      }).catch(err => {
-         console.log('Error', err);
+          let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+          toast.present()
      });
+  }
+
+  checkbalance(amount) {
+    let self = this;
+    if(amount){
+      if(!(amount <= self.account.balance)) {
+        self.transfer.amount='';
+        let toast = self.toastCtrl.create({ message: 'Amount should not be greater than balance', duration: 10000  });
+        toast.present()
+      }
+    }
+  }
+
+  checkAddress(addr) {
+    let self = this;
+    if(!addr) {
+      let toast = self.toastCtrl.create({ message: 'Invalid Address, Please enter a valid address.', duration: 10000  });
+      toast.present()
+      return;
+    }
+    self.webserve.checkAddress(addr).subscribe(
+      (res:any)=>{
+        if(res.status) {
+          this.transfer.address = addr;
+          console.log(addr)
+        }else {
+          self.transfer.address =""
+          let toast = self.toastCtrl.create({ message: 'Invalid Address', duration: 2000  });
+          toast.present()
+        }
+      },
+      err=>{
+        self.transfer.address =""
+       let toast = self.toastCtrl.create({ message: 'Invalid Address', duration: 2000  });
+       toast.present()
+      }
+    )
   }
  
 }

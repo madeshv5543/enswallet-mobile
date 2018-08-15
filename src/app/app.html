@@ -5,12 +5,18 @@
             <!-- <ion-title>Menu</ion-title> -->
             <ion-list class="user-detail">
                 <ion-item no-lines  (click)="goToprofile()">
-                    <ion-thumbnail  class="avabor" item-start>
+                        <div *ngIf="showQr" class="qr_code">
+                                <!-- <div class="qr_text" ></div> -->
+                                <ngx-qrcode [qrc-value]="user.address"></ngx-qrcode>
+                                <p>{{user.address}}</p>
+                                
+                        </div>
+                    <!-- <ion-thumbnail  class="avabor" item-start>
                     <img class="user-img" src="assets/imgs/user-defalut.png">
-                    </ion-thumbnail>
+                    </ion-thumbnail> -->
                 </ion-item>
                 <ion-item no-lines >
-                        <h2>{{ user.firstName}} {{user.lastName}}</h2>
+                        <h2 text-center>{{ user.firstName}} {{user.lastName}}</h2>
                 </ion-item>
             </ion-list>
         </ion-toolbar>
@@ -24,9 +30,8 @@
                         </button>
                </ion-item>
             <!-- <ion-item-divider color="primary">Smart Service</ion-item-divider> -->
-          
+            <p class="ver"> Ver  <span>0.0.2</span></p>
         </ion-item-group>
     </ion-content>
-
 </ion-menu>
 <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

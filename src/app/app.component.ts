@@ -19,7 +19,7 @@ import { MyCataloguePage} from '../pages/my-catalogue/my-catalogue';
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-
+  showQr:boolean = false;
   rootPage:any;
   pages: Array<{title: string, component: any,icon:string}>;
   public user:any ={};
@@ -34,16 +34,20 @@ export class MyApp {
   ) {
    this.initializeApp();
    this.setRootPage()
-   this.getUserInfo()
-   events.subscribe('user:logout', (status) => {
-     let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000})
-     toast.present();
-     this.logOut()
-   });   
+   this.events.subscribe('user:logout', (status) => {
+     if(status){
+      let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000})
+      toast.present();
+      this.logOut()
+     }
+   });
+   this.events.subscribe('getUser', (status) => {
+    this.getUserInfo();
+   })
    this.pages = [
       {title: 'Account', component: NotificationsPage , icon:'photos'},
-      {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
-      {title: 'Change Password', component: NotificationsPage, icon:'lock'},
+      // {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
+      {title: 'Change Password', component: MyRewardsPage, icon:'lock'},
       // {title: 'Invite Friends ', component: InviteFriendsPage},
       {title: 'Sign Out', component:LoginPage,icon:'log-out'}
    ];
@@ -86,17 +90,20 @@ export class MyApp {
   getUserInfo(){
     let self = this;
     self.webservice.getUserInfo()
-    .then(
+    .subscribe(
       (res:any) => {
         if(res.status == 200) {
           console.log("user",res)
           self.user = res.data;
+          self.showQr = true
 				}else {
 					let toast = self.toastCtrl.create({ message : res.message, duration: 2000  })
-					toast.present();
+          toast.present();
+          self.showQr = false;
 				}
       },
       err => {
+        self.showQr = false;
         if('error' in err){
           if(err.error.status){
             let toast = self.toastCtrl.create({ message: err.error.message, duration: 2000  });
@@ -114,7 +121,8 @@ export class MyApp {
 
   goToprofile(){
     let self = this;
-    this.nav.push(MyCataloguePage)
+    self.menu.close()
+    self.nav.setRoot(MyCataloguePage)
   }
 
   logOut(){

@@ -1,15 +1,14 @@
-
-   
-
+  <ion-header>
+        <ion-navbar color="primary">
+                <button ion-button menuToggle>
+                  <ion-icon name="menu"></ion-icon>
+                </button>
+                <ion-title>
+                  Evens
+                </ion-title>
+              </ion-navbar>
+  </ion-header>
   <ion-content >
-      <ion-navbar color="primary">
-          <button ion-button menuToggle>
-            <ion-icon name="menu"></ion-icon>
-          </button>
-          <ion-title>
-            Evens
-          </ion-title>
-        </ion-navbar>
         <div padding>
             <div >
                     <img *ngIf="selectedCur == 'Etheriun'" class="static_icon" src="assets/imgs/eth.png">
@@ -33,7 +32,7 @@
                       <ion-card class="card_trans">
                               <ion-item  >  
                                  <div class="texc">
-                                    <h2   class="fontWhite">{{account.balance | number}} ETH</h2>
+                                    <h2   class="fontWhite">{{account.balance | number: '.3'}} ETH</h2>
                                     <p class="fontWhite baltxt1">1 ETH = {{ 1 / todayPrice.ETH | number}} USD</p>
                                  </div>
                                       
@@ -43,7 +42,7 @@
                       <ion-card class="card_trans">
                               <ion-item >
                                   <div class="texc">
-                                      <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.ETH | number }} USD</h2>
+                                      <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.ETH | number:'.3' }} USD</h2>
                                       </div>
                                   </ion-item>
                       </ion-card>
@@ -55,7 +54,7 @@
                                 <ion-item  >  
                                    <div class="texc">
                                       <h2   class="fontWhite">{{account.balance | number}} ENS</h2>
-                                      <p class="fontWhite baltxt1">1 ENS = {{ 1 / todayPrice.BTT | number}} USD</p>
+                                      <p class="fontWhite baltxt1">1 ENS = {{ 1 / todayPrice.BTT | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
@@ -64,7 +63,7 @@
                         <ion-card class="card_trans">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.BTT | number }} USD</h2>
+                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.BTT | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>
@@ -75,8 +74,8 @@
                         <ion-card class="card_trans">
                                 <ion-item  >  
                                    <div class="texc">
-                                      <h2   class="fontWhite">{{account.balance | number}} {{account.tokenOneSym}}</h2>
-                                      <p class="fontWhite baltxt1">1 {{account.tokenOneSym}} = {{ 1 / todayPrice.INR | number}} USD</p>
+                                      <h2   class="fontWhite">{{account.balance | number: '.3'}} {{account.tokenOneSym}}</h2>
+                                      <p class="fontWhite baltxt1">1 {{account.tokenOneSym}} = {{ 1 / todayPrice.INR | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
@@ -85,7 +84,7 @@
                         <ion-card class="card_trans">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.INR | number }} USD</h2>
+                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.INR | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>
@@ -96,8 +95,8 @@
                         <ion-card class="card_trans">
                                 <ion-item  >  
                                    <div class="texc">
-                                      <h2   class="fontWhite">{{account.balance | number}} {{account.tokenTwoSym}}</h2>
-                                      <p class="fontWhite baltxt1">1 {{account.tokenTwoSym}} = {{ 1 / todayPrice.THB | number}} USD</p>
+                                      <h2   class="fontWhite">{{account.balance | number:'.3'}} {{account.tokenTwoSym}}</h2>
+                                      <p class="fontWhite baltxt1">1 {{account.tokenTwoSym}} = {{ 1 / todayPrice.THB | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
@@ -106,7 +105,7 @@
                         <ion-card class="card_trans">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.THB | number }} USD</h2>
+                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.THB | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>
@@ -117,8 +116,8 @@
                         <ion-card class="card_trans">
                                 <ion-item  >  
                                    <div class="texc">
-                                      <h2   class="fontWhite">{{account.balance | number}} {{account.tokenThreeSym}}</h2>
-                                      <p class="fontWhite baltxt1">1 {{account.tokenThreeSym}} = {{ 1 / todayPrice.KRW | number}} USD</p>
+                                      <h2   class="fontWhite">{{account.balance | number: '.3'}} {{account.tokenThreeSym}}</h2>
+                                      <p class="fontWhite baltxt1">1 {{account.tokenThreeSym}} = {{ 1 / todayPrice.KRW | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
@@ -127,7 +126,7 @@
                         <ion-card class="card_trans">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.KRW | number }} USD</h2>
+                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.KRW | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>

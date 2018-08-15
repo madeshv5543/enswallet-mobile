@@ -26,7 +26,7 @@ export class WalletPage {
   gettodayPrice(){
     let self = this;
     self.webserve.getTodayPrice()
-    .then(res=>{
+    .subscribe(res=>{
        self.todayPrice = res;
     },err=>{
        console.log(err)
@@ -63,7 +63,7 @@ export class WalletPage {
     //   servicecall = self.webserve.evensBalance()
     //  }
     servicecall
-    .then(res=>{
+    .subscribe(res=>{
       console.log('res',res)
       
       self.account = res;

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-declare var TradingView:any;
+// declare var TradingView:any;
 // import { NFC } from "@ionic-native/nfc";
 @Component({
   selector: 'page-my-rewards',
@@ -23,19 +23,19 @@ export class MyRewardsPage {
   } 
   
   ngAfterViewInit() {
-    new TradingView.widget({
-      "autosize": true,
-      "symbol": "COINBASE:ETHUSD",
-      "interval": "1",
-      "timezone": "Etc/UTC",
-      "theme": "Dark",
-      "style": "7",
-      "locale": "en",
-      "toolbar_bg": "#f1f3f6",
-      "enable_publishing": false,
-      "hide_top_toolbar": true,
-      "container_id": "tradingview_84686"
-    });
+    // new TradingView.widget({
+    //   "autosize": true,
+    //   "symbol": "COINBASE:ETHUSD",
+    //   "interval": "1",
+    //   "timezone": "Etc/UTC",
+    //   "theme": "Dark",
+    //   "style": "7",
+    //   "locale": "en",
+    //   "toolbar_bg": "#f1f3f6",
+    //   "enable_publishing": false,
+    //   "hide_top_toolbar": true,
+    //   "container_id": "tradingview_84686"
+    // });
 
   }
 
