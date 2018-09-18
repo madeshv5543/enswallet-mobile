@@ -13,16 +13,20 @@ import { NotificationsPage } from '../pages/notifications/notifications';
 import { WebservicProvider } from '../providers/webservic/webservic';
 import { LoginPage } from '../pages/login/login';
 import { MyCataloguePage} from '../pages/my-catalogue/my-catalogue';
+import { QuickPayPage} from '../pages/quick-pay/quick-pay'
+
+import { NFC, Ndef  } from "@ionic-native/nfc";
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-
+  showQr:boolean = false;
   rootPage:any;
   pages: Array<{title: string, component: any,icon:string}>;
   public user:any ={};
+  mimeType = "game/rockpaperscissors";
   constructor(public platform: Platform, 
     public menu: MenuController, 
     public statusBar: StatusBar, 
@@ -30,21 +34,27 @@ export class MyApp {
     private webservice:WebservicProvider,
     private storage:Storage,
     public events: Events,
-    private toastCtrl: ToastController
+    private toastCtrl: ToastController,
+    private nfc: NFC,
+    private ndef: Ndef
   ) {
    this.initializeApp();
    this.setRootPage()
-   this.getUserInfo()
-   events.subscribe('user:logout', (status) => {
-     let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000})
-     toast.present();
-     this.logOut()
-   });   
+   this.events.subscribe('user:logout', (status) => {
+     if(status){
+      let toast = this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000})
+      toast.present();
+      this.logOut()
+     }
+   });
+   this.events.subscribe('getUser', (status) => {
+    this.getUserInfo();
+   })
    this.pages = [
       {title: 'Account', component: NotificationsPage , icon:'photos'},
-      {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
-      {title: 'Change Password', component: NotificationsPage, icon:'lock'},
-      // {title: 'Invite Friends ', component: InviteFriendsPage},
+      // {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
+      {title: 'Change Password', component: MyRewardsPage, icon:'lock'},
+      // {title: 'Quick Pay', icon:'lock',  component: QuickPayPage},
       {title: 'Sign Out', component:LoginPage,icon:'log-out'}
    ];
   }
@@ -86,17 +96,22 @@ export class MyApp {
   getUserInfo(){
     let self = this;
     self.webservice.getUserInfo()
-    .then(
+    .subscribe(
       (res:any) => {
         if(res.status == 200) {
           console.log("user",res)
+          let message = this.ndef.mimeMediaRecord(this.mimeType,this.user.address);
+          this.nfc.share([message]).then(this.onSuccess).catch(this.onError);
           self.user = res.data;
+          self.showQr = true
 				}else {
 					let toast = self.toastCtrl.create({ message : res.message, duration: 2000  })
-					toast.present();
+          toast.present();
+          self.showQr = false;
 				}
       },
       err => {
+        self.showQr = false;
         if('error' in err){
           if(err.error.status){
             let toast = self.toastCtrl.create({ message: err.error.message, duration: 2000  });
@@ -112,9 +127,18 @@ export class MyApp {
 
   }
 
+  onSuccess(){
+    alert("message sent  ")
+  }
+
+  onError(err){
+    alert(`Error msg sharing ${JSON.stringify(err)}`)
+  }
+
   goToprofile(){
     let self = this;
-    this.nav.push(MyCataloguePage)
+    self.menu.close()
+    self.nav.setRoot(MyCataloguePage)
   }
 
   logOut(){

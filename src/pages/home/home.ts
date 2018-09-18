@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { NavController, ToastController } from 'ionic-angular';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { NFC, Ndef  } from "@ionic-native/nfc";
+
 
 import { NgForm } from '@angular/forms';
 
@@ -11,7 +13,9 @@ import { NgForm } from '@angular/forms';
   providers:[WebservicProvider]
 })
 export class HomePage {
+  @ViewChild('focusInput') myInput ;
   public transfer:any ={};
+  mimeType = "game/rockpaperscissors";
   public account:any ={
     address:'-',
     balance:0,
@@ -19,10 +23,24 @@ export class HomePage {
     tokenTwoSym:'',
     tokenThreeSym:''
   };
+  nfcsubscribe:any;
   public selectedCur:any ;
-  constructor(public navCtrl: NavController,public webserve:WebservicProvider,private barcodeScanner: BarcodeScanner) {
+  constructor(
+    public navCtrl: NavController,
+    public webserve:WebservicProvider,
+    private barcodeScanner: BarcodeScanner,
+    private toastCtrl:ToastController,
+    private nfc: NFC,
+    private ndef: Ndef
+  ) {
        this.getSelecetedCoin();
   }
+
+
+  setFocus ( ){
+    this.myInput.setFocus();
+  }
+
 
   async getSelecetedCoin(){
     this.selectedCur = await this.webserve.getSelectedcoinpromise()
@@ -50,20 +68,47 @@ export class HomePage {
     default:
     servicecall = self.webserve.getBalance()
   }
-  //  if(this.selectedCur == 'Etheriun'){
-  //   servicecall = self.webserve.getBalance()
-  //  }
-  //  if(this.selectedCur == 'evenscoin'){
-  //   servicecall = self.webserve.evensBalance()
-  //  }
    servicecall
-   .then(res=>{
-     console.log('res',res)
+   .subscribe(res=>{
      self.account = res;
    },err=>{
-     console.log("err",err)
+      let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+      toast.present()
    })
   }
+
+  addListenNFC():void {
+    this.nfcsubscribe = this.nfc.addMimeTypeListener(this.mimeType,this.onNfc,this.onnfcfailed )
+    .subscribe((event) => {
+      if(event){
+        if(event && event.tag) {
+          let msg = this.nfc.bytesToString(event.tag.ndefMessage[0].payload);
+          if(msg) {
+            this.checkAddress(msg, true)
+            this.setFocus();
+          }else{
+            this.createtoast(`can't find valid address`)
+          }
+        }else{
+          this.createtoast('Cannot find the nfc')
+        }
+      }
+    });
+}
+
+onnfcfailed() {
+  this.createtoast('nfc failed.Try again ')
+}
+
+onNfc (nfcEvent) {
+ console.log('Listener added')
+}
+
+createtoast(message, duration = 2000) {
+  let self = this;
+  let toast = self.toastCtrl.create({ message, duration });
+  toast.present()
+}
 
   transferAmount(f:NgForm){
     let self = this;
@@ -89,34 +134,73 @@ export class HomePage {
       tranApi = self.webserve.Transfer(data)
     }
     tranApi
-    .then((res:any)=>{
+    .subscribe((res:any)=>{
       console.log("response",res)
       if(res.recepit){
-        alert('Transaction Completed Successfully');
+        let toast = self.toastCtrl.create({ message: 'Transaction Completed Successfully', duration: 2000  });
+        toast.present()
+        self.getBalance()
       }else{
-        alert('Transaction Failed');
+        let toast = self.toastCtrl.create({ message: 'Transaction Failed', duration: 2000  });
+        toast.present()
       }
      
     },err=>{
-      console.log('err',err)
+      let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+      toast.present()
     })
   }
 
    scanQr(){
     let self = this;
     this.barcodeScanner.scan().then(barcodeData => {
-       self.webserve.checkAddress(barcodeData.text).then(
-         (res)=>{
-          this.transfer.address = barcodeData.text;
-          console.log(barcodeData.text)
-         },
-         err=>{
-          alert('Invalid Address')
-         }
-       )
+      self.checkAddress(barcodeData.text)
      }).catch(err => {
-         console.log('Error', err);
+          let toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000  });
+          toast.present()
      });
+  }
+
+  checkbalance(amount) {
+    let self = this;
+    if(amount){
+      if(!(amount <= self.account.balance)) {
+        self.transfer.amount='';
+        let toast = self.toastCtrl.create({ message: 'Amount should not be greater than balance', duration: 10000  });
+        toast.present()
+      }
+    }
+  }
+
+
+
+  checkAddress(addr, from=false) {
+    let self = this;
+    if(!addr) {
+      // let toast = self.toastCtrl.create({ message: 'Invalid Address, Please enter a valid address.', duration: 10000  });
+      // toast.present()
+      return;
+    }
+    self.webserve.checkAddress(addr).subscribe(
+      (res:any)=>{
+        if(res.status) {
+          this.transfer.address = addr;
+          if(from) {
+            this.createtoast('Address Detected')
+          }
+          console.log(addr)
+        }else {
+          self.transfer.address =""
+          let toast = self.toastCtrl.create({ message: 'Invalid Address', duration: 2000  });
+          toast.present()
+        }
+      },
+      err=>{
+        self.transfer.address =""
+       let toast = self.toastCtrl.create({ message: 'Invalid Address', duration: 2000  });
+       toast.present()
+      }
+    )
   }
  
 }

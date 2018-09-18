@@ -272,7 +272,7 @@ export class CreateAccountPage {
     let loading = self.loadCtrl.create();
     loading.present()
     self.WebService.createAccont(self.newUser)
-    .then(
+    .subscribe(
       (result:any) => {
         loading.dismiss()
         if(result.status == 200) {

@@ -12,83 +12,42 @@ import { InterceptorModule } from '../providers/webservic/interceptor';
 import { Network } from '@ionic-native/network';
 
 import { WalletPage } from '../pages/wallet/wallet';
-import { ProfilePage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TopupPage } from '../pages/topup/topup';
-import { TransactionsPage } from '../pages/transactions/transactions';
-import { TransferPage } from '../pages/transfer/transfer';
-import { CouponsPage } from '../pages/coupons/coupons';
-import { AddGiftcardPage } from '../pages/add-giftcard/add-giftcard';
-import { AddRewardscardPage } from '../pages/add-rewardscard/add-rewardscard';
 import { LoginPage } from '../pages/login/login';
 import { ForgotPasswordPage } from '../pages/forgot-password/forgot-password';
-import { TopupThanksPage } from '../pages/topup-thanks/topup-thanks';
-import { TransferThanksPage } from '../pages/transfer-thanks/transfer-thanks';
-import { TransferFriendThanksPage } from '../pages/transfer-friend-thanks/transfer-friend-thanks';
-import { myCouponPage } from '../pages/my-coupon/my-coupon';
-import { InstructionsPage } from '../pages/instructions/instructions';
 import { NotificationsPage } from '../pages/notifications/notifications';
-import { SingleNotificationPage } from '../pages/single-notification/single-notification';
-import { InviteFriendsPage } from '../pages/invite-friends/invite-friends';
 import { CreateAccountPage } from '../pages/create-account/create-account';
 import { AddCardPage } from '../pages/add-card/add-card';
-import { SelectedGiftCardPage } from '../pages/selected-gift-card/selected-gift-card';
-import { SelectedRewardsCardPage } from '../pages/selected-rewards-card/selected-rewards-card';
-import { SelectedCardTopupPage } from '../pages/selected-card-topup/selected-card-topup';
-import { SelectedCardTransferPage } from '../pages/selected-card-transfer/selected-card-transfer';
-import { PointsToAmountPage } from '../pages/points-to-amount/points-to-amount';
-import { PTAThanksPage } from '../pages/pta-thanks/pta-thanks';
-import { MyPointsPage } from '../pages/my-points/my-points';
 import { MyRewardsPage } from '../pages/my-rewards/my-rewards';
-import { SingleRewardPage } from '../pages/single-reward/single-reward';
 import { MyCataloguePage} from '../pages/my-catalogue/my-catalogue';
-import { RewardRedemptionPage } from '../pages/reward-redemption/reward-redemption';
-import { RRThanksPage } from '../pages/rr-thanks/rr-thanks';
+import { QuickPayPage } from '../pages/quick-pay/quick-pay'
+import { CouponsPage } from '../pages/coupons/coupons';
 
 import  {EqualValidator} from "../pages/create-account/EqualValidator";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { WebservicProvider } from '../providers/webservic/webservic';
+import { NFC, Ndef } from '@ionic-native/nfc';
 
 @NgModule({
   declarations: [
     MyApp,
     WalletPage,
-    ProfilePage,
     HomePage,
     TopupPage,
-    TransactionsPage,
-    AddGiftcardPage,
-    AddRewardscardPage,
-    TransferPage,
-    CouponsPage,
     LoginPage,
     TabsPage,
+    CouponsPage,
     ForgotPasswordPage,
-    myCouponPage,
-    TransferThanksPage,
-    TransferFriendThanksPage,
-    InstructionsPage,
     NotificationsPage,
-    SingleNotificationPage,
-    TopupThanksPage,
-    InviteFriendsPage,
     CreateAccountPage,
     AddCardPage,
-    SelectedGiftCardPage,
-    SelectedRewardsCardPage,
-    SelectedCardTopupPage,
-    SelectedCardTransferPage,
-    PointsToAmountPage,
-    PTAThanksPage,
-    MyPointsPage,
     MyRewardsPage,
-    SingleRewardPage,
     MyCataloguePage,
-    RewardRedemptionPage,
-    RRThanksPage,
+    QuickPayPage,
     EqualValidator
         ],
   imports: [
@@ -105,39 +64,18 @@ import { WebservicProvider } from '../providers/webservic/webservic';
   entryComponents: [
     MyApp,
     WalletPage,
-    ProfilePage,
     HomePage,
     TopupPage,
-    TransactionsPage,
-    TransferPage,
-    CouponsPage,
-    AddGiftcardPage,
-    AddRewardscardPage,
     LoginPage,
     TabsPage,
     ForgotPasswordPage,
-    myCouponPage,
-    TransferThanksPage,
-    TransferFriendThanksPage,
-    InstructionsPage,
     NotificationsPage,
-    SingleNotificationPage,
-    TopupThanksPage,
-    InviteFriendsPage,
     CreateAccountPage,
     AddCardPage,
-    SelectedGiftCardPage,
-    SelectedRewardsCardPage,
-    SelectedCardTopupPage,
-    SelectedCardTransferPage,
-    PointsToAmountPage,
-    PTAThanksPage,
-    MyPointsPage,
+    CouponsPage,
     MyRewardsPage,
-    SingleRewardPage,
     MyCataloguePage,
-    RewardRedemptionPage,
-    RRThanksPage
+    QuickPayPage
   ],
   providers: [
     StatusBar,
@@ -148,6 +86,8 @@ import { WebservicProvider } from '../providers/webservic/webservic';
     Network,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     WebservicProvider,
+    NFC,
+    Ndef
   ]
 })
 export class AppModule {}

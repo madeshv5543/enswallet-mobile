@@ -10,7 +10,7 @@ import { WebservicProvider } from '../../providers/webservic/webservic';
   templateUrl: 'add-card.html'
 })
 export class AddCardPage {
-  public data:any;
+  public data:any = {};
   public token:string;
   constructor(
     public navCtrl: NavController,
