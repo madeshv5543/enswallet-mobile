@@ -24,9 +24,10 @@
         </ion-item>
         <ion-item>
           <ion-label floating>Transfer To</ion-label>
-          <ion-input type="text" (blur)="checkAddress(transfer.address);" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>
+          <ion-input #focusInput type="text" (blur)="checkAddress(transfer.address);" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>
         </ion-item>
-        <button ion-button round type="button" (click)="scanQr()"> Scan </button>
+        <button ion-button round type="button" (click)="scanQr()"> Scan QR </button>
+        <button ion-button round type="button" (click)="addListenNFC()"> Read NFC </button>
         <button ion-button [disabled]="form.invalid" type="submit" block round>Transfer</button>
       </form>
     </div>

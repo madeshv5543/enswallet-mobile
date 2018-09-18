@@ -13,6 +13,9 @@ import { NotificationsPage } from '../pages/notifications/notifications';
 import { WebservicProvider } from '../providers/webservic/webservic';
 import { LoginPage } from '../pages/login/login';
 import { MyCataloguePage} from '../pages/my-catalogue/my-catalogue';
+import { QuickPayPage} from '../pages/quick-pay/quick-pay'
+
+import { NFC, Ndef  } from "@ionic-native/nfc";
 
 @Component({
   templateUrl: 'app.html'
@@ -23,6 +26,7 @@ export class MyApp {
   rootPage:any;
   pages: Array<{title: string, component: any,icon:string}>;
   public user:any ={};
+  mimeType = "game/rockpaperscissors";
   constructor(public platform: Platform, 
     public menu: MenuController, 
     public statusBar: StatusBar, 
@@ -30,7 +34,9 @@ export class MyApp {
     private webservice:WebservicProvider,
     private storage:Storage,
     public events: Events,
-    private toastCtrl: ToastController
+    private toastCtrl: ToastController,
+    private nfc: NFC,
+    private ndef: Ndef
   ) {
    this.initializeApp();
    this.setRootPage()
@@ -48,7 +54,7 @@ export class MyApp {
       {title: 'Account', component: NotificationsPage , icon:'photos'},
       // {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
       {title: 'Change Password', component: MyRewardsPage, icon:'lock'},
-      // {title: 'Invite Friends ', component: InviteFriendsPage},
+      // {title: 'Quick Pay', icon:'lock',  component: QuickPayPage},
       {title: 'Sign Out', component:LoginPage,icon:'log-out'}
    ];
   }
@@ -94,6 +100,8 @@ export class MyApp {
       (res:any) => {
         if(res.status == 200) {
           console.log("user",res)
+          let message = this.ndef.mimeMediaRecord(this.mimeType,this.user.address);
+          this.nfc.share([message]).then(this.onSuccess).catch(this.onError);
           self.user = res.data;
           self.showQr = true
 				}else {
@@ -117,6 +125,14 @@ export class MyApp {
       }
     )
 
+  }
+
+  onSuccess(){
+    alert("message sent  ")
+  }
+
+  onError(err){
+    alert(`Error msg sharing ${JSON.stringify(err)}`)
   }
 
   goToprofile(){

@@ -22,6 +22,7 @@ import { CreateAccountPage } from '../pages/create-account/create-account';
 import { AddCardPage } from '../pages/add-card/add-card';
 import { MyRewardsPage } from '../pages/my-rewards/my-rewards';
 import { MyCataloguePage} from '../pages/my-catalogue/my-catalogue';
+import { QuickPayPage } from '../pages/quick-pay/quick-pay'
 import { CouponsPage } from '../pages/coupons/coupons';
 
 import  {EqualValidator} from "../pages/create-account/EqualValidator";
@@ -29,6 +30,7 @@ import  {EqualValidator} from "../pages/create-account/EqualValidator";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { WebservicProvider } from '../providers/webservic/webservic';
+import { NFC, Ndef } from '@ionic-native/nfc';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,7 @@ import { WebservicProvider } from '../providers/webservic/webservic';
     AddCardPage,
     MyRewardsPage,
     MyCataloguePage,
+    QuickPayPage,
     EqualValidator
         ],
   imports: [
@@ -71,7 +74,8 @@ import { WebservicProvider } from '../providers/webservic/webservic';
     AddCardPage,
     CouponsPage,
     MyRewardsPage,
-    MyCataloguePage
+    MyCataloguePage,
+    QuickPayPage
   ],
   providers: [
     StatusBar,
@@ -82,6 +86,8 @@ import { WebservicProvider } from '../providers/webservic/webservic';
     Network,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     WebservicProvider,
+    NFC,
+    Ndef
   ]
 })
 export class AppModule {}

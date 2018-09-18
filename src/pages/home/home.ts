@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NavController, ToastController } from 'ionic-angular';
 import { WebservicProvider } from '../../providers/webservic/webservic';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { NFC, Ndef  } from "@ionic-native/nfc";
+
 
 import { NgForm } from '@angular/forms';
 
@@ -11,7 +13,9 @@ import { NgForm } from '@angular/forms';
   providers:[WebservicProvider]
 })
 export class HomePage {
+  @ViewChild('focusInput') myInput ;
   public transfer:any ={};
+  mimeType = "game/rockpaperscissors";
   public account:any ={
     address:'-',
     balance:0,
@@ -19,14 +23,22 @@ export class HomePage {
     tokenTwoSym:'',
     tokenThreeSym:''
   };
+  nfcsubscribe:any;
   public selectedCur:any ;
   constructor(
     public navCtrl: NavController,
     public webserve:WebservicProvider,
     private barcodeScanner: BarcodeScanner,
-    private toastCtrl:ToastController
+    private toastCtrl:ToastController,
+    private nfc: NFC,
+    private ndef: Ndef
   ) {
        this.getSelecetedCoin();
+  }
+
+
+  setFocus ( ){
+    this.myInput.setFocus();
   }
 
 
@@ -64,6 +76,39 @@ export class HomePage {
       toast.present()
    })
   }
+
+  addListenNFC():void {
+    this.nfcsubscribe = this.nfc.addMimeTypeListener(this.mimeType,this.onNfc,this.onnfcfailed )
+    .subscribe((event) => {
+      if(event){
+        if(event && event.tag) {
+          let msg = this.nfc.bytesToString(event.tag.ndefMessage[0].payload);
+          if(msg) {
+            this.checkAddress(msg, true)
+            this.setFocus();
+          }else{
+            this.createtoast(`can't find valid address`)
+          }
+        }else{
+          this.createtoast('Cannot find the nfc')
+        }
+      }
+    });
+}
+
+onnfcfailed() {
+  this.createtoast('nfc failed.Try again ')
+}
+
+onNfc (nfcEvent) {
+ console.log('Listener added')
+}
+
+createtoast(message, duration = 2000) {
+  let self = this;
+  let toast = self.toastCtrl.create({ message, duration });
+  toast.present()
+}
 
   transferAmount(f:NgForm){
     let self = this;
@@ -127,17 +172,22 @@ export class HomePage {
     }
   }
 
-  checkAddress(addr) {
+
+
+  checkAddress(addr, from=false) {
     let self = this;
     if(!addr) {
-      let toast = self.toastCtrl.create({ message: 'Invalid Address, Please enter a valid address.', duration: 10000  });
-      toast.present()
+      // let toast = self.toastCtrl.create({ message: 'Invalid Address, Please enter a valid address.', duration: 10000  });
+      // toast.present()
       return;
     }
     self.webserve.checkAddress(addr).subscribe(
       (res:any)=>{
         if(res.status) {
           this.transfer.address = addr;
+          if(from) {
+            this.createtoast('Address Detected')
+          }
           console.log(addr)
         }else {
           self.transfer.address =""
