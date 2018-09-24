@@ -12,9 +12,9 @@ import * as moment from 'moment-timezone';
 */
 @Injectable()
 export class WebservicProvider {
-//  private serverUrl:any = 'http://192.168.1.16:3200/api';
+ private serverUrl:any = 'http://192.168.1.9:3200/api';
 //  private serverUrl:any = 'http://localhost:3200/api';
- private serverUrl:any ="http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3200/api";
+//  private serverUrl:any ="http://ec2-54-179-146-92.ap-southeast-1.compute.amazonaws.com:3200/api";
  private etherscanUrl:any = "https://api-rinkeby.etherscan.io/api?module=account&action=txlist&address="
  private params = "&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken";
  private evensparams = "&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken";

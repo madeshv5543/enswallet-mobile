@@ -51,11 +51,11 @@ export class MyApp {
     this.getUserInfo();
    })
    this.pages = [
-      {title: 'Account', component: NotificationsPage , icon:'photos'},
+      {title: 'ACCOUNT', component: NotificationsPage , icon:'photos'},
       // {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
-      {title: 'Change Password', component: MyRewardsPage, icon:'lock'},
+      {title: 'CHANGE PASSWORD', component: MyRewardsPage, icon:'lock'},
       // {title: 'Quick Pay', icon:'lock',  component: QuickPayPage},
-      {title: 'Sign Out', component:LoginPage,icon:'log-out'}
+      {title: 'SIGN OUT', component:LoginPage,icon:'log-out'}
    ];
   }
   initializeApp(){

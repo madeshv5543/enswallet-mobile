@@ -1,4 +1,4 @@
-  <ion-header>
+  <ion-header class="ion-header">
         <ion-navbar color="primary">
                 <button ion-button menuToggle>
                   <ion-icon name="menu"></ion-icon>
@@ -13,9 +13,9 @@
             <div >
                     <img *ngIf="selectedCur == 'Etheriun'" class="static_icon" src="assets/imgs/eth.png">
                     <img *ngIf="selectedCur == 'evenscoin'" class="static_icon" src="assets/imgs/evens.png">
-                    <img *ngIf="selectedCur == 'tokenOne'" class="static_icon" src="assets/imgs/usd.png">
-                    <img *ngIf="selectedCur == 'tokenThree'" class="static_icon" src="assets/imgs/kye.png">
-                    <img *ngIf="selectedCur == 'tokenTwo'" class="static_icon" src="assets/imgs/thai.png">
+                    <img *ngIf="selectedCur == 'tokenOne'" class="static_icon" src="assets/imgs/icons8-rupee-40.png">
+                    <img *ngIf="selectedCur == 'tokenThree'" class="static_icon" src="assets/imgs/icons8-won-40.png">
+                    <img *ngIf="selectedCur == 'tokenTwo'" class="static_icon" src="assets/imgs/icons8-bitcoin-40.png">
             </div>
                 <div *ngIf="showQr" class="adddiv">
          
@@ -28,7 +28,7 @@
                   <div *ngIf="showQr" class="adddiv">
                       <span class="ow_address">{{account.address}}</span>
                   </div>
-                  <ion-list *ngIf="selectedCur == 'Etheriun'">
+                  <ion-list class="box" *ngIf="selectedCur == 'Etheriun'">
                       <ion-card class="card_trans">
                               <ion-item  >  
                                  <div class="texc">

@@ -14,6 +14,8 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app..
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
 
 .user-bg {
     .toolbar-background {
@@ -45,6 +47,7 @@
 }
 .user-detail.list-md {
     margin: 0;
+    background-color: #ec2c53;
 }
 .user-detail.list {
     .item {
@@ -105,13 +108,16 @@
     color:white !important;
 }
 .menu_item{
-    color: white !important;
+    color: #fff !important;
+    font-size: 1.2rem !important;
+ 
 }
 .icon_colr{
-    color: white !important;
+    color: #ec2c53 !important;
 }
 .item-md{
-    color: white
+    color: white;
+    font-size: 1.3rem;
 }
 .menu_item.activated{
     background: none !important;
@@ -125,46 +131,54 @@
     font-size: 17px;
 }
 .wal-amount{
-    padding-bottom: 20px;
+   background: linear-gradient(to top, #323743, #2b2f39);
+   text-align: center;
+   width: 100%;
+   height: 70px;
+   margin-left: auto;
+   margin-right: auto;
+   line-height: 200%;
+   border-color: #161616;
+
 }
 .v-div {
     width: 2px;
     height: auto;
-    background: #FFF;
+    background: #454850;
 }
 .toolbar-md-primary {
     .toolbar-background-md{
-        background:transparent
+        background-color: #e62b50;
       }
 }
 .tabs-md-primary {
     .tabbar{
-        background-color:transparent;
+        background-color:white;
         box-shadow: None;
       }
 }
 .toolbar-ios-primary {
     .toolbar-background-ios{
-        background:transparent
+        background-color: #e62b50;
       }
 }
 .tabs-ios-primary {
     .tabbar{
-        background-color:transparent;
+        background-color:white;
         border: none;
     }
 }
 .tabs-md-primary .tab-button:hover:not(.disable-hover), .tabs-md-primary .tab-button[aria-selected=true], .tabs-md-primary .tab-button[aria-selected=true] .tab-button-icon {
-    background: #fff !important;
+    
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-    color: #666;
+    color: #ed2c53;
 }
 .tabs-ios-primary .tab-button:hover:not(.disable-hover), .tabs-ios-primary .tab-button[aria-selected=true], .tabs-ios-primary .tab-button[aria-selected=true] .tab-button-icon {
-    background: #fff !important;
+   
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-    color: #666;
+    color: #ed2c53;
 }
 .profile-item p {
     color: #dddddd;
@@ -179,3 +193,59 @@
 .ver span {
     margin-left: 5px 
 }
+.bal{
+    color:#ed2c53;
+}
+.top{
+    padding-top: 3%;
+}
+.recent{
+    top: 59%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 7%;
+    background-color: white;
+    color: #1e242f;
+    position: absolute;
+    display: block;
+    overflow: auto;
+}
+.txs{
+    line-height: 0%;
+    position: absolute;
+    left: 0 px;
+    padding-left: 0%;
+}
+.pos{
+    color: #2f2f2f;
+    text-transform: uppercase;
+    position: absolute;
+    right: 17px;
+    height: 60px;
+    padding-left: 8px;
+}
+.date{
+    color:#2f2f2f;
+    top:0;
+}
+.pad{
+    background-color: #f2f2f2;
+    height: 60px;
+}
+.dashed_lth {
+    border-bottom: 1px dashed #979797 !important;
+}
+.ltpad {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dashed_lth .item-inner {
+    margin-left:0px !important;
+} 
+.dashed_lth .label-md{
+    margin: 8px 8px 8px 0 !important;
+}
+// .pat{
+//     text-align:left;
+// }

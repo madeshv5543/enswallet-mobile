@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header class="ion-header">
   <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -11,19 +11,19 @@
     <div>
       <img *ngIf="selectedCur == 'Etheriun'" class="static_icon" src="assets/imgs/eth.png">
       <img *ngIf="selectedCur == 'evenscoin'" class="static_icon" src="assets/imgs/evens.png">
-      <img *ngIf="selectedCur == 'tokenOne'" class="static_icon" src="assets/imgs/usd.png">
-      <img *ngIf="selectedCur == 'tokenThree'" class="static_icon" src="assets/imgs/kye.png">
-      <img *ngIf="selectedCur == 'tokenTwo'" class="static_icon" src="assets/imgs/thai.png">
+      <img *ngIf="selectedCur == 'tokenOne'" class="static_icon" src="assets/imgs/icons8-rupee-40.png">
+      <img *ngIf="selectedCur == 'tokenThree'" class="static_icon" src="assets/imgs/icons8-won-40.png">
+      <img *ngIf="selectedCur == 'tokenTwo'" class="static_icon" src="assets/imgs/icons8-bitcoin-40.png">
     </div>
-    <p class="sendtitle">Send</p>
+    <p class="sendtitle">SEND</p>
     <div>
       <form #form="ngForm" (ngSubmit)="transferAmount(form)" novalidate>
         <ion-item>
-          <ion-label floating>Amount</ion-label>
+          <ion-label floating>AMOUNT</ion-label>
           <ion-input type="number" (blur)="checkbalance(transfer.amount);" required name="amount" [(ngModel)]="transfer.amount" ngControl="amount"></ion-input>
         </ion-item>
         <ion-item>
-          <ion-label floating>Transfer To</ion-label>
+          <ion-label floating>TRANSFER TO</ion-label>
           <ion-input #focusInput type="text" (blur)="checkAddress(transfer.address);" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>
         </ion-item>
         <button ion-button round type="button" (click)="scanQr()"> Scan QR </button>
@@ -31,16 +31,16 @@
         <button ion-button [disabled]="form.invalid" type="submit" block round>Transfer</button>
       </form>
     </div>
-    <div>
+    <div style="margin-top: 10%;">
       <p>
-        <span>Address</span>
+        <span>ADDRESS</span>
         <br>
         <span class="ow_address">
           {{account.address}}
         </span>
       </p>
       <p>
-        <span>Balance</span>
+        <span>BALANCE</span>
         <br>
         <span>
           {{account.balance | number:'.3'}}

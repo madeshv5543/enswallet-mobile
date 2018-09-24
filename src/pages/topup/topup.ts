@@ -76,8 +76,7 @@ browser.show()
      let respromise:any;
      if(this.selectedCur == 'Etheriun'){
       respromise = this.webservice.getEthTransaction(address)
-     }
-     if(this.selectedCur == 'evenscoin'){
+     }else if(this.selectedCur == 'evenscoin'){
       respromise = this.webservice.getTokenTransaction(address)
      }else {
        respromise = this.webservice.getTokenTxList(this.selectedAccount.tokenAddress, this.selectedAccount.address)
