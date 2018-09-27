@@ -69,3 +69,22 @@
 .ion-header{
   background-color: #ec2c53;
 }
+
+.card_tran{
+  background: transparent;
+}
+.card_tran:nth-child(odd){
+  background: linear-gradient(to top, #323743, #2b2f39);
+}
+.card_tran:nth-child(even){
+  background: linear-gradient(to top, #323743, #2b2f39);
+}
+.text{
+  color:#fff;
+}
+.colo{
+  color:#ed2c53 !important;
+}
+.balance{
+  color:#fff !important;
+}

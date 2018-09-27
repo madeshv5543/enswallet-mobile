@@ -9,6 +9,14 @@
               </ion-navbar>
   </ion-header>
   <ion-content >
+        <ion-refresher (ionRefresh)="doRefresh($event)">
+                <ion-refresher-content
+                  pullingIcon="arrow-dropdown"
+                  pullingText="Pull to refresh"
+                  refreshingSpinner="circles"
+                  refreshingText="Refreshing...">
+                </ion-refresher-content>
+              </ion-refresher>
         <div padding>
             <div >
                     <img *ngIf="selectedCur == 'Etheriun'" class="static_icon" src="assets/imgs/eth.png">
@@ -28,21 +36,21 @@
                   <div *ngIf="showQr" class="adddiv">
                       <span class="ow_address">{{account.address}}</span>
                   </div>
-                  <ion-list class="box" *ngIf="selectedCur == 'Etheriun'">
-                      <ion-card class="card_trans">
+                  <ion-list class="" *ngIf="selectedCur == 'Etheriun'">
+                      <ion-card class="card_tran">
                               <ion-item  >  
                                  <div class="texc">
-                                    <h2   class="fontWhite">{{account.balance | number: '.3'}} ETH</h2>
-                                    <p class="fontWhite baltxt1">1 ETH = {{ 1 / todayPrice.ETH | number}} USD</p>
+                                    <h2  class="balance">{{account.balance | number: '.3'}} ETH</h2>
+                                    <p class="colo  baltxt1">1 ETH = {{ 1 / todayPrice.ETH | number}} USD</p>
                                  </div>
                                       
                                       <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
                                   </ion-item>
                       </ion-card>
-                      <ion-card class="card_trans">
+                      <ion-card class="card_tran">
                               <ion-item >
                                   <div class="texc">
-                                      <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.ETH | number:'.3' }} USD</h2>
+                                      <h2 class="balance qr_textitem">{{ account.balance / todayPrice.ETH | number:'.3' }} USD</h2>
                                       </div>
                                   </ion-item>
                       </ion-card>
@@ -50,20 +58,20 @@
               
                   </ion-list>
                   <ion-list *ngIf="selectedCur == 'evenscoin'">
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item  >  
                                    <div class="texc">
-                                      <h2   class="fontWhite">{{account.balance | number}} ENS</h2>
-                                      <p class="fontWhite baltxt1">1 ENS = {{ 1 / todayPrice.BTT | number: '.3'}} USD</p>
+                                      <h2   class="balance">{{account.balance | number}} ENS</h2>
+                                      <p class="colo  baltxt1">1 ENS = {{ 1 / todayPrice.BTT | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
                                     </ion-item>
                         </ion-card>
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.BTT | number: '.3' }} USD</h2>
+                                        <h2 class="balance qr_textitem">{{ account.balance / todayPrice.BTT | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>
@@ -71,20 +79,20 @@
                 
                     </ion-list>
                     <ion-list *ngIf="selectedCur == 'tokenOne'">
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item  >  
                                    <div class="texc">
-                                      <h2   class="fontWhite">{{account.balance | number: '.3'}} {{account.tokenOneSym}}</h2>
-                                      <p class="fontWhite baltxt1">1 {{account.tokenOneSym}} = {{ 1 / todayPrice.INR | number: '.3'}} USD</p>
+                                      <h2   class="balance">{{account.balance | number: '.3'}} {{account.tokenOneSym}}</h2>
+                                      <p class="colo  baltxt1">1 {{account.tokenOneSym}} = {{ 1 / todayPrice.INR | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
                                     </ion-item>
                         </ion-card>
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.INR | number: '.3' }} USD</h2>
+                                        <h2 class="balance qr_textitem">{{ account.balance / todayPrice.INR | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>
@@ -92,20 +100,20 @@
                 
                     </ion-list>
                     <ion-list *ngIf="selectedCur == 'tokenTwo'">
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item  >  
                                    <div class="texc">
-                                      <h2   class="fontWhite">{{account.balance | number:'.3'}} {{account.tokenTwoSym}}</h2>
-                                      <p class="fontWhite baltxt1">1 {{account.tokenTwoSym}} = {{ 1 / todayPrice.THB | number: '.3'}} USD</p>
+                                      <h2   class="balance">{{account.balance | number:'.3'}} {{account.tokenTwoSym}}</h2>
+                                      <p class="colo  baltxt1">1 {{account.tokenTwoSym}} = {{ 1 / todayPrice.THB | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
                                     </ion-item>
                         </ion-card>
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.THB | number: '.3' }} USD</h2>
+                                        <h2 class="balance qr_textitem">{{ account.balance / todayPrice.THB | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>
@@ -113,20 +121,20 @@
                 
                     </ion-list>
                     <ion-list *ngIf="selectedCur == 'tokenThree'">
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item  >  
                                    <div class="texc">
-                                      <h2   class="fontWhite">{{account.balance | number: '.3'}} {{account.tokenThreeSym}}</h2>
-                                      <p class="fontWhite baltxt1">1 {{account.tokenThreeSym}} = {{ 1 / todayPrice.KRW | number: '.3'}} USD</p>
+                                      <h2   class="balance">{{account.balance | number: '.3'}} {{account.tokenThreeSym}}</h2>
+                                      <p class="colo  baltxt1">1 {{account.tokenThreeSym}} = {{ 1 / todayPrice.KRW | number: '.3'}} USD</p>
                                    </div>
                                         
                                         <!-- <button ion-button clear (click)='openSingleNotification()' item-end>View</button> -->
                                     </ion-item>
                         </ion-card>
-                        <ion-card class="card_trans">
+                        <ion-card class="card_tran">
                                 <ion-item >
                                     <div class="texc">
-                                        <h2 class="fontWhite qr_textitem">{{ account.balance / todayPrice.KRW | number: '.3' }} USD</h2>
+                                        <h2 class="balance qr_textitem">{{ account.balance / todayPrice.KRW | number: '.3' }} USD</h2>
                                         </div>
                                     </ion-item>
                         </ion-card>

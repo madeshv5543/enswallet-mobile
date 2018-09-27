@@ -10,6 +10,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { Clipboard } from '@ionic-native/clipboard';
 import { InterceptorModule } from '../providers/webservic/interceptor';
 import { Network } from '@ionic-native/network';
+import { AmChartsModule } from "@amcharts/amcharts3-angular";
 
 import { WalletPage } from '../pages/wallet/wallet';
 import { HomePage } from '../pages/home/home';
@@ -55,6 +56,7 @@ import { NFC, Ndef } from '@ionic-native/nfc';
     HttpClientModule,
     NgxQRCodeModule,
     InterceptorModule,
+    AmChartsModule,
     IonicModule.forRoot(MyApp, {
       tabsHideOnSubPages:true
    }),

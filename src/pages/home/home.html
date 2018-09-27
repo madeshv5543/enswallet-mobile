@@ -7,6 +7,11 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
+    <ion-refresher (ionRefresh)="doRefresh($event)">
+        <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Pull to refresh" refreshingSpinner="circles"
+          refreshingText="Refreshing...">
+        </ion-refresher-content>
+      </ion-refresher>
   <div padding>
     <div>
       <img *ngIf="selectedCur == 'Etheriun'" class="static_icon" src="assets/imgs/eth.png">
@@ -27,7 +32,7 @@
           <ion-input #focusInput type="text" (blur)="checkAddress(transfer.address);" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>
         </ion-item>
         <button ion-button round type="button" (click)="scanQr()"> Scan QR </button>
-        <button ion-button round type="button" (click)="addListenNFC()"> Read NFC </button>
+        <button *ngIf="enableNfc" ion-button round type="button" (click)="addListenNFC()"> Read NFC </button>
         <button ion-button [disabled]="form.invalid" type="submit" block round>Transfer</button>
       </form>
     </div>

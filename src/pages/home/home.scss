@@ -93,3 +93,6 @@ h1{
   width:320px;
   height: 70px;
 }
+ion-refresher-content[state=refreshing] .refresher-refreshing {
+  background: white
+}

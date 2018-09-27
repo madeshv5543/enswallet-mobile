@@ -25,6 +25,7 @@ export class HomePage {
   };
   nfcsubscribe:any;
   public selectedCur:any ;
+  public enableNfc:boolean = false;
   constructor(
     public navCtrl: NavController,
     public webserve:WebservicProvider,
@@ -33,9 +34,25 @@ export class HomePage {
     private nfc: NFC,
     private ndef: Ndef
   ) {
+      this.checkNfc();
        this.getSelecetedCoin();
   }
 
+  doRefresh(e) {
+    this.getSelecetedCoin();
+    setTimeout(() => {
+      e.complete()
+    }, 2000);
+  }
+
+  checkNfc() {
+    this.nfc.enabled()
+    .then(res => {
+      this.enableNfc = true;
+    }, err => {
+      this.enableNfc = false;
+    })
+  }
 
   setFocus ( ){
     this.myInput.setFocus();
@@ -201,6 +218,12 @@ createtoast(message, duration = 2000) {
        toast.present()
       }
     )
+  }
+
+  ngOnDestroy(){
+    if(this.nfcsubscribe){
+      this.nfcsubscribe.unsubscribe()
+    }
   }
  
 }

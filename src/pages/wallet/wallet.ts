@@ -22,6 +22,14 @@ export class WalletPage {
   this.gettodayPrice()
   }
 
+  doRefresh(e){
+    this.getSelecetedCoin()
+    this.gettodayPrice()
+    setTimeout(() => {
+      e.complete()
+    }, 2000);
+  }
+
   
   gettodayPrice(){
     let self = this;

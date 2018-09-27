@@ -24,13 +24,14 @@
     <ion-content class="side_bar">
         <ion-item-group class="ltpad">
                <ion-item no-lines *ngFor='let p of pages' class="sidemenu_item dashed_lth " >
-                    <ion-icon class="icon_colr" [name]="p.icon" item-start></ion-icon>
+                    <!-- <ion-icon class="icon_colr" [name]="p.icon" ></ion-icon> -->
+                    <img item-start src="assets/imgs/{{p.icon}}">
                     <button ion-item  class="menu_item lemenu"   (click)="openPage(p)">
                             {{p.title}}
                         </button>
                </ion-item>
                     <!-- <ion-item-divider color="primary">Smart Service</ion-item-divider> -->
-            <p class="ver"> Ver  <span>0.1.0</span></p>
+            <p class="ver"> Ver  <span>3.0.0</span></p>
         </ion-item-group>
     </ion-content>
 </ion-menu>

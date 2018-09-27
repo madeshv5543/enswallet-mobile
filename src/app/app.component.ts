@@ -51,11 +51,11 @@ export class MyApp {
     this.getUserInfo();
    })
    this.pages = [
-      {title: 'ACCOUNT', component: NotificationsPage , icon:'photos'},
+      {title: 'ACCOUNT', component: NotificationsPage , icon:'photos.png'},
       // {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
-      {title: 'CHANGE PASSWORD', component: MyRewardsPage, icon:'lock'},
+      {title: 'CHANGE PASSWORD', component: MyRewardsPage, icon:'lock.png'},
       // {title: 'Quick Pay', icon:'lock',  component: QuickPayPage},
-      {title: 'SIGN OUT', component:LoginPage,icon:'log-out'}
+      {title: 'SIGN OUT', component:LoginPage,icon:'log-out.png'}
    ];
   }
   initializeApp(){
@@ -80,7 +80,7 @@ export class MyApp {
   }
 
   openPage(page) {
-    if(page.title == 'Account'){
+    if(page.title == 'ACCOUNT'){
       this.menu.close();
       this.nav.setRoot(page.component);
     }else if(page.title == 'Sign Out') {
@@ -100,8 +100,15 @@ export class MyApp {
       (res:any) => {
         if(res.status == 200) {
           console.log("user",res)
-          let message = this.ndef.mimeMediaRecord(this.mimeType,this.user.address);
-          this.nfc.share([message]).then(this.onSuccess).catch(this.onError);
+          this.nfc.enabled()
+          .then( res => {
+            console.log("nfc enabled",res)
+            let message = this.ndef.mimeMediaRecord(this.mimeType,this.user.address);
+            this.nfc.share([message]).then(this.onSuccess).catch(this.onError);
+          },
+          err => {
+            console.log("nfc not enabled", err)
+          })
           self.user = res.data;
           self.showQr = true
 				}else {

@@ -3,6 +3,18 @@ page-notifications {
         background: transparent !important;
     }
 }
+page-topup {
+    .content-md {
+        background: transparent !important;
+    }
+    .tophead {
+        background: black;
+    }
+}
+
+.rmpad {
+    padding: 0px !important;
+}
 
 .coinimg{
     width: 40px !important;
@@ -64,7 +76,6 @@ box-sizing: content-box;
     padding-left:0px;
     margin-left:0px;
    margin-top:0px;
-   padding:30px;
 }
 
 .mywalletTxt{

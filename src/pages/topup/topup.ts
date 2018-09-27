@@ -31,6 +31,14 @@ export class TopupPage {
       this.gettodayPrice();
   }
 
+  doRefresh(e){
+    this.getBalance()
+    this.gettodayPrice();
+    setTimeout(() => {
+      e.complete()
+    }, 2000);
+  }
+
   OpenUrl(url)
 {
 const browser = this.iab.create(url);

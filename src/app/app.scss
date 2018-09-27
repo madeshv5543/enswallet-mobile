@@ -207,7 +207,7 @@
     padding-top: 7%;
     background-color: white;
     color: #1e242f;
-    position: absolute;
+    position: relative;
     display: block;
     overflow: auto;
 }
@@ -223,7 +223,7 @@
     position: absolute;
     right: 17px;
     height: 60px;
-    padding-left: 8px;
+    padding: 2.5% 10px;
 }
 .date{
     color:#2f2f2f;
@@ -249,3 +249,33 @@
 // .pat{
 //     text-align:left;
 // }
+
+ion-icon {
+    &[class*="ens-"] {
+        // Instead of using the font-based icons
+        // We're applying SVG masks
+        mask-size: contain;
+        mask-position: 50% 50%;
+        mask-repeat: no-repeat;
+        background: currentColor;
+        width: 1em;
+        height: 1em;
+    }
+    // custom icons
+    &[class*="ens-send"] {
+        mask-image: url(../assets/imgs/enssend.svg);
+    }
+    &[class*="ens-info"] {
+        mask-image: url(../assets/imgs/ensinfo.svg);
+    }
+    &[class*="ens-rec"] {
+        mask-image: url(../assets/imgs/ensrec.svg);
+    }
+    &[class*="ens-buy"] {
+        mask-image: url(../assets/imgs/ensbuy.svg);
+    }
+
+    .ens-send {
+      color: black !important   
+    }
+}
