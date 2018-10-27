@@ -88,7 +88,7 @@ export class MyApp {
     }
     else{
       this.menu.close();
-      this.nav.push(page.component);
+      this.nav.setRoot(page.component);
     }
     
   }

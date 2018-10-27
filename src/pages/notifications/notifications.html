@@ -5,7 +5,7 @@
       <button ion-button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-      <ion-title>Wallet</ion-title>
+      <ion-title>Evens</ion-title>
     </ion-navbar>
   </div>
 
@@ -23,7 +23,7 @@
 
     <ion-card class="wallat_main">
       <div class="wall_txt_cen" >
-          <div id="chartdiv" [style.width.%]="100" [style.height.px]="150"></div>
+          <div id="chartdiv" [style.width.%]="100" [style.height.px]="200"></div>
         <!-- <p class="wall_amount">$49994.5</p>     -->
 
       </div>
@@ -37,27 +37,27 @@
       <ion-card class="card_trans">
         <ion-item (click)='openSingleNotification("Etheriun","coin")'>
           <div class="row">
-            <div class="">
+            <div class="col col-10">
               <ion-thumbnail item-start>
-                <img class="coinimg" src="assets/imgs/icons8-ethereum-40.png">
+                <img class="coinimg" src="assets/imgs/eth-40.png">
               </ion-thumbnail>
             </div>
             <div class="hello">
 
-              <div class="col">
+              <div class="col col-50">
 
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.eth | number:'.3' }}</h3>
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.eth | number:'.3' }}&nbsp;&nbsp;ETH</h3>
               </div>
             </div>
-            <div class="hello">
+            <!-- <div class="hello">
               <div class="col">
 
                 <h3 class="fontWhite item_text" text-left>ETH</h3>
 
               </div>
-            </div>
+            </div> -->
 
-            <div class="col rmpad">
+            <div class="col col-40 rmpad">
               <h3 class="fontWhite item_text" text-right> {{ allBalance.eth / todayPrice.ETH | number:'.3' }} $</h3>
 
             </div>
@@ -69,22 +69,22 @@
       <ion-card class="card_trans">
         <ion-item (click)='openSingleNotification("evenscoin","coin")'>
           <div class="row">
-            <div class="">
+            <div class="col col-10">
               <ion-thumbnail item-start>
-                <img class="coinimg" style="height: 25px !important;margin-top: 10px;" src="assets/imgs/evens.png">
+                <img class="coinimg"  src="assets/imgs/evens-40.png">
               </ion-thumbnail>
             </div>
             <div class="hello">
-              <div class="col">
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.ens | number:'.3'}}</h3>
+              <div class="col col-50">
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.ens | number:'.3'}}&nbsp;&nbsp;ENS</h3>
               </div>
             </div>
-            <div class="hello">
+            <!-- <div class="hello">
               <div class="col">
                 <h3 class="fontWhite item_text" text-left>ENS</h3>
               </div>
-            </div>
-            <div class="col rmpad">
+            </div> -->
+            <div class="col col-40 rmpad">
               <h3 class="fontWhite item_text" text-right> {{ allBalance.ens / todayPrice.BTT | number:'.3' }} $ </h3>
             </div>
           </div>
@@ -93,12 +93,12 @@
 
         </ion-item>
       </ion-card>
-      <ion-card *ngFor="let token of tokens" class="card_trans">
+      <!-- <ion-card *ngFor="let token of tokens" class="card_trans">
         <ion-item (click)='openSingleNotification("tokenOne","token")'>
           <div class="row">
             <div>
               <ion-thumbnail item-start>
-                <img class="coinimg" src="assets/imgs/icons8-rupee-40.png">
+                <img class="coinimg" src="assets/imgs/tk1-40.png">
               </ion-thumbnail>
             </div>
             <div class="hello">
@@ -113,32 +113,32 @@
             </div>
             <div class="col rmpad">
               <h3 class="fontWhite item_text" text-right> 0 $ </h3>
-              <!-- <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenOne / todayPrice.INR | number:'.3' }} $ </h3> -->
+              <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenOne / todayPrice.INR | number:'.3' }} $ </h3>
             </div>
           </div>
 
 
         </ion-item>
-      </ion-card>
+      </ion-card> -->
       <ion-card class="card_trans">
         <ion-item (click)='openSingleNotification("tokenOne","token")'>
           <div class="row">
-            <div>
+            <div class="col col-10">
               <ion-thumbnail item-start>
-                <img class="coinimg" src="assets/imgs/icons8-rupee-40.png">
+                <img class="coinimg" src="assets/imgs/tk1-40.png">
               </ion-thumbnail>
             </div>
             <div class="hello">
-              <div class="col">
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number:'.3' }} </h3>
+              <div class="col col-50">
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number:'.3' }}&nbsp;&nbsp;ECI</h3>
               </div>
             </div>
-            <div class="hello">
+            <!-- <div class="hello">
               <div class="col">
                 <h3 class="fontWhite item_text" text-left>{{allBalance.tokenOneSym}}</h3>
               </div>
-            </div>
-            <div class="col rmpad">
+            </div> -->
+            <div class="col col-40 rmpad">
               <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenOne / todayPrice.INR | number:'.3' }} $
               </h3>
             </div>
@@ -150,22 +150,22 @@
       <ion-card class="card_trans">
         <ion-item (click)='openSingleNotification("tokenTwo","token")'>
           <div class="row">
-            <div>
+            <div class="col col-10"> 
               <ion-thumbnail item-start>
-                <img class="coinimg" src="assets/imgs/icons8-bitcoin-40.png">
+                <img class="coinimg" src="assets/imgs/tk2-40.png">
               </ion-thumbnail>
             </div>
             <div class="hello">
-              <div class="col">
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo | number:'.3' }}</h3>
+              <div class="col col-50">
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo | number:'.3' }}&nbsp;&nbsp;ECT</h3>
               </div>
             </div>
-            <div class="hello">
+            <!-- <div class="hello">
               <div class="col">
                 <h3 class="fontWhite item_text" text-left>{{allBalance.tokenTwoSym}} </h3>
               </div>
-            </div>
-            <div class="col rmpad">
+            </div> -->
+            <div class="col col-40 rmpad">
               <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenTwo / todayPrice.THB | number:'.3' }} $</h3>
             </div>
           </div>
@@ -176,22 +176,22 @@
       <ion-card class="card_trans">
         <ion-item (click)='openSingleNotification("tokenThree","token")'>
           <div class="row">
-            <div>
+            <div class="col col-10">
               <ion-thumbnail item-start>
-                <img class="coinimg" src="assets/imgs/icons8-won-40.png">
+                <img class="coinimg" src="assets/imgs/tk3-40.png">
               </ion-thumbnail>
             </div>
             <div class="hello">
-              <div class="col">
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree | number:'.3' }}</h3>
+              <div class="col col-50">
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree | number:'.3' }}&nbsp;&nbsp;ECK</h3>
               </div>
             </div>
-            <div class="hello">
+            <!-- <div class="hello">
               <div class="col">
                 <h3 class="fontWhite item_text" text-left>{{allBalance.tokenThreeSym}}</h3>
               </div>
-            </div>
-            <div class="col rmpad">
+            </div> -->
+            <div class="col col-40 rmpad">
               <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenThree / todayPrice.KRW | number:'.3' }} $
               </h3>
             </div>

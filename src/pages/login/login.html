@@ -10,7 +10,7 @@
       <div class="title"><h1>WELCOME</h1></div>
     </ion-row>
     <div class="login-box">
-      <form (ngSubmit)="login()">
+      <form #f="ngForm" novalidate (ngSubmit)="login()">
         <ion-row>
           <ion-col>
             <ion-list inset>
@@ -30,7 +30,7 @@
   
         <ion-row>
           <ion-col class="signup-col">
-            <button style="width:80%" ion-button round  class="submit-btn" round type="submit" >Login</button>
+            <button style="width:80%" ion-button round [disabled]="f.invalid" class="submit-btn" round type="submit" >Login</button>
             <!-- <button ion-button class="register-btn" [navPush]="ForgotPasswordPage"  type ="button" float-right clear text-capitalize>Forgot Password?</button> -->
           </ion-col>
         </ion-row>

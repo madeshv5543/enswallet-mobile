@@ -12,7 +12,7 @@ import * as moment from 'moment-timezone';
 */
 @Injectable()
 export class WebservicProvider {
-//  private serverUrl:any = 'http://192.168.1.9:3200/api';
+//  private serverUrl:any = 'http://192.168.1.4:3200/api';
 //  private serverUrl:any = 'http://localhost:3200/api';
  private serverUrl:any ="http://wallet.evenscoin.io:3200/api";
  private etherscanUrl:any = "https://api-rinkeby.etherscan.io/api?module=account&action=txlist&address="
@@ -306,5 +306,14 @@ export class WebservicProvider {
   getUserInfo() {
     let self = this;
     return  self.http.get(`${self.serverUrl}/user`)
+  }
+  getChartDate() {
+    let self = this;
+    return self.http.get(`${self.serverUrl}/ethusdprice`)
+  }
+
+  changepassword(data) {
+    let self = this;
+    return self.http.post(`${self.serverUrl}/changePassword`,data)
   }
 }
