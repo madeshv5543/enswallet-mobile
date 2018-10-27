@@ -15,10 +15,10 @@ export class WebservicProvider {
 //  private serverUrl:any = 'http://192.168.1.9:3200/api';
 //  private serverUrl:any = 'http://localhost:3200/api';
  private serverUrl:any ="http://wallet.evenscoin.io:3200/api";
- private etherscanUrl:any = "https://api-rinkeby.etherscan.io/api?module=account&action=txlist&address="
+ private etherscanUrl:any = "https://api.etherscan.io/api?module=account&action=txlist&address="
  private params = "&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken";
  private evensparams = "&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken";
- private evenstokenUrl:any ="https://api-rinkeby.etherscan.io/api?module=account&action=tokentx&address="
+ private evenstokenUrl:any ="https://api.etherscan.io/api?module=account&action=tokentx&address="
  private topriceurl = 'https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW'
  private exploreUrl = 'http://explorer.evenscoin.io'
  private selectedCoin:any;
@@ -59,7 +59,7 @@ export class WebservicProvider {
                    mode:mode,
                   //  status:status,
                    receipt:o.hash,
-                   link:`http://rinkeby.etherscan.io/tx/${o.hash}`
+                   link:`http://etherscan.io/tx/${o.hash}`
                }
                temarr.push(obj)
                }
@@ -106,7 +106,7 @@ export class WebservicProvider {
                   mode:mode,
                   status:status,
                   receipt:o.hash,
-                  link:`https://rinkeby.etherscan.io/tx/${o.hash}`
+                  link:`https://etherscan.io/tx/${o.hash}`
               }
               return obj;
             })
