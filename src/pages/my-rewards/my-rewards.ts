@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-// declare var TradingView:any;
-// import { NFC } from "@ionic-native/nfc";
+import { NavController, LoadingController, ToastController } from 'ionic-angular';
+import { NgForm } from '@angular/forms';
+import { WebservicProvider } from '../../providers/webservic/webservic';
+import { Storage } from '@ionic/storage';
+
+import { LoginPage } from '../login/login';
+
 @Component({
   selector: 'page-my-rewards',
   templateUrl: 'my-rewards.html'
@@ -11,63 +15,40 @@ export class MyRewardsPage {
   denied: boolean;
   scanned: boolean;
   tagId: string;  
+  credentials:any ={}
   
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, 
+    public loadCtrl:LoadingController,
+    public webservice:WebservicProvider,
+    public toastCtrl:ToastController,
+    private storage:Storage) {
 
   }
 
-  resetScanData() {
-    this.granted = false;
-    this.scanned = false;
-    this.tagId = "";
-  } 
-  
-  ngAfterViewInit() {
-    // new TradingView.widget({
-    //   "autosize": true,
-    //   "symbol": "COINBASE:ETHUSD",
-    //   "interval": "1",
-    //   "timezone": "Etc/UTC",
-    //   "theme": "Dark",
-    //   "style": "7",
-    //   "locale": "en",
-    //   "toolbar_bg": "#f1f3f6",
-    //   "enable_publishing": false,
-    //   "hide_top_toolbar": true,
-    //   "container_id": "tradingview_84686"
-    // });
+  changePassword(f:NgForm) {
+    let self = this;
+    let loading = self.loadCtrl.create();
+    loading.present()
+    self.webservice.changepassword(self.credentials)
+    .subscribe(
+      (res:any) => {
+        loading.dismissAll()
+        if(res.status == 200) {
+          this.storage.clear();
+          this.navCtrl.setRoot(LoginPage);
+          let toast = self.toastCtrl.create({ message: 'Password Changed Successfully. Please Login to continue', duration: 2000  });
+          toast.present()
+        }else { 
+          let toast = self.toastCtrl.create({ message: res.message, duration: 2000  });
+          toast.present()
+        }
+      },
+      err =>{
+        loading.dismissAll()
+        let toast = self.toastCtrl.create({ message: 'Something Went wrong try after sometime', duration: 2000  });
+        toast.present()
+      }
+    )
 
   }
-
-  // ionViewDidEnter() {
-  //   this.nfc.enabled().then((resolve) => {
-  //     this.addListenNFC();
-  //   }).catch((reject) => {
-  //     alert("NFC is not supported by your Device");
-  //   });
-  // }
-
-  // addListenNFC() {
-
-  //   this.nfc.addNdefListener(() => {
-  //     console.log('successfully attached ndef listener');
-  //   }, (err) => {
-  //     console.log('error attaching ndef listener', err);
-  //   }).subscribe((event) => {
-  //     console.log('received ndef message. the tag contains: ', event.tag);
-  //     console.log('decoded tag id', this.nfc.bytesToHexString(event.tag.id));
-    
-  //     // let message = this.ndef.textRecord('Hello world');
-  //     // this.nfc.share([message]).then(onSuccess).catch(onError);
-  //   });
-  // }
-  
-
-  // sesReadNFC(data): void {
-
-  // }
-
-  // failNFC(err) {
-  //   alert("Error while reading: Please Retry");
-  // }
 }

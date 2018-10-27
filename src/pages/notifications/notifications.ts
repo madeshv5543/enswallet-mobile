@@ -53,51 +53,54 @@ export class NotificationsPage {
   public options = {
     "type": "serial",
     "theme": "dark",
-    "dataProvider": [
-      {
-        "token": "USA",
-        "visits": 3025,
-        "color": "#FF0F00"
-      }, {
-        "token": "China",
-        "visits": 1882,
-        "color": "#FF6600"
-      }, {
-        "token": "Japan",
-        "visits": 1809,
-        "color": "#FF9E01"
-      }, {
-        "token": "Germany",
-        "visits": 1322,
-        "color": "#FCD202"
-      }
-    ],
+    "dataDateFormat": "DD-MMM-YYYY",
+    "dataProvider": [],
     "valueAxes": [{
+      "id": "v1",
       "axisAlpha": 0,
       "position": "left",
-      "title": "value in USD $",
+      "title": "ETH in USD",
     }],
+    "balloon": {
+      "borderThickness": 0.5,
+      "shadowAlpha": 0
+    },
+    "graphs": [ {
+      "id": "g1",
+      "balloon": {
+        "drop": true,
+        "adjustBorderColor": false,
+        "color": "#ffffff",
+        "type": "smoothedLine"
+      },
+      "fillAlphas": 0.2,
+      "bullet": "round",
+      "bulletBorderAlpha": 0.5,
+      "bulletColor": "#FFFFFF",
+      "bulletSize": 2,
+      "hideBulletsCount": 50,
+      "lineThickness": 2,
+      "title": "red line",
+      "useLineColorForBulletBorder": true,
+      "valueField": "value",
+      "balloonText": "<span style='font-size:8px;'>[[value]]</span>"
+    } ],
     "startDuration": 1,
-    "graphs": [{
-      "balloonText": "<b>[[category]]: [[value]] $</b>",
-      "fillColorsField": "color",
-      "fillAlphas": 0.9,
-      "lineAlpha": 0.2,
-      "type": "column",
-      "valueField": "value"
-    }],
     "chartCursor": {
-      "categoryBalloonEnabled": false,
+      "valueLineEnabled": true,
+      "valueLineBalloonEnabled": true,
       "cursorAlpha": 0,
       "zoomable": false
     },
     "categoryAxis": {
       "gridPosition": "start",
-      "labelRotation": 45
+      "labelRotation": 30,
+      "dashLength": 0,
+      "minorGridEnabled": true
     },
-    "categoryField": "token",
+    "categoryField": "date",
     "export": {
-      "enabled": true
+      "enabled": false
     }
   };
   constructor(
@@ -116,24 +119,22 @@ export class NotificationsPage {
     // this.evensBalance();1
   }
 
-  createChart(){
-    let dataArray = [];
-    let cl =0;
-    Object.keys(this.todayPrice).forEach(n => {
-      if(n == 'ETH'){
-        return;
-      }
-      let obj = {
-        token : n,
-        value: 1/this.todayPrice[n],
-        color: this.colors[cl]
-      }
-      dataArray.push(obj);
-      cl++;
-    })
-    this.options.dataProvider = dataArray;
+  createChart(data = []){
+    this.options.dataProvider = data;
     this.chart = this.AmCharts.makeChart("chartdiv", this.options);
     console.log("chart", this.chart)
+  }
+ 
+  ngAfterViewInit(){
+    this.addlistenerchart()
+    this.getChartDate()
+  }
+
+  addlistenerchart(){
+    let self = this;
+    self.AmCharts.addInitHandler(function(chart) {
+      console.log("axis values",chart.valueAxes[1]) ;
+    })
   }
 
   doRefresh(e) {
@@ -197,9 +198,19 @@ export class NotificationsPage {
     self.webserve.getTodayPrice()
     .subscribe(res=>{
        self.todayPrice = res;
-       this.createChart();
     },err=>{
        console.log(err)
+    })
+  }
+
+  getChartDate() {
+    let self = this;
+    self.webserve.getChartDate()
+    .subscribe( (res:any) => {
+      self.createChart(res.data)
+    },
+    err =>{
+      self.createChart()
     })
   }
 
