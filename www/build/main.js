@@ -1,1 +1,2863 @@
-webpackJsonp([0],{164:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=164},191:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=191},340:function(l,n,u){"use strict";function e(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,8,"div",[["class","qr_code"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(3,0,null,null,1,"ngx-qrcode",[],null,null,null,dn.b,dn.a)),hl.Z(4,573440,null,0,Jl.a,[hl.B],{value:[0,"value"]},null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(6,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),hl._21(7,null,["",""])),(l()(),hl._21(-1,null,["\n                                \n                        "]))],function(l,n){l(n,4,0,n.component.user.address)},function(l,n){l(n,7,0,n.component.user.address)})}function a(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,17,"ion-item",[["class","sidemenu_item dashed_lth  item item-block"],["no-lines",""]],null,null,null,gn.b,gn.a)),hl.Z(1,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,10,{contentLabel:0}),hl._19(603979776,11,{_buttons:1}),hl._19(603979776,12,{_icons:1}),hl.Z(5,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                    "])),(l()(),hl._21(-1,2,["\n                    "])),(l()(),hl._0(8,0,null,0,0,"img",[["item-start",""]],[[8,"src",4]],null,null,null,null)),(l()(),hl._21(-1,2,["\n                    "])),(l()(),hl._0(10,0,null,2,6,"button",[["class","menu_item lemenu item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openPage(l.context.$implicit)&&e}return e},gn.b,gn.a)),hl.Z(11,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,13,{contentLabel:0}),hl._19(603979776,14,{_buttons:1}),hl._19(603979776,15,{_icons:1}),hl.Z(15,16384,null,0,bn.a,[],null,null),(l()(),hl._21(16,2,["\n                            ","\n                        "])),(l()(),hl._21(-1,2,["\n               "]))],null,function(l,n){l(n,8,0,hl._3(1,"assets/imgs/",n.context.$implicit.icon,""));l(n,16,0,n.context.$implicit.title)})}function t(l){return hl._23(0,[hl._19(402653184,1,{nav:0}),(l()(),hl._0(1,0,null,null,58,"ion-menu",[["role","navigation"]],null,null,null,vn.b,vn.a)),hl._18(6144,null,kn.a,null,[yn.a]),hl.Z(3,245760,null,2,yn.a,[Cn.a,hl.k,hn.a,Zn.a,hl.A,wn.a,An.l,Tn.a,Sn.a],{content:[0,"content"]},null),hl._19(335544320,2,{menuContent:0}),hl._19(335544320,3,{menuNav:0}),(l()(),hl._21(-1,0,["\n\n    "])),(l()(),hl._0(7,0,null,0,34,"ion-header",[],null,null,null,null,null)),hl.Z(8,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(10,0,null,null,30,"ion-toolbar",[["class","user-bg toolbar"]],[[2,"statusbar-padding",null]],null,null,xn.b,xn.a)),hl.Z(11,49152,null,0,jn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,3,["\n            "])),(l()(),hl._21(-1,3,["\n            "])),(l()(),hl._0(14,0,null,3,25,"ion-list",[["class","user-detail"]],null,null,null,null,null)),hl.Z(15,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(17,0,null,null,10,"ion-item",[["class","item item-block"],["no-lines",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.goToprofile()&&e}return e},gn.b,gn.a)),hl.Z(18,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,4,{contentLabel:0}),hl._19(603979776,5,{_buttons:1}),hl._19(603979776,6,{_icons:1}),hl.Z(22,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                        "])),(l()(),hl.V(16777216,null,2,1,null,e)),hl.Z(25,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,2,["\n                    "])),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(29,0,null,null,9,"ion-item",[["class","item item-block"],["no-lines",""]],null,null,null,gn.b,gn.a)),hl.Z(30,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,7,{contentLabel:0}),hl._19(603979776,8,{_buttons:1}),hl._19(603979776,9,{_icons:1}),hl.Z(34,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                        "])),(l()(),hl._0(36,0,null,2,1,"h2",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(37,null,[""," ",""])),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,0,["\n    "])),(l()(),hl._0(43,0,null,0,15,"ion-content",[["class","side_bar"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(44,4374528,[[2,4]],0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n        "])),(l()(),hl._0(46,0,null,1,11,"ion-item-group",[["class","ltpad"]],null,null,null,null,null)),hl.Z(47,16384,null,0,Nn.a,[],null,null),(l()(),hl._21(-1,null,["\n               "])),(l()(),hl.V(16777216,null,null,1,null,a)),hl.Z(50,802816,null,0,Bn.i,[hl.J,hl.G,hl.q],{ngForOf:[0,"ngForOf"]},null),(l()(),hl._21(-1,null,["\n                    "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(53,0,null,null,3,"p",[["class","ver"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" Ver  "])),(l()(),hl._0(55,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["3.0.0"])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._21(-1,0,["\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(61,0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,On.b,On.a)),hl._18(6144,null,kn.a,null,[Gn.a]),hl.Z(63,4374528,[[1,4],["content",4]],0,Gn.a,[[2,In.a],[2,Mn.a],Sn.a,hn.a,Zn.a,hl.k,hl.v,hl.A,hl.j,An.l,qn.a,[2,Ln.a],Tn.a,hl.l],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null),(l()(),hl._21(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,3,0,hl._14(n,63));l(n,25,0,u.showQr);l(n,50,0,u.pages);l(n,63,0,"false",u.rootPage)},function(l,n){var u=n.component;l(n,10,0,hl._14(n,11)._sbPadding);l(n,37,0,u.user.firstName,u.user.lastName);l(n,43,0,hl._14(n,44).statusbarPadding,hl._14(n,44)._hasRefresher)})}function o(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/ethw-40.png"]],null,null,null,null,null))],null,null)}function s(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/evensw-40.png"]],null,null,null,null,null))],null,null)}function i(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/tk1w-40.png"]],null,null,null,null,null))],null,null)}function r(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/tk3w-40.png"]],null,null,null,null,null))],null,null)}function c(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/tk2w-40.png"]],null,null,null,null,null))],null,null)}function _(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"div",[["class","adddiv"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n         \n                    "]))],null,null)}function d(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,7,"div",[["class","qr_code"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl._0(2,0,null,null,1,"div",[["class","qr_text"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["QR CODE"])),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl._0(5,0,null,null,1,"ngx-qrcode",[],null,null,null,dn.b,dn.a)),hl.Z(6,573440,null,0,Jl.a,[hl.B],{value:[0,"value"]},null),(l()(),hl._21(-1,null,["\n                      \n                  "]))],function(l,n){l(n,6,0,n.component.account.address)},null)}function g(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,4,"div",[["class","adddiv"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl._0(2,0,null,null,1,"span",[["class","ow_address"]],null,null,null,null,null)),(l()(),hl._21(3,null,["",""])),(l()(),hl._21(-1,null,["\n                  "]))],null,function(l,n){l(n,3,0,n.component.account.address)})}function m(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,45,"ion-list",[["class",""]],null,null,null,null,null)),hl.Z(1,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl._0(3,0,null,null,22,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(4,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                              "])),(l()(),hl._0(6,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(7,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,2,{contentLabel:0}),hl._19(603979776,3,{_buttons:1}),hl._19(603979776,4,{_icons:1}),hl.Z(11,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["  \n                                 "])),(l()(),hl._0(13,0,null,2,9,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                    "])),(l()(),hl._0(15,0,null,null,2,"h2",[["class","balance"]],null,null,null,null,null)),(l()(),hl._21(16,null,[""," ETH"])),hl._17(17,2),(l()(),hl._21(-1,null,["\n                                    "])),(l()(),hl._0(19,0,null,null,2,"p",[["class","colo  baltxt1"]],null,null,null,null,null)),(l()(),hl._21(20,null,["1 ETH = "," USD"])),hl._17(21,1),(l()(),hl._21(-1,null,["\n                                 "])),(l()(),hl._21(-1,2,["\n                                      \n                                      "])),(l()(),hl._21(-1,2,["\n                                  "])),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl._0(27,0,null,null,17,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(28,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                              "])),(l()(),hl._0(30,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(31,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,5,{contentLabel:0}),hl._19(603979776,6,{_buttons:1}),hl._19(603979776,7,{_icons:1}),hl.Z(35,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                                  "])),(l()(),hl._0(37,0,null,2,5,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(39,0,null,null,2,"h2",[["class","balance qr_textitem"]],null,null,null,null,null)),(l()(),hl._21(40,null,[""," USD"])),hl._17(41,2),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._21(-1,2,["\n                                  "])),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl._21(-1,null,["\n                      \n              \n                  "]))],null,function(l,n){var u=n.component;l(n,16,0,hl._22(n,16,0,l(n,17,0,hl._14(n.parent,0),u.account.balance,".3")));l(n,20,0,hl._22(n,20,0,l(n,21,0,hl._14(n.parent,0),1/u.todayPrice.ETH)));l(n,40,0,hl._22(n,40,0,l(n,41,0,hl._14(n.parent,0),u.account.balance/u.todayPrice.ETH,".3")))})}function p(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,45,"ion-list",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(3,0,null,null,22,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(4,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(6,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(7,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,8,{contentLabel:0}),hl._19(603979776,9,{_buttons:1}),hl._19(603979776,10,{_icons:1}),hl.Z(11,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["  \n                                   "])),(l()(),hl._0(13,0,null,2,9,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(15,0,null,null,2,"h2",[["class","balance"]],null,null,null,null,null)),(l()(),hl._21(16,null,[""," ENS"])),hl._17(17,1),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(19,0,null,null,2,"p",[["class","colo  baltxt1"]],null,null,null,null,null)),(l()(),hl._21(20,null,["1 ENS = "," USD"])),hl._17(21,2),(l()(),hl._21(-1,null,["\n                                   "])),(l()(),hl._21(-1,2,["\n                                        \n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(27,0,null,null,17,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(28,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(30,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(31,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,11,{contentLabel:0}),hl._19(603979776,12,{_buttons:1}),hl._19(603979776,13,{_icons:1}),hl.Z(35,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._0(37,0,null,2,5,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._0(39,0,null,null,2,"h2",[["class","balance qr_textitem"]],null,null,null,null,null)),(l()(),hl._21(40,null,[""," USD"])),hl._17(41,2),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        \n                \n                    "]))],null,function(l,n){var u=n.component;l(n,16,0,hl._22(n,16,0,l(n,17,0,hl._14(n.parent,0),u.account.balance)));l(n,20,0,hl._22(n,20,0,l(n,21,0,hl._14(n.parent,0),1/u.todayPrice.BTT,".3")));l(n,40,0,hl._22(n,40,0,l(n,41,0,hl._14(n.parent,0),u.account.balance/u.todayPrice.BTT,".3")))})}function h(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,45,"ion-list",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(3,0,null,null,22,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(4,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(6,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(7,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,14,{contentLabel:0}),hl._19(603979776,15,{_buttons:1}),hl._19(603979776,16,{_icons:1}),hl.Z(11,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["  \n                                   "])),(l()(),hl._0(13,0,null,2,9,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(15,0,null,null,2,"h2",[["class","balance"]],null,null,null,null,null)),(l()(),hl._21(16,null,[""," ",""])),hl._17(17,2),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(19,0,null,null,2,"p",[["class","colo  baltxt1"]],null,null,null,null,null)),(l()(),hl._21(20,null,["1 "," = "," USD"])),hl._17(21,2),(l()(),hl._21(-1,null,["\n                                   "])),(l()(),hl._21(-1,2,["\n                                        \n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(27,0,null,null,17,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(28,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(30,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(31,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,17,{contentLabel:0}),hl._19(603979776,18,{_buttons:1}),hl._19(603979776,19,{_icons:1}),hl.Z(35,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._0(37,0,null,2,5,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._0(39,0,null,null,2,"h2",[["class","balance qr_textitem"]],null,null,null,null,null)),(l()(),hl._21(40,null,[""," USD"])),hl._17(41,2),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        \n                \n                    "]))],null,function(l,n){var u=n.component;l(n,16,0,hl._22(n,16,0,l(n,17,0,hl._14(n.parent,0),u.account.balance,".3")),u.account.tokenOneSym);l(n,20,0,u.account.tokenOneSym,hl._22(n,20,1,l(n,21,0,hl._14(n.parent,0),1/u.todayPrice.INR,".3")));l(n,40,0,hl._22(n,40,0,l(n,41,0,hl._14(n.parent,0),u.account.balance/u.todayPrice.INR,".3")))})}function f(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,45,"ion-list",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(3,0,null,null,22,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(4,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(6,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(7,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,20,{contentLabel:0}),hl._19(603979776,21,{_buttons:1}),hl._19(603979776,22,{_icons:1}),hl.Z(11,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["  \n                                   "])),(l()(),hl._0(13,0,null,2,9,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(15,0,null,null,2,"h2",[["class","balance"]],null,null,null,null,null)),(l()(),hl._21(16,null,[""," ",""])),hl._17(17,2),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(19,0,null,null,2,"p",[["class","colo  baltxt1"]],null,null,null,null,null)),(l()(),hl._21(20,null,["1 "," = "," USD"])),hl._17(21,2),(l()(),hl._21(-1,null,["\n                                   "])),(l()(),hl._21(-1,2,["\n                                        \n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(27,0,null,null,17,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(28,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(30,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(31,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,23,{contentLabel:0}),hl._19(603979776,24,{_buttons:1}),hl._19(603979776,25,{_icons:1}),hl.Z(35,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._0(37,0,null,2,5,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._0(39,0,null,null,2,"h2",[["class","balance qr_textitem"]],null,null,null,null,null)),(l()(),hl._21(40,null,[""," USD"])),hl._17(41,2),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        \n                \n                    "]))],null,function(l,n){var u=n.component;l(n,16,0,hl._22(n,16,0,l(n,17,0,hl._14(n.parent,0),u.account.balance,".3")),u.account.tokenTwoSym);l(n,20,0,u.account.tokenTwoSym,hl._22(n,20,1,l(n,21,0,hl._14(n.parent,0),1/u.todayPrice.THB,".3")));l(n,40,0,hl._22(n,40,0,l(n,41,0,hl._14(n.parent,0),u.account.balance/u.todayPrice.THB,".3")))})}function b(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,45,"ion-list",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(3,0,null,null,22,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(4,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(6,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(7,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,26,{contentLabel:0}),hl._19(603979776,27,{_buttons:1}),hl._19(603979776,28,{_icons:1}),hl.Z(11,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["  \n                                   "])),(l()(),hl._0(13,0,null,2,9,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(15,0,null,null,2,"h2",[["class","balance"]],null,null,null,null,null)),(l()(),hl._21(16,null,[""," ",""])),hl._17(17,2),(l()(),hl._21(-1,null,["\n                                      "])),(l()(),hl._0(19,0,null,null,2,"p",[["class","colo  baltxt1"]],null,null,null,null,null)),(l()(),hl._21(20,null,["1 "," = "," USD"])),hl._17(21,2),(l()(),hl._21(-1,null,["\n                                   "])),(l()(),hl._21(-1,2,["\n                                        \n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._0(27,0,null,null,17,"ion-card",[["class","card_tran"]],null,null,null,null,null)),hl.Z(28,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(30,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(31,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,29,{contentLabel:0}),hl._19(603979776,30,{_buttons:1}),hl._19(603979776,31,{_icons:1}),hl.Z(35,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._0(37,0,null,2,5,"div",[["class","texc"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._0(39,0,null,null,2,"h2",[["class","balance qr_textitem"]],null,null,null,null,null)),(l()(),hl._21(40,null,[""," USD"])),hl._17(41,2),(l()(),hl._21(-1,null,["\n                                        "])),(l()(),hl._21(-1,2,["\n                                    "])),(l()(),hl._21(-1,null,["\n                        "])),(l()(),hl._21(-1,null,["\n                        \n                \n                    "]))],null,function(l,n){var u=n.component;l(n,16,0,hl._22(n,16,0,l(n,17,0,hl._14(n.parent,0),u.account.balance,".3")),u.account.tokenThreeSym);l(n,20,0,u.account.tokenThreeSym,hl._22(n,20,1,l(n,21,0,hl._14(n.parent,0),1/u.todayPrice.KRW,".3")));l(n,40,0,hl._22(n,40,0,l(n,41,0,hl._14(n.parent,0),u.account.balance/u.todayPrice.KRW,".3")))})}function v(l){return hl._23(0,[hl._15(0,Bn.d,[hl.s]),(l()(),hl._21(-1,null,["  "])),(l()(),hl._0(2,0,null,null,20,"ion-header",[["class","ion-header"]],null,null,null,null,null)),hl.Z(3,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(5,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(6,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n                "])),(l()(),hl._0(8,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,10).toggle()&&e}return e},$n.b,$n.a)),hl.Z(9,1097728,[[1,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(10,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(11,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,1,{_buttons:1}),(l()(),hl._21(-1,0,["\n                  "])),(l()(),hl._0(14,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(15,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n                "])),(l()(),hl._21(-1,3,["\n                "])),(l()(),hl._0(18,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(19,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["\n                  Evens\n                "])),(l()(),hl._21(-1,3,["\n              "])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._0(24,0,null,null,55,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(25,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n        "])),(l()(),hl._0(27,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var e=!0;if("ionRefresh"===n){e=!1!==l.component.doRefresh(u)&&e}return e},null,null)),hl.Z(28,212992,null,0,eu.a,[Zn.a,Un.a,hl.v,An.l],null,{ionRefresh:"ionRefresh"}),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(30,0,null,null,2,"ion-refresher-content",[["pullingIcon","arrow-dropdown"],["pullingText","Pull to refresh"],["refreshingSpinner","circles"],["refreshingText","Refreshing..."]],[[1,"state",0]],null,null,au.b,au.a)),hl.Z(31,114688,null,0,tu.a,[eu.a,hn.a],{pullingIcon:[0,"pullingIcon"],pullingText:[1,"pullingText"],refreshingSpinner:[2,"refreshingSpinner"],refreshingText:[3,"refreshingText"]},null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,1,["\n        "])),(l()(),hl._0(35,0,null,1,43,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(37,0,null,null,16,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl.V(16777216,null,null,1,null,o)),hl.Z(40,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl.V(16777216,null,null,1,null,s)),hl.Z(43,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl.V(16777216,null,null,1,null,i)),hl.Z(46,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl.V(16777216,null,null,1,null,r)),hl.Z(49,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl.V(16777216,null,null,1,null,c)),hl.Z(52,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl.V(16777216,null,null,1,null,_)),hl.Z(56,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl.V(16777216,null,null,1,null,d)),hl.Z(59,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl.V(16777216,null,null,1,null,g)),hl.Z(62,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl.V(16777216,null,null,1,null,m)),hl.Z(65,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl.V(16777216,null,null,1,null,p)),hl.Z(68,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                    "])),(l()(),hl.V(16777216,null,null,1,null,h)),hl.Z(71,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                    "])),(l()(),hl.V(16777216,null,null,1,null,f)),hl.Z(74,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                    "])),(l()(),hl.V(16777216,null,null,1,null,b)),hl.Z(77,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,1,["\n\n  "])),(l()(),hl._21(-1,null,["\n  \n\n  "]))],function(l,n){var u=n.component;l(n,6,0,"primary");l(n,10,0,"");l(n,15,0,"menu"),l(n,28,0);l(n,31,0,"arrow-dropdown","Pull to refresh","circles","Refreshing...");l(n,40,0,"Etheriun"==u.selectedCur);l(n,43,0,"evenscoin"==u.selectedCur);l(n,46,0,"tokenOne"==u.selectedCur);l(n,49,0,"tokenThree"==u.selectedCur);l(n,52,0,"tokenTwo"==u.selectedCur);l(n,56,0,u.showQr);l(n,59,0,u.showQr);l(n,62,0,u.showQr);l(n,65,0,"Etheriun"==u.selectedCur);l(n,68,0,"evenscoin"==u.selectedCur);l(n,71,0,"tokenOne"==u.selectedCur);l(n,74,0,"tokenTwo"==u.selectedCur);l(n,77,0,"tokenThree"==u.selectedCur)},function(l,n){l(n,5,0,hl._14(n,6)._hidden,hl._14(n,6)._sbPadding);l(n,8,0,hl._14(n,10).isHidden);l(n,14,0,hl._14(n,15)._hidden);l(n,24,0,hl._14(n,25).statusbarPadding,hl._14(n,25)._hasRefresher);l(n,27,0,"inactive"!==hl._14(n,28).state,hl._14(n,28)._top);l(n,30,0,hl._14(n,31).r.state)})}function k(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/ethw-40.png"]],null,null,null,null,null))],null,null)}function y(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/evensw-40.png"]],null,null,null,null,null))],null,null)}function C(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/tk1w-40.png"]],null,null,null,null,null))],null,null)}function Z(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/tk3w-40.png"]],null,null,null,null,null))],null,null)}function w(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,0,"img",[["class","static_icon"],["src","assets/imgs/tk2w-40.png"]],null,null,null,null,null))],null,null)}function A(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,2,"button",[["ion-button",""],["round",""],["type","button"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.addListenNFC()&&e}return e},$n.b,$n.a)),hl.Z(1,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{round:[0,"round"]},null),(l()(),hl._21(-1,0,[" Read NFC "]))],function(l,n){l(n,1,0,"")},null)}function T(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            ETH\n          "]))],null,null)}function S(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            ENS\n          "]))],null,null)}function P(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(1,null,["\n            ","\n          "]))],null,function(l,n){l(n,1,0,n.component.account.tokenOneSym)})}function I(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(1,null,["\n            ","\n          "]))],null,function(l,n){l(n,1,0,n.component.account.tokenTwoSym)})}function x(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(1,null,["\n            ","\n          "]))],null,function(l,n){l(n,1,0,n.component.account.tokenThreeSym)})}function j(l){return hl._23(0,[hl._15(0,Bn.d,[hl.s]),hl._19(402653184,1,{myInput:0}),(l()(),hl._0(2,0,null,null,20,"ion-header",[["class","ion-header"]],null,null,null,null,null)),hl.Z(3,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._0(5,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(6,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._0(8,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,10).toggle()&&e}return e},$n.b,$n.a)),hl.Z(9,1097728,[[2,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(10,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(11,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,2,{_buttons:1}),(l()(),hl._21(-1,0,["\n      "])),(l()(),hl._0(14,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(15,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n    "])),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._0(18,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(19,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["Evens"])),(l()(),hl._21(-1,3,["\n  "])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(24,0,null,null,139,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(25,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(27,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var e=!0;if("ionRefresh"===n){e=!1!==l.component.doRefresh(u)&&e}return e},null,null)),hl.Z(28,212992,null,0,eu.a,[Zn.a,Un.a,hl.v,An.l],null,{ionRefresh:"ionRefresh"}),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(30,0,null,null,2,"ion-refresher-content",[["pullingIcon","arrow-dropdown"],["pullingText","Pull to refresh"],["refreshingSpinner","circles"],["refreshingText","Refreshing..."]],[[1,"state",0]],null,null,au.b,au.a)),hl.Z(31,114688,null,0,tu.a,[eu.a,hn.a],{pullingIcon:[0,"pullingIcon"],pullingText:[1,"pullingText"],refreshingSpinner:[2,"refreshingSpinner"],refreshingText:[3,"refreshingText"]},null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(35,0,null,1,127,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(37,0,null,null,16,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl.V(16777216,null,null,1,null,k)),hl.Z(40,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl.V(16777216,null,null,1,null,y)),hl.Z(43,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl.V(16777216,null,null,1,null,C)),hl.Z(46,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl.V(16777216,null,null,1,null,Z)),hl.Z(49,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl.V(16777216,null,null,1,null,w)),hl.Z(52,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(55,0,null,null,1,"p",[["class","sendtitle"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["SEND"])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(58,0,null,null,59,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(60,0,null,null,56,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0,a=l.component;if("submit"===n){e=!1!==hl._14(l,62).onSubmit(u)&&e}if("reset"===n){e=!1!==hl._14(l,62).onReset()&&e}if("ngSubmit"===n){e=!1!==a.transferAmount(hl._14(l,62))&&e}return e},null,null)),hl.Z(61,16384,null,0,Ql.p,[],null,null),hl.Z(62,4210688,[["form",4]],0,Ql.k,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),hl._18(2048,null,Ql.b,null,[Ql.k]),hl.Z(64,16384,null,0,Ql.j,[Ql.b],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(66,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(67,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,3,{contentLabel:0}),hl._19(603979776,4,{_buttons:1}),hl._19(603979776,5,{_icons:1}),hl.Z(71,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(73,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),hl.Z(74,16384,[[3,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["AMOUNT"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(77,0,null,3,6,"ion-input",[["name","amount"],["ngControl","amount"],["required",""],["type","number"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"blur"],[null,"ngModelChange"]],function(l,n,u){var e=!0,a=l.component;if("blur"===n){e=!1!==a.checkbalance(a.transfer.amount)&&e}if("ngModelChange"===n){e=!1!==(a.transfer.amount=u)&&e}return e},ru.b,ru.a)),hl.Z(78,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(80,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(82,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(83,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},{blur:"blur"}),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(86,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(87,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,6,{contentLabel:0}),hl._19(603979776,7,{_buttons:1}),hl._19(603979776,8,{_icons:1}),hl.Z(91,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(93,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),hl.Z(94,16384,[[6,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["TRANSFER TO"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(97,0,null,3,6,"ion-input",[["name","address"],["ngControl","address"],["required",""],["type","text"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"blur"],[null,"ngModelChange"]],function(l,n,u){var e=!0,a=l.component;if("blur"===n){e=!1!==a.checkAddress(a.transfer.address)&&e}if("ngModelChange"===n){e=!1!==(a.transfer.address=u)&&e}return e},ru.b,ru.a)),hl.Z(98,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(100,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(102,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(103,5423104,[[1,4],["focusInput",4]],0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},{blur:"blur"}),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(106,0,null,null,2,"button",[["ion-button",""],["round",""],["type","button"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.scanQr()&&e}return e},$n.b,$n.a)),hl.Z(107,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{round:[0,"round"]},null),(l()(),hl._21(-1,0,[" Scan QR "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl.V(16777216,null,null,1,null,A)),hl.Z(111,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(113,0,null,null,2,"button",[["block",""],["ion-button",""],["round",""],["type","submit"]],[[8,"disabled",0]],null,null,$n.b,$n.a)),hl.Z(114,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{round:[0,"round"],block:[1,"block"]},null),(l()(),hl._21(-1,0,["Transfer"])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(119,0,null,null,39,"div",[["style","margin-top: 10%;"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(121,0,null,null,9,"p",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(123,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["ADDRESS"])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(126,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(128,0,null,null,1,"span",[["class","ow_address"]],null,null,null,null,null)),(l()(),hl._21(129,null,["\n          ","\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(132,0,null,null,25,"p",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(134,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["BALANCE"])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(137,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(139,0,null,null,17,"span",[],null,null,null,null,null)),(l()(),hl._21(140,null,["\n          ","\n          "])),hl._17(141,2),(l()(),hl.V(16777216,null,null,1,null,T)),hl.Z(143,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl.V(16777216,null,null,1,null,S)),hl.Z(146,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl.V(16777216,null,null,1,null,P)),hl.Z(149,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl.V(16777216,null,null,1,null,I)),hl.Z(152,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl.V(16777216,null,null,1,null,x)),hl.Z(155,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(160,0,null,null,1,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n\n    "])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,1,["\n\n\n"]))],function(l,n){var u=n.component;l(n,6,0,"primary");l(n,10,0,"");l(n,15,0,"menu"),l(n,28,0);l(n,31,0,"arrow-dropdown","Pull to refresh","circles","Refreshing...");l(n,40,0,"Etheriun"==u.selectedCur);l(n,43,0,"evenscoin"==u.selectedCur);l(n,46,0,"tokenOne"==u.selectedCur);l(n,49,0,"tokenThree"==u.selectedCur);l(n,52,0,"tokenTwo"==u.selectedCur);l(n,78,0,"");l(n,80,0,"amount",u.transfer.amount);l(n,83,0,"number");l(n,98,0,"");l(n,100,0,"address",u.transfer.address);l(n,103,0,"text");l(n,107,0,"");l(n,111,0,u.enableNfc);l(n,114,0,"","");l(n,143,0,"Etheriun"==u.selectedCur);l(n,146,0,"evenscoin"==u.selectedCur);l(n,149,0,"tokenOne"==u.selectedCur);l(n,152,0,"tokenTwo"==u.selectedCur);l(n,155,0,"tokenThree"==u.selectedCur)},function(l,n){var u=n.component;l(n,5,0,hl._14(n,6)._hidden,hl._14(n,6)._sbPadding);l(n,8,0,hl._14(n,10).isHidden);l(n,14,0,hl._14(n,15)._hidden);l(n,24,0,hl._14(n,25).statusbarPadding,hl._14(n,25)._hasRefresher);l(n,27,0,"inactive"!==hl._14(n,28).state,hl._14(n,28)._top);l(n,30,0,hl._14(n,31).r.state);l(n,60,0,hl._14(n,64).ngClassUntouched,hl._14(n,64).ngClassTouched,hl._14(n,64).ngClassPristine,hl._14(n,64).ngClassDirty,hl._14(n,64).ngClassValid,hl._14(n,64).ngClassInvalid,hl._14(n,64).ngClassPending);l(n,77,0,hl._14(n,78).required?"":null,hl._14(n,82).ngClassUntouched,hl._14(n,82).ngClassTouched,hl._14(n,82).ngClassPristine,hl._14(n,82).ngClassDirty,hl._14(n,82).ngClassValid,hl._14(n,82).ngClassInvalid,hl._14(n,82).ngClassPending);l(n,97,0,hl._14(n,98).required?"":null,hl._14(n,102).ngClassUntouched,hl._14(n,102).ngClassTouched,hl._14(n,102).ngClassPristine,hl._14(n,102).ngClassDirty,hl._14(n,102).ngClassValid,hl._14(n,102).ngClassInvalid,hl._14(n,102).ngClassPending);l(n,113,0,hl._14(n,62).invalid);l(n,129,0,u.account.address);l(n,140,0,hl._22(n,140,0,l(n,141,0,hl._14(n,0),u.account.balance,".3")))})}function R(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"div",[["class","  row header trans_am txn-data "],["style","color: black"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" No\n                Recent Activity Available. "]))],null,null)}function B(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["-"]))],null,null)}function E(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["+"]))],null,null)}function U(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,25,"div",[["class","pad row header trans_am txn-data"],["style","padding-top:1px;"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.OpenUrl(l.context.$implicit.link)&&e}return e},null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(2,0,null,null,15,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(4,0,null,null,1,"span",[["class","date"]],null,null,null,null,null)),(l()(),hl._21(5,null,["",""])),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(7,0,null,null,9,"span",[["class","txs"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(9,0,null,null,7,"strong",[],[[4,"color",null]],null,null,null,null)),(l()(),hl.V(16777216,null,null,1,null,B)),hl.Z(11,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl.V(16777216,null,null,1,null,E)),hl.Z(14,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(15,null,["",""])),hl._17(16,2),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(19,0,null,null,5,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(21,0,null,null,2,"span",[["class","pos"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),hl._21(23,null,["",""])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n\n              "]))],function(l,n){l(n,11,0,"Sent"==n.context.$implicit.mode);l(n,14,0,"Received"==n.context.$implicit.mode)},function(l,n){l(n,5,0,n.context.$implicit.date);l(n,9,0,"Sent"==n.context.$implicit.mode?"#2962FF":"#ed2c53");l(n,15,0,hl._22(n,15,0,l(n,16,0,hl._14(n.parent.parent,0),n.context.$implicit.amount,".3")));l(n,23,0,n.context.$implicit.mode)})}function M(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,69,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(2,0,null,null,43,"div",[["class","tophead"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(4,0,null,null,40,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(6,0,null,null,3,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(8,0,null,null,0,"img",[["class","tra_img"],["src","assets/imgs/eth-100.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(11,0,null,null,4,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(13,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["Etherium"])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(17,0,null,null,26,"div",[["class","top"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(19,0,null,null,23,"div",[["class","wal-amount row"],["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(21,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["BALANCE "])),(l()(),hl._0(24,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(26,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(27,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(28,null,[""," ETH"])),hl._17(29,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(31,0,null,null,0,"div",[["class","v-div"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(33,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(34,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["PRICE "])),(l()(),hl._0(36,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._0(37,0,null,null,4,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(39,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(40,null,[""," USD"])),hl._17(41,2),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(47,0,null,null,21,"div",[["class","topfoot"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(49,0,null,null,18,"div",[["class","recent"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(51,0,null,null,1,"h4",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["Recent Activity"])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(54,0,null,null,12,null,null,null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(56,0,null,null,9,"ion-card",[["class","tran_card"]],null,null,null,null,null)),hl.Z(57,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n\n              "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,R)),hl.Z(61,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,U)),hl.Z(64,802816,null,0,Bn.i,[hl.J,hl.G,hl.q],{ngForOf:[0,"ngForOf"]},null),(l()(),hl._21(-1,null,["\n\n            "])),(l()(),hl._21(-1,null,["\n\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n    "]))],function(l,n){var u=n.component;l(n,61,0,!u.ethTransaction.length);l(n,64,0,u.ethTransaction)},function(l,n){var u=n.component;l(n,28,0,hl._22(n,28,0,l(n,29,0,hl._14(n.parent,0),u.selectedAccount.balance,".3")));l(n,40,0,hl._22(n,40,0,l(n,41,0,hl._14(n.parent,0),1/u.todayPrice.ETH,".3")))})}function N(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"div",[["class","  row header trans_am txn-data "],["style","color: black"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" No\n                Recent Activity Available. "]))],null,null)}function O(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["-"]))],null,null)}function G(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["+"]))],null,null)}function q(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,25,"div",[["class","pad row header trans_am txn-data"],["style","padding-top:1px;"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.OpenUrl(l.context.$implicit.link)&&e}return e},null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(2,0,null,null,15,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(4,0,null,null,1,"span",[["class","date"]],null,null,null,null,null)),(l()(),hl._21(5,null,["",""])),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(7,0,null,null,9,"span",[["class","txs"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(9,0,null,null,7,"strong",[],[[4,"color",null]],null,null,null,null)),(l()(),hl.V(16777216,null,null,1,null,O)),hl.Z(11,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl.V(16777216,null,null,1,null,G)),hl.Z(14,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(15,null,["",""])),hl._17(16,2),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(19,0,null,null,5,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(21,0,null,null,2,"span",[["class","pos"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),hl._21(23,null,["",""])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n\n              "]))],function(l,n){l(n,11,0,"Sent"==n.context.$implicit.mode);l(n,14,0,"Received"==n.context.$implicit.mode)},function(l,n){l(n,5,0,n.context.$implicit.date);l(n,9,0,"Sent"==n.context.$implicit.mode?"#2962FF":"#ed2c53");l(n,15,0,hl._22(n,15,0,l(n,16,0,hl._14(n.parent.parent,0),n.context.$implicit.amount,".3")));l(n,23,0,n.context.$implicit.mode)})}function L(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,69,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(2,0,null,null,43,"div",[["class","tophead"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(4,0,null,null,40,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(6,0,null,null,3,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(8,0,null,null,0,"img",[["class","tra_img"],["src","assets/imgs/evens-100.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(11,0,null,null,4,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(13,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),hl._21(-1,null,[" Evens "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(17,0,null,null,26,"div",[["class","top"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(19,0,null,null,23,"div",[["class","wal-amount row"],["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(21,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["BALANCE"])),(l()(),hl._0(24,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(26,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(27,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(28,null,[""," ENS"])),hl._17(29,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(31,0,null,null,0,"div",[["class","v-div"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(33,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(34,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["PRICE"])),(l()(),hl._0(36,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._0(37,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(38,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(39,null,[""," USD"])),hl._17(40,2),(l()(),hl._21(-1,null,[" "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(47,0,null,null,21,"div",[["class","topfoot"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(49,0,null,null,18,"div",[["class","recent"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(51,0,null,null,1,"h4",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["Recent Activity"])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(54,0,null,null,12,null,null,null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(56,0,null,null,9,"ion-card",[["class","tran_card"]],null,null,null,null,null)),hl.Z(57,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n\n              "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,N)),hl.Z(61,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,q)),hl.Z(64,802816,null,0,Bn.i,[hl.J,hl.G,hl.q],{ngForOf:[0,"ngForOf"]},null),(l()(),hl._21(-1,null,["\n\n            "])),(l()(),hl._21(-1,null,["\n\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n\n\n    "]))],function(l,n){var u=n.component;l(n,61,0,!u.ethTransaction.length);l(n,64,0,u.ethTransaction)},function(l,n){var u=n.component;l(n,28,0,hl._22(n,28,0,l(n,29,0,hl._14(n.parent,0),u.selectedAccount.balance,".3")));l(n,39,0,hl._22(n,39,0,l(n,40,0,hl._14(n.parent,0),1/u.todayPrice.BTT,".3")))})}function F(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"div",[["class","  row header trans_am txn-data "],["style","color: black"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" No\n                Recent Activity Available. "]))],null,null)}function V(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["-"]))],null,null)}function D(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["+"]))],null,null)}function J(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,25,"div",[["class","pad row header trans_am txn-data"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.OpenUrl(l.context.$implicit.link)&&e}return e},null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(2,0,null,null,15,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(4,0,null,null,1,"span",[["class","date"]],null,null,null,null,null)),(l()(),hl._21(5,null,["",""])),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(7,0,null,null,9,"span",[["class","txs"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(9,0,null,null,7,"strong",[],[[4,"color",null]],null,null,null,null)),(l()(),hl.V(16777216,null,null,1,null,V)),hl.Z(11,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl.V(16777216,null,null,1,null,D)),hl.Z(14,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(15,null,["",""])),hl._17(16,2),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n\n                "])),(l()(),hl._0(19,0,null,null,5,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(21,0,null,null,2,"span",[["class","pos"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),hl._21(23,null,["",""])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n              "]))],function(l,n){l(n,11,0,"Sent"==n.context.$implicit.mode);l(n,14,0,"Received"==n.context.$implicit.mode)},function(l,n){l(n,5,0,n.context.$implicit.date);l(n,9,0,"Sent"==n.context.$implicit.mode?"#2962FF":"#ed2c53");l(n,15,0,hl._22(n,15,0,l(n,16,0,hl._14(n.parent.parent,0),n.context.$implicit.amount,".3")));l(n,23,0,n.context.$implicit.mode)})}function H(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,69,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(2,0,null,null,43,"div",[["class","tophead"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(4,0,null,null,40,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(6,0,null,null,3,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(8,0,null,null,0,"img",[["class","tra_img"],["src","assets/imgs/tk1-100.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(11,0,null,null,4,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(13,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),hl._21(14,null,["",""])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(17,0,null,null,26,"div",[["class","top"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(19,0,null,null,23,"div",[["class","wal-amount row"],["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(21,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["BALANCE"])),(l()(),hl._0(24,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(26,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(27,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(28,null,[""," ",""])),hl._17(29,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(31,0,null,null,0,"div",[["class","v-div"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(33,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(34,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["PRICE"])),(l()(),hl._0(36,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._0(37,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(38,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(39,null,[""," USD"])),hl._17(40,2),(l()(),hl._21(-1,null,[" "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(47,0,null,null,21,"div",[["class","topfoot"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(49,0,null,null,18,"div",[["class","recent"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(51,0,null,null,1,"h4",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["Recent Activity"])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(54,0,null,null,12,null,null,null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(56,0,null,null,9,"ion-card",[["class","tran_card"]],null,null,null,null,null)),hl.Z(57,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n\n              "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,F)),hl.Z(61,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,J)),hl.Z(64,802816,null,0,Bn.i,[hl.J,hl.G,hl.q],{ngForOf:[0,"ngForOf"]},null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n\n    "]))],function(l,n){var u=n.component;l(n,61,0,!u.ethTransaction.length);l(n,64,0,u.ethTransaction)},function(l,n){var u=n.component;l(n,14,0,u.selectedAccount.tokenOneSym);l(n,28,0,hl._22(n,28,0,l(n,29,0,hl._14(n.parent,0),u.selectedAccount.balance,".3")),u.selectedAccount.tokenOneSym);l(n,39,0,hl._22(n,39,0,l(n,40,0,hl._14(n.parent,0),1/u.todayPrice.INR,".3")))})}function W(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"div",[["class","  row header trans_am txn-data "],["style","color: black"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" No\n                Recent Activity Available. "]))],null,null)}function Y(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["-"]))],null,null)}function K(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["+"]))],null,null)}function $(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,25,"div",[["class"," pad row header trans_am txn-data"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.OpenUrl(l.context.$implicit.link)&&e}return e},null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(2,0,null,null,15,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(4,0,null,null,1,"span",[["class","date"]],null,null,null,null,null)),(l()(),hl._21(5,null,["",""])),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(7,0,null,null,9,"span",[["class","txs"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(9,0,null,null,7,"strong",[],[[4,"color",null]],null,null,null,null)),(l()(),hl.V(16777216,null,null,1,null,Y)),hl.Z(11,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl.V(16777216,null,null,1,null,K)),hl.Z(14,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(15,null,["",""])),hl._17(16,2),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(19,0,null,null,5,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(21,0,null,null,2,"span",[["class","pos"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),hl._21(23,null,["",""])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n              "]))],function(l,n){l(n,11,0,"Sent"==n.context.$implicit.mode);l(n,14,0,"Received"==n.context.$implicit.mode)},function(l,n){l(n,5,0,n.context.$implicit.date);l(n,9,0,"Sent"==n.context.$implicit.mode?"#2962FF":"#ed2c53");l(n,15,0,hl._22(n,15,0,l(n,16,0,hl._14(n.parent.parent,0),n.context.$implicit.amount,".3")));l(n,23,0,n.context.$implicit.mode)})}function z(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,69,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(2,0,null,null,43,"div",[["class","tophead"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(4,0,null,null,40,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(6,0,null,null,3,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(8,0,null,null,0,"img",[["class","tra_img"],["src","assets/imgs/tk2-100.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(11,0,null,null,4,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(13,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),hl._21(14,null,["",""])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(17,0,null,null,26,"div",[["class","top"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(19,0,null,null,23,"div",[["class","wal-amount row"],["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(21,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["BALANCE"])),(l()(),hl._0(24,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(26,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(27,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(28,null,[""," ",""])),hl._17(29,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(31,0,null,null,0,"div",[["class","v-div"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(33,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(34,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["PRICE"])),(l()(),hl._0(36,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(38,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(39,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(40,null,[""," USD"])),hl._17(41,2),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(47,0,null,null,21,"div",[["class","topfoot"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n\n        "])),(l()(),hl._0(49,0,null,null,18,"div",[["class","recent"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(51,0,null,null,1,"h4",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["Recent Activity"])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(54,0,null,null,12,null,null,null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(56,0,null,null,9,"ion-card",[["class","tran_card"]],null,null,null,null,null)),hl.Z(57,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n\n              "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,W)),hl.Z(61,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,$)),hl.Z(64,802816,null,0,Bn.i,[hl.J,hl.G,hl.q],{ngForOf:[0,"ngForOf"]},null),(l()(),hl._21(-1,null,["\n\n            "])),(l()(),hl._21(-1,null,["\n\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n\n    "]))],function(l,n){var u=n.component;l(n,61,0,!u.ethTransaction.length);l(n,64,0,u.ethTransaction)},function(l,n){var u=n.component;l(n,14,0,u.selectedAccount.tokenTwoSym);l(n,28,0,hl._22(n,28,0,l(n,29,0,hl._14(n.parent,0),u.selectedAccount.balance,".3")),u.selectedAccount.tokenTwoSym);l(n,40,0,hl._22(n,40,0,l(n,41,0,hl._14(n.parent,0),1/u.todayPrice.THB,".3")))})}function Q(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"div",[["class","  row header trans_am txn-data "],["style","color: black"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" No\n                Recent Activity Available. "]))],null,null)}function X(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["-"]))],null,null)}function ll(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["+"]))],null,null)}function nl(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,25,"div",[["class"," pad row header trans_am txn-data"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.OpenUrl(l.context.$implicit.link)&&e}return e},null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(2,0,null,null,15,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(4,0,null,null,1,"span",[["class","date"]],null,null,null,null,null)),(l()(),hl._21(5,null,["",""])),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(7,0,null,null,9,"span",[["class","txs"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(9,0,null,null,7,"strong",[],[[4,"color",null]],null,null,null,null)),(l()(),hl.V(16777216,null,null,1,null,X)),hl.Z(11,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n                      "])),(l()(),hl.V(16777216,null,null,1,null,ll)),hl.Z(14,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(15,null,["",""])),hl._17(16,2),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(19,0,null,null,5,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._0(21,0,null,null,2,"span",[["class","pos"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),hl._21(23,null,["",""])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._21(-1,null,["\n              "]))],function(l,n){l(n,11,0,"Sent"==n.context.$implicit.mode);l(n,14,0,"Received"==n.context.$implicit.mode)},function(l,n){l(n,5,0,n.context.$implicit.date);l(n,9,0,"Sent"==n.context.$implicit.mode?"#2962FF":"#ed2c53");l(n,15,0,hl._22(n,15,0,l(n,16,0,hl._14(n.parent.parent,0),n.context.$implicit.amount,".3")));l(n,23,0,n.context.$implicit.mode)})}function ul(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,69,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(2,0,null,null,43,"div",[["class","tophead"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(4,0,null,null,40,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(6,0,null,null,3,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(8,0,null,null,0,"img",[["class","tra_img"],["src","assets/imgs/tk3-100.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(11,0,null,null,4,"div",[["class","centex"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(13,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),hl._21(14,null,["",""])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(17,0,null,null,26,"div",[["class","top"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(19,0,null,null,23,"div",[["class","wal-amount row"],["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(21,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(22,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["BALANCE"])),(l()(),hl._0(24,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._21(-1,null,[" "])),(l()(),hl._0(26,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(27,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(28,null,[""," ",""])),hl._17(29,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(31,0,null,null,0,"div",[["class","v-div"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(33,0,null,null,8,"div",[["class","col"]],null,null,null,null,null)),(l()(),hl._0(34,0,null,null,2,"span",[["class","strong"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["PRICE"])),(l()(),hl._0(36,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),hl._0(37,0,null,null,3,"span",[["class","bal"]],null,null,null,null,null)),(l()(),hl._0(38,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),hl._21(39,null,[""," USD"])),hl._17(40,2),(l()(),hl._21(-1,null,[" "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n\n      "])),(l()(),hl._0(47,0,null,null,21,"div",[["class","topfoot"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(49,0,null,null,18,"div",[["class","recent"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(51,0,null,null,1,"h4",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["Recent Activity"])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(54,0,null,null,12,null,null,null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(56,0,null,null,9,"ion-card",[["class","tran_card"]],null,null,null,null,null)),hl.Z(57,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n\n              "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,Q)),hl.Z(61,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl.V(16777216,null,null,1,null,nl)),hl.Z(64,802816,null,0,Bn.i,[hl.J,hl.G,hl.q],{ngForOf:[0,"ngForOf"]},null),(l()(),hl._21(-1,null,["\n\n            "])),(l()(),hl._21(-1,null,["\n\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n\n    "]))],function(l,n){var u=n.component;l(n,61,0,!u.ethTransaction.length);l(n,64,0,u.ethTransaction)},function(l,n){var u=n.component;l(n,14,0,u.selectedAccount.tokenThreeSym);l(n,28,0,hl._22(n,28,0,l(n,29,0,hl._14(n.parent,0),u.selectedAccount.balance,".3")),u.selectedAccount.tokenThreeSym);l(n,39,0,hl._22(n,39,0,l(n,40,0,hl._14(n.parent,0),1/u.todayPrice.KRW,".3")))})}function el(l){return hl._23(0,[hl._15(0,Bn.d,[hl.s]),(l()(),hl._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),hl.Z(2,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(5,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,9).toggle()&&e}return e},$n.b,$n.a)),hl.Z(8,1097728,[[1,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(9,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(10,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,1,{_buttons:1}),(l()(),hl._21(-1,0,["\n      "])),(l()(),hl._0(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(14,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n    "])),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._0(17,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(18,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["\n      Evens\n    "])),(l()(),hl._21(-1,3,["\n  "])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(23,0,null,null,29,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(24,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(26,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var e=!0;if("ionRefresh"===n){e=!1!==l.component.doRefresh(u)&&e}return e},null,null)),hl.Z(27,212992,null,0,eu.a,[Zn.a,Un.a,hl.v,An.l],null,{ionRefresh:"ionRefresh"}),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(29,0,null,null,2,"ion-refresher-content",[["pullingIcon","arrow-dropdown"],["pullingText","Pull to refresh"],["refreshingSpinner","circles"],["refreshingText","Refreshing..."]],[[1,"state",0]],null,null,au.b,au.a)),hl.Z(30,114688,null,0,tu.a,[eu.a,hn.a],{pullingIcon:[0,"pullingIcon"],pullingText:[1,"pullingText"],refreshingSpinner:[2,"refreshingSpinner"],refreshingText:[3,"refreshingText"]},null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(34,0,null,1,17,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl.V(16777216,null,null,1,null,M)),hl.Z(37,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,null,["\n\n\n    "])),(l()(),hl.V(16777216,null,null,1,null,L)),hl.Z(41,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl.V(16777216,null,null,1,null,H)),hl.Z(44,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl.V(16777216,null,null,1,null,z)),hl.Z(47,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl.V(16777216,null,null,1,null,ul)),hl.Z(50,16384,null,0,Bn.j,[hl.J,hl.G],{ngIf:[0,"ngIf"]},null),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,5,0,"primary");l(n,9,0,"");l(n,14,0,"menu"),l(n,27,0);l(n,30,0,"arrow-dropdown","Pull to refresh","circles","Refreshing...");l(n,37,0,"Etheriun"==u.selectedCur);l(n,41,0,"evenscoin"==u.selectedCur);l(n,44,0,"tokenOne"==u.selectedCur);l(n,47,0,"tokenTwo"==u.selectedCur);l(n,50,0,"tokenThree"==u.selectedCur)},function(l,n){l(n,4,0,hl._14(n,5)._hidden,hl._14(n,5)._sbPadding);l(n,7,0,hl._14(n,9).isHidden);l(n,13,0,hl._14(n,14)._hidden);l(n,23,0,hl._14(n,24).statusbarPadding,hl._14(n,24)._hasRefresher);l(n,26,0,"inactive"!==hl._14(n,27).state,hl._14(n,27)._top);l(n,29,0,hl._14(n,30).r.state)})}function al(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,111,"ion-content",[["class","login-content"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(1,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(3,0,null,1,14,"ion-row",[["class","logo-row row"]],null,null,null,null,null)),hl.Z(4,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(6,0,null,null,1,"ion-col",[["class","col"]],null,null,null,null,null)),hl.Z(7,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(9,0,null,null,4,"ion-col",[["class","col"],["text-center",""],["width-67",""]],null,null,null,null,null)),hl.Z(10,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(12,0,null,null,0,"img",[["src","assets/imgs/evens.png"],["style","max-width: 100px !important;margin-bottom: 20px;margin-top: 120px"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(15,0,null,null,1,"ion-col",[["class","col"]],null,null,null,null,null)),hl.Z(16,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(19,0,null,1,6,"ion-row",[["class","row"]],null,null,null,null,null)),hl.Z(20,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(22,0,null,null,2,"div",[["class","title"]],null,null,null,null,null)),(l()(),hl._0(23,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["WELCOME"])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(27,0,null,1,83,"div",[["class","login-box"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(29,0,null,null,80,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0,a=l.component;if("submit"===n){e=!1!==hl._14(l,31).onSubmit(u)&&e}if("reset"===n){e=!1!==hl._14(l,31).onReset()&&e}if("ngSubmit"===n){e=!1!==a.login()&&e}return e},null,null)),hl.Z(30,16384,null,0,Ql.p,[],null,null),hl.Z(31,4210688,[["f",4]],0,Ql.k,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),hl._18(2048,null,Ql.b,null,[Ql.k]),hl.Z(33,16384,null,0,Ql.j,[Ql.b],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(35,0,null,null,49,"ion-row",[["class","row"]],null,null,null,null,null)),hl.Z(36,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(38,0,null,null,45,"ion-col",[["class","col"]],null,null,null,null,null)),hl.Z(39,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(41,0,null,null,41,"ion-list",[["inset",""]],null,null,null,null,null)),hl.Z(42,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n  \n              "])),(l()(),hl._0(44,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(45,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,1,{contentLabel:0}),hl._19(603979776,2,{_buttons:1}),hl._19(603979776,3,{_icons:1}),hl.Z(49,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._0(51,0,null,3,6,"ion-input",[["name","address"],["placeholder","USERNAME"],["required",""],["type","email"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.user.address=u)&&e}return e},ru.b,ru.a)),hl.Z(52,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(54,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(56,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(57,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),hl._21(-1,2,["\n              "])),(l()(),hl._21(-1,null,["\n  \n              "])),(l()(),hl._0(60,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(61,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,4,{contentLabel:0}),hl._19(603979776,5,{_buttons:1}),hl._19(603979776,6,{_icons:1}),hl.Z(65,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._0(67,0,null,3,6,"ion-input",[["name","password"],["placeholder","PASSWORD"],["required",""],["type","password"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.user.password=u)&&e}return e},ru.b,ru.a)),hl.Z(68,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(70,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(72,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(73,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),hl._21(-1,2,["\n              "])),(l()(),hl._21(-1,null,["\n  \n              "])),(l()(),hl._0(76,0,null,null,5,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(77,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,7,{contentLabel:0}),hl._19(603979776,8,{_buttons:1}),hl._19(603979776,9,{_icons:1}),hl.Z(81,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n  \n        "])),(l()(),hl._0(86,0,null,null,11,"ion-row",[["class","row"]],null,null,null,null,null)),hl.Z(87,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(89,0,null,null,7,"ion-col",[["class","signup-col col"]],null,null,null,null,null)),hl.Z(90,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(92,0,null,null,2,"button",[["class","submit-btn"],["ion-button",""],["round",""],["style","width:80%"],["type","submit"]],[[8,"disabled",0]],null,null,$n.b,$n.a)),hl.Z(93,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{round:[0,"round"]},null),(l()(),hl._21(-1,0,["Login"])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(99,0,null,null,9,"ion-row",[["class","row"],["clear",""]],null,null,null,null,null)),hl.Z(100,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(102,0,null,null,5,"div",[["class","signup-btn"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["DON'T YOU HAVE ACCOUNT? "])),(l()(),hl._0(104,0,null,null,3,"a",[["class","register-btn"],["clear",""],["href","#"]],[[1,"href",4]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,105).onClick()&&e}return e},null,null)),hl.Z(105,16384,null,0,bu.a,[[2,Mn.a]],{navPush:[0,"navPush"]},null),hl.Z(106,1064960,null,0,vu.a,[bu.a,[2,Ln.a]],null,null),(l()(),hl._21(-1,null,["Create New Account"])),(l()(),hl._21(-1,null,["\n         "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._21(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,52,0,"");l(n,54,0,"address",u.user.address);l(n,57,0,"email","USERNAME");l(n,68,0,"");l(n,70,0,"password",u.user.password);l(n,73,0,"password","PASSWORD");l(n,93,0,"");l(n,105,0,u.CreateAccount)},function(l,n){l(n,0,0,hl._14(n,1).statusbarPadding,hl._14(n,1)._hasRefresher);l(n,29,0,hl._14(n,33).ngClassUntouched,hl._14(n,33).ngClassTouched,hl._14(n,33).ngClassPristine,hl._14(n,33).ngClassDirty,hl._14(n,33).ngClassValid,hl._14(n,33).ngClassInvalid,hl._14(n,33).ngClassPending);l(n,51,0,hl._14(n,52).required?"":null,hl._14(n,56).ngClassUntouched,hl._14(n,56).ngClassTouched,hl._14(n,56).ngClassPristine,hl._14(n,56).ngClassDirty,hl._14(n,56).ngClassValid,hl._14(n,56).ngClassInvalid,hl._14(n,56).ngClassPending);l(n,67,0,hl._14(n,68).required?"":null,hl._14(n,72).ngClassUntouched,hl._14(n,72).ngClassTouched,hl._14(n,72).ngClassPristine,hl._14(n,72).ngClassDirty,hl._14(n,72).ngClassValid,hl._14(n,72).ngClassInvalid,hl._14(n,72).ngClassPending);l(n,92,0,hl._14(n,31).invalid);l(n,104,0,hl._14(n,106)._href)})}function tl(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,13,"ion-tabs",[["class","enstabs"],["color","red"]],null,null,null,Zu.b,Zu.a)),hl._18(6144,null,kn.a,null,[wu.a]),hl.Z(2,4374528,null,0,wu.a,[[2,Mn.a],[2,In.a],Sn.a,hn.a,hl.k,Zn.a,hl.A,Ln.a,wn.a],{color:[0,"color"],selectedIndex:[1,"selectedIndex"]},null),(l()(),hl._21(-1,0,["\n  "])),(l()(),hl._0(4,0,null,0,1,"ion-tab",[["class","enstab"],["role","tabpanel"],["tabIcon","ens-info"],["tabTitle","Info"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Au.b,Au.a)),hl.Z(5,245760,null,0,Tu.a,[wu.a,Sn.a,hn.a,Zn.a,hl.k,hl.v,hl.A,hl.j,hl.h,An.l,qn.a,[2,Ln.a],Tn.a,hl.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),hl._21(-1,0,["\n  "])),(l()(),hl._0(7,0,null,0,1,"ion-tab",[["class","enstab"],["role","tabpanel"],["tabIcon","ens-send"],["tabTitle","Send"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Au.b,Au.a)),hl.Z(8,245760,null,0,Tu.a,[wu.a,Sn.a,hn.a,Zn.a,hl.k,hl.v,hl.A,hl.j,hl.h,An.l,qn.a,[2,Ln.a],Tn.a,hl.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),hl._21(-1,0,["\n  "])),(l()(),hl._0(10,0,null,0,1,"ion-tab",[["class","enstab"],["role","tabpanel"],["tabIcon","ens-rec"],["tabTitle","Receive"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,Au.b,Au.a)),hl.Z(11,245760,null,0,Tu.a,[wu.a,Sn.a,hn.a,Zn.a,hl.k,hl.v,hl.A,hl.j,hl.h,An.l,qn.a,[2,Ln.a],Tn.a,hl.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),hl._21(-1,0,["\n  "])),(l()(),hl._21(-1,0,["\n"])),(l()(),hl._21(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,2,0,"red",u.mySelectedIndex);l(n,5,0,u.tab3Root,"Info","ens-info");l(n,8,0,u.tab1Root,"Send","ens-send");l(n,11,0,u.tab2Root,"Receive","ens-rec")},function(l,n){l(n,4,0,hl._14(n,5)._tabId,hl._14(n,5)._btnId);l(n,7,0,hl._14(n,8)._tabId,hl._14(n,8)._btnId);l(n,10,0,hl._14(n,11)._tabId,hl._14(n,11)._btnId)})}function ol(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,95,"ion-content",[["class","login-content"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(1,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(3,0,null,1,14,"ion-row",[["class","logo-row row"]],null,null,null,null,null)),hl.Z(4,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(6,0,null,null,1,"ion-col",[["class","col"]],null,null,null,null,null)),hl.Z(7,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(9,0,null,null,4,"ion-col",[["class","col"],["width-67",""]],null,null,null,null,null)),hl.Z(10,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(12,0,null,null,0,"img",[["src","http://placehold.it/500x300"],["style","max-width: 303px !important;"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(15,0,null,null,1,"ion-col",[["class","col"]],null,null,null,null,null)),hl.Z(16,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(19,0,null,1,11,"ion-row",[["class","row"]],null,null,null,null,null)),hl.Z(20,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(22,0,null,null,7,"div",[["class","title"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(24,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["Forgot Password?"])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(27,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["Enter your login, we will send you recovery password"])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(32,0,null,1,54,"div",[["class","forgot-box"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(34,0,null,null,51,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0;if("submit"===n){e=!1!==hl._14(l,36).onSubmit(u)&&e}if("reset"===n){e=!1!==hl._14(l,36).onReset()&&e}return e},null,null)),hl.Z(35,16384,null,0,Ql.p,[],null,null),hl.Z(36,4210688,null,0,Ql.k,[[8,null],[8,null]],null,null),hl._18(2048,null,Ql.b,null,[Ql.k]),hl.Z(38,16384,null,0,Ql.j,[Ql.b],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(40,0,null,null,28,"ion-row",[["class","row"]],null,null,null,null,null)),hl.Z(41,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(43,0,null,null,24,"ion-col",[["class","col"]],null,null,null,null,null)),hl.Z(44,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(46,0,null,null,20,"ion-list",[["inset",""]],null,null,null,null,null)),hl.Z(47,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n              \n              "])),(l()(),hl._0(49,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(50,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,1,{contentLabel:0}),hl._19(603979776,2,{_buttons:1}),hl._19(603979776,3,{_icons:1}),hl.Z(54,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._0(56,0,null,3,1,"ion-input",[["name","email"],["placeholder","Email"],["required",""],["type","text"]],null,null,null,ru.b,ru.a)),hl.Z(57,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),hl._21(-1,2,["\n              "])),(l()(),hl._21(-1,null,["\n\n              "])),(l()(),hl._0(60,0,null,null,5,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(61,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,4,{contentLabel:0}),hl._19(603979776,5,{_buttons:1}),hl._19(603979776,6,{_icons:1}),hl.Z(65,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,null,["\n\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n        \n        "])),(l()(),hl._0(70,0,null,null,14,"ion-row",[["class","row"]],null,null,null,null,null)),hl.Z(71,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(73,0,null,null,10,"ion-col",[["class","signup-col col"]],null,null,null,null,null)),hl.Z(74,16384,null,0,fu.a,[],null,null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(76,0,null,null,2,"button",[["class","submit-btn"],["full",""],["ion-button",""],["type","submit"]],null,null,null,$n.b,$n.a)),hl.Z(77,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{full:[0,"full"]},null),(l()(),hl._21(-1,0,["Recover Password"])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(80,0,null,null,2,"button",[["class","btl-btn"],["clear",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.goToLoginPage()&&e}return e},$n.b,$n.a)),hl.Z(81,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{clear:[0,"clear"]},null),(l()(),hl._21(-1,0,["Back to Login"])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n        \n      "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(88,0,null,1,6,"ion-row",[["class","row"]],null,null,null,null,null)),hl.Z(89,16384,null,0,hu.a,[],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(91,0,null,null,2,"div",[["class","copyright"]],null,null,null,null,null)),(l()(),hl._0(92,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["Copyright © 2017 Revo Rewards"])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n  "]))],function(l,n){l(n,57,0,"text","Email");l(n,77,0,"");l(n,81,0,"")},function(l,n){l(n,0,0,hl._14(n,1).statusbarPadding,hl._14(n,1)._hasRefresher);l(n,34,0,hl._14(n,38).ngClassUntouched,hl._14(n,38).ngClassTouched,hl._14(n,38).ngClassPristine,hl._14(n,38).ngClassDirty,hl._14(n,38).ngClassValid,hl._14(n,38).ngClassInvalid,hl._14(n,38).ngClassPending)})}function sl(l){return hl._23(0,[hl._15(0,Bn.d,[hl.s]),(l()(),hl._0(1,0,null,null,23,"ion-header",[],null,null,null,null,null)),hl.Z(2,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n\n  "])),(l()(),hl._0(4,0,null,null,19,"div",[["class","wallet"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(6,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(7,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n      "])),(l()(),hl._0(9,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,11).toggle()&&e}return e},$n.b,$n.a)),hl.Z(10,1097728,[[1,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(11,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(12,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,1,{_buttons:1}),(l()(),hl._21(-1,0,["\n        "])),(l()(),hl._0(15,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(16,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n      "])),(l()(),hl._21(-1,3,["\n      "])),(l()(),hl._0(19,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(20,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["Evens"])),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,null,["\n\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(26,0,null,null,240,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(27,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n                "])),(l()(),hl._0(29,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var e=!0;if("ionRefresh"===n){e=!1!==l.component.doRefresh(u)&&e}return e},null,null)),hl.Z(30,212992,null,0,eu.a,[Zn.a,Un.a,hl.v,An.l],null,{ionRefresh:"ionRefresh"}),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._0(32,0,null,null,2,"ion-refresher-content",[["pullingIcon","arrow-dropdown"],["pullingText","Pull to refresh"],["refreshingSpinner","circles"],["refreshingText","Refreshing..."]],[[1,"state",0]],null,null,au.b,au.a)),hl.Z(33,114688,null,0,tu.a,[eu.a,hn.a],{pullingIcon:[0,"pullingIcon"],pullingText:[1,"pullingText"],refreshingSpinner:[2,"refreshingSpinner"],refreshingText:[3,"refreshingText"]},null),(l()(),hl._21(-1,null,["\n                                "])),(l()(),hl._21(-1,null,["\n                              "])),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(37,0,null,1,228,"div",[["class","cad"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n\n    "])),(l()(),hl._0(39,0,null,null,8,"ion-card",[["class","wallat_main"]],null,null,null,null,null)),hl.Z(40,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(42,0,null,null,4,"div",[["class","wall_txt_cen"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(44,0,null,null,0,"div",[["id","chartdiv"]],[[4,"width","%"],[4,"height","px"]],null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n\n      "])),(l()(),hl._21(-1,null,["\n\n    "])),(l()(),hl._21(-1,null,["\n\n    "])),(l()(),hl._0(49,0,null,null,215,"ion-list",[["class","trans"]],null,null,null,null,null)),hl.Z(50,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n\n\n\n      "])),(l()(),hl._0(52,0,null,null,41,"ion-card",[["class","card_trans"]],null,null,null,null,null)),hl.Z(53,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(55,0,null,null,37,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openSingleNotification("Etheriun","coin")&&e}return e},gn.b,gn.a)),hl.Z(56,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,2,{contentLabel:0}),hl._19(603979776,3,{_buttons:1}),hl._19(603979776,4,{_icons:1}),hl.Z(60,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(62,0,null,2,28,"div",[["class","row"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(64,0,null,null,7,"div",[["class","col col-10"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(66,0,null,null,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),hl.Z(67,16384,null,0,ju.a,[],null,null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(69,0,null,null,0,"img",[["class","coinimg"],["src","assets/imgs/eth-40.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(73,0,null,null,8,"div",[["class","hello"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n\n              "])),(l()(),hl._0(75,0,null,null,5,"div",[["class","col col-50"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n\n                "])),(l()(),hl._0(77,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(78,null,["","  ETH"])),hl._17(79,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n\n            "])),(l()(),hl._0(84,0,null,null,5,"div",[["class","col col-40 rmpad"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(86,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(87,null,[" "," $"])),hl._17(88,2),(l()(),hl._21(-1,null,["\n\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n\n          "])),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(95,0,null,null,40,"ion-card",[["class","card_trans"]],null,null,null,null,null)),hl.Z(96,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(98,0,null,null,36,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openSingleNotification("evenscoin","coin")&&e}return e},gn.b,gn.a)),hl.Z(99,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,5,{contentLabel:0}),hl._19(603979776,6,{_buttons:1}),hl._19(603979776,7,{_icons:1}),hl.Z(103,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(105,0,null,2,28,"div",[["class","row"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(107,0,null,null,7,"div",[["class","col col-10"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(109,0,null,null,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),hl.Z(110,16384,null,0,ju.a,[],null,null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(112,0,null,null,0,"img",[["class","coinimg"],["src","assets/imgs/evens-40.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(116,0,null,null,8,"div",[["class","hello"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(118,0,null,null,5,"div",[["class","col col-50"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(120,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(121,null,["","  ENS"])),hl._17(122,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(127,0,null,null,5,"div",[["class","col col-40 rmpad"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(129,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(130,null,[" "," $ "])),hl._17(131,2),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n\n\n\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(138,0,null,null,40,"ion-card",[["class","card_trans"]],null,null,null,null,null)),hl.Z(139,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(141,0,null,null,36,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openSingleNotification("tokenOne","token")&&e}return e},gn.b,gn.a)),hl.Z(142,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,8,{contentLabel:0}),hl._19(603979776,9,{_buttons:1}),hl._19(603979776,10,{_icons:1}),hl.Z(146,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(148,0,null,2,28,"div",[["class","row"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(150,0,null,null,7,"div",[["class","col col-10"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(152,0,null,null,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),hl.Z(153,16384,null,0,ju.a,[],null,null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(155,0,null,null,0,"img",[["class","coinimg"],["src","assets/imgs/tk1-40.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(159,0,null,null,8,"div",[["class","hello"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(161,0,null,null,5,"div",[["class","col col-50"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(163,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(164,null,["","  ECI"])),hl._17(165,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(170,0,null,null,5,"div",[["class","col col-40 rmpad"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(172,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(173,null,[" "," $\n              "])),hl._17(174,2),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n\n\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(180,0,null,null,40,"ion-card",[["class","card_trans"]],null,null,null,null,null)),hl.Z(181,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(183,0,null,null,36,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openSingleNotification("tokenTwo","token")&&e}return e},gn.b,gn.a)),hl.Z(184,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,11,{contentLabel:0}),hl._19(603979776,12,{_buttons:1}),hl._19(603979776,13,{_icons:1}),hl.Z(188,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(190,0,null,2,28,"div",[["class","row"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(192,0,null,null,7,"div",[["class","col col-10"]],null,null,null,null,null)),(l()(),hl._21(-1,null,[" \n              "])),(l()(),hl._0(194,0,null,null,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),hl.Z(195,16384,null,0,ju.a,[],null,null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(197,0,null,null,0,"img",[["class","coinimg"],["src","assets/imgs/tk2-40.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(201,0,null,null,8,"div",[["class","hello"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(203,0,null,null,5,"div",[["class","col col-50"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(205,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(206,null,["","  ECT"])),hl._17(207,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(212,0,null,null,5,"div",[["class","col col-40 rmpad"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(214,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(215,null,[" "," $"])),hl._17(216,2),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n\n\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(222,0,null,null,40,"ion-card",[["class","card_trans"]],null,null,null,null,null)),hl.Z(223,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(225,0,null,null,36,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openSingleNotification("tokenThree","token")&&e}return e},gn.b,gn.a)),hl.Z(226,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,14,{contentLabel:0}),hl._19(603979776,15,{_buttons:1}),hl._19(603979776,16,{_icons:1}),hl.Z(230,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(232,0,null,2,28,"div",[["class","row"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(234,0,null,null,7,"div",[["class","col col-10"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(236,0,null,null,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),hl.Z(237,16384,null,0,ju.a,[],null,null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(239,0,null,null,0,"img",[["class","coinimg"],["src","assets/imgs/tk3-40.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(243,0,null,null,8,"div",[["class","hello"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(245,0,null,null,5,"div",[["class","col col-50"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(247,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(248,null,["","  ECK"])),hl._17(249,2),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(254,0,null,null,5,"div",[["class","col col-40 rmpad"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(256,0,null,null,2,"h3",[["class","fontWhite item_text"],["text-right",""]],null,null,null,null,null)),(l()(),hl._21(257,null,[" "," $\n              "])),hl._17(258,2),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n\n\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n\n    "])),(l()(),hl._21(-1,null,["\n\n  "])),(l()(),hl._21(-1,1,["\n"]))],function(l,n){l(n,7,0,"primary");l(n,11,0,"");l(n,16,0,"menu"),l(n,30,0);l(n,33,0,"arrow-dropdown","Pull to refresh","circles","Refreshing...")},function(l,n){var u=n.component;l(n,6,0,hl._14(n,7)._hidden,hl._14(n,7)._sbPadding);l(n,9,0,hl._14(n,11).isHidden);l(n,15,0,hl._14(n,16)._hidden);l(n,26,0,hl._14(n,27).statusbarPadding,hl._14(n,27)._hasRefresher);l(n,29,0,"inactive"!==hl._14(n,30).state,hl._14(n,30)._top);l(n,32,0,hl._14(n,33).r.state);l(n,44,0,100,200);l(n,78,0,hl._22(n,78,0,l(n,79,0,hl._14(n,0),u.allBalance.eth,".3")));l(n,87,0,hl._22(n,87,0,l(n,88,0,hl._14(n,0),u.allBalance.eth/u.todayPrice.ETH,".3")));l(n,121,0,hl._22(n,121,0,l(n,122,0,hl._14(n,0),u.allBalance.ens,".3")));l(n,130,0,hl._22(n,130,0,l(n,131,0,hl._14(n,0),u.allBalance.ens/u.todayPrice.BTT,".3")));l(n,164,0,hl._22(n,164,0,l(n,165,0,hl._14(n,0),u.allBalance.tokenOne,".3")));l(n,173,0,hl._22(n,173,0,l(n,174,0,hl._14(n,0),u.allBalance.tokenOne/u.todayPrice.INR,".3")));l(n,206,0,hl._22(n,206,0,l(n,207,0,hl._14(n,0),u.allBalance.tokenTwo,".3")));l(n,215,0,hl._22(n,215,0,l(n,216,0,hl._14(n,0),u.allBalance.tokenTwo/u.todayPrice.THB,".3")));l(n,248,0,hl._22(n,248,0,l(n,249,0,hl._14(n,0),u.allBalance.tokenThree,".3")));l(n,257,0,hl._22(n,257,0,l(n,258,0,hl._14(n,0),u.allBalance.tokenThree/u.todayPrice.KRW,".3")))})}function il(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),hl.Z(1,16384,[[19,4]],0,Uu.a,[hl.k],{value:[0,"value"]},null),(l()(),hl._21(2,null,["",""]))],function(l,n){l(n,1,0,hl._3(1,"",n.context.$implicit.name,""))},function(l,n){l(n,2,0,n.context.$implicit.name)})}function rl(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._0(3,0,null,null,6,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(4,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._0(6,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(7,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["\n      Create Account\n    "])),(l()(),hl._21(-1,3,["\n  "])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(12,0,null,null,158,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(13,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(15,0,null,1,154,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0,a=l.component;if("submit"===n){e=!1!==hl._14(l,17).onSubmit(u)&&e}if("reset"===n){e=!1!==hl._14(l,17).onReset()&&e}if("ngSubmit"===n){e=!1!==a.siguUP(hl._14(l,17))&&e}return e},null,null)),hl.Z(16,16384,null,0,Ql.p,[],null,null),hl.Z(17,4210688,[["f",4]],0,Ql.k,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),hl._18(2048,null,Ql.b,null,[Ql.k]),hl.Z(19,16384,null,0,Ql.j,[Ql.b],null,null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(21,0,null,null,147,"ion-list",[],null,null,null,null,null)),hl.Z(22,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(24,0,null,null,136,"ion-item-group",[],null,null,null,null,null)),hl.Z(25,16384,null,0,Nn.a,[],null,null),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(27,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(28,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,1,{contentLabel:0}),hl._19(603979776,2,{_buttons:1}),hl._19(603979776,3,{_icons:1}),hl.Z(32,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(34,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(35,16384,[[1,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["First Name"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(38,0,null,3,6,"ion-input",[["name","firstName"],["required",""],["type","text"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.newUser.firstName=u)&&e}return e},ru.b,ru.a)),hl.Z(39,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(41,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(43,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(44,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(47,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(48,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,4,{contentLabel:0}),hl._19(603979776,5,{_buttons:1}),hl._19(603979776,6,{_icons:1}),hl.Z(52,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(54,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(55,16384,[[4,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["Last Name"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(58,0,null,3,6,"ion-input",[["name","lastName"],["required",""],["type","text"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.newUser.lastName=u)&&e}return e},ru.b,ru.a)),hl.Z(59,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(61,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(63,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(64,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(68,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(69,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,7,{contentLabel:0}),hl._19(603979776,8,{_buttons:1}),hl._19(603979776,9,{_icons:1}),hl.Z(73,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(75,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(76,16384,[[7,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["Email"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(79,0,null,3,6,"ion-input",[["name","email"],["required",""],["type","email"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.newUser.email=u)&&e}return e},ru.b,ru.a)),hl.Z(80,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(82,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(84,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(85,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(88,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(89,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,10,{contentLabel:0}),hl._19(603979776,11,{_buttons:1}),hl._19(603979776,12,{_icons:1}),hl.Z(93,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(95,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(96,16384,[[10,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["Password"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(99,0,null,3,8,"ion-input",[["name","password"],["required",""],["reverse","true"],["type","password"],["validateEqual","confirmPassword"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.newUser.password=u)&&e}return e},ru.b,ru.a)),hl.Z(100,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl.Z(101,16384,null,0,Xl,[[8,"confirmPassword"],[8,"true"]],null,null),hl._18(1024,null,Ql.f,function(l,n){return[l,n]},[Ql.n,Xl]),hl.Z(103,671744,[["password",4]],0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(105,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(106,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(110,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(111,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,13,{contentLabel:0}),hl._19(603979776,14,{_buttons:1}),hl._19(603979776,15,{_icons:1}),hl.Z(115,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(117,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(118,16384,[[13,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["Repeat Password"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(121,0,null,3,8,"ion-input",[["name","confirmPassword"],["required",""],["reverse","false"],["type","password"],["validateEqual","password"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.newUser.confirmPassword=u)&&e}return e},ru.b,ru.a)),hl.Z(122,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl.Z(123,16384,null,0,Xl,[[8,"password"],[8,"false"]],null,null),hl._18(1024,null,Ql.f,function(l,n){return[l,n]},[Ql.n,Xl]),hl.Z(125,671744,[["confirmPassword",4]],0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(127,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(128,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(132,0,null,null,1,"small",[["class","text-danger error-msg"]],[[8,"hidden",0]],null,null,null,null)),(l()(),hl._21(-1,null,["\n          Password mismatch\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(137,0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(138,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,16,{contentLabel:0}),hl._19(603979776,17,{_buttons:1}),hl._19(603979776,18,{_icons:1}),hl.Z(142,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(144,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(145,16384,[[16,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["Country"])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._0(148,0,null,3,10,"ion-select",[["interface","action-sheet"],["name","country"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var e=!0,a=l.component;if("click"===n){e=!1!==hl._14(l,149)._click(u)&&e}if("keyup.space"===n){e=!1!==hl._14(l,149)._keyup()&&e}if("ngModelChange"===n){e=!1!==(a.newUser.country=u)&&e}return e},Mu.b,Mu.a)),hl.Z(149,1228800,null,1,Nu.a,[Sn.a,pn.a,hn.a,hl.k,hl.A,[2,mn.a],Ln.a],{interface:[0,"interface"]},null),hl._19(603979776,19,{options:1}),hl._18(1024,null,Ql.g,function(l){return[l]},[Nu.a]),hl.Z(152,671744,null,0,Ql.l,[[2,Ql.b],[8,null],[8,null],[2,Ql.g]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(154,16384,null,0,Ql.i,[Ql.h],null,null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl.V(16777216,null,null,1,null,il)),hl.Z(157,802816,null,0,Bn.i,[hl.J,hl.G,hl.q],{ngForOf:[0,"ngForOf"]},null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,2,["\n        "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(162,0,null,null,5,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(164,0,null,null,2,"button",[["block",""],["color","primary"],["ion-button",""],["type","submit"]],[[8,"disabled",0]],null,null,$n.b,$n.a)),hl.Z(165,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{color:[0,"color"],block:[1,"block"]},null),(l()(),hl._21(-1,0,[" Create Account"])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,4,0,"primary");l(n,39,0,"");l(n,41,0,"firstName",u.newUser.firstName);l(n,44,0,"text");l(n,59,0,"");l(n,61,0,"lastName",u.newUser.lastName);l(n,64,0,"text");l(n,80,0,"");l(n,82,0,"email",u.newUser.email);l(n,85,0,"email");l(n,100,0,"");l(n,103,0,"password",u.newUser.password);l(n,106,0,"password");l(n,122,0,"");l(n,125,0,"confirmPassword",u.newUser.confirmPassword);l(n,128,0,"password");l(n,149,0,"action-sheet");l(n,152,0,"country",u.newUser.country);l(n,157,0,u.countryChoice);l(n,165,0,"primary","")},function(l,n){l(n,3,0,hl._14(n,4)._hidden,hl._14(n,4)._sbPadding);l(n,12,0,hl._14(n,13).statusbarPadding,hl._14(n,13)._hasRefresher);l(n,15,0,hl._14(n,19).ngClassUntouched,hl._14(n,19).ngClassTouched,hl._14(n,19).ngClassPristine,hl._14(n,19).ngClassDirty,hl._14(n,19).ngClassValid,hl._14(n,19).ngClassInvalid,hl._14(n,19).ngClassPending);l(n,38,0,hl._14(n,39).required?"":null,hl._14(n,43).ngClassUntouched,hl._14(n,43).ngClassTouched,hl._14(n,43).ngClassPristine,hl._14(n,43).ngClassDirty,hl._14(n,43).ngClassValid,hl._14(n,43).ngClassInvalid,hl._14(n,43).ngClassPending);l(n,58,0,hl._14(n,59).required?"":null,hl._14(n,63).ngClassUntouched,hl._14(n,63).ngClassTouched,hl._14(n,63).ngClassPristine,hl._14(n,63).ngClassDirty,hl._14(n,63).ngClassValid,hl._14(n,63).ngClassInvalid,hl._14(n,63).ngClassPending);l(n,79,0,hl._14(n,80).required?"":null,hl._14(n,84).ngClassUntouched,hl._14(n,84).ngClassTouched,hl._14(n,84).ngClassPristine,hl._14(n,84).ngClassDirty,hl._14(n,84).ngClassValid,hl._14(n,84).ngClassInvalid,hl._14(n,84).ngClassPending);l(n,99,0,hl._14(n,100).required?"":null,hl._14(n,105).ngClassUntouched,hl._14(n,105).ngClassTouched,hl._14(n,105).ngClassPristine,hl._14(n,105).ngClassDirty,hl._14(n,105).ngClassValid,hl._14(n,105).ngClassInvalid,hl._14(n,105).ngClassPending);l(n,121,0,hl._14(n,122).required?"":null,hl._14(n,127).ngClassUntouched,hl._14(n,127).ngClassTouched,hl._14(n,127).ngClassPristine,hl._14(n,127).ngClassDirty,hl._14(n,127).ngClassValid,hl._14(n,127).ngClassInvalid,hl._14(n,127).ngClassPending);l(n,132,0,hl._14(n,125).valid||hl._14(n,125).pristine&&!hl._14(n,17).submitted);l(n,148,0,hl._14(n,149)._disabled,hl._14(n,154).ngClassUntouched,hl._14(n,154).ngClassTouched,hl._14(n,154).ngClassPristine,hl._14(n,154).ngClassDirty,hl._14(n,154).ngClassValid,hl._14(n,154).ngClassInvalid,hl._14(n,154).ngClassPending);l(n,164,0,hl._14(n,17).invalid)})}function cl(l){return hl._23(0,[(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(1,0,null,null,23,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(2,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(4,0,null,1,1,"P",[["class","ctc-content"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["These words are only way to restore your accounts. Save them somewhere safe and secret."])),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(7,0,null,1,5,"ion-card",[["class","ctc"]],null,null,null,null,null)),hl.Z(8,16384,null,0,Wn.a,[hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(10,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),hl._21(11,null,["",""])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,1,["\n  "])),(l()(),hl._0(14,0,null,1,9,"div",[["class","ctc-btn-box"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(16,0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.copyToClipboard()&&e}return e},$n.b,$n.a)),hl.Z(17,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,0,["Copy to Clipboard"])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(20,0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.goToHome()&&e}return e},$n.b,$n.a)),hl.Z(21,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,0,["I saved "])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,1,["\n"]))],null,function(l,n){var u=n.component;l(n,1,0,hl._14(n,2).statusbarPadding,hl._14(n,2)._hasRefresher);l(n,11,0,u.data.seed)})}function _l(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(3,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(4,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._0(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,8).toggle()&&e}return e},$n.b,$n.a)),hl.Z(7,1097728,[[1,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(8,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(9,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,1,{_buttons:1}),(l()(),hl._21(-1,0,["\n          "])),(l()(),hl._0(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(13,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n        "])),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._0(16,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(17,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["\n          Evens\n        "])),(l()(),hl._21(-1,3,["\n      "])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(22,0,null,null,3,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(23,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n      "])),(l()(),hl._21(-1,1,["\n\n"])),(l()(),hl._21(-1,null,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,hl._14(n,4)._hidden,hl._14(n,4)._sbPadding);l(n,6,0,hl._14(n,8).isHidden);l(n,12,0,hl._14(n,13)._hidden);l(n,22,0,hl._14(n,23).statusbarPadding,hl._14(n,23)._hasRefresher)})}function dl(l){return hl._23(0,[(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(1,0,null,null,115,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(2,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(4,0,null,1,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(5,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,9).toggle()&&e}return e},$n.b,$n.a)),hl.Z(8,1097728,[[1,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(9,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(10,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,1,{_buttons:1}),(l()(),hl._21(-1,0,["\n                "])),(l()(),hl._0(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(14,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n              "])),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._0(17,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(18,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["Evens"])),(l()(),hl._21(-1,3,["\n"])),(l()(),hl._21(-1,1,["\n"])),(l()(),hl._0(22,0,null,1,93,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(24,0,null,null,90,"div",[["class","chare"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(26,0,null,null,87,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0,a=l.component;if("submit"===n){e=!1!==hl._14(l,28).onSubmit(u)&&e}if("reset"===n){e=!1!==hl._14(l,28).onReset()&&e}if("ngSubmit"===n){e=!1!==a.changePassword(hl._14(l,28))&&e}return e},null,null)),hl.Z(27,16384,null,0,Ql.p,[],null,null),hl.Z(28,4210688,[["f",4]],0,Ql.k,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),hl._18(2048,null,Ql.b,null,[Ql.k]),hl.Z(30,16384,null,0,Ql.j,[Ql.b],null,null),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._0(32,0,null,null,80,"ion-list",[],null,null,null,null,null)),hl.Z(33,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(35,0,null,null,69,"ion-item-group",[],null,null,null,null,null)),hl.Z(36,16384,null,0,Nn.a,[],null,null),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(38,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(39,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,2,{contentLabel:0}),hl._19(603979776,3,{_buttons:1}),hl._19(603979776,4,{_icons:1}),hl.Z(43,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                  "])),(l()(),hl._0(45,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(46,16384,[[2,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["Current Password"])),(l()(),hl._21(-1,2,["\n                  "])),(l()(),hl._0(49,0,null,3,6,"ion-input",[["name","oldpassword"],["required",""],["type","password"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.credentials.oldpassword=u)&&e}return e},ru.b,ru.a)),hl.Z(50,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl._18(1024,null,Ql.f,function(l){return[l]},[Ql.n]),hl.Z(52,671744,null,0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(54,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(55,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(58,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(59,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,5,{contentLabel:0}),hl._19(603979776,6,{_buttons:1}),hl._19(603979776,7,{_icons:1}),hl.Z(63,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                  "])),(l()(),hl._0(65,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(66,16384,[[5,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["New Password"])),(l()(),hl._21(-1,2,["\n                  "])),(l()(),hl._0(69,0,null,3,8,"ion-input",[["name","password"],["required",""],["reverse","true"],["type","password"],["validateEqual","confirmPassword"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.credentials.password=u)&&e}return e},ru.b,ru.a)),hl.Z(70,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl.Z(71,16384,null,0,Xl,[[8,"confirmPassword"],[8,"true"]],null,null),hl._18(1024,null,Ql.f,function(l,n){return[l,n]},[Ql.n,Xl]),hl.Z(73,671744,[["newpassword",4]],0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(75,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(76,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(80,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(81,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,8,{contentLabel:0}),hl._19(603979776,9,{_buttons:1}),hl._19(603979776,10,{_icons:1}),hl.Z(85,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n                  "])),(l()(),hl._0(87,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),hl.Z(88,16384,[[8,4]],0,iu.a,[hn.a,hl.k,hl.A,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),hl._21(-1,null,["Repeat Password"])),(l()(),hl._21(-1,2,["\n                  "])),(l()(),hl._0(91,0,null,3,8,"ion-input",[["name","confirmpassword"],["required",""],["reverse","false"],["type","password"],["validateEqual","password"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.credentials.confirmpassword=u)&&e}return e},ru.b,ru.a)),hl.Z(92,16384,null,0,Ql.n,[],{required:[0,"required"]},null),hl.Z(93,16384,null,0,Xl,[[8,"password"],[8,"false"]],null,null),hl._18(1024,null,Ql.f,function(l,n){return[l,n]},[Ql.n,Xl]),hl.Z(95,671744,[["confirmpassword",4]],0,Ql.l,[[2,Ql.b],[2,Ql.f],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),hl._18(2048,null,Ql.h,null,[Ql.l]),hl.Z(97,16384,null,0,Ql.i,[Ql.h],null,null),hl.Z(98,5423104,null,0,cu.a,[hn.a,Zn.a,pn.a,Sn.a,hl.k,hl.A,[2,Un.a],[2,mn.a],[2,Ql.h],Tn.a],{type:[0,"type"]},null),(l()(),hl._21(-1,null,["\n                  "])),(l()(),hl._21(-1,2,["\n                "])),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(102,0,null,null,1,"small",[["class","text-danger error-msg"]],[[8,"hidden",0]],null,null,null,null)),(l()(),hl._21(-1,null,["\n                 New Password and Repeat Password are not same.\n                "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(106,0,null,null,5,"div",[["class","txt-cen"],["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n                "])),(l()(),hl._0(108,0,null,null,2,"button",[["color","primary"],["ion-button",""],["round",""],["style","width:80%"],["type","submit"]],[[8,"disabled",0]],null,null,$n.b,$n.a)),hl.Z(109,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{color:[0,"color"],round:[1,"round"]},null),(l()(),hl._21(-1,0,[" Change Password"])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n            "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,null,["\n\n"])),(l()(),hl._21(-1,1,["\n"])),(l()(),hl._21(-1,null,["\n\n"]))],function(l,n){var u=n.component;l(n,5,0,"primary");l(n,9,0,"");l(n,14,0,"menu");l(n,50,0,"");l(n,52,0,"oldpassword",u.credentials.oldpassword);l(n,55,0,"password");l(n,70,0,"");l(n,73,0,"password",u.credentials.password);l(n,76,0,"password");l(n,92,0,"");l(n,95,0,"confirmpassword",u.credentials.confirmpassword);l(n,98,0,"password");l(n,109,0,"primary","")},function(l,n){l(n,1,0,hl._14(n,2).statusbarPadding,hl._14(n,2)._hasRefresher);l(n,4,0,hl._14(n,5)._hidden,hl._14(n,5)._sbPadding);l(n,7,0,hl._14(n,9).isHidden);l(n,13,0,hl._14(n,14)._hidden);l(n,26,0,hl._14(n,30).ngClassUntouched,hl._14(n,30).ngClassTouched,hl._14(n,30).ngClassPristine,hl._14(n,30).ngClassDirty,hl._14(n,30).ngClassValid,hl._14(n,30).ngClassInvalid,hl._14(n,30).ngClassPending);l(n,49,0,hl._14(n,50).required?"":null,hl._14(n,54).ngClassUntouched,hl._14(n,54).ngClassTouched,hl._14(n,54).ngClassPristine,hl._14(n,54).ngClassDirty,hl._14(n,54).ngClassValid,hl._14(n,54).ngClassInvalid,hl._14(n,54).ngClassPending);l(n,69,0,hl._14(n,70).required?"":null,hl._14(n,75).ngClassUntouched,hl._14(n,75).ngClassTouched,hl._14(n,75).ngClassPristine,hl._14(n,75).ngClassDirty,hl._14(n,75).ngClassValid,hl._14(n,75).ngClassInvalid,hl._14(n,75).ngClassPending);l(n,91,0,hl._14(n,92).required?"":null,hl._14(n,97).ngClassUntouched,hl._14(n,97).ngClassTouched,hl._14(n,97).ngClassPristine,hl._14(n,97).ngClassDirty,hl._14(n,97).ngClassValid,hl._14(n,97).ngClassInvalid,hl._14(n,97).ngClassPending);l(n,102,0,hl._14(n,95).valid||hl._14(n,95).pristine&&!hl._14(n,28).submitted);l(n,108,0,hl._14(n,28).invalid)})}function gl(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(3,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(4,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._0(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,8).toggle()&&e}return e},$n.b,$n.a)),hl.Z(7,1097728,[[1,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(8,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(9,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,1,{_buttons:1}),(l()(),hl._21(-1,0,["\n          "])),(l()(),hl._0(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(13,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n        "])),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._0(16,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(17,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["Profile"])),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(22,0,null,null,58,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(23,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(25,0,null,1,54,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(27,0,null,null,13,"div",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(29,0,null,null,4,"ion-thumbnail",[["class","avabor_profile"],["item-start",""]],null,null,null,null,null)),hl.Z(30,16384,null,0,ju.a,[],null,null),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(32,0,null,null,0,"img",[["class","user-img"],["src","assets/imgs/ico_bg_menu_circle.png"]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(35,0,null,null,1,"h2",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(36,null,[""," ",""])),(l()(),hl._21(-1,null,["\n              "])),(l()(),hl._0(38,0,null,null,1,"p",[["text-center",""]],null,null,null,null,null)),(l()(),hl._21(39,null,[" ",""])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(42,0,null,null,32,"ion-list",[["class","profile-list"]],null,null,null,null,null)),hl.Z(43,16384,null,0,Rn.a,[hn.a,hl.k,hl.A,Zn.a,An.l,Tn.a],null,null),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(46,0,null,null,12,"ion-item",[["class","profile-item item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(47,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,2,{contentLabel:0}),hl._19(603979776,3,{_buttons:1}),hl._19(603979776,4,{_icons:1}),hl.Z(51,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n            "])),(l()(),hl._0(53,0,null,2,1,"h4",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["Email :"])),(l()(),hl._21(-1,2,["\n            "])),(l()(),hl._0(56,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),hl._21(57,null,["",""])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._21(-1,null,["\n          "])),(l()(),hl._0(61,0,null,null,12,"ion-item",[["class","profile-item item item-block"]],null,null,null,gn.b,gn.a)),hl.Z(62,1097728,null,3,mn.a,[pn.a,hn.a,hl.k,hl.A,[2,fn.a]],null,null),hl._19(335544320,5,{contentLabel:0}),hl._19(603979776,6,{_buttons:1}),hl._19(603979776,7,{_icons:1}),hl.Z(66,16384,null,0,bn.a,[],null,null),(l()(),hl._21(-1,2,["\n            "])),(l()(),hl._0(68,0,null,2,1,"h4",[],null,null,null,null,null)),(l()(),hl._21(-1,null,["Address :"])),(l()(),hl._21(-1,2,["\n            "])),(l()(),hl._0(71,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),hl._21(72,null,["",""])),(l()(),hl._21(-1,2,["\n          "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._21(-1,null,["\n        "])),(l()(),hl._0(76,0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.copyAddress()&&e}return e},$n.b,$n.a)),hl.Z(77,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),(l()(),hl._21(-1,0,["Copy Address To Clipboard"])),(l()(),hl._21(-1,null,["\n  "])),(l()(),hl._21(-1,1,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,8,0,"");l(n,13,0,"menu")},function(l,n){var u=n.component;l(n,3,0,hl._14(n,4)._hidden,hl._14(n,4)._sbPadding);l(n,6,0,hl._14(n,8).isHidden);l(n,12,0,hl._14(n,13)._hidden);l(n,22,0,hl._14(n,23).statusbarPadding,hl._14(n,23)._hasRefresher);l(n,36,0,u.user.firstName,u.user.lastName);l(n,39,0,u.user.country);l(n,57,0,u.user.email);l(n,72,0,u.user.address)})}function ml(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),hl.Z(1,16384,null,0,Pn.a,[hn.a,hl.k,hl.A,[2,In.a]],null,null),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._0(3,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Yn.b,Yn.a)),hl.Z(4,49152,null,0,Kn.a,[Sn.a,[2,In.a],[2,Mn.a],hn.a,hl.k,hl.A],{color:[0,"color"]},null),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._0(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==hl._14(l,8).toggle()&&e}return e},$n.b,$n.a)),hl.Z(7,1097728,[[1,4]],0,zn.a,[[8,""],hn.a,hl.k,hl.A],null,null),hl.Z(8,1064960,null,0,Qn.a,[Cn.a,[2,In.a],[2,zn.a],[2,Kn.a]],{menuToggle:[0,"menuToggle"]},null),hl.Z(9,16384,null,1,Xn.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),hl._19(603979776,1,{_buttons:1}),(l()(),hl._21(-1,0,["\n          "])),(l()(),hl._0(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),hl.Z(13,147456,null,0,lu.a,[hn.a,hl.k,hl.A],{name:[0,"name"]},null),(l()(),hl._21(-1,0,["\n        "])),(l()(),hl._21(-1,3,["\n        "])),(l()(),hl._0(16,0,null,3,2,"ion-title",[],null,null,null,nu.b,nu.a)),hl.Z(17,49152,null,0,uu.a,[hn.a,hl.k,hl.A,[2,jn.a],[2,Kn.a]],null,null),(l()(),hl._21(-1,0,["Profile"])),(l()(),hl._21(-1,3,["\n    "])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._21(-1,null,["\n"])),(l()(),hl._0(22,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,En.b,En.a)),hl.Z(23,4374528,null,0,Un.a,[hn.a,Zn.a,Tn.a,hl.k,hl.A,Sn.a,wn.a,hl.v,[2,In.a],[2,Mn.a]],null,null),(l()(),hl._21(-1,1,["\n    "])),(l()(),hl._0(25,0,null,1,9,"div",[["padding",""]],null,null,null,null,null)),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(27,0,null,null,2,"button",[["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.sendTransaction()&&e}return e},$n.b,$n.a)),hl.Z(28,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{full:[0,"full"]},null),(l()(),hl._21(-1,0,["Send "])),(l()(),hl._21(-1,null,["\n      "])),(l()(),hl._0(31,0,null,null,2,"button",[["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.addListenNFC()&&e}return e},$n.b,$n.a)),hl.Z(32,1097728,null,0,zn.a,[[8,""],hn.a,hl.k,hl.A],{full:[0,"full"]},null),(l()(),hl._21(-1,0,["Receive"])),(l()(),hl._21(-1,null,["\n    "])),(l()(),hl._21(-1,1,["\n"]))],function(l,n){l(n,4,0,"primary");l(n,8,0,"");l(n,13,0,"menu");l(n,28,0,"");l(n,32,0,"")},function(l,n){l(n,3,0,hl._14(n,4)._hidden,hl._14(n,4)._sbPadding);l(n,6,0,hl._14(n,8).isHidden);l(n,12,0,hl._14(n,13)._hidden);l(n,22,0,hl._14(n,23).statusbarPadding,hl._14(n,23)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var pl=u(55),hl=u(0),fl=u(3),bl=(u(24),u(110)),vl=u(111),kl=u(68),yl=u(60),Cl=(u(377),u(378)),Zl=function(){function l(l,n){this.http=l,this.storage=n,this.serverUrl="http://wallet.evenscoin.io:3200/api",this.etherscanUrl="https://api-rinkeby.etherscan.io/api?module=account&action=txlist&address=",this.params="&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken",this.evensparams="&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken",this.evenstokenUrl="https://api-rinkeby.etherscan.io/api?module=account&action=tokentx&address=",this.topriceurl="https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW",this.exploreUrl="http://explorer.evenscoin.io",this.USDvalue={}}return l.prototype.setSelecetedcoin=function(l){this.selectedCoin=l,this.storage.set("selectedcoin",l)},l.prototype.getEthTransaction=function(l){var n=this;return new Promise(function(u,e){n.http.get(""+n.etherscanUrl+l+n.params).subscribe(function(n){var e=[];if(n.result)if(n.result.length){for(var a=0;a<n.result.length&&!(e.length>4);a++){var t=Object.assign({},n.result[a]);if(0!=t.value){var o=t.from.toUpperCase()==l.toUpperCase()?"Sent":"Received",s=t.value/1e18,i=new Date(parseInt(t.timeStamp));console.log("time",i);var r={amount:parseFloat(s).toFixed(3),date:Cl.tz(1e3*parseInt(t.timeStamp),"Asia/Kolkata").format("DD-MMM-YYYY"),mode:o,receipt:t.hash,link:"http://rinkeby.etherscan.io/tx/"+t.hash};e.push(r)}}u(e)}else u([]);else u([])},function(l){alert("Something Went Wrong.")})})},l.prototype.getTokenTransaction=function(l){var n=this;return new Promise(function(u,e){n.http.get(""+n.evenstokenUrl+l+n.evensparams).subscribe(function(n){if(n.result)if(n.result.length){var e=n.result.map(function(n){var u=n.from.toUpperCase()==l.toUpperCase()?"Sent":"Received",e=1==n.txreceipt_status?"Success":"Failure",a=n.value/1e18;return{amount:parseFloat(a).toFixed(3),date:Cl.tz(1e3*parseInt(n.timeStamp),"Asia/Kolkata").format("DD-MMM-YYYY"),mode:u,status:e,receipt:n.hash,link:"https://rinkeby.etherscan.io/tx/"+n.hash}});u(e)}else u([]);else u([])},function(l){alert("Something Went Wrong.")})})},l.prototype.getSelectedcoinpromise=function(){var l=this;return new Promise(function(n,u){l.selectedCoin?n(l.selectedCoin):l.storage.get("selectedcoin").then(function(u){l.selectedCoin=u,n(l.selectedCoin)})})},l.prototype.getSelectedcoin=function(){var l=this;if(this.selectedCoin)return this.selectedCoin;this.storage.get("selectedcoin").then(function(n){return l.selectedCoin=n,l.selectedCoin})},l.prototype.getUsedValue=function(){return this.USDvalue.USD},l.prototype.getBalance=function(){return this.http.get(this.serverUrl+"/getBalance")},l.prototype.evensBalance=function(){return this.http.get(this.serverUrl+"/evensBalance")},l.prototype.checkAddress=function(l){return this.http.get(this.serverUrl+"/checkAdddress/"+l)},l.prototype.Transfer=function(l){return this.http.post(this.serverUrl+"/transfer",l)},l.prototype.TransferEns=function(l){return this.http.post(this.serverUrl+"/sendEns",l)},l.prototype.getTodayPrice=function(){return this.http.get(this.topriceurl)},l.prototype.getAllBalance=function(){return this.http.get(this.serverUrl+"/allBalance")},l.prototype.getTokenOneBalance=function(){return this.http.get(this.serverUrl+"/tokenOneBalance")},l.prototype.getTokenTwoBalance=function(){return this.http.get(this.serverUrl+"/tokenTwoBalance")},l.prototype.getTokenThreeBalance=function(){return this.http.get(this.serverUrl+"/tokenThreeBalance")},l.prototype.TransferTokenOne=function(l){return this.http.post(this.serverUrl+"/sendTokenOne",l)},l.prototype.TransferTokenTwo=function(l){return this.http.post(this.serverUrl+"/sendTokenTwo",l)},l.prototype.TransferTokenThree=function(l){return this.http.post(this.serverUrl+"/sendTokenThree",l)},l.prototype.createAccont=function(l){return this.http.post(this.serverUrl+"/signUp",l)},l.prototype.login=function(l){return this.http.post(this.serverUrl+"/login",l)},l.prototype.saveLocalData=function(l,n){this.storage.set("user",JSON.stringify(l)),this.storage.set("token",n)},l.prototype.getStoredData=function(){var l=this;return new Promise(function(n,u){l.storage.get("user").then(function(l){console.log("value data",l),n(l?JSON.parse(l):null)})})},l.prototype.getTokenTxList=function(l,n){var u=this;return new Promise(function(e,a){u.http.get(u.exploreUrl+"/tokenTransaction?tkaddr="+l+"&addr="+n+"&length=5").subscribe(function(l){if(l&&l.data){if(l.data.length){var a=l.data.map(function(l){var e=l.from.toUpperCase()==n.toUpperCase()?"Sent":"Received";return{amount:parseFloat(l.value).toFixed(3),date:Cl.tz(1e3*parseInt(l.timestamp),"Asia/Kolkata").format("DD-MMM-YYYY"),mode:e,receipt:l.hash,link:u.exploreUrl+"/tx/"+l.hash}});e(a)}}else e([])},function(l){e([])})})},l.prototype.getUserInfo=function(){return this.http.get(this.serverUrl+"/user")},l.prototype.getChartDate=function(){return this.http.get(this.serverUrl+"/ethusdprice")},l.prototype.changepassword=function(l){return this.http.post(this.serverUrl+"/changePassword",l)},l}(),wl=u(70),Al=u(112),Tl=this&&this.__awaiter||function(l,n,u,e){return new(u||(u=Promise))(function(a,t){function o(l){try{i(e.next(l))}catch(l){t(l)}}function s(l){try{i(e.throw(l))}catch(l){t(l)}}function i(l){l.done?a(l.value):new u(function(n){n(l.value)}).then(o,s)}i((e=e.apply(l,n||[])).next())})},Sl=this&&this.__generator||function(l,n){function u(u){return function(o){return function(u){if(e)throw new TypeError("Generator is already executing.");for(;s;)try{if(e=1,a&&(t=a[2&u[0]?"return":u[0]?"throw":"next"])&&!(t=t.call(a,u[1])).done)return t;switch(a=0,t&&(u=[0,t.value]),u[0]){case 0:case 1:t=u;break;case 4:return s.label++,{value:u[1],done:!1};case 5:s.label++,a=u[1],u=[0];continue;case 7:u=s.ops.pop(),s.trys.pop();continue;default:if(t=s.trys,!(t=t.length>0&&t[t.length-1])&&(6===u[0]||2===u[0])){s=0;continue}if(3===u[0]&&(!t||u[1]>t[0]&&u[1]<t[3])){s.label=u[1];break}if(6===u[0]&&s.label<t[1]){s.label=t[1],t=u;break}if(t&&s.label<t[2]){s.label=t[2],s.ops.push(u);break}t[2]&&s.ops.pop(),s.trys.pop();continue}u=n.call(l,s)}catch(l){u=[6,l],a=0}finally{e=t=0}if(5&u[0])throw u[1];return{value:u[0]?u[1]:void 0,done:!0}}([u,o])}}var e,a,t,o,s={label:0,sent:function(){if(1&t[0])throw t[1];return t[1]},trys:[],ops:[]};return o={next:u(0),throw:u(1),return:u(2)},"function"==typeof Symbol&&(o[Symbol.iterator]=function(){return this}),o},Pl=function(){function l(l,n){this.navCtrl=l,this.webserve=n,this.account={},this.showQr=!1,this.value="test",this.todayPrice={BTT:1,ETH:1},this.getSelecetedCoin(),this.gettodayPrice()}return l.prototype.doRefresh=function(l){this.getSelecetedCoin(),this.gettodayPrice(),setTimeout(function(){l.complete()},2e3)},l.prototype.gettodayPrice=function(){var l=this;l.webserve.getTodayPrice().subscribe(function(n){l.todayPrice=n},function(l){console.log(l)})},l.prototype.getSelecetedCoin=function(){return Tl(this,void 0,void 0,function(){var l;return Sl(this,function(n){switch(n.label){case 0:return l=this,[4,this.webserve.getSelectedcoinpromise()];case 1:return l.selectedCur=n.sent(),this.getBalance(),[2]}})})},l.prototype.getBalance=function(){var l,n=this,u=this;switch(u.selectedCur){case"evenscoin":l=u.webserve.evensBalance();break;case"tokenOne":l=u.webserve.getTokenOneBalance();break;case"tokenTwo":l=u.webserve.getTokenTwoBalance();break;case"tokenThree":l=u.webserve.getTokenThreeBalance();break;default:l=u.webserve.getBalance()}l.subscribe(function(l){console.log("res",l),u.account=l,n.showQr=!0},function(l){console.log("err",l)})},l}(),Il=u(113),xl=function(){function l(l,n,u,e,a){this.navCtrl=l,this.navParams=n,this.webservice=u,this.iab=e,this.toastCtrl=a,this.selectedAccount={address:"-",balance:0},this.todayPrice={BTT:1,ETH:1},this.ethTransaction=[],this.selectedCur=this.webservice.getSelectedcoin(),this.getBalance(),this.gettodayPrice()}return l.prototype.doRefresh=function(l){this.getBalance(),this.gettodayPrice(),setTimeout(function(){l.complete()},2e3)},l.prototype.OpenUrl=function(l){this.iab.create(l).show()},l.prototype.getBalance=function(){var l,n=this,u=this;switch(u.selectedCur){case"evenscoin":l=u.webservice.evensBalance();break;case"tokenOne":l=u.webservice.getTokenOneBalance();break;case"tokenTwo":l=u.webservice.getTokenTwoBalance();break;case"tokenThree":l=u.webservice.getTokenThreeBalance();break;default:l=u.webservice.getBalance()}l.subscribe(function(l){u.selectedAccount=l,n.getEtheriumTransaction(l.address)},function(l){u.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()})},l.prototype.ionViewWillEnter=function(){this.getBalance()},l.prototype.getEtheriumTransaction=function(l){var n=this;("Etheriun"==this.selectedCur?this.webservice.getEthTransaction(l):"evenscoin"==this.selectedCur?this.webservice.getTokenTransaction(l):this.webservice.getTokenTxList(this.selectedAccount.tokenAddress,this.selectedAccount.address)).then(function(l){n.ethTransaction=l})},l.prototype.gettodayPrice=function(){var l=this;l.webservice.getTodayPrice().subscribe(function(n){l.todayPrice=n},function(n){l.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()})},l}(),jl=u(114),Rl=u(54),Bl=this&&this.__awaiter||function(l,n,u,e){return new(u||(u=Promise))(function(a,t){function o(l){try{i(e.next(l))}catch(l){t(l)}}function s(l){try{i(e.throw(l))}catch(l){t(l)}}function i(l){l.done?a(l.value):new u(function(n){n(l.value)}).then(o,s)}i((e=e.apply(l,n||[])).next())})},El=this&&this.__generator||function(l,n){function u(u){return function(o){return function(u){if(e)throw new TypeError("Generator is already executing.");for(;s;)try{if(e=1,a&&(t=a[2&u[0]?"return":u[0]?"throw":"next"])&&!(t=t.call(a,u[1])).done)return t;switch(a=0,t&&(u=[0,t.value]),u[0]){case 0:case 1:t=u;break;case 4:return s.label++,{value:u[1],done:!1};case 5:s.label++,a=u[1],u=[0];continue;case 7:u=s.ops.pop(),s.trys.pop();continue;default:if(t=s.trys,!(t=t.length>0&&t[t.length-1])&&(6===u[0]||2===u[0])){s=0;continue}if(3===u[0]&&(!t||u[1]>t[0]&&u[1]<t[3])){s.label=u[1];break}if(6===u[0]&&s.label<t[1]){s.label=t[1],t=u;break}if(t&&s.label<t[2]){s.label=t[2],s.ops.push(u);break}t[2]&&s.ops.pop(),s.trys.pop();continue}u=n.call(l,s)}catch(l){u=[6,l],a=0}finally{e=t=0}if(5&u[0])throw u[1];return{value:u[0]?u[1]:void 0,done:!0}}([u,o])}}var e,a,t,o,s={label:0,sent:function(){if(1&t[0])throw t[1];return t[1]},trys:[],ops:[]};return o={next:u(0),throw:u(1),return:u(2)},"function"==typeof Symbol&&(o[Symbol.iterator]=function(){return this}),o},Ul=function(){function l(l,n,u,e,a,t){this.navCtrl=l,this.webserve=n,this.barcodeScanner=u,this.toastCtrl=e,this.nfc=a,this.ndef=t,this.transfer={},this.mimeType="game/rockpaperscissors",this.account={address:"-",balance:0,tokenOneSym:"",tokenTwoSym:"",tokenThreeSym:""},this.enableNfc=!1,this.checkNfc(),this.getSelecetedCoin()}return l.prototype.doRefresh=function(l){this.getSelecetedCoin(),setTimeout(function(){l.complete()},2e3)},l.prototype.checkNfc=function(){var l=this;this.nfc.enabled().then(function(n){l.enableNfc=!0},function(n){l.enableNfc=!1})},l.prototype.setFocus=function(){this.myInput.setFocus()},l.prototype.getSelecetedCoin=function(){return Bl(this,void 0,void 0,function(){var l;return El(this,function(n){switch(n.label){case 0:return l=this,[4,this.webserve.getSelectedcoinpromise()];case 1:return l.selectedCur=n.sent(),this.getBalance(),[2]}})})},l.prototype.getBalance=function(){var l,n=this;switch(n.selectedCur){case"evenscoin":l=n.webserve.evensBalance();break;case"tokenOne":l=n.webserve.getTokenOneBalance();break;case"tokenTwo":l=n.webserve.getTokenTwoBalance();break;case"tokenThree":l=n.webserve.getTokenThreeBalance();break;default:l=n.webserve.getBalance()}l.subscribe(function(l){n.account=l},function(l){n.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()})},l.prototype.addListenNFC=function(){var l=this;this.nfcsubscribe=this.nfc.addMimeTypeListener(this.mimeType,this.onNfc,this.onnfcfailed).subscribe(function(n){if(n)if(n&&n.tag){var u=l.nfc.bytesToString(n.tag.ndefMessage[0].payload);u?(l.checkAddress(u,!0),l.setFocus()):l.createtoast("can't find valid address")}else l.createtoast("Cannot find the nfc")})},l.prototype.onnfcfailed=function(){this.createtoast("nfc failed.Try again ")},l.prototype.onNfc=function(l){console.log("Listener added")},l.prototype.createtoast=function(l,n){void 0===n&&(n=2e3);this.toastCtrl.create({message:l,duration:n}).present()},l.prototype.transferAmount=function(l){var n,u=this,e={transferTo:l.value.address,amount:l.value.amount};switch(u.selectedCur){case"evenscoin":n=u.webserve.TransferEns(e);break;case"tokenOne":n=u.webserve.TransferTokenOne(e);break;case"tokenTwo":n=u.webserve.TransferTokenTwo(e);break;case"tokenThree":n=u.webserve.TransferTokenThree(e);break;default:n=u.webserve.Transfer(e)}n.subscribe(function(l){if(console.log("response",l),l.recepit){u.toastCtrl.create({message:"Transaction Completed Successfully",duration:2e3}).present(),u.getBalance()}else{u.toastCtrl.create({message:"Transaction Failed",duration:2e3}).present()}},function(l){u.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()})},l.prototype.scanQr=function(){var l=this;this.barcodeScanner.scan().then(function(n){l.checkAddress(n.text)}).catch(function(n){l.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()})},l.prototype.checkbalance=function(l){if(l&&!(l<=this.account.balance)){this.transfer.amount="";this.toastCtrl.create({message:"Amount should not be greater than balance",duration:1e4}).present()}},l.prototype.checkAddress=function(l,n){var u=this;void 0===n&&(n=!1);var e=this;l&&e.webserve.checkAddress(l).subscribe(function(a){if(a.status)u.transfer.address=l,n&&u.createtoast("Address Detected"),console.log(l);else{e.transfer.address="";e.toastCtrl.create({message:"Invalid Address",duration:2e3}).present()}},function(l){e.transfer.address="";e.toastCtrl.create({message:"Invalid Address",duration:2e3}).present()})},l.prototype.ngOnDestroy=function(){this.nfcsubscribe&&this.nfcsubscribe.unsubscribe()},l}(),Ml=function(){function l(l,n,u){this.navCtrl=l,this.webservice=n,this.toastCtrl=u,this.selectedAccount={address:"-",balance:0},this.selectedCur=this.webservice.getSelectedcoin()}return l.prototype.getBalance=function(){var l,n=this;switch(n.selectedCur){case"tokenOne":l=n.webservice.getTokenOneBalance();break;case"tokenTwo":l=n.webservice.getTokenTwoBalance();break;case"tokenThree":l=n.webservice.getTokenThreeBalance()}l.then(function(l){n.selectedAccount=l},function(l){n.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()})},l}(),Nl=function(){return function(l,n){this.navCtrl=l,this.navParams=n,this.tab1Root=Ul,this.tab2Root=Pl,this.tab3Root=xl,this.tab4Root=Ml,this.mySelectedIndex=this.navParams.get("tabIndex")}}(),Ol=function(){function l(l,n,u,e,a,t,o){this.navCtrl=l,this.webserve=n,this.menu=u,this.events=e,this.alertCtrl=a,this.loadingCtrl=t,this.AmCharts=o,this.etherAccount={address:"-",balance:0},this.evensAccount={address:"-",balance:0},this.tokens=[],this.todayPrice={BTT:1,ETH:1,INR:1,THB:1,KRW:1},this.allBalance={eth:0,tokenOne:0,tokenTwo:0,tokenThree:0,ens:0,address:"",tokenTwosym:"",tokenOnesym:"",tokenThreeSym:""},this.colors=["#FF0F00","#FF6600","#FF9E01","#FCD202","#0D8ECF"],this.options={type:"serial",theme:"dark",dataDateFormat:"DD-MMM-YYYY",dataProvider:[],valueAxes:[{id:"v1",axisAlpha:0,position:"left",title:"ETH in USD"}],balloon:{borderThickness:.5,shadowAlpha:0},graphs:[{id:"g1",balloon:{drop:!0,adjustBorderColor:!1,color:"#ffffff",type:"smoothedLine"},fillAlphas:.2,bullet:"round",bulletBorderAlpha:.5,bulletColor:"#FFFFFF",bulletSize:2,hideBulletsCount:50,lineThickness:2,title:"red line",useLineColorForBulletBorder:!0,valueField:"value",balloonText:"<span style='font-size:8px;'>[[value]]</span>"}],startDuration:1,chartCursor:{valueLineEnabled:!0,valueLineBalloonEnabled:!0,cursorAlpha:0,zoomable:!1},categoryAxis:{gridPosition:"start",labelRotation:30,dashLength:0,minorGridEnabled:!0},categoryField:"date",export:{enabled:!1}},this.gettodayPrice(),this.getAllBalance(),this.menu.enable(!0),this.events.publish("getUser",!0)}return l.prototype.createChart=function(l){void 0===l&&(l=[]),this.options.dataProvider=l,this.chart=this.AmCharts.makeChart("chartdiv",this.options),console.log("chart",this.chart)},l.prototype.ngAfterViewInit=function(){this.addlistenerchart(),this.getChartDate()},l.prototype.addlistenerchart=function(){this.AmCharts.addInitHandler(function(l){console.log("axis values",l.valueAxes[1])})},l.prototype.doRefresh=function(l){this.gettodayPrice(),this.getAllBalance(),setTimeout(function(){l.complete()},2e3)},l.prototype.getBalance=function(){var l=this;l.webserve.getBalance().subscribe(function(n){console.log("res",n),l.etherAccount=n},function(l){console.log("err",l)})},l.prototype.getAllBalance=function(){var l=this,n=this.loadingCtrl.create({content:"Fetching Balance  Please Wait..."});n.present(),l.webserve.getAllBalance().subscribe(function(u){l.allBalance=u,n.dismiss()},function(l){n.dismiss()})},l.prototype.evensBalance=function(){var l=this;l.webserve.evensBalance().subscribe(function(n){l.evensAccount=n},function(l){})},l.prototype.openSingleNotification=function(l,n){this.webserve.setSelecetedcoin(l),this.navCtrl.push(Nl,{data:n})},l.prototype.gettodayPrice=function(){var l=this;l.webserve.getTodayPrice().subscribe(function(n){l.todayPrice=n},function(l){console.log(l)})},l.prototype.getChartDate=function(){var l=this;l.webserve.getChartDate().subscribe(function(n){l.createChart(n.data)},function(n){l.createChart()})},l.prototype.goToPricePage=function(){this.navCtrl.push(Fl)},l}(),Gl=function(){function l(l,n,u,e,a){this.navCtrl=l,this.navParams=n,this.clipboard=u,this.menu=e,this.webService=a,this.data={},this.data=this.navParams.get("data"),this.token=this.navParams.get("token"),this.menu.enable(!1)}return l.prototype.copyToClipboard=function(){this.clipboard.copy(this.data.seed)},l.prototype.goToHome=function(){this.webService.saveLocalData(this.data,this.token),this.navCtrl.setRoot(Ol)},l}(),ql=function(){function l(l,n,u,e,a){this.navCtrl=l,this.WebService=n,this.menu=u,this.toastCtrl=e,this.loadCtrl=a,this.gender="male",this.newUser={},this.countryChoice=[{name:"Afghanistan",code:"AF"},{name:"Åland Islands",code:"AX"},{name:"Albania",code:"AL"},{name:"Algeria",code:"DZ"},{name:"American Samoa",code:"AS"},{name:"AndorrA",code:"AD"},{name:"Angola",code:"AO"},{name:"Anguilla",code:"AI"},{name:"Antarctica",code:"AQ"},{name:"Antigua and Barbuda",code:"AG"},{name:"Argentina",code:"AR"},{name:"Armenia",code:"AM"},{name:"Aruba",code:"AW"},{name:"Australia",code:"AU"},{name:"Austria",code:"AT"},{name:"Azerbaijan",code:"AZ"},{name:"Bahamas",code:"BS"},{name:"Bahrain",code:"BH"},{name:"Bangladesh",code:"BD"},{name:"Barbados",code:"BB"},{name:"Belarus",code:"BY"},{name:"Belgium",code:"BE"},{name:"Belize",code:"BZ"},{name:"Benin",code:"BJ"},{name:"Bermuda",code:"BM"},{name:"Bhutan",code:"BT"},{name:"Bolivia",code:"BO"},{name:"Bosnia and Herzegovina",code:"BA"},{name:"Botswana",code:"BW"},{name:"Bouvet Island",code:"BV"},{name:"Brazil",code:"BR"},{name:"British Indian Ocean Territory",code:"IO"},{name:"Brunei Darussalam",code:"BN"},{name:"Bulgaria",code:"BG"},{name:"Burkina Faso",code:"BF"},{name:"Burundi",code:"BI"},{name:"Cambodia",code:"KH"},{name:"Cameroon",code:"CM"},{name:"Canada",code:"CA"},{name:"Cape Verde",code:"CV"},{name:"Cayman Islands",code:"KY"},{name:"Central African Republic",code:"CF"},{name:"Chad",code:"TD"},{name:"Chile",code:"CL"},{name:"China",code:"CN"},{name:"Christmas Island",code:"CX"},{name:"Cocos (Keeling) Islands",code:"CC"},{name:"Colombia",code:"CO"},{name:"Comoros",code:"KM"},{name:"Congo",code:"CG"},{name:"Congo, The Democratic Republic of the",code:"CD"},{name:"Cook Islands",code:"CK"},{name:"Costa Rica",code:"CR"},{name:'Cote D"Ivoire',code:"CI"},{name:"Croatia",code:"HR"},{name:"Cuba",code:"CU"},{name:"Cyprus",code:"CY"},{name:"Czech Republic",code:"CZ"},{name:"Denmark",code:"DK"},{name:"Djibouti",code:"DJ"},{name:"Dominica",code:"DM"},{name:"Dominican Republic",code:"DO"},{name:"Ecuador",code:"EC"},{name:"Egypt",code:"EG"},{name:"El Salvador",code:"SV"},{name:"Equatorial Guinea",code:"GQ"},{name:"Eritrea",code:"ER"},{name:"Estonia",code:"EE"},{name:"Ethiopia",code:"ET"},{name:"Falkland Islands (Malvinas)",code:"FK"},{name:"Faroe Islands",code:"FO"},{name:"Fiji",code:"FJ"},{name:"Finland",code:"FI"},{name:"France",code:"FR"},{name:"French Guiana",code:"GF"},{name:"French Polynesia",code:"PF"},{name:"French Southern Territories",code:"TF"},{name:"Gabon",code:"GA"},{name:"Gambia",code:"GM"},{name:"Georgia",code:"GE"},{name:"Germany",code:"DE"},{name:"Ghana",code:"GH"},{name:"Gibraltar",code:"GI"},{name:"Greece",code:"GR"},{name:"Greenland",code:"GL"},{name:"Grenada",code:"GD"},{name:"Guadeloupe",code:"GP"},{name:"Guam",code:"GU"},{name:"Guatemala",code:"GT"},{name:"Guernsey",code:"GG"},{name:"Guinea",code:"GN"},{name:"Guinea-Bissau",code:"GW"},{name:"Guyana",code:"GY"},{name:"Haiti",code:"HT"},{name:"Heard Island and Mcdonald Islands",code:"HM"},{name:"Holy See (Vatican City State)",code:"VA"},{name:"Honduras",code:"HN"},{name:"Hong Kong",code:"HK"},{name:"Hungary",code:"HU"},{name:"Iceland",code:"IS"},{name:"India",code:"IN"},{name:"Indonesia",code:"ID"},{name:"Iran, Islamic Republic Of",code:"IR"},{name:"Iraq",code:"IQ"},{name:"Ireland",code:"IE"},{name:"Isle of Man",code:"IM"},{name:"Israel",code:"IL"},{name:"Italy",code:"IT"},{name:"Jamaica",code:"JM"},{name:"Japan",code:"JP"},{name:"Jersey",code:"JE"},{name:"Jordan",code:"JO"},{name:"Kazakhstan",code:"KZ"},{name:"Kenya",code:"KE"},{name:"Kiribati",code:"KI"},{name:'Korea, Democratic People"S Republic of',code:"KP"},{name:"Korea, Republic of",code:"KR"},{name:"Kuwait",code:"KW"},{name:"Kyrgyzstan",code:"KG"},{name:'Lao People"S Democratic Republic',code:"LA"},{name:"Latvia",code:"LV"},{name:"Lebanon",code:"LB"},{name:"Lesotho",code:"LS"},{name:"Liberia",code:"LR"},{name:"Libyan Arab Jamahiriya",code:"LY"},{name:"Liechtenstein",code:"LI"},{name:"Lithuania",code:"LT"},{name:"Luxembourg",code:"LU"},{name:"Macao",code:"MO"},{name:"Macedonia, The Former Yugoslav Republic of",code:"MK"},{name:"Madagascar",code:"MG"},{name:"Malawi",code:"MW"},{name:"Malaysia",code:"MY"},{name:"Maldives",code:"MV"},{name:"Mali",code:"ML"},{name:"Malta",code:"MT"},{name:"Marshall Islands",code:"MH"},{name:"Martinique",code:"MQ"},{name:"Mauritania",code:"MR"},{name:"Mauritius",code:"MU"},{name:"Mayotte",code:"YT"},{name:"Mexico",code:"MX"},{name:"Micronesia, Federated States of",code:"FM"},{name:"Moldova, Republic of",code:"MD"},{name:"Monaco",code:"MC"},{name:"Mongolia",code:"MN"},{name:"Montserrat",code:"MS"},{name:"Morocco",code:"MA"},{name:"Mozambique",code:"MZ"},{name:"Myanmar",code:"MM"},{name:"Namibia",code:"NA"},{name:"Nauru",code:"NR"},{name:"Nepal",code:"NP"},{name:"Netherlands",code:"NL"},{name:"Netherlands Antilles",code:"AN"},{name:"New Caledonia",code:"NC"},{name:"New Zealand",code:"NZ"},{name:"Nicaragua",code:"NI"},{name:"Niger",code:"NE"},{name:"Nigeria",code:"NG"},{name:"Niue",code:"NU"},{name:"Norfolk Island",code:"NF"},{name:"Northern Mariana Islands",code:"MP"},{name:"Norway",code:"NO"},{name:"Oman",code:"OM"},{name:"Pakistan",code:"PK"},{name:"Palau",code:"PW"},{name:"Palestinian Territory, Occupied",code:"PS"},{name:"Panama",code:"PA"},{name:"Papua New Guinea",code:"PG"},{name:"Paraguay",code:"PY"},{name:"Peru",code:"PE"},{name:"Philippines",code:"PH"},{name:"Pitcairn",code:"PN"},{name:"Poland",code:"PL"},{name:"Portugal",code:"PT"},{name:"Puerto Rico",code:"PR"},{name:"Qatar",code:"QA"},{name:"Reunion",code:"RE"},{name:"Romania",code:"RO"},{name:"Russian Federation",code:"RU"},{name:"RWANDA",code:"RW"},{name:"Saint Helena",code:"SH"},{name:"Saint Kitts and Nevis",code:"KN"},{name:"Saint Lucia",code:"LC"},{name:"Saint Pierre and Miquelon",code:"PM"},{name:"Saint Vincent and the Grenadines",code:"VC"},{name:"Samoa",code:"WS"},{name:"San Marino",code:"SM"},{name:"Sao Tome and Principe",code:"ST"},{name:"Saudi Arabia",code:"SA"},{name:"Senegal",code:"SN"},{name:"Serbia and Montenegro",code:"CS"},{name:"Seychelles",code:"SC"},{name:"Sierra Leone",code:"SL"},{name:"Singapore",code:"SG"},{name:"Slovakia",code:"SK"},{name:"Slovenia",code:"SI"},{name:"Solomon Islands",code:"SB"},{name:"Somalia",code:"SO"},{name:"South Africa",code:"ZA"},{name:"South Georgia and the South Sandwich Islands",code:"GS"},{name:"Spain",code:"ES"},{name:"Sri Lanka",code:"LK"},{name:"Sudan",code:"SD"},{name:"Suriname",code:"SR"},{name:"Svalbard and Jan Mayen",code:"SJ"},{name:"Swaziland",code:"SZ"},{name:"Sweden",code:"SE"},{name:"Switzerland",code:"CH"},{name:"Syrian Arab Republic",code:"SY"},{name:"Taiwan, Province of China",code:"TW"},{name:"Tajikistan",code:"TJ"},{name:"Tanzania, United Republic of",code:"TZ"},{name:"Thailand",code:"TH"},{name:"Timor-Leste",code:"TL"},{name:"Togo",code:"TG"},{name:"Tokelau",code:"TK"},{name:"Tonga",code:"TO"},{name:"Trinidad and Tobago",code:"TT"},{name:"Tunisia",code:"TN"},{name:"Turkey",code:"TR"},{name:"Turkmenistan",code:"TM"},{name:"Turks and Caicos Islands",code:"TC"},{name:"Tuvalu",code:"TV"},{name:"Uganda",code:"UG"},{name:"Ukraine",code:"UA"},{name:"United Arab Emirates",code:"AE"},{name:"United Kingdom",code:"GB"},{name:"United States",code:"US"},{name:"United States Minor Outlying Islands",code:"UM"},{name:"Uruguay",code:"UY"},{name:"Uzbekistan",code:"UZ"},{name:"Vanuatu",code:"VU"},{name:"Venezuela",code:"VE"},{name:"Viet Nam",code:"VN"},{name:"Virgin Islands, British",code:"VG"},{name:"Virgin Islands, U.S.",code:"VI"},{name:"Wallis and Futuna",code:"WF"},{name:"Western Sahara",code:"EH"},{name:"Yemen",code:"YE"},{name:"Zambia",code:"ZM"},{name:"Zimbabwe",code:"ZW"}],this.menu.enable(!1)}return l.prototype.siguUP=function(l){var n=this,u=n.loadCtrl.create();u.present(),n.WebService.createAccont(n.newUser).subscribe(function(l){if(u.dismiss(),200==l.status)n.navCtrl.setRoot(Gl,{data:l.data,token:l.token});else{n.toastCtrl.create({message:l.message,duration:2e3}).present()}},function(l){if(u.dismiss(),"error"in l){if(l.error.status){n.toastCtrl.create({message:l.error.message,duration:2e3}).present()}}else{n.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()}})},l}(),Ll=function(){function l(l,n,u,e,a){this.navCtrl=l,this.menu=n,this.webService=u,this.loadCtrl=e,this.toastCtrl=a,this.user={},this.CreateAccount=ql,this.menu.enable(!1)}return l.prototype.goToCreateAccountPage=function(){this.navCtrl.push(ql)},l.prototype.login=function(){var l=this,n=l.loadCtrl.create();n.present(),l.webService.login(l.user).subscribe(function(u){if(n.dismiss(),200==u.status){var e=Object.assign({},u.data);e.password=l.user.password,l.webService.saveLocalData(e,u.token),l.navCtrl.setRoot(Ol)}else{l.toastCtrl.create({message:u.message,duration:2e3}).present()}},function(u){if(n.dismiss(),"error"in u){if(u.error.status){l.toastCtrl.create({message:u.error.message,duration:2e3}).present()}}else{l.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()}})},l}(),Fl=function(){function l(l,n,u,e,a){this.navCtrl=l,this.loadCtrl=n,this.webservice=u,this.toastCtrl=e,this.storage=a,this.credentials={}}return l.prototype.changePassword=function(l){var n=this,u=this,e=u.loadCtrl.create();e.present(),u.webservice.changepassword(u.credentials).subscribe(function(l){if(e.dismissAll(),200==l.status){n.storage.clear(),n.navCtrl.setRoot(Ll);u.toastCtrl.create({message:"Password Changed Successfully. Please Login to continue",duration:2e3}).present()}else{u.toastCtrl.create({message:l.message,duration:2e3}).present()}},function(l){e.dismissAll();u.toastCtrl.create({message:"Something Went wrong try after sometime",duration:2e3}).present()})},l}(),Vl=function(){function l(l,n,u,e){this.navCtrl=l,this.webService=n,this.toastCtrl=u,this.clipboard=e,this.user={},this.getUSerInfo()}return l.prototype.getUSerInfo=function(){var l=this;l.webService.getUserInfo().subscribe(function(n){if(200==n.status)console.log("user",n),l.user=n.data;else{l.toastCtrl.create({message:n.message,duration:2e3}).present()}},function(n){if("error"in n){if(n.error.status){l.toastCtrl.create({message:n.error.message,duration:2e3}).present()}}else{l.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()}})},l.prototype.copyAddress=function(){var l=this;this.clipboard.copy(l.user.address).then(function(n){l.toastCtrl.create({message:"Address Copied.",duration:2e3}).present()})},l}(),Dl=function(){function l(l,n,u,e,a,t,o,s,i,r){var c=this;this.platform=l,this.menu=n,this.statusBar=u,this.splashScreen=e,this.webservice=a,this.storage=t,this.events=o,this.toastCtrl=s,this.nfc=i,this.ndef=r,this.showQr=!1,this.user={},this.mimeType="game/rockpaperscissors",this.initializeApp(),this.setRootPage(),this.events.subscribe("user:logout",function(l){if(l){c.toastCtrl.create({message:"Access token Expired.Please login to get access token",duration:2e3}).present(),c.logOut()}}),this.events.subscribe("getUser",function(l){c.getUserInfo()}),this.pages=[{title:"ACCOUNT",component:Ol,icon:"photos.png"},{title:"CHANGE PASSWORD",component:Fl,icon:"lock.png"},{title:"SIGN OUT",component:Ll,icon:"log-out.png"}]}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.splashScreen.hide()})},l.prototype.setRootPage=function(){var l=this;this.webservice.getStoredData().then(function(n){l.rootPage=n?Ol:Ll})},l.prototype.openPage=function(l){"ACCOUNT"==l.title?(this.menu.close(),this.nav.setRoot(l.component)):"Sign Out"==l.title?this.logOut():(this.menu.close(),this.nav.setRoot(l.component))},l.prototype.getUserInfo=function(){var l=this,n=this;n.webservice.getUserInfo().subscribe(function(u){if(200==u.status)console.log("user",u),l.nfc.enabled().then(function(n){console.log("nfc enabled",n);var u=l.ndef.mimeMediaRecord(l.mimeType,l.user.address);l.nfc.share([u]).then(l.onSuccess).catch(l.onError)},function(l){console.log("nfc not enabled",l)}),n.user=u.data,n.showQr=!0;else{n.toastCtrl.create({message:u.message,duration:2e3}).present(),n.showQr=!1}},function(l){if(n.showQr=!1,"error"in l){if(l.error.status){n.toastCtrl.create({message:l.error.message,duration:2e3}).present()}}else{n.toastCtrl.create({message:"Please try after some time.",duration:2e3}).present()}})},l.prototype.onSuccess=function(){alert("message sent  ")},l.prototype.onError=function(l){alert("Error msg sharing "+JSON.stringify(l))},l.prototype.goToprofile=function(){this.menu.close(),this.nav.setRoot(Vl)},l.prototype.logOut=function(){this.menu.close(),this.storage.clear(),this.nav.setRoot(Ll)},l}(),Jl=u(83),Hl=u(14),Wl=(u(402),u(405),u(406),u(152)),Yl=function(){function l(l,n,u,e){this.events=l,this.storage=n,this.network=u,this.toastCtrl=e,this.tokengetter()}return l.prototype.intercept=function(l,n){var u=this;if("none"!=this.network.type)return!l.url.includes("/api")||l.url.includes("/login")||l.url.includes("/signUp")||l.url.includes("etherscan")?n.handle(l):this.tokengetter().mergeMap(function(e){if(u.token=e,u.token){var a=l.clone({headers:l.headers.set("x-access-token",u.token)});return n.handle(a).do(function(l){},function(l){if(console.log("err",l),l instanceof yl.f)if(403===l.status)u.events.publish("user:logout",!0),console.log("err",l);else{u.toastCtrl.create({message:"Please try after sometime",duration:2e3}).present()}})}u.events.publish("user:logout",!0)});this.toastCtrl.create({message:"Please Connect to the network",duration:2e3}).present()},l.prototype.tokengetter=function(){return Hl.Observable.fromPromise(this.storage.get("token"))},l}(),Kl=function(){return function(){}}(),$l=function(){function l(l){this.navCtrl=l}return l.prototype.goToLoginPage=function(){this.navCtrl.push(Ll)},l}(),zl=function(){function l(l,n,u,e){this.navCtrl=l,this.webService=n,this.nfc=u,this.ndef=e,this.scanned=!1,this.mimeType="game/rockpaperscissors"}return l.prototype.addListenNFC=function(){var l=this;this.nfcsubscribe=this.nfc.addMimeTypeListener(this.mimeType,this.onNfc,this.onnfcfailed).subscribe(function(n){console.log("received ndef message. the tag contains: "+JSON.stringify(n.tag)),console.log("decoded tag id "+l.nfc.bytesToString(n.tag.ndefMessage[0].payload))})},l.prototype.onnfcfailed=function(){alert("nfc failed.Try again ")},l.prototype.onNfc=function(l){var n=this.nfc.bytesToString(l.tag.ndefMessage[0].payload);alert("Opponents choices "+n)},l.prototype.tagListenerSuccess=function(l){console.log(l.type);var n=l;alert(JSON.stringify(n))},l.prototype.recSuccess=function(l){alert},l.prototype.sesReadNFC=function(l){console.log(l,"Workimg")},l.prototype.failNFC=function(l){console.log("NFC Failed :"+JSON.stringify(l))},l.prototype.sendTransaction=function(){var l=this.ndef.mimeMediaRecord(this.mimeType,"Hello world");this.nfc.share([l]).then(this.onSuccess).catch(this.onError)},l.prototype.onSuccess=function(){alert("message sent  ")},l.prototype.onError=function(l){alert("Error msg sharing "+JSON.stringify(l))},l.prototype.ionViewCanLeave=function(){this.nfcsubscribe.unsubscribe()},l}(),Ql=u(22),Xl=function(){function l(l,n){this.validateEqual=l,this.reverse=n}return l,Object.defineProperty(l.prototype,"isReverse",{get:function(){return!!this.reverse&&"true"===this.reverse},enumerable:!0,configurable:!0}),l.prototype.validate=function(l){var n=l.value,u=l.root.get(this.validateEqual);return u&&n!==u.value&&!this.isReverse?{validateEqual:!1}:(u&&n===u.value&&this.isReverse&&(delete u.errors.validateEqual,Object.keys(u.errors).length||u.setErrors(null)),u&&n!==u.value&&this.isReverse&&u.setErrors({validateEqual:!1}),null)},l=Object(fl.__decorate)([Object(fl.__param)(0,Object(hl.g)("validateEqual")),Object(fl.__param)(1,Object(hl.g)("reverse"))],l)}(),ln=function(){return function(){}}(),nn=u(74),un=u(408),en=u(409),an=u(410),tn=u(411),on=u(412),sn=u(413),rn=u(414),cn=u(415),_n=u(416),dn=u(339),gn=u(42),mn=u(16),pn=u(15),hn=u(2),fn=u(30),bn=u(32),vn=u(417),kn=u(39),yn=u(97),Cn=u(20),Zn=u(5),wn=u(18),An=u(9),Tn=u(8),Sn=u(7),Pn=u(36),In=u(6),xn=u(418),jn=u(28),Rn=u(33),Bn=u(11),En=u(31),Un=u(17),Mn=u(12),Nn=u(78),On=u(419),Gn=u(79),qn=u(37),Ln=u(21),Fn=u(69),Vn=u(82),Dn=u(35),Jn=hl.Y({encapsulation:2,styles:[],data:{}}),Hn=hl.W("ng-component",Dl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"ng-component",[],null,null,null,t,Jn)),hl.Z(1,49152,null,0,Dl,[Zn.a,Cn.a,bl.a,vl.a,Zl,Fn.a,Vn.a,Dn.a,Rl.a,Rl.b],null,null)],null,null)},{},{},[]),Wn=u(65),Yn=u(45),Kn=u(27),$n=u(23),zn=u(13),Qn=u(40),Xn=u(41),lu=u(26),nu=u(46),uu=u(34),eu=u(53),au=u(115),tu=u(58),ou=hl.Y({encapsulation:2,styles:[],data:{}}),su=hl.W("wallet",Pl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,2,"wallet",[],null,null,null,v,ou)),hl._18(512,null,Zl,Zl,[yl.c,Fn.a]),hl.Z(2,49152,null,0,Pl,[Mn.a,Zl],null,null)],null,null)},{},{},[]),iu=u(50),ru=u(84),cu=u(52),_u=hl.Y({encapsulation:2,styles:[],data:{}}),du=hl.W("page-home",Ul,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,2,"page-home",[],null,null,null,j,_u)),hl._18(512,null,Zl,Zl,[yl.c,Fn.a]),hl.Z(2,180224,null,0,Ul,[Mn.a,Zl,jl.a,Dn.a,Rl.a,Rl.b],null,null)],null,null)},{},{},[]),gu=u(19),mu=hl.Y({encapsulation:2,styles:[],data:{}}),pu=hl.W("page-topup",xl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-topup",[],null,null,null,el,mu)),hl.Z(1,49152,null,0,xl,[Mn.a,gu.a,Zl,Il.a,Dn.a],null,null)],null,null)},{},{},[]),hu=u(94),fu=u(93),bu=u(99),vu=u(137),ku=u(57),yu=hl.Y({encapsulation:2,styles:[],data:{}}),Cu=hl.W("page-login",Ll,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-login",[],null,null,null,al,yu)),hl.Z(1,49152,null,0,Ll,[Mn.a,Cn.a,Zl,ku.a,Dn.a],null,null)],null,null)},{},{},[]),Zu=u(420),wu=u(67),Au=u(421),Tu=u(105),Su=hl.Y({encapsulation:2,styles:[],data:{}}),Pu=hl.W("ng-component",Nl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"ng-component",[],null,null,null,tl,Su)),hl.Z(1,49152,null,0,Nl,[Mn.a,gu.a],null,null)],null,null)},{},{},[]),Iu=hl.Y({encapsulation:2,styles:[],data:{}}),xu=hl.W("page-forgot-passwor",$l,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-forgot-passwor",[],null,null,null,ol,Iu)),hl.Z(1,49152,null,0,$l,[Mn.a],null,null)],null,null)},{},{},[]),ju=u(109),Ru=u(89),Bu=hl.Y({encapsulation:2,styles:[],data:{}}),Eu=hl.W("page-notifications",Ol,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-notifications",[],null,null,null,sl,Bu)),hl.Z(1,4243456,null,0,Ol,[Mn.a,Zl,Cn.a,Vn.a,Ru.a,ku.a,Al.b],null,null)],null,null)},{},{},[]),Uu=u(100),Mu=u(422),Nu=u(103),Ou=hl.Y({encapsulation:2,styles:[],data:{}}),Gu=hl.W("page-create-account",ql,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-create-account",[],null,null,null,rl,Ou)),hl.Z(1,49152,null,0,ql,[Mn.a,Zl,Cn.a,Dn.a,ku.a],null,null)],null,null)},{},{},[]),qu=hl.Y({encapsulation:2,styles:[],data:{}}),Lu=hl.W("page-add-card",Gl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-add-card",[],null,null,null,cl,qu)),hl.Z(1,49152,null,0,Gl,[Mn.a,gu.a,wl.a,Cn.a,Zl],null,null)],null,null)},{},{},[]),Fu=hl.Y({encapsulation:2,styles:[],data:{}}),Vu=hl.W("page-contact",Ml,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-contact",[],null,null,null,_l,Fu)),hl.Z(1,49152,null,0,Ml,[Mn.a,Zl,Dn.a],null,null)],null,null)},{},{},[]),Du=hl.Y({encapsulation:2,styles:[],data:{}}),Ju=hl.W("page-my-rewards",Fl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-my-rewards",[],null,null,null,dl,Du)),hl.Z(1,49152,null,0,Fl,[Mn.a,ku.a,Zl,Dn.a,Fn.a],null,null)],null,null)},{},{},[]),Hu=hl.Y({encapsulation:2,styles:[],data:{}}),Wu=hl.W("page-my-catalogue",Vl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-my-catalogue",[],null,null,null,gl,Hu)),hl.Z(1,49152,null,0,Vl,[Mn.a,Zl,Dn.a,wl.a],null,null)],null,null)},{},{},[]),Yu=hl.Y({encapsulation:2,styles:[],data:{}}),Ku=hl.W("page-quick-pay",zl,function(l){return hl._23(0,[(l()(),hl._0(0,0,null,null,1,"page-quick-pay",[],null,null,null,ml,Yu)),hl.Z(1,49152,null,0,zl,[Mn.a,Zl,Rl.a,Rl.b],null,null)],null,null)},{},{},[]),$u=u(149),zu=u(126),Qu=u(51),Xu=u(209),le=u(76),ne=u(66),ue=u(135),ee=u(90),ae=u(139),te=u(146),oe=u(208),se=u(147),ie=u(134),re=u(148),ce=hl.X(ln,[nn.b],function(l){return hl._11([hl._12(512,hl.j,hl.T,[[8,[un.a,en.a,an.a,tn.a,on.a,sn.a,rn.a,cn.a,_n.a,Hn,su,du,pu,Cu,Pu,xu,Eu,Gu,Lu,Vu,Ju,Wu,Ku]],[3,hl.j],hl.t]),hl._12(5120,hl.s,hl._10,[[3,hl.s]]),hl._12(4608,Bn.l,Bn.k,[hl.s,[2,Bn.t]]),hl._12(5120,hl.b,hl._1,[]),hl._12(5120,hl.q,hl._7,[]),hl._12(5120,hl.r,hl._8,[]),hl._12(4608,pl.c,pl.q,[Bn.c]),hl._12(6144,hl.E,null,[pl.c]),hl._12(4608,pl.f,$u.a,[]),hl._12(5120,pl.d,function(l,n,u,e,a){return[new pl.k(l,n),new pl.o(u),new pl.n(e,a)]},[Bn.c,hl.v,Bn.c,Bn.c,pl.f]),hl._12(4608,pl.e,pl.e,[pl.d,hl.v]),hl._12(135680,pl.m,pl.m,[Bn.c]),hl._12(4608,pl.l,pl.l,[pl.e,pl.m]),hl._12(6144,hl.C,null,[pl.l]),hl._12(6144,pl.p,null,[pl.m]),hl._12(4608,hl.H,hl.H,[hl.v]),hl._12(4608,pl.h,pl.h,[Bn.c]),hl._12(4608,pl.i,pl.i,[Bn.c]),hl._12(4608,yl.j,yl.o,[Bn.c,hl.x,yl.m]),hl._12(4608,yl.p,yl.p,[yl.j,yl.n]),hl._12(4608,Vn.a,Vn.a,[]),hl._12(5120,Fn.a,Fn.c,[Fn.b]),hl._12(4608,Wl.a,Wl.a,[]),hl._12(4608,Dn.a,Dn.a,[Sn.a,hn.a]),hl._12(5120,yl.a,function(l,n,u,e,a){return[l,new Yl(n,u,e,a)]},[yl.p,Vn.a,Fn.a,Wl.a,Dn.a]),hl._12(4608,yl.l,yl.l,[]),hl._12(6144,yl.k,null,[yl.l]),hl._12(4608,yl.i,yl.i,[yl.k]),hl._12(6144,yl.b,null,[yl.i]),hl._12(5120,yl.g,yl.q,[yl.b,[2,yl.a]]),hl._12(4608,yl.c,yl.c,[yl.g]),hl._12(4608,Al.b,Al.b,[hl.v]),hl._12(4608,Ql.q,Ql.q,[]),hl._12(4608,Ql.d,Ql.d,[]),hl._12(4608,zu.a,zu.a,[Sn.a,hn.a]),hl._12(4608,Ru.a,Ru.a,[Sn.a,hn.a]),hl._12(4608,pn.a,pn.a,[]),hl._12(4608,Qu.a,Qu.a,[Zn.a]),hl._12(4608,wn.a,wn.a,[hn.a,Zn.a,hl.v,Tn.a]),hl._12(4608,ku.a,ku.a,[Sn.a,hn.a]),hl._12(5120,Bn.g,Xu.b,[Bn.r,[2,Bn.a],hn.a]),hl._12(4608,Bn.f,Bn.f,[Bn.g]),hl._12(5120,le.b,le.d,[Sn.a,le.a]),hl._12(5120,Ln.a,Ln.b,[Sn.a,le.b,Bn.f,ne.b,hl.j]),hl._12(4608,ue.a,ue.a,[Sn.a,hn.a,Ln.a]),hl._12(4608,ee.a,ee.a,[Sn.a,hn.a]),hl._12(4608,ae.a,ae.a,[Sn.a,hn.a,Ln.a]),hl._12(4608,te.a,te.a,[hn.a,Zn.a,Tn.a,Sn.a,An.l]),hl._12(4608,qn.a,qn.a,[Zn.a,hn.a]),hl._12(4608,bl.a,bl.a,[]),hl._12(4608,vl.a,vl.a,[]),hl._12(4608,jl.a,jl.a,[]),hl._12(4608,Il.a,Il.a,[]),hl._12(4608,wl.a,wl.a,[]),hl._12(4608,Zl,Zl,[yl.c,Fn.a]),hl._12(4608,Rl.a,Rl.a,[]),hl._12(4608,Rl.b,Rl.b,[]),hl._12(512,Bn.b,Bn.b,[]),hl._12(512,hl.l,oe.a,[]),hl._12(256,hn.b,{tabsHideOnSubPages:!0},[]),hl._12(1024,se.a,se.b,[]),hl._12(1024,Zn.a,Zn.b,[pl.b,se.a,hl.v]),hl._12(1024,hn.a,hn.c,[hn.b,Zn.a]),hl._12(512,Tn.a,Tn.a,[Zn.a]),hl._12(512,Cn.a,Cn.a,[]),hl._12(512,Sn.a,Sn.a,[hn.a,Zn.a,[2,Cn.a]]),hl._12(512,An.l,An.l,[Sn.a]),hl._12(256,le.a,{links:[]},[]),hl._12(512,hl.i,hl.i,[]),hl._12(512,ie.a,ie.a,[hl.i]),hl._12(1024,ne.b,ne.c,[ie.a,hl.p]),hl._12(1024,hl.c,function(l,n,u,e,a,t,o,s,i,r,c,_,d){return[pl.s(l),re.a(n),Vn.b(u,e),te.b(a,t,o,s,i),ne.d(r,c,_,d)]},[[2,hl.u],hn.a,Zn.a,Tn.a,hn.a,Zn.a,Tn.a,Sn.a,An.l,hn.a,le.a,ne.b,hl.v]),hl._12(512,hl.d,hl.d,[[2,hl.c]]),hl._12(131584,hl.f,hl.f,[hl.v,hl.U,hl.p,hl.l,hl.j,hl.d]),hl._12(512,hl.e,hl.e,[hl.f]),hl._12(512,pl.a,pl.a,[[3,pl.a]]),hl._12(512,yl.e,yl.e,[]),hl._12(512,yl.d,yl.d,[]),hl._12(512,Jl.b,Jl.b,[]),hl._12(512,Kl,Kl,[]),hl._12(512,Al.a,Al.a,[]),hl._12(512,Ql.o,Ql.o,[]),hl._12(512,Ql.e,Ql.e,[]),hl._12(512,Ql.m,Ql.m,[]),hl._12(512,Xu.a,Xu.a,[]),hl._12(512,kl.a,kl.a,[]),hl._12(512,ln,ln,[]),hl._12(256,yl.m,"XSRF-TOKEN",[]),hl._12(256,yl.n,"X-XSRF-TOKEN",[]),hl._12(256,Fn.b,null,[]),hl._12(256,nn.a,Dl,[]),hl._12(256,Bn.a,"/",[])])});Object(hl.N)(),Object(pl.j)().bootstrapModuleFactory(ce)},381:function(l,n,u){function e(l){return u(a(l))}function a(l){var n=t[l];if(!(n+1))throw new Error("Cannot find module '"+l+"'.");return n}var t={"./af":211,"./af.js":211,"./ar":212,"./ar-dz":213,"./ar-dz.js":213,"./ar-kw":214,"./ar-kw.js":214,"./ar-ly":215,"./ar-ly.js":215,"./ar-ma":216,"./ar-ma.js":216,"./ar-sa":217,"./ar-sa.js":217,"./ar-tn":218,"./ar-tn.js":218,"./ar.js":212,"./az":219,"./az.js":219,"./be":220,"./be.js":220,"./bg":221,"./bg.js":221,"./bm":222,"./bm.js":222,"./bn":223,"./bn.js":223,"./bo":224,"./bo.js":224,"./br":225,"./br.js":225,"./bs":226,"./bs.js":226,"./ca":227,"./ca.js":227,"./cs":228,"./cs.js":228,"./cv":229,"./cv.js":229,"./cy":230,"./cy.js":230,"./da":231,"./da.js":231,"./de":232,"./de-at":233,"./de-at.js":233,"./de-ch":234,"./de-ch.js":234,"./de.js":232,"./dv":235,"./dv.js":235,"./el":236,"./el.js":236,"./en-au":237,"./en-au.js":237,"./en-ca":238,"./en-ca.js":238,"./en-gb":239,"./en-gb.js":239,"./en-ie":240,"./en-ie.js":240,"./en-il":241,"./en-il.js":241,"./en-nz":242,"./en-nz.js":242,"./eo":243,"./eo.js":243,"./es":244,"./es-do":245,"./es-do.js":245,"./es-us":246,"./es-us.js":246,"./es.js":244,"./et":247,"./et.js":247,"./eu":248,"./eu.js":248,"./fa":249,"./fa.js":249,"./fi":250,"./fi.js":250,"./fo":251,"./fo.js":251,"./fr":252,"./fr-ca":253,"./fr-ca.js":253,"./fr-ch":254,"./fr-ch.js":254,"./fr.js":252,"./fy":255,"./fy.js":255,"./gd":256,"./gd.js":256,"./gl":257,"./gl.js":257,"./gom-latn":258,"./gom-latn.js":258,"./gu":259,"./gu.js":259,"./he":260,"./he.js":260,"./hi":261,"./hi.js":261,"./hr":262,"./hr.js":262,"./hu":263,"./hu.js":263,"./hy-am":264,"./hy-am.js":264,"./id":265,"./id.js":265,"./is":266,"./is.js":266,"./it":267,"./it.js":267,"./ja":268,"./ja.js":268,"./jv":269,"./jv.js":269,"./ka":270,"./ka.js":270,"./kk":271,"./kk.js":271,"./km":272,"./km.js":272,"./kn":273,"./kn.js":273,"./ko":274,"./ko.js":274,"./ky":275,"./ky.js":275,"./lb":276,"./lb.js":276,"./lo":277,"./lo.js":277,"./lt":278,"./lt.js":278,"./lv":279,"./lv.js":279,"./me":280,"./me.js":280,"./mi":281,"./mi.js":281,"./mk":282,"./mk.js":282,"./ml":283,"./ml.js":283,"./mn":284,"./mn.js":284,"./mr":285,"./mr.js":285,"./ms":286,"./ms-my":287,"./ms-my.js":287,"./ms.js":286,"./mt":288,"./mt.js":288,"./my":289,"./my.js":289,"./nb":290,"./nb.js":290,"./ne":291,"./ne.js":291,"./nl":292,"./nl-be":293,"./nl-be.js":293,"./nl.js":292,"./nn":294,"./nn.js":294,"./pa-in":295,"./pa-in.js":295,"./pl":296,"./pl.js":296,"./pt":297,"./pt-br":298,"./pt-br.js":298,"./pt.js":297,"./ro":299,"./ro.js":299,"./ru":300,"./ru.js":300,"./sd":301,"./sd.js":301,"./se":302,"./se.js":302,"./si":303,"./si.js":303,"./sk":304,"./sk.js":304,"./sl":305,"./sl.js":305,"./sq":306,"./sq.js":306,"./sr":307,"./sr-cyrl":308,"./sr-cyrl.js":308,"./sr.js":307,"./ss":309,"./ss.js":309,"./sv":310,"./sv.js":310,"./sw":311,"./sw.js":311,"./ta":312,"./ta.js":312,"./te":313,"./te.js":313,"./tet":314,"./tet.js":314,"./tg":315,"./tg.js":315,"./th":316,"./th.js":316,"./tl-ph":317,"./tl-ph.js":317,"./tlh":318,"./tlh.js":318,"./tr":319,"./tr.js":319,"./tzl":320,"./tzl.js":320,"./tzm":321,"./tzm-latn":322,"./tzm-latn.js":322,"./tzm.js":321,"./ug-cn":323,"./ug-cn.js":323,"./uk":324,"./uk.js":324,"./ur":325,"./ur.js":325,"./uz":326,"./uz-latn":327,"./uz-latn.js":327,"./uz.js":326,"./vi":328,"./vi.js":328,"./x-pseudo":329,"./x-pseudo.js":329,"./yo":330,"./yo.js":330,"./zh-cn":331,"./zh-cn.js":331,"./zh-hk":332,"./zh-hk.js":332,"./zh-tw":333,"./zh-tw.js":333};e.keys=function(){return Object.keys(t)},e.resolve=a,l.exports=e,e.id=381}},[340]);
+webpackJsonp([0],{
+
+/***/ 113:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyRewardsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login__ = __webpack_require__(58);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyRewardsPage = (function () {
+    function MyRewardsPage(navCtrl, loadCtrl, webservice, toastCtrl, storage) {
+        this.navCtrl = navCtrl;
+        this.loadCtrl = loadCtrl;
+        this.webservice = webservice;
+        this.toastCtrl = toastCtrl;
+        this.storage = storage;
+        this.credentials = {};
+    }
+    MyRewardsPage.prototype.changePassword = function (f) {
+        var _this = this;
+        var self = this;
+        var loading = self.loadCtrl.create();
+        loading.present();
+        self.webservice.changepassword(self.credentials)
+            .subscribe(function (res) {
+            loading.dismissAll();
+            if (res.status == 200) {
+                _this.storage.clear();
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__login_login__["a" /* LoginPage */]);
+                var toast = self.toastCtrl.create({ message: 'Password Changed Successfully. Please Login to continue', duration: 2000 });
+                toast.present();
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: res.message, duration: 2000 });
+                toast.present();
+            }
+        }, function (err) {
+            loading.dismissAll();
+            var toast = self.toastCtrl.create({ message: 'Something Went wrong try after sometime', duration: 2000 });
+            toast.present();
+        });
+    };
+    MyRewardsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-my-rewards',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\my-rewards\my-rewards.html"*/'<!-- TradingView Widget BEGIN -->\n\n<ion-content>\n\n    <ion-navbar color="primary">\n\n        <button ion-button menuToggle>\n\n                <ion-icon name="menu"></ion-icon>\n\n              </button>\n\n    <ion-title>Evens</ion-title>\n\n</ion-navbar>\n\n<div padding>\n\n    <div class="chare">\n\n        <form #f="ngForm" novalidate (ngSubmit)="changePassword(f)">\n\n            <ion-list>\n\n              <ion-item-group>\n\n                <ion-item>\n\n                  <ion-label stacked>Current Password</ion-label>\n\n                  <ion-input type="password" name="oldpassword" required [(ngModel)]="credentials.oldpassword"></ion-input>\n\n                </ion-item>\n\n                <ion-item>\n\n                  <ion-label stacked>New Password</ion-label>\n\n                  <ion-input type="password" name="password" required validateEqual="confirmPassword" [(ngModel)]="credentials.password" reverse="true"\n\n                    #newpassword="ngModel">\n\n                  </ion-input>\n\n                </ion-item>\n\n                <ion-item>\n\n                  <ion-label stacked>Repeat Password</ion-label>\n\n                  <ion-input type="password" name="confirmpassword" required validateEqual="password" [(ngModel)]="credentials.confirmpassword"\n\n                    #confirmpassword="ngModel" reverse="false">\n\n                  </ion-input>\n\n                </ion-item>\n\n                <small [hidden]="(confirmpassword.valid) || (confirmpassword.pristine && !f.submitted)" class="text-danger error-msg">\n\n                 New Password and Repeat Password are not same.\n\n                </small>\n\n              </ion-item-group>\n\n              <div padding class="txt-cen">\n\n                <button style="width:80%" ion-button color="primary" round [disabled]="f.invalid" type="submit"> Change Password</button>\n\n              </div>\n\n            </ion-list>\n\n          </form>\n\n    </div>\n\n\n\n</div>\n\n</ion-content>\n\n\n\n<!-- TradingView Widget END -->'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\my-rewards\my-rewards.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */]])
+    ], MyRewardsPage);
+    return MyRewardsPage;
+}());
+
+//# sourceMappingURL=my-rewards.js.map
+
+/***/ }),
+
+/***/ 128:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 128;
+
+/***/ }),
+
+/***/ 14:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WebservicProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(431);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment_timezone__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment_timezone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_moment_timezone__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/*
+  Generated class for the WebservicProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var WebservicProvider = (function () {
+    function WebservicProvider(http, storage) {
+        this.http = http;
+        this.storage = storage;
+        //  private serverUrl:any = 'http://192.168.1.4:3200/api';
+        //  private serverUrl:any = 'http://localhost:3200/api';
+        this.serverUrl = "http://wallet.evenscoin.io:3200/api";
+        this.etherscanUrl = "https://api.etherscan.io/api?module=account&action=txlist&address=";
+        this.params = "&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken";
+        this.evensparams = "&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken";
+        this.evenstokenUrl = "https://api.etherscan.io/api?module=account&action=tokentx&address=";
+        this.topriceurl = 'https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW,USD';
+        this.exploreUrl = 'http://explorer.evenscoin.io';
+        this.USDvalue = {};
+        //  this.updateCurrence();
+    }
+    WebservicProvider.prototype.setSelecetedcoin = function (coin) {
+        var self = this;
+        this.selectedCoin = coin;
+        self.storage.set('selectedcoin', coin);
+    };
+    WebservicProvider.prototype.getEthTransaction = function (address) {
+        var self = this;
+        var promise = new Promise(function (resolve, reject) {
+            self.http.get("" + self.etherscanUrl + address + self.params)
+                .subscribe(function (res) {
+                var temarr = [];
+                if (res.result) {
+                    if (res.result.length) {
+                        for (var j = 0; j < res.result.length; j++) {
+                            if (temarr.length > 4) {
+                                break;
+                            }
+                            var o = Object.assign({}, res.result[j]);
+                            if (o.value != 0) {
+                                //  console.log(o.timeStamp)
+                                var mode = o.from.toUpperCase() == address.toUpperCase() ? 'Sent' : 'Received';
+                                //  let status = o.txreceipt_status == 1?'Success':'Failure';
+                                var amount = o.value / 1e18;
+                                var time = new Date(parseInt(o.timeStamp));
+                                console.log("time", time);
+                                var obj = {
+                                    amount: parseFloat(amount).toFixed(3),
+                                    date: __WEBPACK_IMPORTED_MODULE_4_moment_timezone__["tz"](parseInt(o.timeStamp) * 1000, 'Asia/Kolkata').format('DD-MMM-YYYY'),
+                                    mode: mode,
+                                    //  status:status,
+                                    receipt: o.hash,
+                                    link: "http://etherscan.io/tx/" + o.hash
+                                };
+                                temarr.push(obj);
+                            }
+                        }
+                        resolve(temarr);
+                    }
+                    else {
+                        resolve([]);
+                    }
+                }
+                else {
+                    resolve([]);
+                }
+            }, function (err) {
+                alert('Something Went Wrong.');
+            });
+            // self.storage.get('eth')
+            // .then((val)=>{
+            //   console.log("value data",val)
+            //  if(!val){
+            //    resolve([]) ;
+            //  }else{
+            //    resolve(JSON.parse(val))
+            //  }
+            // })
+        });
+        return promise;
+    };
+    WebservicProvider.prototype.getTokenTransaction = function (address) {
+        var self = this;
+        var promise = new Promise(function (resolve, reject) {
+            self.http.get("" + self.evenstokenUrl + address + self.evensparams)
+                .subscribe(function (res) {
+                if (res.result) {
+                    if (res.result.length) {
+                        var temarr = res.result.map(function (o) {
+                            var mode = o.from.toUpperCase() == address.toUpperCase() ? 'Sent' : 'Received';
+                            var status = o.txreceipt_status == 1 ? 'Success' : 'Failure';
+                            var amount = o.value / 1e18;
+                            //  amount = (amount * 100 ) / 100;
+                            var obj = {
+                                amount: parseFloat(amount).toFixed(3),
+                                date: __WEBPACK_IMPORTED_MODULE_4_moment_timezone__["tz"](parseInt(o.timeStamp) * 1000, 'Asia/Kolkata').format('DD-MMM-YYYY'),
+                                mode: mode,
+                                status: status,
+                                receipt: o.hash,
+                                link: "https://etherscan.io/tx/" + o.hash
+                            };
+                            return obj;
+                        });
+                        resolve(temarr);
+                    }
+                    else {
+                        resolve([]);
+                    }
+                }
+                else {
+                    resolve([]);
+                }
+            }, function (err) {
+                alert('Something Went Wrong.');
+            });
+            // self.storage.get('eth')
+            // .then((val)=>{
+            //   console.log("value data",val)
+            //  if(!val){
+            //    resolve([]) ;
+            //  }else{
+            //    resolve(JSON.parse(val))
+            //  }
+            // })
+        });
+        return promise;
+    };
+    WebservicProvider.prototype.getSelectedcoinpromise = function () {
+        var _this = this;
+        var promise = new Promise(function (resolve, reject) {
+            if (!_this.selectedCoin) {
+                _this.storage.get('selectedcoin')
+                    .then(function (res) {
+                    _this.selectedCoin = res;
+                    resolve(_this.selectedCoin);
+                });
+            }
+            else {
+                resolve(_this.selectedCoin);
+            }
+        });
+        return promise;
+    };
+    WebservicProvider.prototype.getSelectedcoin = function () {
+        var _this = this;
+        if (!this.selectedCoin) {
+            this.storage.get('selectedcoin')
+                .then(function (res) {
+                _this.selectedCoin = res;
+                return _this.selectedCoin;
+            });
+        }
+        else {
+            return this.selectedCoin;
+        }
+    };
+    WebservicProvider.prototype.getUsedValue = function () {
+        return this.USDvalue.USD;
+    };
+    WebservicProvider.prototype.getBalance = function () {
+        var self = this;
+        return self.http.get(this.serverUrl + "/getBalance");
+    };
+    WebservicProvider.prototype.evensBalance = function () {
+        var self = this;
+        return self.http.get(this.serverUrl + "/evensBalance");
+    };
+    WebservicProvider.prototype.checkAddress = function (add) {
+        var self = this;
+        return self.http.get(this.serverUrl + "/checkAdddress/" + add);
+    };
+    WebservicProvider.prototype.Transfer = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/transfer", data);
+    };
+    WebservicProvider.prototype.TransferEns = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/sendEns", data);
+    };
+    WebservicProvider.prototype.getTodayPrice = function () {
+        var self = this;
+        return self.http.get(self.topriceurl);
+    };
+    WebservicProvider.prototype.getAllBalance = function () {
+        var self = this;
+        return self.http.get(self.serverUrl + "/allBalance");
+    };
+    WebservicProvider.prototype.getTokenOneBalance = function () {
+        var self = this;
+        return self.http.get(self.serverUrl + "/tokenOneBalance");
+    };
+    WebservicProvider.prototype.getTokenTwoBalance = function () {
+        var self = this;
+        return self.http.get(self.serverUrl + "/tokenTwoBalance");
+    };
+    WebservicProvider.prototype.getTokenThreeBalance = function () {
+        var self = this;
+        return self.http.get(self.serverUrl + "/tokenThreeBalance");
+    };
+    WebservicProvider.prototype.getTokenFourBalance = function () {
+        var self = this;
+        return self.http.get(self.serverUrl + "/tokenFourBalance");
+    };
+    WebservicProvider.prototype.TransferTokenOne = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/sendTokenOne", data);
+    };
+    WebservicProvider.prototype.TransferTokenTwo = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/sendTokenTwo", data);
+    };
+    WebservicProvider.prototype.TransferTokenThree = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/sendTokenThree", data);
+    };
+    WebservicProvider.prototype.TransferTokenFour = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/sendTokenFour", data);
+    };
+    WebservicProvider.prototype.createAccont = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/signUp", data);
+    };
+    WebservicProvider.prototype.login = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/login", data);
+    };
+    WebservicProvider.prototype.saveLocalData = function (data, token) {
+        var self = this;
+        self.storage.set('user', JSON.stringify(data));
+        self.storage.set('token', token);
+    };
+    WebservicProvider.prototype.getStoredData = function () {
+        var self = this;
+        var promise = new Promise(function (resolve, reject) {
+            self.storage.get('user')
+                .then(function (val) {
+                console.log("value data", val);
+                if (!val) {
+                    resolve(null);
+                }
+                else {
+                    resolve(JSON.parse(val));
+                }
+            });
+        });
+        return promise;
+    };
+    WebservicProvider.prototype.getTokenTxList = function (tkaddr, addr) {
+        var self = this;
+        var promise = new Promise(function (resolve, reject) {
+            self.http.get(self.exploreUrl + "/tokenTransaction?tkaddr=" + tkaddr + "&addr=" + addr + "&length=5")
+                .subscribe(function (res) {
+                if (res && res.data) {
+                    if (res.data.length) {
+                        var temArr = res.data.map(function (o) {
+                            var mode = o.from.toUpperCase() == addr.toUpperCase() ? 'Sent' : 'Received';
+                            var obj = {
+                                amount: parseFloat(o.value).toFixed(3),
+                                date: __WEBPACK_IMPORTED_MODULE_4_moment_timezone__["tz"](parseInt(o.timestamp) * 1000, 'Asia/Kolkata').format('DD-MMM-YYYY'),
+                                mode: mode,
+                                receipt: o.hash,
+                                link: self.exploreUrl + "/tx/" + o.hash
+                            };
+                            return obj;
+                        });
+                        resolve(temArr);
+                    }
+                }
+                else {
+                    resolve([]);
+                }
+            }, function (err) {
+                resolve([]);
+            });
+        });
+        return promise;
+    };
+    WebservicProvider.prototype.getUserInfo = function () {
+        var self = this;
+        return self.http.get(self.serverUrl + "/user");
+    };
+    WebservicProvider.prototype.getChartDate = function () {
+        var self = this;
+        return self.http.get(self.serverUrl + "/ethusdprice");
+    };
+    WebservicProvider.prototype.changepassword = function (data) {
+        var self = this;
+        return self.http.post(self.serverUrl + "/changePassword", data);
+    };
+    WebservicProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_common_http__["b" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_common_http__["b" /* HttpClient */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */]) === "function" && _b || Object])
+    ], WebservicProvider);
+    return WebservicProvider;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=webservic.js.map
+
+/***/ }),
+
+/***/ 170:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 170;
+
+/***/ }),
+
+/***/ 336:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CreateAccountPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_card_add_card__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_webservic_webservic__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var CreateAccountPage = (function () {
+    function CreateAccountPage(navCtrl, WebService, menu, toastCtrl, loadCtrl) {
+        this.navCtrl = navCtrl;
+        this.WebService = WebService;
+        this.menu = menu;
+        this.toastCtrl = toastCtrl;
+        this.loadCtrl = loadCtrl;
+        this.gender = "male";
+        this.newUser = {};
+        this.countryChoice = [
+            { "name": "Afghanistan", "code": "AF" },
+            { "name": "Åland Islands", "code": "AX" },
+            { "name": "Albania", "code": "AL" },
+            { "name": "Algeria", "code": "DZ" },
+            { "name": "American Samoa", "code": "AS" },
+            { "name": "AndorrA", "code": "AD" },
+            { "name": "Angola", "code": "AO" },
+            { "name": "Anguilla", "code": "AI" },
+            { "name": "Antarctica", "code": "AQ" },
+            { "name": "Antigua and Barbuda", "code": "AG" },
+            { "name": "Argentina", "code": "AR" },
+            { "name": "Armenia", "code": "AM" },
+            { "name": "Aruba", "code": "AW" },
+            { "name": "Australia", "code": "AU" },
+            { "name": "Austria", "code": "AT" },
+            { "name": "Azerbaijan", "code": "AZ" },
+            { "name": "Bahamas", "code": "BS" },
+            { "name": "Bahrain", "code": "BH" },
+            { "name": "Bangladesh", "code": "BD" },
+            { "name": "Barbados", "code": "BB" },
+            { "name": "Belarus", "code": "BY" },
+            { "name": "Belgium", "code": "BE" },
+            { "name": "Belize", "code": "BZ" },
+            { "name": "Benin", "code": "BJ" },
+            { "name": "Bermuda", "code": "BM" },
+            { "name": "Bhutan", "code": "BT" },
+            { "name": "Bolivia", "code": "BO" },
+            { "name": "Bosnia and Herzegovina", "code": "BA" },
+            { "name": "Botswana", "code": "BW" },
+            { "name": "Bouvet Island", "code": "BV" },
+            { "name": "Brazil", "code": "BR" },
+            { "name": "British Indian Ocean Territory", "code": "IO" },
+            { "name": "Brunei Darussalam", "code": "BN" },
+            { "name": "Bulgaria", "code": "BG" },
+            { "name": "Burkina Faso", "code": "BF" },
+            { "name": "Burundi", "code": "BI" },
+            { "name": "Cambodia", "code": "KH" },
+            { "name": "Cameroon", "code": "CM" },
+            { "name": "Canada", "code": "CA" },
+            { "name": "Cape Verde", "code": "CV" },
+            { "name": "Cayman Islands", "code": "KY" },
+            { "name": "Central African Republic", "code": "CF" },
+            { "name": "Chad", "code": "TD" },
+            { "name": "Chile", "code": "CL" },
+            { "name": "China", "code": "CN" },
+            { "name": "Christmas Island", "code": "CX" },
+            { "name": "Cocos (Keeling) Islands", "code": "CC" },
+            { "name": "Colombia", "code": "CO" },
+            { "name": "Comoros", "code": "KM" },
+            { "name": "Congo", "code": "CG" },
+            { "name": "Congo, The Democratic Republic of the", "code": "CD" },
+            { "name": "Cook Islands", "code": "CK" },
+            { "name": "Costa Rica", "code": "CR" },
+            { "name": "Cote D\"Ivoire", "code": "CI" },
+            { "name": "Croatia", "code": "HR" },
+            { "name": "Cuba", "code": "CU" },
+            { "name": "Cyprus", "code": "CY" },
+            { "name": "Czech Republic", "code": "CZ" },
+            { "name": "Denmark", "code": "DK" },
+            { "name": "Djibouti", "code": "DJ" },
+            { "name": "Dominica", "code": "DM" },
+            { "name": "Dominican Republic", "code": "DO" },
+            { "name": "Ecuador", "code": "EC" },
+            { "name": "Egypt", "code": "EG" },
+            { "name": "El Salvador", "code": "SV" },
+            { "name": "Equatorial Guinea", "code": "GQ" },
+            { "name": "Eritrea", "code": "ER" },
+            { "name": "Estonia", "code": "EE" },
+            { "name": "Ethiopia", "code": "ET" },
+            { "name": "Falkland Islands (Malvinas)", "code": "FK" },
+            { "name": "Faroe Islands", "code": "FO" },
+            { "name": "Fiji", "code": "FJ" },
+            { "name": "Finland", "code": "FI" },
+            { "name": "France", "code": "FR" },
+            { "name": "French Guiana", "code": "GF" },
+            { "name": "French Polynesia", "code": "PF" },
+            { "name": "French Southern Territories", "code": "TF" },
+            { "name": "Gabon", "code": "GA" },
+            { "name": "Gambia", "code": "GM" },
+            { "name": "Georgia", "code": "GE" },
+            { "name": "Germany", "code": "DE" },
+            { "name": "Ghana", "code": "GH" },
+            { "name": "Gibraltar", "code": "GI" },
+            { "name": "Greece", "code": "GR" },
+            { "name": "Greenland", "code": "GL" },
+            { "name": "Grenada", "code": "GD" },
+            { "name": "Guadeloupe", "code": "GP" },
+            { "name": "Guam", "code": "GU" },
+            { "name": "Guatemala", "code": "GT" },
+            { "name": "Guernsey", "code": "GG" },
+            { "name": "Guinea", "code": "GN" },
+            { "name": "Guinea-Bissau", "code": "GW" },
+            { "name": "Guyana", "code": "GY" },
+            { "name": "Haiti", "code": "HT" },
+            { "name": "Heard Island and Mcdonald Islands", "code": "HM" },
+            { "name": "Holy See (Vatican City State)", "code": "VA" },
+            { "name": "Honduras", "code": "HN" },
+            { "name": "Hong Kong", "code": "HK" },
+            { "name": "Hungary", "code": "HU" },
+            { "name": "Iceland", "code": "IS" },
+            { "name": "India", "code": "IN" },
+            { "name": "Indonesia", "code": "ID" },
+            { "name": "Iran, Islamic Republic Of", "code": "IR" },
+            { "name": "Iraq", "code": "IQ" },
+            { "name": "Ireland", "code": "IE" },
+            { "name": "Isle of Man", "code": "IM" },
+            { "name": "Israel", "code": "IL" },
+            { "name": "Italy", "code": "IT" },
+            { "name": "Jamaica", "code": "JM" },
+            { "name": "Japan", "code": "JP" },
+            { "name": "Jersey", "code": "JE" },
+            { "name": "Jordan", "code": "JO" },
+            { "name": "Kazakhstan", "code": "KZ" },
+            { "name": "Kenya", "code": "KE" },
+            { "name": "Kiribati", "code": "KI" },
+            { "name": "Korea, Democratic People\"S Republic of", "code": "KP" },
+            { "name": "Korea, Republic of", "code": "KR" },
+            { "name": "Kuwait", "code": "KW" },
+            { "name": "Kyrgyzstan", "code": "KG" },
+            { "name": "Lao People\"S Democratic Republic", "code": "LA" },
+            { "name": "Latvia", "code": "LV" },
+            { "name": "Lebanon", "code": "LB" },
+            { "name": "Lesotho", "code": "LS" },
+            { "name": "Liberia", "code": "LR" },
+            { "name": "Libyan Arab Jamahiriya", "code": "LY" },
+            { "name": "Liechtenstein", "code": "LI" },
+            { "name": "Lithuania", "code": "LT" },
+            { "name": "Luxembourg", "code": "LU" },
+            { "name": "Macao", "code": "MO" },
+            { "name": "Macedonia, The Former Yugoslav Republic of", "code": "MK" },
+            { "name": "Madagascar", "code": "MG" },
+            { "name": "Malawi", "code": "MW" },
+            { "name": "Malaysia", "code": "MY" },
+            { "name": "Maldives", "code": "MV" },
+            { "name": "Mali", "code": "ML" },
+            { "name": "Malta", "code": "MT" },
+            { "name": "Marshall Islands", "code": "MH" },
+            { "name": "Martinique", "code": "MQ" },
+            { "name": "Mauritania", "code": "MR" },
+            { "name": "Mauritius", "code": "MU" },
+            { "name": "Mayotte", "code": "YT" },
+            { "name": "Mexico", "code": "MX" },
+            { "name": "Micronesia, Federated States of", "code": "FM" },
+            { "name": "Moldova, Republic of", "code": "MD" },
+            { "name": "Monaco", "code": "MC" },
+            { "name": "Mongolia", "code": "MN" },
+            { "name": "Montserrat", "code": "MS" },
+            { "name": "Morocco", "code": "MA" },
+            { "name": "Mozambique", "code": "MZ" },
+            { "name": "Myanmar", "code": "MM" },
+            { "name": "Namibia", "code": "NA" },
+            { "name": "Nauru", "code": "NR" },
+            { "name": "Nepal", "code": "NP" },
+            { "name": "Netherlands", "code": "NL" },
+            { "name": "Netherlands Antilles", "code": "AN" },
+            { "name": "New Caledonia", "code": "NC" },
+            { "name": "New Zealand", "code": "NZ" },
+            { "name": "Nicaragua", "code": "NI" },
+            { "name": "Niger", "code": "NE" },
+            { "name": "Nigeria", "code": "NG" },
+            { "name": "Niue", "code": "NU" },
+            { "name": "Norfolk Island", "code": "NF" },
+            { "name": "Northern Mariana Islands", "code": "MP" },
+            { "name": "Norway", "code": "NO" },
+            { "name": "Oman", "code": "OM" },
+            { "name": "Pakistan", "code": "PK" },
+            { "name": "Palau", "code": "PW" },
+            { "name": "Palestinian Territory, Occupied", "code": "PS" },
+            { "name": "Panama", "code": "PA" },
+            { "name": "Papua New Guinea", "code": "PG" },
+            { "name": "Paraguay", "code": "PY" },
+            { "name": "Peru", "code": "PE" },
+            { "name": "Philippines", "code": "PH" },
+            { "name": "Pitcairn", "code": "PN" },
+            { "name": "Poland", "code": "PL" },
+            { "name": "Portugal", "code": "PT" },
+            { "name": "Puerto Rico", "code": "PR" },
+            { "name": "Qatar", "code": "QA" },
+            { "name": "Reunion", "code": "RE" },
+            { "name": "Romania", "code": "RO" },
+            { "name": "Russian Federation", "code": "RU" },
+            { "name": "RWANDA", "code": "RW" },
+            { "name": "Saint Helena", "code": "SH" },
+            { "name": "Saint Kitts and Nevis", "code": "KN" },
+            { "name": "Saint Lucia", "code": "LC" },
+            { "name": "Saint Pierre and Miquelon", "code": "PM" },
+            { "name": "Saint Vincent and the Grenadines", "code": "VC" },
+            { "name": "Samoa", "code": "WS" },
+            { "name": "San Marino", "code": "SM" },
+            { "name": "Sao Tome and Principe", "code": "ST" },
+            { "name": "Saudi Arabia", "code": "SA" },
+            { "name": "Senegal", "code": "SN" },
+            { "name": "Serbia and Montenegro", "code": "CS" },
+            { "name": "Seychelles", "code": "SC" },
+            { "name": "Sierra Leone", "code": "SL" },
+            { "name": "Singapore", "code": "SG" },
+            { "name": "Slovakia", "code": "SK" },
+            { "name": "Slovenia", "code": "SI" },
+            { "name": "Solomon Islands", "code": "SB" },
+            { "name": "Somalia", "code": "SO" },
+            { "name": "South Africa", "code": "ZA" },
+            { "name": "South Georgia and the South Sandwich Islands", "code": "GS" },
+            { "name": "Spain", "code": "ES" },
+            { "name": "Sri Lanka", "code": "LK" },
+            { "name": "Sudan", "code": "SD" },
+            { "name": "Suriname", "code": "SR" },
+            { "name": "Svalbard and Jan Mayen", "code": "SJ" },
+            { "name": "Swaziland", "code": "SZ" },
+            { "name": "Sweden", "code": "SE" },
+            { "name": "Switzerland", "code": "CH" },
+            { "name": "Syrian Arab Republic", "code": "SY" },
+            { "name": "Taiwan, Province of China", "code": "TW" },
+            { "name": "Tajikistan", "code": "TJ" },
+            { "name": "Tanzania, United Republic of", "code": "TZ" },
+            { "name": "Thailand", "code": "TH" },
+            { "name": "Timor-Leste", "code": "TL" },
+            { "name": "Togo", "code": "TG" },
+            { "name": "Tokelau", "code": "TK" },
+            { "name": "Tonga", "code": "TO" },
+            { "name": "Trinidad and Tobago", "code": "TT" },
+            { "name": "Tunisia", "code": "TN" },
+            { "name": "Turkey", "code": "TR" },
+            { "name": "Turkmenistan", "code": "TM" },
+            { "name": "Turks and Caicos Islands", "code": "TC" },
+            { "name": "Tuvalu", "code": "TV" },
+            { "name": "Uganda", "code": "UG" },
+            { "name": "Ukraine", "code": "UA" },
+            { "name": "United Arab Emirates", "code": "AE" },
+            { "name": "United Kingdom", "code": "GB" },
+            { "name": "United States", "code": "US" },
+            { "name": "United States Minor Outlying Islands", "code": "UM" },
+            { "name": "Uruguay", "code": "UY" },
+            { "name": "Uzbekistan", "code": "UZ" },
+            { "name": "Vanuatu", "code": "VU" },
+            { "name": "Venezuela", "code": "VE" },
+            { "name": "Viet Nam", "code": "VN" },
+            { "name": "Virgin Islands, British", "code": "VG" },
+            { "name": "Virgin Islands, U.S.", "code": "VI" },
+            { "name": "Wallis and Futuna", "code": "WF" },
+            { "name": "Western Sahara", "code": "EH" },
+            { "name": "Yemen", "code": "YE" },
+            { "name": "Zambia", "code": "ZM" },
+            { "name": "Zimbabwe", "code": "ZW" }
+        ];
+        this.menu.enable(false);
+    }
+    CreateAccountPage.prototype.siguUP = function (f) {
+        var self = this;
+        var loading = self.loadCtrl.create();
+        loading.present();
+        self.WebService.createAccont(self.newUser)
+            .subscribe(function (result) {
+            loading.dismiss();
+            if (result.status == 200) {
+                self.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__add_card_add_card__["a" /* AddCardPage */], { data: result.data, token: result.token });
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: result.message, duration: 2000 });
+                toast.present();
+            }
+        }, function (err) {
+            loading.dismiss();
+            if ('error' in err) {
+                if (err.error.status) {
+                    var toast = self.toastCtrl.create({ message: err.error.message, duration: 2000 });
+                    toast.present();
+                }
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+                toast.present();
+            }
+        });
+    };
+    CreateAccountPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-create-account',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\create-account\create-account.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <ion-title>\n\n      Create Account\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <form #f="ngForm" novalidate (ngSubmit)="siguUP(f)">\n\n    <ion-list>\n\n      <ion-item-group>\n\n        <ion-item>\n\n          <ion-label stacked>First Name</ion-label>\n\n          <ion-input type="text" name="firstName" required [(ngModel)]="newUser.firstName"></ion-input>\n\n        </ion-item>\n\n        <ion-item>\n\n          <ion-label stacked>Last Name</ion-label>\n\n          <ion-input type="text" name="lastName" required [(ngModel)]="newUser.lastName"></ion-input>\n\n        </ion-item>\n\n        <!-- <ion-item>\n\n            <ion-label stacked>Date of Birth</ion-label>\n\n            <ion-input type="date" name="dob" required [(ngModel)]="newUser.dob"></ion-input>\n\n          </ion-item> -->\n\n        <ion-item>\n\n          <ion-label stacked>Email</ion-label>\n\n          <ion-input type="email" name="email" required [(ngModel)]="newUser.email"></ion-input>\n\n        </ion-item>\n\n        <ion-item>\n\n          <ion-label stacked>Password</ion-label>\n\n          <ion-input type="password" name="password" required validateEqual="confirmPassword" [(ngModel)]="newUser.password" reverse="true"\n\n            #password="ngModel">\n\n          </ion-input>\n\n        </ion-item>\n\n        <ion-item>\n\n          <ion-label stacked>Repeat Password</ion-label>\n\n          <ion-input type="password" name="confirmPassword" required validateEqual="password" [(ngModel)]="newUser.confirmPassword"\n\n            #confirmPassword="ngModel" reverse="false">\n\n          </ion-input>\n\n        </ion-item>\n\n        <small [hidden]="(confirmPassword.valid) || (confirmPassword.pristine && !f.submitted)" class="text-danger error-msg">\n\n          Password mismatch\n\n        </small>\n\n        <!-- <ion-item>\n\n            <ion-label stacked>Phone Number</ion-label>\n\n            <ion-input type="tel" name="phoneNumber" required [(ngModel)]="newUser.phoneNumber"></ion-input>\n\n          </ion-item> -->\n\n        <!-- <ion-item>\n\n            <ion-label stacked>City</ion-label>\n\n            <ion-input type="text" name="city" placeholder="optional" [(ngModel)]="newUser.city"></ion-input>\n\n          </ion-item> -->\n\n        <ion-item>\n\n          <ion-label stacked>Country</ion-label>\n\n          <ion-select name="country" [(ngModel)]="newUser.country" interface="action-sheet">\n\n            <ion-option *ngFor="let country of countryChoice " value="{{country.name}}">{{country.name}}</ion-option>\n\n          </ion-select>\n\n        </ion-item>\n\n      </ion-item-group>\n\n      <div padding>\n\n        <button ion-button color="primary" block [disabled]="f.invalid" type="submit"> Create Account</button>\n\n      </div>\n\n    </ion-list>\n\n  </form>\n\n</ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\create-account\create-account.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+    ], CreateAccountPage);
+    return CreateAccountPage;
+}());
+
+//# sourceMappingURL=create-account.js.map
+
+/***/ }),
+
+/***/ 337:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddCardPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_clipboard__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__notifications_notifications__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_webservic_webservic__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var AddCardPage = (function () {
+    function AddCardPage(navCtrl, navParams, clipboard, menu, webService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.clipboard = clipboard;
+        this.menu = menu;
+        this.webService = webService;
+        this.data = {};
+        this.data = this.navParams.get('data');
+        this.token = this.navParams.get('token');
+        this.menu.enable(false);
+    }
+    AddCardPage.prototype.copyToClipboard = function () {
+        var self = this;
+        this.clipboard.copy(self.data.seed);
+    };
+    AddCardPage.prototype.goToHome = function () {
+        var self = this;
+        self.webService.saveLocalData(self.data, self.token);
+        self.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__notifications_notifications__["a" /* NotificationsPage */]);
+    };
+    AddCardPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-add-card',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\add-card\add-card.html"*/'\n\n<ion-content padding>\n\n  <P class="ctc-content">These words are only way to restore your accounts. Save them somewhere safe and secret.</P>\n\n  <ion-card class="ctc">\n\n    <p>{{ data.seed }}</p>\n\n  </ion-card>\n\n  <div class="ctc-btn-box">\n\n    <button ion-button (click)="copyToClipboard()" >Copy to Clipboard</button>\n\n    <button ion-button (click)="goToHome()">I saved </button>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\add-card\add-card.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_clipboard__["a" /* Clipboard */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_webservic_webservic__["a" /* WebservicProvider */]])
+    ], AddCardPage);
+    return AddCardPage;
+}());
+
+//# sourceMappingURL=add-card.js.map
+
+/***/ }),
+
+/***/ 339:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wallet_wallet__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__topup_topup__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__coupons_coupons__ = __webpack_require__(345);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var TabsPage = (function () {
+    function TabsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.tab1Root = __WEBPACK_IMPORTED_MODULE_4__home_home__["a" /* HomePage */];
+        this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__wallet_wallet__["a" /* WalletPage */];
+        this.tab3Root = __WEBPACK_IMPORTED_MODULE_3__topup_topup__["a" /* TopupPage */];
+        this.tab4Root = __WEBPACK_IMPORTED_MODULE_5__coupons_coupons__["a" /* CouponsPage */];
+        this.mySelectedIndex = this.navParams.get('tabIndex');
+    }
+    TabsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\tabs\tabs.html"*/'<ion-tabs class="enstabs" color="red" [selectedIndex]="mySelectedIndex">\n\n  <ion-tab class="enstab" [root]="tab3Root" tabTitle="Info" tabIcon="ens-info"></ion-tab>\n\n  <ion-tab class="enstab" [root]="tab1Root" tabTitle="Send" tabIcon="ens-send"></ion-tab>\n\n  <ion-tab class="enstab" [root]="tab2Root" tabTitle="Receive" tabIcon="ens-rec"></ion-tab>\n\n  <!-- <ion-tab class="enstab" [root]="tab4Root" tabTitle="Buy" tabIcon="ens-buy"></ion-tab> -->\n\n</ion-tabs>\n\n'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\tabs\tabs.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    ], TabsPage);
+    return TabsPage;
+}());
+
+//# sourceMappingURL=tabs.js.map
+
+/***/ }),
+
+/***/ 340:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WalletPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+var WalletPage = (function () {
+    function WalletPage(navCtrl, webserve) {
+        this.navCtrl = navCtrl;
+        this.webserve = webserve;
+        this.account = {};
+        this.showQr = false;
+        this.value = "test";
+        this.todayPrice = {
+            "BTT": 1,
+            "ETH": 1
+        };
+        this.getSelecetedCoin();
+        this.gettodayPrice();
+    }
+    WalletPage.prototype.doRefresh = function (e) {
+        this.getSelecetedCoin();
+        this.gettodayPrice();
+        setTimeout(function () {
+            e.complete();
+        }, 2000);
+    };
+    WalletPage.prototype.gettodayPrice = function () {
+        var self = this;
+        self.webserve.getTodayPrice()
+            .subscribe(function (res) {
+            self.todayPrice = res;
+        }, function (err) {
+            console.log(err);
+        });
+    };
+    WalletPage.prototype.getSelecetedCoin = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0:
+                        _a = this;
+                        return [4 /*yield*/, this.webserve.getSelectedcoinpromise()];
+                    case 1:
+                        _a.selectedCur = _b.sent();
+                        this.getBalance();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    WalletPage.prototype.getBalance = function () {
+        var _this = this;
+        var self = this;
+        var servicecall;
+        switch (self.selectedCur) {
+            case 'evenscoin':
+                servicecall = self.webserve.evensBalance();
+                break;
+            case 'tokenOne':
+                servicecall = self.webserve.getTokenOneBalance();
+                break;
+            case 'tokenTwo':
+                servicecall = self.webserve.getTokenTwoBalance();
+                break;
+            case 'tokenThree':
+                servicecall = self.webserve.getTokenThreeBalance();
+                break;
+            case 'tokenFour':
+                servicecall = self.webserve.getTokenFourBalance();
+                break;
+            default:
+                servicecall = self.webserve.getBalance();
+        }
+        servicecall
+            .subscribe(function (res) {
+            console.log('res', res);
+            self.account = res;
+            _this.showQr = true;
+        }, function (err) {
+            console.log("err", err);
+        });
+    };
+    WalletPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'wallet',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\wallet\wallet.html"*/'  <ion-header class="ion-header">\n\n        <ion-navbar color="primary">\n\n                <button ion-button menuToggle>\n\n                  <ion-icon name="menu"></ion-icon>\n\n                </button>\n\n                <ion-title>\n\n                  Evens\n\n                </ion-title>\n\n              </ion-navbar>\n\n  </ion-header>\n\n  <ion-content >\n\n        <ion-refresher (ionRefresh)="doRefresh($event)">\n\n                <ion-refresher-content\n\n                  pullingIcon="arrow-dropdown"\n\n                  pullingText="Pull to refresh"\n\n                  refreshingSpinner="circles"\n\n                  refreshingText="Refreshing...">\n\n                </ion-refresher-content>\n\n              </ion-refresher>\n\n        <div padding>\n\n            <div >\n\n                <img *ngIf="selectedCur == \'Etheriun\'" class="static_icon" src="assets/imgs/ethw-40.png">\n\n                <img *ngIf="selectedCur == \'evenscoin\'" class="static_icon" src="assets/imgs/evensw-40.png">\n\n                <img *ngIf="selectedCur == \'tokenOne\'" class="static_icon" src="assets/imgs/tk1w-40.png">\n\n                <img *ngIf="selectedCur == \'tokenThree\'" class="static_icon" src="assets/imgs/tk3w-40.png">\n\n                <img *ngIf="selectedCur == \'tokenTwo\'" class="static_icon" src="assets/imgs/tk2w-40.png">\n\n                <img *ngIf="selectedCur == \'tokenFour\'" class="static_icon" src="assets/imgs/tk4w-40.png">\n\n            </div>\n\n                <div *ngIf="showQr" class="adddiv">\n\n         \n\n                    </div>\n\n                  <div *ngIf="showQr" class="qr_code">\n\n                      <div class="qr_text" >QR CODE</div>\n\n                      <ngx-qrcode [qrc-value]="account.address"></ngx-qrcode>\n\n                      \n\n                  </div>\n\n                  <div *ngIf="showQr" class="adddiv">\n\n                      <span class="ow_address">{{account.address}}</span>\n\n                  </div>\n\n                  <ion-list class="" *ngIf="selectedCur == \'Etheriun\'">\n\n                      <ion-card class="card_tran">\n\n                              <ion-item  >  \n\n                                 <div class="texc">\n\n                                    <h2  class="balance">{{account.balance | number: \'.3\'}} ETH</h2>\n\n                                    <p class="colo  baltxt1">1 ETH = {{ 1 / todayPrice.ETH | number}} USD</p>\n\n                                 </div>\n\n                                      \n\n                                      <!-- <button ion-button clear (click)=\'openSingleNotification()\' item-end>View</button> -->\n\n                                  </ion-item>\n\n                      </ion-card>\n\n                      <ion-card class="card_tran">\n\n                              <ion-item >\n\n                                  <div class="texc">\n\n                                      <h2 class="balance qr_textitem">{{ account.balance / todayPrice.ETH | number:\'.3\' }} USD</h2>\n\n                                      </div>\n\n                                  </ion-item>\n\n                      </ion-card>\n\n                      \n\n              \n\n                  </ion-list>\n\n                  <ion-list *ngIf="selectedCur == \'evenscoin\'">\n\n                        <ion-card class="card_tran">\n\n                                <ion-item  >  \n\n                                   <div class="texc">\n\n                                      <h2   class="balance">{{account.balance | number}} ENS</h2>\n\n                                      <p class="colo  baltxt1"></p>\n\n                                   </div>\n\n                                        \n\n                                        <!-- <button ion-button clear (click)=\'openSingleNotification()\' item-end>View</button> -->\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        <ion-card class="card_tran">\n\n                                <ion-item >\n\n                                    <div class="texc">\n\n                                        <h2 class="balance qr_textitem">N.A</h2>\n\n                                        </div>\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        \n\n                \n\n                    </ion-list>\n\n                    <ion-list *ngIf="selectedCur == \'tokenOne\'">\n\n                        <ion-card class="card_tran">\n\n                                <ion-item  >  \n\n                                   <div class="texc">\n\n                                      <h2   class="balance">{{account.balance | number: \'.3\'}} {{account.tokenOneSym}}</h2>\n\n                                      <p class="colo  baltxt1">1 {{account.tokenOneSym}} = {{ 1 / todayPrice.INR | number: \'.3\'}} USD</p>\n\n                                   </div>\n\n                                        \n\n                                        <!-- <button ion-button clear (click)=\'openSingleNotification()\' item-end>View</button> -->\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        <ion-card class="card_tran">\n\n                                <ion-item >\n\n                                    <div class="texc">\n\n                                        <h2 class="balance qr_textitem">{{ account.balance / todayPrice.INR | number: \'.3\' }} USD</h2>\n\n                                        </div>\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        \n\n                \n\n                    </ion-list>\n\n                    <ion-list *ngIf="selectedCur == \'tokenTwo\'">\n\n                        <ion-card class="card_tran">\n\n                                <ion-item  >  \n\n                                   <div class="texc">\n\n                                      <h2   class="balance">{{account.balance | number:\'.3\'}} {{account.tokenTwoSym}}</h2>\n\n                                      <p class="colo  baltxt1">1 {{account.tokenTwoSym}} = {{ 1 / todayPrice.THB | number: \'.3\'}} USD</p>\n\n                                   </div>\n\n                                        \n\n                                        <!-- <button ion-button clear (click)=\'openSingleNotification()\' item-end>View</button> -->\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        <ion-card class="card_tran">\n\n                                <ion-item >\n\n                                    <div class="texc">\n\n                                        <h2 class="balance qr_textitem">{{ account.balance / todayPrice.THB | number: \'.3\' }} USD</h2>\n\n                                        </div>\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        \n\n                \n\n                    </ion-list>\n\n                    <ion-list *ngIf="selectedCur == \'tokenThree\'">\n\n                        <ion-card class="card_tran">\n\n                                <ion-item  >  \n\n                                   <div class="texc">\n\n                                      <h2   class="balance">{{account.balance | number: \'.3\'}} {{account.tokenThreeSym}}</h2>\n\n                                      <p class="colo  baltxt1">1 {{account.tokenThreeSym}} = {{ 1 / todayPrice.KRW | number: \'.3\'}} USD</p>\n\n                                   </div>\n\n                                        \n\n                                        <!-- <button ion-button clear (click)=\'openSingleNotification()\' item-end>View</button> -->\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        <ion-card class="card_tran">\n\n                                <ion-item >\n\n                                    <div class="texc">\n\n                                        <h2 class="balance qr_textitem">{{ account.balance / todayPrice.KRW | number: \'.3\' }} USD</h2>\n\n                                        </div>\n\n                                    </ion-item>\n\n                        </ion-card>\n\n                        \n\n                \n\n                    </ion-list>\n\n                    <ion-list *ngIf="selectedCur == \'tokenFour\'">\n\n                            <ion-card class="card_tran">\n\n                                    <ion-item  >  \n\n                                       <div class="texc">\n\n                                          <h2   class="balance">{{account.balance | number: \'.3\'}} {{account.tokenFourSym}}</h2>\n\n                                          <p class="colo  baltxt1">1 {{account.tokenFourSym}} = {{ 1 / todayPrice.USD | number: \'.3\'}} USD</p>\n\n                                       </div>\n\n                                            \n\n                                            <!-- <button ion-button clear (click)=\'openSingleNotification()\' item-end>View</button> -->\n\n                                        </ion-item>\n\n                            </ion-card>\n\n                            <ion-card class="card_tran">\n\n                                    <ion-item >\n\n                                        <div class="texc">\n\n                                            <h2 class="balance qr_textitem">{{ account.balance / todayPrice.USD | number: \'.3\' }} USD</h2>\n\n                                            </div>\n\n                                        </ion-item>\n\n                            </ion-card>\n\n                            \n\n                    \n\n                        </ion-list>\n\n        </div>\n\n\n\n  </ion-content>\n\n  \n\n\n\n  '/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\wallet\wallet.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */]])
+    ], WalletPage);
+    return WalletPage;
+}());
+
+//# sourceMappingURL=wallet.js.map
+
+/***/ }),
+
+/***/ 341:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TopupPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_in_app_browser__ = __webpack_require__(342);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var TopupPage = (function () {
+    function TopupPage(navCtrl, navParams, webservice, iab, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.webservice = webservice;
+        this.iab = iab;
+        this.toastCtrl = toastCtrl;
+        this.selectedAccount = {
+            address: '-',
+            balance: 0
+        };
+        this.todayPrice = {
+            "BTT": 1,
+            "ETH": 1
+        };
+        this.ethTransaction = [];
+        this.selectedCur = this.webservice.getSelectedcoin();
+        this.getBalance();
+        this.gettodayPrice();
+    }
+    TopupPage.prototype.doRefresh = function (e) {
+        this.getBalance();
+        this.gettodayPrice();
+        setTimeout(function () {
+            e.complete();
+        }, 2000);
+    };
+    TopupPage.prototype.OpenUrl = function (url) {
+        var browser = this.iab.create(url);
+        browser.show();
+    };
+    TopupPage.prototype.getBalance = function () {
+        var _this = this;
+        var self = this;
+        var servicecall;
+        switch (self.selectedCur) {
+            case 'evenscoin':
+                servicecall = self.webservice.evensBalance();
+                break;
+            case 'tokenOne':
+                servicecall = self.webservice.getTokenOneBalance();
+                break;
+            case 'tokenTwo':
+                servicecall = self.webservice.getTokenTwoBalance();
+                break;
+            case 'tokenThree':
+                servicecall = self.webservice.getTokenThreeBalance();
+                break;
+            case 'tokenFour':
+                servicecall = self.webservice.getTokenFourBalance();
+                break;
+            default:
+                servicecall = self.webservice.getBalance();
+        }
+        servicecall
+            .subscribe(function (res) {
+            self.selectedAccount = res;
+            _this.getEtheriumTransaction(res.address);
+        }, function (err) {
+            var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+            toast.present();
+        });
+    };
+    TopupPage.prototype.ionViewWillEnter = function () {
+        this.getBalance();
+    };
+    TopupPage.prototype.getEtheriumTransaction = function (address) {
+        var _this = this;
+        var respromise;
+        if (this.selectedCur == 'Etheriun') {
+            respromise = this.webservice.getEthTransaction(address);
+        }
+        else if (this.selectedCur == 'evenscoin') {
+            respromise = this.webservice.getTokenTransaction(address);
+        }
+        else {
+            respromise = this.webservice.getTokenTxList(this.selectedAccount.tokenAddress, this.selectedAccount.address);
+        }
+        //  if(this.selectedCur == 'Etheriun' || this.selectedCur == 'evenscoin' ){
+        respromise.then(function (res) {
+            _this.ethTransaction = res;
+        });
+        //  }
+    };
+    TopupPage.prototype.gettodayPrice = function () {
+        var self = this;
+        self.webservice.getTodayPrice()
+            .subscribe(function (res) {
+            self.todayPrice = res;
+        }, function (err) {
+            var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+            toast.present();
+        });
+    };
+    TopupPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-topup',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\topup\topup.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title >\n\n      Evens\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-refresher (ionRefresh)="doRefresh($event)">\n\n    <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Pull to refresh" refreshingSpinner="circles"\n\n      refreshingText="Refreshing...">\n\n    </ion-refresher-content>\n\n  </ion-refresher>\n\n  <div>\n\n    <div *ngIf="selectedCur == \'Etheriun\'">\n\n      <div class="tophead">\n\n        <div padding>\n\n          <div class="centex">\n\n            <img class="tra_img" src="assets/imgs/eth-100.png">\n\n          </div>\n\n          <div class="centex">\n\n            <h1>Etherium</h1>\n\n          </div>\n\n          <div class="top">\n\n            <div class="wal-amount row" text-center>\n\n              <div class="col"><span class="strong">BALANCE <br></span> <span class="bal"><strong>{{selectedAccount.balance\n\n                    | number:\'.3\' }} ETH</strong></span></div>\n\n              <div class="v-div"></div>\n\n              <div class="col"><span class="strong">PRICE <br></span><span class="bal"> <strong>{{1 / todayPrice.ETH |\n\n                    number:\'.3\'}} USD</strong></span></div>\n\n            </div>\n\n          </div>\n\n        </div>\n\n\n\n      </div>\n\n      <div class="topfoot">\n\n        <div class="recent">\n\n          <h4 text-center>Recent Activity</h4>\n\n          <ng-container>\n\n            <ion-card class="tran_card">\n\n\n\n              <!-- <div class="row header trans_date txn-data">\n\n                          <div class="col"><span style="color:#2f2f2f">DATE</span></div>\n\n                          <div class="col" text-right><span style="color:#ed2c53">AMOUNT</span></div>\n\n                          <div class="col" text-left><span style="color:#2f2f2f">STATUS</span></div>\n\n                        </div> -->\n\n              <div *ngIf="!ethTransaction.length" class="  row header trans_am txn-data " style="color: black"> No\n\n                Recent Activity Available. </div>\n\n              <div class="pad row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)"\n\n                style="padding-top:1px;">\n\n                <div>\n\n                  <span class="date">{{trans.date}}</span>\n\n                  <span class="txs"> <strong [style.color]="trans.mode == \'Sent\'? \'#2962FF\':\'#ed2c53\'"><span *ngIf="trans.mode == \'Sent\'">-</span>\n\n                      <span *ngIf="trans.mode == \'Received\'">+</span>{{trans.amount | number:\'.3\'}}</strong></span>\n\n                </div>\n\n                <div>\n\n                  <span class="pos"><strong>{{trans.mode}}</strong></span>\n\n                </div>\n\n\n\n              </div>\n\n\n\n            </ion-card>\n\n\n\n          </ng-container>\n\n        </div>\n\n      </div>\n\n    </div>\n\n    <!-- <ion-list>\n\n                  <ion-card *ngFor="let trans of ethTransaction"  class="card_trans">\n\n                  <ion-item (click)="OpenUrl(trans.link)"> \n\n                      <p class="fontWhite">{{trans.amount | number}}</p>\n\n                      <p class="fontWhite">{{trans.date}}</p>\n\n                      <p class="fontWhite"> {{trans.mode}}</p>\n\n                      <p class="fontWhite">{{trans.status}}</p>\n\n                      <p class="fontWhite">{{trans.receipt}}</p>\n\n                     </ion-item>\n\n                     </ion-card>\n\n              </ion-list> -->\n\n\n\n\n\n    <div *ngIf="selectedCur == \'evenscoin\'">\n\n      <div class="tophead">\n\n        <div padding>\n\n          <div class="centex">\n\n            <img class="tra_img" src="assets/imgs/evens-100.png">\n\n          </div>\n\n          <div class="centex">\n\n            <h1> Evens </h1>\n\n          </div>\n\n          <div class="top">\n\n            <div class="wal-amount row" text-center>\n\n              <div class="col"><span class="strong">BALANCE<br></span> <span class="bal"><strong>{{selectedAccount.balance\n\n                    | number:\'.3\' }} ENS</strong></span></div>\n\n              <div class="v-div"></div>\n\n              <div class="col"><span class="strong">PRICE<br></span><span class="bal"><strong> N.A</strong></span> </div>\n\n            </div>\n\n          </div>\n\n        </div>\n\n\n\n      </div>\n\n      <div class="topfoot">\n\n        <div class="recent">\n\n          <h4 text-center>Recent Activity</h4>\n\n          <ng-container>\n\n            <ion-card class="tran_card">\n\n\n\n              <!-- <div class="row header trans_date txn-data">\n\n                                                <div class="col"><span class="strong">Date</span></div>\n\n                                                <div class="col" text-right><span class="strong">Amount</span></div>\n\n                                                <div class="col" text-left><span class="strong">Type</span></div>\n\n                                            </div> -->\n\n              <div *ngIf="!ethTransaction.length" class="  row header trans_am txn-data " style="color: black"> No\n\n                Recent Activity Available. </div>\n\n              <div class="pad row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)"\n\n                style="padding-top:1px;">\n\n                <div>\n\n                  <span class="date">{{trans.date}}</span>\n\n                  <span class="txs"> <strong [style.color]="trans.mode == \'Sent\'? \'#2962FF\':\'#ed2c53\'"><span *ngIf="trans.mode == \'Sent\'">-</span>\n\n                      <span *ngIf="trans.mode == \'Received\'">+</span>{{trans.amount | number:\'.3\'}}</strong></span>\n\n                </div>\n\n                <div>\n\n                  <span class="pos"><strong>{{trans.mode}}</strong></span>\n\n                </div>\n\n\n\n              </div>\n\n\n\n            </ion-card>\n\n\n\n          </ng-container>\n\n        </div>\n\n      </div>\n\n\n\n\n\n    </div>\n\n    <div *ngIf="selectedCur == \'tokenOne\'">\n\n      <div class="tophead">\n\n        <div padding>\n\n          <div class="centex">\n\n            <img class="tra_img" src="assets/imgs/tk1-100.png">\n\n          </div>\n\n          <div class="centex">\n\n            <h1>{{selectedAccount.tokenOneSym}}</h1>\n\n          </div>\n\n          <div class="top">\n\n            <div class="wal-amount row" text-center>\n\n              <div class="col"><span class="strong">BALANCE<br></span> <span class="bal"><strong>{{selectedAccount.balance\n\n                    | number:\'.3\' }} {{selectedAccount.tokenOneSym}}</strong></span></div>\n\n              <div class="v-div"></div>\n\n              <div class="col"><span class="strong">PRICE<br></span><span class="bal"><strong>{{1 / todayPrice.INR |\n\n                    number:\'.3\'}} USD</strong></span> </div>\n\n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n      <div class="topfoot">\n\n        <div class="recent">\n\n          <h4 text-center>Recent Activity</h4>\n\n          <ng-container>\n\n            <ion-card class="tran_card">\n\n\n\n              <!-- <div class="row header trans_date txn-data">\n\n                                                    <div class="col"><span class="strong">Date</span></div>\n\n                                                    <div class="col" text-right><span class="strong">Amount</span></div>\n\n                                                    <div class="col" text-left><span class="strong">Type</span></div>\n\n                                                </div> -->\n\n              <div *ngIf="!ethTransaction.length" class="  row header trans_am txn-data " style="color: black"> No\n\n                Recent Activity Available. </div>\n\n              <div class="pad row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">\n\n                <div>\n\n                  <span class="date">{{trans.date}}</span>\n\n                  <span class="txs"> <strong [style.color]="trans.mode == \'Sent\'? \'#2962FF\':\'#ed2c53\'"><span *ngIf="trans.mode == \'Sent\'">-</span>\n\n                      <span *ngIf="trans.mode == \'Received\'">+</span>{{trans.amount | number:\'.3\'}}</strong></span>\n\n                </div>\n\n\n\n                <div>\n\n                  <span class="pos"><strong>{{trans.mode}}</strong></span>\n\n                </div>\n\n              </div>\n\n            </ion-card>\n\n\n\n          </ng-container>\n\n        </div>\n\n      </div>\n\n\n\n    </div>\n\n    <div *ngIf="selectedCur == \'tokenTwo\'">\n\n      <div class="tophead">\n\n        <div padding>\n\n          <div class="centex">\n\n            <img class="tra_img" src="assets/imgs/tk2-100.png">\n\n          </div>\n\n          <div class="centex">\n\n            <h1>{{selectedAccount.tokenTwoSym}}</h1>\n\n          </div>\n\n          <div class="top">\n\n            <div class="wal-amount row" text-center>\n\n              <div class="col"><span class="strong">BALANCE<br></span> <span class="bal"><strong>{{selectedAccount.balance\n\n                    | number:\'.3\' }} {{selectedAccount.tokenTwoSym}}</strong></span></div>\n\n              <div class="v-div"></div>\n\n              <div class="col"><span class="strong">PRICE<br></span> <span class="bal"><strong>{{1 / todayPrice.THB|\n\n                    number:\'.3\'}} USD</strong></span></div>\n\n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n      <div class="topfoot">\n\n\n\n        <div class="recent">\n\n          <h4 text-center>Recent Activity</h4>\n\n          <ng-container>\n\n            <ion-card class="tran_card">\n\n\n\n              <!-- <div class="row header trans_date txn-data">\n\n                            <div class="col"><span class="strong">Date</span></div>\n\n                            <div class="col" text-right><span class="strong">Amount</span></div>\n\n                            <div class="col" text-left><span class="strong">Type</span></div>\n\n                        </div> -->\n\n              <div *ngIf="!ethTransaction.length" class="  row header trans_am txn-data " style="color: black"> No\n\n                Recent Activity Available. </div>\n\n              <div class=" pad row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">\n\n                <div>\n\n                  <span class="date">{{trans.date}}</span>\n\n                  <span class="txs"> <strong [style.color]="trans.mode == \'Sent\'? \'#2962FF\':\'#ed2c53\'"><span *ngIf="trans.mode == \'Sent\'">-</span>\n\n                      <span *ngIf="trans.mode == \'Received\'">+</span>{{trans.amount | number:\'.3\'}}</strong></span>\n\n                </div>\n\n                <div>\n\n                  <span class="pos"><strong>{{trans.mode}}</strong></span>\n\n                </div>\n\n              </div>\n\n\n\n            </ion-card>\n\n\n\n          </ng-container>\n\n        </div>\n\n      </div>\n\n\n\n    </div>\n\n    <div *ngIf="selectedCur == \'tokenThree\'">\n\n      <div class="tophead">\n\n        <div padding>\n\n          <div class="centex">\n\n            <img class="tra_img" src="assets/imgs/tk3-100.png">\n\n          </div>\n\n          <div class="centex">\n\n            <h1>{{selectedAccount.tokenThreeSym}}</h1>\n\n          </div>\n\n          <div class="top">\n\n            <div class="wal-amount row" text-center>\n\n              <div class="col"><span class="strong">BALANCE<br></span> <span class="bal"><strong>{{selectedAccount.balance\n\n                    | number: \'.3\' }} {{selectedAccount.tokenThreeSym}}</strong></span></div>\n\n              <div class="v-div"></div>\n\n              <div class="col"><span class="strong">PRICE<br></span><span class="bal"><strong>{{1 / todayPrice.KRW|\n\n                    number: \'.3\'}} USD</strong></span> </div>\n\n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n\n\n      <div class="topfoot">\n\n        <div class="recent">\n\n          <h4 text-center>Recent Activity</h4>\n\n          <ng-container>\n\n            <ion-card class="tran_card">\n\n\n\n              <!-- <div class="pad row header trans_date txn-data">\n\n                                                    <div class="col"><span class="date">Date</span></div>\n\n                                                    <div class="col" text-right><span class="strong">Amount</span></div>\n\n                                                    <div class="col" text-left><span class="strong">Type</span></div>\n\n                                                </div> -->\n\n              <div *ngIf="!ethTransaction.length" class="  row header trans_am txn-data " style="color: black"> No\n\n                Recent Activity Available. </div>\n\n              <div class=" pad row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">\n\n                <div>\n\n                  <span class="date">{{trans.date}}</span>\n\n                  <span class="txs"> <strong [style.color]="trans.mode == \'Sent\'? \'#2962FF\':\'#ed2c53\'"><span *ngIf="trans.mode == \'Sent\'">-</span>\n\n                      <span *ngIf="trans.mode == \'Received\'">+</span>{{trans.amount | number:\'.3\'}}</strong></span>\n\n                </div>\n\n                <div>\n\n                  <span class="pos"><strong>{{trans.mode}}</strong></span>\n\n                </div>\n\n              </div>\n\n\n\n            </ion-card>\n\n\n\n          </ng-container>\n\n        </div>\n\n      </div>\n\n\n\n    </div>\n\n    <div *ngIf="selectedCur == \'tokenFour\'">\n\n        <div class="tophead">\n\n          <div padding>\n\n            <div class="centex">\n\n              <img class="tra_img" src="assets/imgs/tk4-100.png">\n\n            </div>\n\n            <div class="centex">\n\n              <h1>{{selectedAccount.tokenFourSym}}</h1>\n\n            </div>\n\n            <div class="top">\n\n              <div class="wal-amount row" text-center>\n\n                <div class="col"><span class="strong">BALANCE<br></span> <span class="bal"><strong>{{selectedAccount.balance\n\n                      | number: \'.3\' }} {{selectedAccount.tokenFourSym}}</strong></span></div>\n\n                <div class="v-div"></div>\n\n                <div class="col"><span class="strong">PRICE<br></span><span class="bal"><strong>{{1 / todayPrice.USD|\n\n                      number: \'.3\'}} USD</strong></span> </div>\n\n              </div>\n\n            </div>\n\n          </div>\n\n        </div>\n\n  \n\n        <div class="topfoot">\n\n          <div class="recent">\n\n            <h4 text-center>Recent Activity</h4>\n\n            <ng-container>\n\n              <ion-card class="tran_card">\n\n  \n\n                <!-- <div class="pad row header trans_date txn-data">\n\n                                                      <div class="col"><span class="date">Date</span></div>\n\n                                                      <div class="col" text-right><span class="strong">Amount</span></div>\n\n                                                      <div class="col" text-left><span class="strong">Type</span></div>\n\n                                                  </div> -->\n\n                <div *ngIf="!ethTransaction.length" class="  row header trans_am txn-data " style="color: black"> No\n\n                  Recent Activity Available. </div>\n\n                <div class=" pad row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">\n\n                  <div>\n\n                    <span class="date">{{trans.date}}</span>\n\n                    <span class="txs"> <strong [style.color]="trans.mode == \'Sent\'? \'#2962FF\':\'#ed2c53\'"><span *ngIf="trans.mode == \'Sent\'">-</span>\n\n                        <span *ngIf="trans.mode == \'Received\'">+</span>{{trans.amount | number:\'.3\'}}</strong></span>\n\n                  </div>\n\n                  <div>\n\n                    <span class="pos"><strong>{{trans.mode}}</strong></span>\n\n                  </div>\n\n                </div>\n\n  \n\n              </ion-card>\n\n  \n\n            </ng-container>\n\n          </div>\n\n        </div>\n\n  \n\n      </div>\n\n  </div>\n\n\n\n</ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\topup\topup.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_in_app_browser__["a" /* InAppBrowser */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
+    ], TopupPage);
+    return TopupPage;
+}());
+
+//# sourceMappingURL=topup.js.map
+
+/***/ }),
+
+/***/ 343:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_barcode_scanner__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_nfc__ = __webpack_require__(60);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, webserve, barcodeScanner, toastCtrl, nfc, ndef) {
+        this.navCtrl = navCtrl;
+        this.webserve = webserve;
+        this.barcodeScanner = barcodeScanner;
+        this.toastCtrl = toastCtrl;
+        this.nfc = nfc;
+        this.ndef = ndef;
+        this.transfer = {
+            gasprice: 40
+        };
+        this.mimeType = "game/rockpaperscissors";
+        this.account = {
+            address: '-',
+            balance: 0,
+            tokenOneSym: '',
+            tokenTwoSym: '',
+            tokenThreeSym: ''
+        };
+        this.enableNfc = false;
+        this.checkNfc();
+        this.getSelecetedCoin();
+    }
+    HomePage.prototype.doRefresh = function (e) {
+        this.getSelecetedCoin();
+        setTimeout(function () {
+            e.complete();
+        }, 2000);
+    };
+    HomePage.prototype.checkNfc = function () {
+        var _this = this;
+        this.nfc.enabled()
+            .then(function (res) {
+            _this.enableNfc = true;
+        }, function (err) {
+            _this.enableNfc = false;
+        });
+    };
+    HomePage.prototype.setFocus = function () {
+        this.myInput.setFocus();
+    };
+    HomePage.prototype.getSelecetedCoin = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0:
+                        _a = this;
+                        return [4 /*yield*/, this.webserve.getSelectedcoinpromise()];
+                    case 1:
+                        _a.selectedCur = _b.sent();
+                        this.getBalance();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    HomePage.prototype.getBalance = function () {
+        var self = this;
+        var servicecall;
+        switch (self.selectedCur) {
+            case 'evenscoin':
+                servicecall = self.webserve.evensBalance();
+                break;
+            case 'tokenOne':
+                servicecall = self.webserve.getTokenOneBalance();
+                break;
+            case 'tokenTwo':
+                servicecall = self.webserve.getTokenTwoBalance();
+                break;
+            case 'tokenThree':
+                servicecall = self.webserve.getTokenThreeBalance();
+                break;
+            case 'tokenFour':
+                servicecall = self.webserve.getTokenFourBalance();
+                break;
+            default:
+                servicecall = self.webserve.getBalance();
+        }
+        servicecall
+            .subscribe(function (res) {
+            self.account = res;
+        }, function (err) {
+            var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+            toast.present();
+        });
+    };
+    HomePage.prototype.addListenNFC = function () {
+        var _this = this;
+        this.nfcsubscribe = this.nfc.addMimeTypeListener(this.mimeType, this.onNfc, this.onnfcfailed)
+            .subscribe(function (event) {
+            if (event) {
+                if (event && event.tag) {
+                    var msg = _this.nfc.bytesToString(event.tag.ndefMessage[0].payload);
+                    if (msg) {
+                        _this.checkAddress(msg, true);
+                        _this.setFocus();
+                    }
+                    else {
+                        _this.createtoast("can't find valid address");
+                    }
+                }
+                else {
+                    _this.createtoast('Cannot find the nfc');
+                }
+            }
+        });
+    };
+    HomePage.prototype.onnfcfailed = function () {
+        this.createtoast('nfc failed.Try again ');
+    };
+    HomePage.prototype.onNfc = function (nfcEvent) {
+        console.log('Listener added');
+    };
+    HomePage.prototype.createtoast = function (message, duration) {
+        if (duration === void 0) { duration = 2000; }
+        var self = this;
+        var toast = self.toastCtrl.create({ message: message, duration: duration });
+        toast.present();
+    };
+    HomePage.prototype.transferAmount = function (f) {
+        var self = this;
+        var data = {
+            transferTo: f.value.address,
+            amount: f.value.amount,
+            gasprice: this.transfer.gasprice
+        };
+        var tranApi;
+        switch (self.selectedCur) {
+            case 'evenscoin':
+                tranApi = self.webserve.TransferEns(data);
+                break;
+            case 'tokenOne':
+                tranApi = self.webserve.TransferTokenOne(data);
+                break;
+            case 'tokenTwo':
+                tranApi = self.webserve.TransferTokenTwo(data);
+                break;
+            case 'tokenThree':
+                tranApi = self.webserve.TransferTokenThree(data);
+                break;
+            case 'tokenFour':
+                tranApi = self.webserve.TransferTokenFour(data);
+                break;
+            default:
+                tranApi = self.webserve.Transfer(data);
+        }
+        tranApi
+            .subscribe(function (res) {
+            console.log("response", res);
+            if (res.recepit) {
+                var toast = self.toastCtrl.create({ message: 'Transaction Completed Successfully', duration: 2000 });
+                toast.present();
+                self.getBalance();
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: 'Transaction Failed', duration: 2000 });
+                toast.present();
+            }
+        }, function (err) {
+            var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+            toast.present();
+        });
+    };
+    HomePage.prototype.scanQr = function () {
+        var self = this;
+        this.barcodeScanner.scan().then(function (barcodeData) {
+            self.checkAddress(barcodeData.text);
+        }).catch(function (err) {
+            var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+            toast.present();
+        });
+    };
+    HomePage.prototype.checkbalance = function (amount) {
+        var self = this;
+        if (amount) {
+            if (!(amount <= self.account.balance)) {
+                self.transfer.amount = '';
+                var toast = self.toastCtrl.create({ message: 'Amount should not be greater than balance', duration: 10000 });
+                toast.present();
+            }
+        }
+    };
+    HomePage.prototype.checkAddress = function (addr, from) {
+        var _this = this;
+        if (from === void 0) { from = false; }
+        var self = this;
+        if (!addr) {
+            // let toast = self.toastCtrl.create({ message: 'Invalid Address, Please enter a valid address.', duration: 10000  });
+            // toast.present()
+            return;
+        }
+        self.webserve.checkAddress(addr).subscribe(function (res) {
+            if (res.status) {
+                _this.transfer.address = addr;
+                if (from) {
+                    _this.createtoast('Address Detected');
+                }
+                console.log(addr);
+            }
+            else {
+                self.transfer.address = "";
+                var toast = self.toastCtrl.create({ message: 'Invalid Address', duration: 2000 });
+                toast.present();
+            }
+        }, function (err) {
+            self.transfer.address = "";
+            var toast = self.toastCtrl.create({ message: 'Invalid Address', duration: 2000 });
+            toast.present();
+        });
+    };
+    HomePage.prototype.ngOnDestroy = function () {
+        if (this.nfcsubscribe) {
+            this.nfcsubscribe.unsubscribe();
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('focusInput'),
+        __metadata("design:type", Object)
+    ], HomePage.prototype, "myInput", void 0);
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\home\home.html"*/'<ion-header class="ion-header">\n\n  <ion-navbar color="primary">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Evens</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-refresher (ionRefresh)="doRefresh($event)">\n\n        <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Pull to refresh" refreshingSpinner="circles"\n\n          refreshingText="Refreshing...">\n\n        </ion-refresher-content>\n\n      </ion-refresher>\n\n  <div padding>\n\n    <div>\n\n      <img *ngIf="selectedCur == \'Etheriun\'" class="static_icon" src="assets/imgs/ethw-40.png">\n\n      <img *ngIf="selectedCur == \'evenscoin\'" class="static_icon" src="assets/imgs/evensw-40.png">\n\n      <img *ngIf="selectedCur == \'tokenOne\'" class="static_icon" src="assets/imgs/tk1w-40.png">\n\n      <img *ngIf="selectedCur == \'tokenThree\'" class="static_icon" src="assets/imgs/tk3w-40.png">\n\n      <img *ngIf="selectedCur == \'tokenTwo\'" class="static_icon" src="assets/imgs/tk2w-40.png">\n\n      <img *ngIf="selectedCur == \'tokenFour\'" class="static_icon" src="assets/imgs/tk4w-40.png">\n\n    </div>\n\n    <p class="sendtitle">SEND</p>\n\n    <div>\n\n      <form #form="ngForm" (ngSubmit)="transferAmount(form)" novalidate>\n\n        <ion-item>\n\n          <ion-label floating>AMOUNT</ion-label>\n\n          <ion-input type="number" (blur)="checkbalance(transfer.amount);" required name="amount" [(ngModel)]="transfer.amount" ngControl="amount"></ion-input>\n\n        </ion-item>\n\n        <ion-item>\n\n          <ion-label floating>TRANSFER TO</ion-label>\n\n          <ion-input #focusInput type="text" (blur)="checkAddress(transfer.address);" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>\n\n        </ion-item>\n\n        <ion-item *ngIf="selectedCur == \'evenscoin\' || selectedCur == \'Etheriun\'" no-lines>\n\n            <ion-label >GAS PRICE - {{transfer.gasprice}} (Gwei)</ion-label>\n\n            <ion-range min="20" max="80" step="2" name="gasprice" [(ngModel)]="transfer.gasprice">\n\n              <p class="clrwhit"  range-left > Slow</p>\n\n              <p class="clrwhit"  range-right > Fast</p>\n\n            </ion-range>\n\n          </ion-item>\n\n        <button ion-button round type="button" (click)="scanQr()"> Scan QR </button>\n\n        <button *ngIf="enableNfc" ion-button round type="button" (click)="addListenNFC()"> Read NFC </button>\n\n        <button ion-button [disabled]="form.invalid" type="submit" block round>Transfer</button>\n\n      </form>\n\n    </div>\n\n    <div style="margin-top: 10%;">\n\n      <p>\n\n        <span>ADDRESS</span>\n\n        <br>\n\n        <span class="ow_address">\n\n          {{account.address}}\n\n        </span>\n\n      </p>\n\n      <p>\n\n        <span>BALANCE</span>\n\n        <br>\n\n        <span>\n\n          {{account.balance | number:\'.3\'}}\n\n          <span *ngIf="selectedCur == \'Etheriun\'">\n\n            ETH\n\n          </span>\n\n          <span *ngIf="selectedCur == \'evenscoin\'">\n\n            ENS\n\n          </span>\n\n          <span *ngIf="selectedCur == \'tokenOne\'">\n\n            {{account.tokenOneSym}}\n\n          </span>\n\n          <span *ngIf="selectedCur == \'tokenTwo\'">\n\n            {{account.tokenTwoSym}}\n\n          </span>\n\n          <span *ngIf="selectedCur == \'tokenThree\'">\n\n            {{account.tokenThreeSym}}\n\n          </span>\n\n          <span *ngIf="selectedCur == \'tokenFour\'">\n\n              {{account.tokenThreeSym}}\n\n            </span>\n\n        </span>\n\n      </p>\n\n    </div>\n\n    <div>\n\n\n\n    </div>\n\n  </div>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\home\home.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */]]
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_nfc__["a" /* NFC */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_nfc__["a" /* NFC */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_nfc__["b" /* Ndef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_nfc__["b" /* Ndef */]) === "function" && _f || Object])
+    ], HomePage);
+    return HomePage;
+    var _a, _b, _c, _d, _e, _f;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 345:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CouponsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+//import { ModalController } from 'ionic-angular';
+// import { myCouponPage } from '../my-coupon/my-coupon';
+var CouponsPage = (function () {
+    function CouponsPage(navCtrl, webservice, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.webservice = webservice;
+        this.toastCtrl = toastCtrl;
+        this.selectedAccount = {
+            address: '-',
+            balance: 0
+        };
+        this.selectedCur = this.webservice.getSelectedcoin();
+        // this.getBalance()
+    }
+    CouponsPage.prototype.getBalance = function () {
+        var self = this;
+        var servicecall;
+        switch (self.selectedCur) {
+            case 'tokenOne':
+                servicecall = self.webservice.getTokenOneBalance();
+                break;
+            case 'tokenTwo':
+                servicecall = self.webservice.getTokenTwoBalance();
+                break;
+            case 'tokenThree':
+                servicecall = self.webservice.getTokenThreeBalance();
+                break;
+        }
+        servicecall
+            .then(function (res) {
+            self.selectedAccount = res;
+        }, function (err) {
+            var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+            toast.present();
+        });
+    };
+    CouponsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-contact',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\coupons\coupons.html"*/'<ion-header>\n\n    <ion-navbar color=\'primary\'>\n\n        <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>\n\n          Evens\n\n        </ion-title>\n\n      </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n      <!-- <div *ngIf="selectedCur == \'tokenOne\'">\n\n          <div class="centex">\n\n              <img class="tra_img" src="assets/imgs/icons8-rupee-100.png">\n\n          </div>\n\n          <div  class="centex">\n\n            <h1>{{selectedAccount.tokenOneSym}}</h1>\n\n          </div>\n\n       </div>\n\n\n\n       <div *ngIf="selectedCur == \'tokenTwo\'">\n\n          <div class="centex">\n\n              <img class="tra_img" src="assets/imgs/icons8-bitcoin-100.png">\n\n          </div>\n\n          <div  class="centex">\n\n            <h1>{{selectedAccount.tokenTwoSym}}</h1>\n\n          </div>\n\n       </div>\n\n\n\n       <div *ngIf="selectedCur == \'tokenThree\'">\n\n          <div class="centex">\n\n              <img class="tra_img" src="assets/imgs/icons8-won-100.png">\n\n          </div>\n\n          <div  class="centex">\n\n            <h1>{{selectedAccount.tokenThreeSym}}</h1>\n\n          </div>\n\n       </div>\n\n\n\n       <form #form="ngForm" novalidate>\n\n          <ion-item>\n\n            <ion-label floating>Amount</ion-label>\n\n            <ion-input type="number" required name="amount" [(ngModel)]="amount" ></ion-input>\n\n          </ion-item>\n\n          <button ion-button full>140  Pay With ETH </button>\n\n          <button ion-button full> Pay With ENS </button>\n\n          </form> -->\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\coupons\coupons.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
+    ], CouponsPage);
+    return CouponsPage;
+}());
+
+//# sourceMappingURL=coupons.js.map
+
+/***/ }),
+
+/***/ 346:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyCataloguePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_clipboard__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_webservic_webservic__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var MyCataloguePage = (function () {
+    function MyCataloguePage(navCtrl, webService, toastCtrl, clipboard) {
+        this.navCtrl = navCtrl;
+        this.webService = webService;
+        this.toastCtrl = toastCtrl;
+        this.clipboard = clipboard;
+        this.user = {};
+        this.getUSerInfo();
+    }
+    MyCataloguePage.prototype.getUSerInfo = function () {
+        var self = this;
+        self.webService.getUserInfo()
+            .subscribe(function (res) {
+            if (res.status == 200) {
+                console.log("user", res);
+                self.user = res.data;
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: res.message, duration: 2000 });
+                toast.present();
+            }
+        }, function (err) {
+            if ('error' in err) {
+                if (err.error.status) {
+                    var toast = self.toastCtrl.create({ message: err.error.message, duration: 2000 });
+                    toast.present();
+                }
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+                toast.present();
+            }
+        });
+    };
+    MyCataloguePage.prototype.copyAddress = function () {
+        var self = this;
+        this.clipboard.copy(self.user.address)
+            .then(function (res) {
+            var toast = self.toastCtrl.create({ message: 'Address Copied.', duration: 2000 });
+            toast.present();
+        });
+    };
+    MyCataloguePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-my-catalogue',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\my-catalogue\my-catalogue.html"*/'<ion-header>\n\n    <ion-navbar color="primary">\n\n        <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Profile</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content >\n\n    <div padding>\n\n      <div>\n\n          <ion-thumbnail  class="avabor_profile" item-start>\n\n              <img class="user-img" src="assets/imgs/ico_bg_menu_circle.png">\n\n              </ion-thumbnail>\n\n              <h2 text-center>{{ user.firstName}} {{user.lastName}}</h2>\n\n              <p text-center> {{user.country}}</p>\n\n      </div>\n\n        <ion-list class="profile-list">\n\n          <!-- <ion-item class="profile-item">\n\n            <h4>DOB :</h4>\n\n            <p>{{user.dob | date:\'mediumDate\'}}</p>\n\n          </ion-item> -->\n\n          <ion-item class="profile-item">\n\n            <h4>Email :</h4>\n\n            <p>{{user.email}}</p>\n\n          </ion-item>\n\n          <!-- <ion-item class="profile-item">\n\n            <h4>Phone :</h4>\n\n            <p>{{user.phoneNumber}}</p>\n\n          </ion-item> -->\n\n          <ion-item class="profile-item">\n\n            <h4>Address :</h4>\n\n            <p>{{user.address}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n        <button ion-button (click)="copyAddress()">Copy Address To Clipboard</button>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\my-catalogue\my-catalogue.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_clipboard__["a" /* Clipboard */]])
+    ], MyCataloguePage);
+    return MyCataloguePage;
+}());
+
+//# sourceMappingURL=my-catalogue.js.map
+
+/***/ }),
+
+/***/ 352:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(373);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 373:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ngx_qrcode2__ = __webpack_require__(437);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_barcode_scanner__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_in_app_browser__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_clipboard__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_webservic_interceptor__ = __webpack_require__(457);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_network__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__amcharts_amcharts3_angular__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_wallet_wallet__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_home_home__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_topup_topup__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_login_login__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_forgot_password_forgot_password__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_notifications_notifications__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_create_account_create_account__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_add_card_add_card__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_my_rewards_my_rewards__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_my_catalogue_my_catalogue__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_quick_pay_quick_pay__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_coupons_coupons__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_create_account_EqualValidator__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_splash_screen__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_nfc__ = __webpack_require__(60);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_wallet_wallet__["a" /* WalletPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_topup_topup__["a" /* TopupPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_coupons_coupons__["a" /* CouponsPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_forgot_password_forgot_password__["a" /* ForgotPasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_notifications_notifications__["a" /* NotificationsPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_create_account_create_account__["a" /* CreateAccountPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_add_card_add_card__["a" /* AddCardPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_my_rewards_my_rewards__["a" /* MyRewardsPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_my_catalogue_my_catalogue__["a" /* MyCataloguePage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_quick_pay_quick_pay__["a" /* QuickPayPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_create_account_EqualValidator__["a" /* EqualValidator */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["c" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_5_ngx_qrcode2__["a" /* NgxQRCodeModule */],
+                __WEBPACK_IMPORTED_MODULE_10__providers_webservic_interceptor__["a" /* InterceptorModule */],
+                __WEBPACK_IMPORTED_MODULE_12__amcharts_amcharts3_angular__["a" /* AmChartsModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
+                    tabsHideOnSubPages: true
+                }, {
+                    links: []
+                }),
+                __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["a" /* IonicStorageModule */].forRoot()
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_wallet_wallet__["a" /* WalletPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_topup_topup__["a" /* TopupPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_forgot_password_forgot_password__["a" /* ForgotPasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_notifications_notifications__["a" /* NotificationsPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_create_account_create_account__["a" /* CreateAccountPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_add_card_add_card__["a" /* AddCardPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_coupons_coupons__["a" /* CouponsPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_my_rewards_my_rewards__["a" /* MyRewardsPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_my_catalogue_my_catalogue__["a" /* MyCataloguePage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_quick_pay_quick_pay__["a" /* QuickPayPage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_28__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_6__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+                __WEBPACK_IMPORTED_MODULE_8__ionic_native_in_app_browser__["a" /* InAppBrowser */],
+                __WEBPACK_IMPORTED_MODULE_9__ionic_native_clipboard__["a" /* Clipboard */],
+                __WEBPACK_IMPORTED_MODULE_11__ionic_native_network__["a" /* Network */],
+                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] },
+                __WEBPACK_IMPORTED_MODULE_29__providers_webservic_webservic__["a" /* WebservicProvider */],
+                __WEBPACK_IMPORTED_MODULE_30__ionic_native_nfc__["a" /* NFC */],
+                __WEBPACK_IMPORTED_MODULE_30__ionic_native_nfc__["b" /* Ndef */]
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 414:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_my_rewards_my_rewards__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_notifications_notifications__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_my_catalogue_my_catalogue__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_nfc__ = __webpack_require__(60);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+// import { AddCardPage } from '../pages/add-card/add-card';
+//import { AddRewardscardPage } from '../pages/add-rewardscard/add-rewardscard';
+// import { LoginPage } from '../pages/login/login';
+//import { InstructionsPage } from '../pages/instructions/instructions';
+
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, menu, statusBar, splashScreen, webservice, storage, events, toastCtrl, nfc, ndef) {
+        var _this = this;
+        this.platform = platform;
+        this.menu = menu;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.webservice = webservice;
+        this.storage = storage;
+        this.events = events;
+        this.toastCtrl = toastCtrl;
+        this.nfc = nfc;
+        this.ndef = ndef;
+        this.showQr = false;
+        this.user = {};
+        this.mimeType = "game/rockpaperscissors";
+        this.initializeApp();
+        this.setRootPage();
+        this.events.subscribe('user:logout', function (status) {
+            if (status) {
+                var toast = _this.toastCtrl.create({ message: 'Access token Expired.Please login to get access token', duration: 2000 });
+                toast.present();
+                _this.logOut();
+            }
+        });
+        this.events.subscribe('getUser', function (status) {
+            _this.getUserInfo();
+        });
+        this.pages = [
+            { title: 'ACCOUNT', component: __WEBPACK_IMPORTED_MODULE_6__pages_notifications_notifications__["a" /* NotificationsPage */], icon: 'photos.png' },
+            // {title: 'ExchangeRate', component: MyRewardsPage, icon:'send'},
+            { title: 'CHANGE PASSWORD', component: __WEBPACK_IMPORTED_MODULE_5__pages_my_rewards_my_rewards__["a" /* MyRewardsPage */], icon: 'lock.png' },
+            // {title: 'Quick Pay', icon:'lock',  component: QuickPayPage},
+            { title: 'SIGN OUT', component: __WEBPACK_IMPORTED_MODULE_8__pages_login_login__["a" /* LoginPage */], icon: 'log-out.png' }
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            // this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.setRootPage = function () {
+        var _this = this;
+        var self = this;
+        self.webservice.getStoredData()
+            .then(function (res) {
+            if (!res) {
+                _this.rootPage = __WEBPACK_IMPORTED_MODULE_8__pages_login_login__["a" /* LoginPage */];
+            }
+            else {
+                _this.rootPage = __WEBPACK_IMPORTED_MODULE_6__pages_notifications_notifications__["a" /* NotificationsPage */];
+            }
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        if (page.title == 'ACCOUNT') {
+            this.menu.close();
+            this.nav.setRoot(page.component);
+        }
+        else if (page.title == 'Sign Out') {
+            this.logOut();
+        }
+        else {
+            this.menu.close();
+            this.nav.setRoot(page.component);
+        }
+    };
+    MyApp.prototype.getUserInfo = function () {
+        var _this = this;
+        var self = this;
+        self.webservice.getUserInfo()
+            .subscribe(function (res) {
+            if (res.status == 200) {
+                console.log("user", res);
+                _this.nfc.enabled()
+                    .then(function (res) {
+                    console.log("nfc enabled", res);
+                    var message = _this.ndef.mimeMediaRecord(_this.mimeType, _this.user.address);
+                    _this.nfc.share([message]).then(_this.onSuccess).catch(_this.onError);
+                }, function (err) {
+                    console.log("nfc not enabled", err);
+                });
+                self.user = res.data;
+                self.showQr = true;
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: res.message, duration: 2000 });
+                toast.present();
+                self.showQr = false;
+            }
+        }, function (err) {
+            self.showQr = false;
+            if ('error' in err) {
+                if (err.error.status) {
+                    var toast = self.toastCtrl.create({ message: err.error.message, duration: 2000 });
+                    toast.present();
+                }
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+                toast.present();
+            }
+        });
+    };
+    MyApp.prototype.onSuccess = function () {
+        alert("message sent  ");
+    };
+    MyApp.prototype.onError = function (err) {
+        alert("Error msg sharing " + JSON.stringify(err));
+    };
+    MyApp.prototype.goToprofile = function () {
+        var self = this;
+        self.menu.close();
+        self.nav.setRoot(__WEBPACK_IMPORTED_MODULE_9__pages_my_catalogue_my_catalogue__["a" /* MyCataloguePage */]);
+    };
+    MyApp.prototype.logOut = function () {
+        this.menu.close();
+        this.storage.clear();
+        this.nav.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_login_login__["a" /* LoginPage */]);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\app\app.html"*/'<ion-menu [content]=\'content\'>\n\n\n\n    <ion-header>\n\n        <ion-toolbar class="user-bg">\n\n            <!-- <ion-title>Menu</ion-title> -->\n\n            <ion-list class="user-detail">\n\n                <ion-item no-lines  (click)="goToprofile()">\n\n                        <div *ngIf="showQr" class="qr_code">\n\n                                <!-- <div class="qr_text" ></div> -->\n\n                                <ngx-qrcode [qrc-value]="user.address"></ngx-qrcode>\n\n                                <p>{{user.address}}</p>\n\n                                \n\n                        </div>\n\n                    <!-- <ion-thumbnail  class="avabor" item-start>\n\n                    <img class="user-img" src="assets/imgs/user-defalut.png">\n\n                    </ion-thumbnail> -->\n\n                </ion-item>\n\n                <ion-item no-lines >\n\n                        <h2 text-center>{{ user.firstName}} {{user.lastName}}</h2>\n\n                </ion-item>\n\n            </ion-list>\n\n        </ion-toolbar>\n\n    </ion-header>\n\n    <ion-content class="side_bar">\n\n        <ion-item-group class="ltpad">\n\n               <ion-item no-lines *ngFor=\'let p of pages\' class="sidemenu_item dashed_lth " >\n\n                    <!-- <ion-icon class="icon_colr" [name]="p.icon" ></ion-icon> -->\n\n                    <img item-start src="assets/imgs/{{p.icon}}">\n\n                    <button ion-item  class="menu_item lemenu"   (click)="openPage(p)">\n\n                            {{p.title}}\n\n                        </button>\n\n               </ion-item>\n\n                    <!-- <ion-item-divider color="primary">Smart Service</ion-item-divider> -->\n\n        </ion-item-group>\n\n    </ion-content>\n\n</ion-menu>\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"d:\projects\enswallet-mobile\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_nfc__["a" /* NFC */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_nfc__["b" /* Ndef */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 435:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": 213,
+	"./af.js": 213,
+	"./ar": 214,
+	"./ar-dz": 215,
+	"./ar-dz.js": 215,
+	"./ar-kw": 216,
+	"./ar-kw.js": 216,
+	"./ar-ly": 217,
+	"./ar-ly.js": 217,
+	"./ar-ma": 218,
+	"./ar-ma.js": 218,
+	"./ar-sa": 219,
+	"./ar-sa.js": 219,
+	"./ar-tn": 220,
+	"./ar-tn.js": 220,
+	"./ar.js": 214,
+	"./az": 221,
+	"./az.js": 221,
+	"./be": 222,
+	"./be.js": 222,
+	"./bg": 223,
+	"./bg.js": 223,
+	"./bm": 224,
+	"./bm.js": 224,
+	"./bn": 225,
+	"./bn.js": 225,
+	"./bo": 226,
+	"./bo.js": 226,
+	"./br": 227,
+	"./br.js": 227,
+	"./bs": 228,
+	"./bs.js": 228,
+	"./ca": 229,
+	"./ca.js": 229,
+	"./cs": 230,
+	"./cs.js": 230,
+	"./cv": 231,
+	"./cv.js": 231,
+	"./cy": 232,
+	"./cy.js": 232,
+	"./da": 233,
+	"./da.js": 233,
+	"./de": 234,
+	"./de-at": 235,
+	"./de-at.js": 235,
+	"./de-ch": 236,
+	"./de-ch.js": 236,
+	"./de.js": 234,
+	"./dv": 237,
+	"./dv.js": 237,
+	"./el": 238,
+	"./el.js": 238,
+	"./en-au": 239,
+	"./en-au.js": 239,
+	"./en-ca": 240,
+	"./en-ca.js": 240,
+	"./en-gb": 241,
+	"./en-gb.js": 241,
+	"./en-ie": 242,
+	"./en-ie.js": 242,
+	"./en-il": 243,
+	"./en-il.js": 243,
+	"./en-nz": 244,
+	"./en-nz.js": 244,
+	"./eo": 245,
+	"./eo.js": 245,
+	"./es": 246,
+	"./es-do": 247,
+	"./es-do.js": 247,
+	"./es-us": 248,
+	"./es-us.js": 248,
+	"./es.js": 246,
+	"./et": 249,
+	"./et.js": 249,
+	"./eu": 250,
+	"./eu.js": 250,
+	"./fa": 251,
+	"./fa.js": 251,
+	"./fi": 252,
+	"./fi.js": 252,
+	"./fo": 253,
+	"./fo.js": 253,
+	"./fr": 254,
+	"./fr-ca": 255,
+	"./fr-ca.js": 255,
+	"./fr-ch": 256,
+	"./fr-ch.js": 256,
+	"./fr.js": 254,
+	"./fy": 257,
+	"./fy.js": 257,
+	"./gd": 258,
+	"./gd.js": 258,
+	"./gl": 259,
+	"./gl.js": 259,
+	"./gom-latn": 260,
+	"./gom-latn.js": 260,
+	"./gu": 261,
+	"./gu.js": 261,
+	"./he": 262,
+	"./he.js": 262,
+	"./hi": 263,
+	"./hi.js": 263,
+	"./hr": 264,
+	"./hr.js": 264,
+	"./hu": 265,
+	"./hu.js": 265,
+	"./hy-am": 266,
+	"./hy-am.js": 266,
+	"./id": 267,
+	"./id.js": 267,
+	"./is": 268,
+	"./is.js": 268,
+	"./it": 269,
+	"./it.js": 269,
+	"./ja": 270,
+	"./ja.js": 270,
+	"./jv": 271,
+	"./jv.js": 271,
+	"./ka": 272,
+	"./ka.js": 272,
+	"./kk": 273,
+	"./kk.js": 273,
+	"./km": 274,
+	"./km.js": 274,
+	"./kn": 275,
+	"./kn.js": 275,
+	"./ko": 276,
+	"./ko.js": 276,
+	"./ky": 277,
+	"./ky.js": 277,
+	"./lb": 278,
+	"./lb.js": 278,
+	"./lo": 279,
+	"./lo.js": 279,
+	"./lt": 280,
+	"./lt.js": 280,
+	"./lv": 281,
+	"./lv.js": 281,
+	"./me": 282,
+	"./me.js": 282,
+	"./mi": 283,
+	"./mi.js": 283,
+	"./mk": 284,
+	"./mk.js": 284,
+	"./ml": 285,
+	"./ml.js": 285,
+	"./mn": 286,
+	"./mn.js": 286,
+	"./mr": 287,
+	"./mr.js": 287,
+	"./ms": 288,
+	"./ms-my": 289,
+	"./ms-my.js": 289,
+	"./ms.js": 288,
+	"./mt": 290,
+	"./mt.js": 290,
+	"./my": 291,
+	"./my.js": 291,
+	"./nb": 292,
+	"./nb.js": 292,
+	"./ne": 293,
+	"./ne.js": 293,
+	"./nl": 294,
+	"./nl-be": 295,
+	"./nl-be.js": 295,
+	"./nl.js": 294,
+	"./nn": 296,
+	"./nn.js": 296,
+	"./pa-in": 297,
+	"./pa-in.js": 297,
+	"./pl": 298,
+	"./pl.js": 298,
+	"./pt": 299,
+	"./pt-br": 300,
+	"./pt-br.js": 300,
+	"./pt.js": 299,
+	"./ro": 301,
+	"./ro.js": 301,
+	"./ru": 302,
+	"./ru.js": 302,
+	"./sd": 303,
+	"./sd.js": 303,
+	"./se": 304,
+	"./se.js": 304,
+	"./si": 305,
+	"./si.js": 305,
+	"./sk": 306,
+	"./sk.js": 306,
+	"./sl": 307,
+	"./sl.js": 307,
+	"./sq": 308,
+	"./sq.js": 308,
+	"./sr": 309,
+	"./sr-cyrl": 310,
+	"./sr-cyrl.js": 310,
+	"./sr.js": 309,
+	"./ss": 311,
+	"./ss.js": 311,
+	"./sv": 312,
+	"./sv.js": 312,
+	"./sw": 313,
+	"./sw.js": 313,
+	"./ta": 314,
+	"./ta.js": 314,
+	"./te": 315,
+	"./te.js": 315,
+	"./tet": 316,
+	"./tet.js": 316,
+	"./tg": 317,
+	"./tg.js": 317,
+	"./th": 318,
+	"./th.js": 318,
+	"./tl-ph": 319,
+	"./tl-ph.js": 319,
+	"./tlh": 320,
+	"./tlh.js": 320,
+	"./tr": 321,
+	"./tr.js": 321,
+	"./tzl": 322,
+	"./tzl.js": 322,
+	"./tzm": 323,
+	"./tzm-latn": 324,
+	"./tzm-latn.js": 324,
+	"./tzm.js": 323,
+	"./ug-cn": 325,
+	"./ug-cn.js": 325,
+	"./uk": 326,
+	"./uk.js": 326,
+	"./ur": 327,
+	"./ur.js": 327,
+	"./uz": 328,
+	"./uz-latn": 329,
+	"./uz-latn.js": 329,
+	"./uz.js": 328,
+	"./vi": 330,
+	"./vi.js": 330,
+	"./x-pseudo": 331,
+	"./x-pseudo.js": 331,
+	"./yo": 332,
+	"./yo.js": 332,
+	"./zh-cn": 333,
+	"./zh-cn.js": 333,
+	"./zh-hk": 334,
+	"./zh-hk.js": 334,
+	"./zh-tw": 335,
+	"./zh-tw.js": 335
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 435;
+
+/***/ }),
+
+/***/ 457:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export HttpsRequestInterceptor */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InterceptorModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_do__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_do__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromPromise__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromPromise__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_mergeMap__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_mergeMap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_network__ = __webpack_require__(351);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var HttpsRequestInterceptor = (function () {
+    function HttpsRequestInterceptor(events, storage, network, toastCtrl) {
+        this.events = events;
+        this.storage = storage;
+        this.network = network;
+        this.toastCtrl = toastCtrl;
+        this.tokengetter();
+    }
+    HttpsRequestInterceptor.prototype.intercept = function (req, next) {
+        var _this = this;
+        if (this.network.type == 'none') {
+            var toast = this.toastCtrl.create({ message: 'Please Connect to the network', duration: 2000 });
+            toast.present();
+        }
+        else {
+            if (req.url.includes('/api') && !req.url.includes('/login') && !req.url.includes('/signUp') && !req.url.includes('etherscan')) {
+                return this.tokengetter()
+                    .mergeMap(function (result) {
+                    _this.token = result;
+                    if (_this.token) {
+                        var dupReq = req.clone({ headers: req.headers.set('x-access-token', _this.token) });
+                        return next.handle(dupReq)
+                            .do(function (event) {
+                            if (event instanceof __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["e" /* HttpResponse */]) {
+                            }
+                        }, function (err) {
+                            console.log("err", err);
+                            if (err instanceof __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["d" /* HttpErrorResponse */]) {
+                                if (err.status === 403) {
+                                    _this.events.publish('user:logout', true);
+                                    console.log("err", err);
+                                }
+                                else {
+                                    var toast = _this.toastCtrl.create({ message: 'Please try after sometime', duration: 2000 });
+                                    toast.present();
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        _this.events.publish('user:logout', true);
+                    }
+                });
+            }
+            else {
+                return next.handle(req);
+            }
+        }
+    };
+    HttpsRequestInterceptor.prototype.tokengetter = function () {
+        var self = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].fromPromise(self.storage.get('token'));
+    };
+    HttpsRequestInterceptor = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_6_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_8__ionic_native_network__["a" /* Network */],
+            __WEBPACK_IMPORTED_MODULE_6_ionic_angular__["l" /* ToastController */]])
+    ], HttpsRequestInterceptor);
+    return HttpsRequestInterceptor;
+}());
+
+;
+var InterceptorModule = (function () {
+    function InterceptorModule() {
+    }
+    InterceptorModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            providers: [
+                { provide: __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["a" /* HTTP_INTERCEPTORS */], useClass: HttpsRequestInterceptor, multi: true }
+            ]
+        })
+    ], InterceptorModule);
+    return InterceptorModule;
+}());
+
+//# sourceMappingURL=interceptor.js.map
+
+/***/ }),
+
+/***/ 464:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotPasswordPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(58);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ForgotPasswordPage = (function () {
+    function ForgotPasswordPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ForgotPasswordPage.prototype.goToLoginPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */]);
+    };
+    ForgotPasswordPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-forgot-passwor',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\forgot-password\forgot-password.html"*/'<ion-content class="login-content" padding>\n\n    <ion-row class="logo-row">\n\n      <ion-col></ion-col>\n\n      <ion-col width-67>\n\n        <img style="max-width: 303px !important;" src="http://placehold.it/500x300"/>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <div class="title">\n\n        <h1>Forgot Password?</h1>\n\n        <p>Enter your login, we will send you recovery password</p>\n\n      </div>\n\n    </ion-row>\n\n    <div class="forgot-box">\n\n      <form>\n\n        <ion-row>\n\n          <ion-col>\n\n            <ion-list inset>\n\n              \n\n              <ion-item>\n\n                <ion-input type="text" placeholder="Email" name="email" required></ion-input>\n\n              </ion-item>\n\n\n\n              <ion-item></ion-item>\n\n\n\n            </ion-list>\n\n          </ion-col>\n\n        </ion-row>\n\n        \n\n        <ion-row>\n\n          <ion-col class="signup-col">\n\n            <button ion-button class="submit-btn" full type="submit" >Recover Password</button>\n\n            <button ion-button class="btl-btn" clear (click)="goToLoginPage()">Back to Login</button>\n\n          </ion-col>\n\n        </ion-row>\n\n        \n\n      </form>\n\n    </div>\n\n    <ion-row>\n\n      <div class="copyright"><p>Copyright © 2017 Revo Rewards</p></div>\n\n    </ion-row>\n\n  </ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\forgot-password\forgot-password.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], ForgotPasswordPage);
+    return ForgotPasswordPage;
+}());
+
+//# sourceMappingURL=forgot-password.js.map
+
+/***/ }),
+
+/***/ 465:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuickPayPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_nfc__ = __webpack_require__(60);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var QuickPayPage = (function () {
+    function QuickPayPage(navCtrl, webService, nfc, ndef) {
+        this.navCtrl = navCtrl;
+        this.webService = webService;
+        this.nfc = nfc;
+        this.ndef = ndef;
+        this.scanned = false;
+        this.mimeType = "game/rockpaperscissors";
+    }
+    QuickPayPage.prototype.addListenNFC = function () {
+        var _this = this;
+        this.nfcsubscribe = this.nfc.addMimeTypeListener(this.mimeType, this.onNfc, this.onnfcfailed)
+            .subscribe(function (event) {
+            console.log("received ndef message. the tag contains: " + JSON.stringify(event.tag));
+            console.log("decoded tag id " + _this.nfc.bytesToString(event.tag.ndefMessage[0].payload));
+        });
+    };
+    QuickPayPage.prototype.onnfcfailed = function () {
+        alert('nfc failed.Try again ');
+    };
+    QuickPayPage.prototype.onNfc = function (nfcEvent) {
+        var tag = nfcEvent.tag, records = tag.ndefMessage, opponentsChoice = this.nfc.bytesToString(records[0].payload);
+        alert("Opponents choices " + opponentsChoice);
+    };
+    QuickPayPage.prototype.tagListenerSuccess = function (tagEvent) {
+        console.log(tagEvent.type);
+        var data = tagEvent;
+        alert(JSON.stringify(data));
+    };
+    QuickPayPage.prototype.recSuccess = function (data) {
+        alert;
+    };
+    QuickPayPage.prototype.sesReadNFC = function (data) {
+        console.log(data, 'Workimg');
+    };
+    QuickPayPage.prototype.failNFC = function (err) {
+        console.log('NFC Failed :' + JSON.stringify(err));
+    };
+    QuickPayPage.prototype.sendTransaction = function () {
+        var message = this.ndef.mimeMediaRecord(this.mimeType, 'Hello world');
+        this.nfc.share([message]).then(this.onSuccess).catch(this.onError);
+    };
+    QuickPayPage.prototype.onSuccess = function () {
+        alert("message sent  ");
+    };
+    QuickPayPage.prototype.onError = function (err) {
+        alert("Error msg sharing " + JSON.stringify(err));
+    };
+    QuickPayPage.prototype.ionViewCanLeave = function () {
+        this.nfcsubscribe.unsubscribe();
+    };
+    QuickPayPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-quick-pay',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\quick-pay\quick-pay.html"*/'<ion-header>\n\n    <ion-navbar color="primary">\n\n        <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Profile</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content >\n\n    <div padding>\n\n      <button ion-button full (click)="sendTransaction()" >Send </button>\n\n      <button ion-button full (click)="addListenNFC()" >Receive</button>\n\n    </div>\n\n</ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\quick-pay\quick-pay.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_nfc__["a" /* NFC */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_nfc__["b" /* Ndef */]])
+    ], QuickPayPage);
+    return QuickPayPage;
+}());
+
+//# sourceMappingURL=quick-pay.js.map
+
+/***/ }),
+
+/***/ 466:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EqualValidator; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(18);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+var EqualValidator = (function () {
+    function EqualValidator(validateEqual, reverse) {
+        this.validateEqual = validateEqual;
+        this.reverse = reverse;
+    }
+    EqualValidator_1 = EqualValidator;
+    Object.defineProperty(EqualValidator.prototype, "isReverse", {
+        get: function () {
+            if (!this.reverse)
+                return false;
+            return this.reverse === 'true' ? true : false;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    EqualValidator.prototype.validate = function (c) {
+        // self value
+        var v = c.value;
+        // control vlaue
+        var e = c.root.get(this.validateEqual);
+        // value not equal
+        if (e && v !== e.value && !this.isReverse) {
+            return {
+                validateEqual: false
+            };
+        }
+        // value equal and reverse
+        if (e && v === e.value && this.isReverse) {
+            delete e.errors['validateEqual'];
+            if (!Object.keys(e.errors).length)
+                e.setErrors(null);
+        }
+        // value not equal and reverse
+        if (e && v !== e.value && this.isReverse) {
+            e.setErrors({
+                validateEqual: false
+            });
+        }
+        return null;
+    };
+    EqualValidator = EqualValidator_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* Directive */])({
+            selector: '[validateEqual][formControlName],[validateEqual][formControl],[validateEqual][ngModel]',
+            providers: [
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* NG_VALIDATORS */], useExisting: Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* forwardRef */])(function () { return EqualValidator_1; }), multi: true }
+            ]
+        }),
+        __param(0, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */])('validateEqual')),
+        __param(1, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */])('reverse')),
+        __metadata("design:paramtypes", [String, String])
+    ], EqualValidator);
+    return EqualValidator;
+    var EqualValidator_1;
+}());
+
+//# sourceMappingURL=EqualValidator.js.map
+
+/***/ }),
+
+/***/ 58:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__create_account_create_account__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__notifications_notifications__ = __webpack_require__(59);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var LoginPage = (function () {
+    function LoginPage(navCtrl, menu, webService, loadCtrl, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.menu = menu;
+        this.webService = webService;
+        this.loadCtrl = loadCtrl;
+        this.toastCtrl = toastCtrl;
+        this.user = {};
+        this.CreateAccount = __WEBPACK_IMPORTED_MODULE_2__create_account_create_account__["a" /* CreateAccountPage */];
+        this.menu.enable(false);
+    }
+    LoginPage.prototype.goToCreateAccountPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__create_account_create_account__["a" /* CreateAccountPage */]);
+    };
+    LoginPage.prototype.login = function () {
+        var self = this;
+        var loading = self.loadCtrl.create();
+        loading.present();
+        self.webService.login(self.user)
+            .subscribe(function (res) {
+            loading.dismiss();
+            if (res.status == 200) {
+                var data = Object.assign({}, res.data);
+                data.password = self.user.password;
+                self.webService.saveLocalData(data, res.token);
+                self.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__notifications_notifications__["a" /* NotificationsPage */]);
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: res.message, duration: 2000 });
+                toast.present();
+            }
+        }, function (err) {
+            loading.dismiss();
+            if ('error' in err) {
+                if (err.error.status) {
+                    var toast = self.toastCtrl.create({ message: err.error.message, duration: 2000 });
+                    toast.present();
+                }
+            }
+            else {
+                var toast = self.toastCtrl.create({ message: 'Please try after some time.', duration: 2000 });
+                toast.present();
+            }
+        });
+    };
+    LoginPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-login',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\login\login.html"*/'<ion-content class="login-content" padding>\n\n    <ion-row class="logo-row">\n\n      <ion-col></ion-col>\n\n      <ion-col width-67 text-center>\n\n        <img style="max-width: 100px !important;margin-bottom: 20px;margin-top: 120px" src="assets/imgs/evens.png"/>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <div class="title"><h1>WELCOME</h1></div>\n\n    </ion-row>\n\n    <div class="login-box">\n\n      <form #f="ngForm" novalidate (ngSubmit)="login()">\n\n        <ion-row>\n\n          <ion-col>\n\n            <ion-list inset>\n\n  \n\n              <ion-item>\n\n                <ion-input type="email" placeholder="EMAIL" [(ngModel)]="user.address" name="address" required></ion-input>\n\n              </ion-item>\n\n  \n\n              <ion-item>\n\n                <ion-input type="password" placeholder="PASSWORD" [(ngModel)]="user.password" name="password" required></ion-input>\n\n              </ion-item>\n\n  \n\n              <ion-item></ion-item>\n\n            </ion-list>\n\n          </ion-col>\n\n        </ion-row>\n\n  \n\n        <ion-row>\n\n          <ion-col class="signup-col">\n\n            <button style="width:80%" ion-button round [disabled]="f.invalid" class="submit-btn" round type="submit" >Login</button>\n\n            <!-- <button ion-button class="register-btn" [navPush]="ForgotPasswordPage"  type ="button" float-right clear text-capitalize>Forgot Password?</button> -->\n\n          </ion-col>\n\n        </ion-row>\n\n        <ion-row clear>\n\n          <div class="signup-btn">DON\'T YOU HAVE ACCOUNT? <a href="#" class="register-btn" clear [navPush]="CreateAccount" >Create New Account</a></div>\n\n         </ion-row>\n\n      </form>\n\n    </div>\n\n  </ion-content>\n\n  '/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\login\login.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
+    ], LoginPage);
+    return LoginPage;
+}());
+
+//# sourceMappingURL=login.js.map
+
+/***/ }),
+
+/***/ 59:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotificationsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__amcharts_amcharts3_angular__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tabs_tabs__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__my_rewards_my_rewards__ = __webpack_require__(113);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+// import { Title } from '@angular/platform-browser';
+var NotificationsPage = (function () {
+    function NotificationsPage(navCtrl, webserve, menu, events, alertCtrl, loadingCtrl, AmCharts) {
+        this.navCtrl = navCtrl;
+        this.webserve = webserve;
+        this.menu = menu;
+        this.events = events;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.AmCharts = AmCharts;
+        this.etherAccount = {
+            address: '-',
+            balance: 0
+        };
+        this.evensAccount = {
+            address: '-',
+            balance: 0
+        };
+        this.tokens = [];
+        this.todayPrice = {
+            "BTT": 1,
+            "ETH": 1,
+            "INR": 1,
+            "THB": 1,
+            "KRW": 1
+        };
+        this.allBalance = {
+            eth: 0,
+            tokenOne: 0,
+            tokenTwo: 0,
+            tokenThree: 0,
+            ens: 0,
+            address: '',
+            tokenTwosym: '',
+            tokenOnesym: '',
+            tokenThreeSym: '',
+            tokenFourSym: ''
+        };
+        this.colors = [
+            "#FF0F00",
+            "#FF6600",
+            "#FF9E01",
+            "#FCD202",
+            "#0D8ECF"
+        ];
+        this.options = {
+            "type": "serial",
+            "theme": "dark",
+            "dataDateFormat": "DD-MMM-YYYY",
+            "dataProvider": [],
+            "valueAxes": [{
+                    "id": "v1",
+                    "axisAlpha": 0,
+                    "position": "left",
+                    "title": "ETH in USD",
+                }],
+            "balloon": {
+                "borderThickness": 0.5,
+                "shadowAlpha": 0
+            },
+            "graphs": [{
+                    "id": "g1",
+                    "balloon": {
+                        "drop": true,
+                        "adjustBorderColor": false,
+                        "color": "#ffffff",
+                        "type": "smoothedLine"
+                    },
+                    "fillAlphas": 0.2,
+                    "bullet": "round",
+                    "bulletBorderAlpha": 0.5,
+                    "bulletColor": "#FFFFFF",
+                    "bulletSize": 2,
+                    "hideBulletsCount": 50,
+                    "lineThickness": 2,
+                    "title": "red line",
+                    "useLineColorForBulletBorder": true,
+                    "valueField": "value",
+                    "balloonText": "<span style='font-size:8px;'>[[value]]</span>"
+                }],
+            "startDuration": 1,
+            "chartCursor": {
+                "valueLineEnabled": true,
+                "valueLineBalloonEnabled": true,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 30,
+                "dashLength": 0,
+                "minorGridEnabled": true
+            },
+            "categoryField": "date",
+            "export": {
+                "enabled": false
+            }
+        };
+        this.gettodayPrice();
+        this.getAllBalance();
+        this.menu.enable(true);
+        this.events.publish('getUser', true);
+        // this.getBalance()
+        // this.evensBalance();1
+    }
+    NotificationsPage.prototype.createChart = function (data) {
+        if (data === void 0) { data = []; }
+        this.options.dataProvider = data;
+        this.chart = this.AmCharts.makeChart("chartdiv", this.options);
+        console.log("chart", this.chart);
+    };
+    NotificationsPage.prototype.ngAfterViewInit = function () {
+        this.addlistenerchart();
+        this.getChartDate();
+    };
+    NotificationsPage.prototype.addlistenerchart = function () {
+        var self = this;
+        self.AmCharts.addInitHandler(function (chart) {
+            console.log("axis values", chart.valueAxes[1]);
+        });
+    };
+    NotificationsPage.prototype.doRefresh = function (e) {
+        this.gettodayPrice();
+        this.getAllBalance();
+        setTimeout(function () {
+            e.complete();
+        }, 2000);
+    };
+    NotificationsPage.prototype.getBalance = function () {
+        var self = this;
+        self.webserve.getBalance()
+            .subscribe(function (res) {
+            console.log('res', res);
+            self.etherAccount = res;
+        }, function (err) {
+            console.log("err", err);
+        });
+    };
+    NotificationsPage.prototype.getAllBalance = function () {
+        var self = this;
+        var loading = this.loadingCtrl.create({
+            // spinner: 'hide',
+            content: 'Fetching Balance  Please Wait...'
+        });
+        loading.present();
+        self.webserve.getAllBalance()
+            .subscribe(function (res) {
+            self.allBalance = res;
+            loading.dismiss();
+        }, function (err) {
+            loading.dismiss();
+        });
+    };
+    NotificationsPage.prototype.evensBalance = function () {
+        var self = this;
+        self.webserve.evensBalance()
+            .subscribe(function (res) {
+            // console.log('res',res)
+            self.evensAccount = res;
+        }, function (err) {
+            // console.log("err",err)
+        });
+    };
+    NotificationsPage.prototype.openSingleNotification = function (coin, type) {
+        this.webserve.setSelecetedcoin(coin);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__tabs_tabs__["a" /* TabsPage */], { data: type });
+    };
+    NotificationsPage.prototype.gettodayPrice = function () {
+        var self = this;
+        self.webserve.getTodayPrice()
+            .subscribe(function (res) {
+            self.todayPrice = res;
+        }, function (err) {
+            console.log(err);
+        });
+    };
+    NotificationsPage.prototype.getChartDate = function () {
+        var self = this;
+        self.webserve.getChartDate()
+            .subscribe(function (res) {
+            self.createChart(res.data);
+        }, function (err) {
+            self.createChart();
+        });
+    };
+    NotificationsPage.prototype.goToPricePage = function () {
+        var self = this;
+        self.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__my_rewards_my_rewards__["a" /* MyRewardsPage */]);
+    };
+    NotificationsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-notifications',template:/*ion-inline-start:"d:\projects\enswallet-mobile\src\pages\notifications\notifications.html"*/'<ion-header>\n\n\n\n  <div class="wallet">\n\n    <ion-navbar color="primary">\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Evens</ion-title>\n\n    </ion-navbar>\n\n  </div>\n\n\n\n</ion-header>\n\n<ion-content>\n\n                <ion-refresher (ionRefresh)="doRefresh($event)">\n\n                                <ion-refresher-content\n\n                                  pullingIcon="arrow-dropdown"\n\n                                  pullingText="Pull to refresh"\n\n                                  refreshingSpinner="circles"\n\n                                  refreshingText="Refreshing...">\n\n                                </ion-refresher-content>\n\n                              </ion-refresher>\n\n  <div class="cad">\n\n\n\n    <ion-card class="wallat_main">\n\n      <div class="wall_txt_cen" >\n\n          <div id="chartdiv" [style.width.%]="100" [style.height.px]="200"></div>\n\n        <!-- <p class="wall_amount">$49994.5</p>     -->\n\n\n\n      </div>\n\n\n\n    </ion-card>\n\n\n\n    <ion-list class="trans">\n\n\n\n\n\n\n\n      <ion-card class="card_trans">\n\n        <ion-item (click)=\'openSingleNotification("Etheriun","coin")\'>\n\n          <div class="row">\n\n            <div class="col col-10">\n\n              <ion-thumbnail item-start>\n\n                <img class="coinimg" src="assets/imgs/eth-40.png">\n\n              </ion-thumbnail>\n\n            </div>\n\n            <div class="hello">\n\n\n\n              <div class="col col-50">\n\n\n\n                <h3 class="fontWhite item_text" text-right>{{ allBalance.eth | number:\'.3\' }}&nbsp;&nbsp;ETH</h3>\n\n              </div>\n\n            </div>\n\n            <!-- <div class="hello">\n\n              <div class="col">\n\n\n\n                <h3 class="fontWhite item_text" text-left>ETH</h3>\n\n\n\n              </div>\n\n            </div> -->\n\n\n\n            <div class="col col-40 rmpad">\n\n              <h3 class="fontWhite item_text" text-right> {{ allBalance.eth / todayPrice.ETH | number:\'.3\' }} $</h3>\n\n\n\n            </div>\n\n          </div>\n\n\n\n          <!-- <button ion-button clear (click)=\'openSingleNotification()\' item-end>View</button> -->\n\n        </ion-item>\n\n      </ion-card>\n\n      <ion-card class="card_trans">\n\n        <ion-item (click)=\'openSingleNotification("evenscoin","coin")\'>\n\n          <div class="row">\n\n            <div class="col col-10">\n\n              <ion-thumbnail item-start>\n\n                <img class="coinimg"  src="assets/imgs/evens-40.png">\n\n              </ion-thumbnail>\n\n            </div>\n\n            <div class="hello">\n\n              <div class="col col-50">\n\n                <h3 class="fontWhite item_text" text-right>{{ allBalance.ens | number:\'.3\'}}&nbsp;&nbsp;ENS</h3>\n\n              </div>\n\n            </div>\n\n            <!-- <div class="hello">\n\n              <div class="col">\n\n                <h3 class="fontWhite item_text" text-left>ENS</h3>\n\n              </div>\n\n            </div> -->\n\n            <div class="col col-40 rmpad">\n\n              <h3 class="fontWhite item_text" text-right> N.A </h3>\n\n            </div>\n\n          </div>\n\n\n\n\n\n\n\n        </ion-item>\n\n      </ion-card>\n\n      <!-- <ion-card *ngFor="let token of tokens" class="card_trans">\n\n        <ion-item (click)=\'openSingleNotification("tokenOne","token")\'>\n\n          <div class="row">\n\n            <div>\n\n              <ion-thumbnail item-start>\n\n                <img class="coinimg" src="assets/imgs/tk1-40.png">\n\n              </ion-thumbnail>\n\n            </div>\n\n            <div class="hello">\n\n              <div class="col">\n\n                <h3 class="fontWhite item_text" text-right>{{ token.balance | number:\'.3\' }} </h3>\n\n              </div>\n\n            </div>\n\n            <div class="hello">\n\n              <div class="col">\n\n                <h3 class="fontWhite item_text" text-left>{{token.symbol}}</h3>\n\n              </div>\n\n            </div>\n\n            <div class="col rmpad">\n\n              <h3 class="fontWhite item_text" text-right> 0 $ </h3>\n\n              <h3 class="fontWhite item_text" text-right> {{  allBalance.tokenOne / todayPrice.INR | number:\'.3\' }} $ </h3>\n\n            </div>\n\n          </div>\n\n\n\n\n\n        </ion-item>\n\n      </ion-card> -->\n\n      <ion-card class="card_trans">\n\n        <ion-item (click)=\'openSingleNotification("tokenOne","token")\'>\n\n          <div class="row">\n\n            <div class="col col-10">\n\n              <ion-thumbnail item-start>\n\n                <img class="coinimg" src="assets/imgs/tk1-40.png">\n\n              </ion-thumbnail>\n\n            </div>\n\n            <div class="hello">\n\n              <div class="col col-50">\n\n                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number:\'.3\' }}&nbsp;&nbsp;{{allBalance.tokenOneSym}}</h3>\n\n              </div>\n\n            </div>\n\n            <!-- <div class="hello">\n\n              <div class="col">\n\n                <h3 class="fontWhite item_text" text-left>{{allBalance.tokenOneSym}}</h3>\n\n              </div>\n\n            </div> -->\n\n            <div class="col col-40 rmpad">\n\n              <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenOne / todayPrice.INR | number:\'.3\' }} $\n\n              </h3>\n\n            </div>\n\n          </div>\n\n\n\n\n\n        </ion-item>\n\n      </ion-card>\n\n      <ion-card class="card_trans">\n\n        <ion-item (click)=\'openSingleNotification("tokenTwo","token")\'>\n\n          <div class="row">\n\n            <div class="col col-10"> \n\n              <ion-thumbnail item-start>\n\n                <img class="coinimg" src="assets/imgs/tk2-40.png">\n\n              </ion-thumbnail>\n\n            </div>\n\n            <div class="hello">\n\n              <div class="col col-50">\n\n                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo | number:\'.3\' }}&nbsp;&nbsp;{{allBalance.tokenTwoSym}}</h3>\n\n              </div>\n\n            </div>\n\n            <!-- <div class="hello">\n\n              <div class="col">\n\n                <h3 class="fontWhite item_text" text-left>{{allBalance.tokenTwoSym}} </h3>\n\n              </div>\n\n            </div> -->\n\n            <div class="col col-40 rmpad">\n\n              <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenTwo / todayPrice.THB | number:\'.3\' }} $</h3>\n\n            </div>\n\n          </div>\n\n\n\n\n\n        </ion-item>\n\n      </ion-card>\n\n      <ion-card class="card_trans">\n\n        <ion-item (click)=\'openSingleNotification("tokenThree","token")\'>\n\n          <div class="row">\n\n            <div class="col col-10">\n\n              <ion-thumbnail item-start>\n\n                <img class="coinimg" src="assets/imgs/tk3-40.png">\n\n              </ion-thumbnail>\n\n            </div>\n\n            <div class="hello">\n\n              <div class="col col-50">\n\n                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree | number:\'.3\' }}&nbsp;&nbsp;{{allBalance.tokenThreeSym}}</h3>\n\n              </div>\n\n            </div>\n\n            <!-- <div class="hello">\n\n              <div class="col">\n\n                <h3 class="fontWhite item_text" text-left>{{allBalance.tokenThreeSym}}</h3>\n\n              </div>\n\n            </div> -->\n\n            <div class="col col-40 rmpad">\n\n              <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenThree / todayPrice.KRW | number:\'.3\' }} $\n\n              </h3>\n\n            </div>\n\n          </div>\n\n\n\n\n\n        </ion-item>\n\n      </ion-card>\n\n      <ion-card class="card_trans">\n\n        <ion-item (click)=\'openSingleNotification("tokenFour","token")\'>\n\n          <div class="row">\n\n            <div class="col col-10">\n\n              <ion-thumbnail item-start>\n\n                <img class="coinimg" src="assets/imgs/tk4-40.png">\n\n              </ion-thumbnail>\n\n            </div>\n\n            <div class="hello">\n\n              <div class="col col-50">\n\n                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenFour | number:\'.3\' }}&nbsp;&nbsp;{{allBalance.tokenFourSym}}</h3>\n\n              </div>\n\n            </div>\n\n            <div class="col col-40 rmpad">\n\n              <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenFour / todayPrice.USD | number:\'.3\' }} $\n\n              </h3>\n\n            </div>\n\n          </div>\n\n        </ion-item>\n\n      </ion-card>\n\n    </ion-list>\n\n\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"d:\projects\enswallet-mobile\src\pages\notifications\notifications.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_webservic_webservic__["a" /* WebservicProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_3__amcharts_amcharts3_angular__["b" /* AmChartsService */]])
+    ], NotificationsPage);
+    return NotificationsPage;
+}());
+
+//# sourceMappingURL=notifications.js.map
+
+/***/ })
+
+},[352]);
+//# sourceMappingURL=main.js.map

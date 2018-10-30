@@ -61,15 +61,12 @@ export class WalletPage {
       case 'tokenThree':
       servicecall = self.webserve.getTokenThreeBalance();
       break;
+      case 'tokenFour':
+      servicecall = self.webserve.getTokenFourBalance();
+      break;
       default:
       servicecall = self.webserve.getBalance()
     }
-    // if(this.selectedCur == 'Etheriun'){
-    //   servicecall = self.webserve.getBalance()
-    //  }
-    //  if(this.selectedCur == 'evenscoin'){
-    //   servicecall = self.webserve.evensBalance()
-    //  }
     servicecall
     .subscribe(res=>{
       console.log('res',res)

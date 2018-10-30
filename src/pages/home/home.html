@@ -19,6 +19,7 @@
       <img *ngIf="selectedCur == 'tokenOne'" class="static_icon" src="assets/imgs/tk1w-40.png">
       <img *ngIf="selectedCur == 'tokenThree'" class="static_icon" src="assets/imgs/tk3w-40.png">
       <img *ngIf="selectedCur == 'tokenTwo'" class="static_icon" src="assets/imgs/tk2w-40.png">
+      <img *ngIf="selectedCur == 'tokenFour'" class="static_icon" src="assets/imgs/tk4w-40.png">
     </div>
     <p class="sendtitle">SEND</p>
     <div>
@@ -31,6 +32,13 @@
           <ion-label floating>TRANSFER TO</ion-label>
           <ion-input #focusInput type="text" (blur)="checkAddress(transfer.address);" name="address" required [(ngModel)]="transfer.address" ngControl="address"></ion-input>
         </ion-item>
+        <ion-item *ngIf="selectedCur == 'evenscoin' || selectedCur == 'Etheriun'" no-lines>
+            <ion-label >GAS PRICE - {{transfer.gasprice}} (Gwei)</ion-label>
+            <ion-range min="20" max="80" step="2" name="gasprice" [(ngModel)]="transfer.gasprice">
+              <p class="clrwhit"  range-left > Slow</p>
+              <p class="clrwhit"  range-right > Fast</p>
+            </ion-range>
+          </ion-item>
         <button ion-button round type="button" (click)="scanQr()"> Scan QR </button>
         <button *ngIf="enableNfc" ion-button round type="button" (click)="addListenNFC()"> Read NFC </button>
         <button ion-button [disabled]="form.invalid" type="submit" block round>Transfer</button>
@@ -64,6 +72,9 @@
           <span *ngIf="selectedCur == 'tokenThree'">
             {{account.tokenThreeSym}}
           </span>
+          <span *ngIf="selectedCur == 'tokenFour'">
+              {{account.tokenThreeSym}}
+            </span>
         </span>
       </p>
     </div>

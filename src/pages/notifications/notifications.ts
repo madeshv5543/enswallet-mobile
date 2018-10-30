@@ -29,18 +29,21 @@ export class NotificationsPage {
     "ETH":1,
     "INR":1,
     "THB":1,
-    "KRW":1
+    "KRW":1,
+    "USD":1
   }
   allBalance:any ={
     eth:0,
     tokenOne:0,
     tokenTwo:0,
     tokenThree:0,
+    tokenFour:0,
     ens:0,
     address:'',
     tokenTwosym:'',
     tokenOnesym:'',
-    tokenThreeSym:'' 
+    tokenThreeSym:'',
+    tokenFourSym:''
   }
   private chart: AmChart;
   public colors = [

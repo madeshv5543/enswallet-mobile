@@ -61,6 +61,9 @@ browser.show()
      case 'tokenThree':
      servicecall = self.webservice.getTokenThreeBalance();
      break;
+     case 'tokenFour':
+     servicecall = self.webservice.getTokenFourBalance();
+     break;
      default:
      servicecall = self.webservice.getBalance()
    }

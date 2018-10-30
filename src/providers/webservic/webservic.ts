@@ -19,7 +19,7 @@ export class WebservicProvider {
  private params = "&startblock=0&endblock=99999999&page=1&offset=500&sort=desc&apikey=YourApiKeyToken";
  private evensparams = "&startblock=0&endblock=99999999&page=1&offset=5&sort=desc&apikey=YourApiKeyToken";
  private evenstokenUrl:any ="https://api.etherscan.io/api?module=account&action=tokentx&address="
- private topriceurl = 'https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW'
+ private topriceurl = 'https://min-api.cryptocompare.com/data/price?fsym=USD&tsyms=BTT,ETH,INR,THB,KRW,USD'
  private exploreUrl = 'http://explorer.evenscoin.io'
  private selectedCoin:any;
  private USDvalue :any = {};
@@ -223,6 +223,11 @@ export class WebservicProvider {
     return  self.http.get(`${self.serverUrl}/tokenThreeBalance`)
   }
 
+  getTokenFourBalance() {
+    let self = this;
+    return  self.http.get(`${self.serverUrl}/tokenFourBalance`)
+  }
+
   TransferTokenOne(data){
     let self = this;
     return self.http.post(`${self.serverUrl}/sendTokenOne`,data)
@@ -236,6 +241,11 @@ export class WebservicProvider {
   TransferTokenThree(data){
     let self = this;
     return  self.http.post(`${self.serverUrl}/sendTokenThree`,data)
+  }
+
+  TransferTokenFour(data){
+    let self = this;
+    return  self.http.post(`${self.serverUrl}/sendTokenFour`,data)
   }
 
   createAccont(data){

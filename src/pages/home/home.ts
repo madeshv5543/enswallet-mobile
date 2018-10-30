@@ -14,7 +14,9 @@ import { NgForm } from '@angular/forms';
 })
 export class HomePage {
   @ViewChild('focusInput') myInput ;
-  public transfer:any ={};
+  public transfer:any ={
+    gasprice:40
+  };
   mimeType = "game/rockpaperscissors";
   public account:any ={
     address:'-',
@@ -82,6 +84,9 @@ export class HomePage {
     case 'tokenThree':
     servicecall = self.webserve.getTokenThreeBalance();
     break;
+    case 'tokenFour':
+    servicecall = self.webserve.getTokenFourBalance();
+    break;
     default:
     servicecall = self.webserve.getBalance()
   }
@@ -131,8 +136,9 @@ createtoast(message, duration = 2000) {
     let self = this;
     let data ={
       transferTo:f.value.address,
-      amount:f.value.amount
-    }
+      amount:f.value.amount,
+      gasprice: this.transfer.gasprice
+      }
     let tranApi:any;
     switch(self.selectedCur){
       case 'evenscoin':
@@ -146,6 +152,9 @@ createtoast(message, duration = 2000) {
       break;
       case 'tokenThree':
       tranApi = self.webserve.TransferTokenThree(data)
+      break;
+      case 'tokenFour':
+      tranApi = self.webserve.TransferTokenFour(data)
       break;
       default:
       tranApi = self.webserve.Transfer(data)

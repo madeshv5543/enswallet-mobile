@@ -95,8 +95,7 @@
               <div class="col"><span class="strong">BALANCE<br></span> <span class="bal"><strong>{{selectedAccount.balance
                     | number:'.3' }} ENS</strong></span></div>
               <div class="v-div"></div>
-              <div class="col"><span class="strong">PRICE<br></span><span class="bal"><strong>{{1 / todayPrice.BTT |
-                    number:'.3'}} USD</strong></span> </div>
+              <div class="col"><span class="strong">PRICE<br></span><span class="bal"><strong> N.A</strong></span> </div>
             </div>
           </div>
         </div>
@@ -291,6 +290,58 @@
       </div>
 
     </div>
+    <div *ngIf="selectedCur == 'tokenFour'">
+        <div class="tophead">
+          <div padding>
+            <div class="centex">
+              <img class="tra_img" src="assets/imgs/tk4-100.png">
+            </div>
+            <div class="centex">
+              <h1>{{selectedAccount.tokenFourSym}}</h1>
+            </div>
+            <div class="top">
+              <div class="wal-amount row" text-center>
+                <div class="col"><span class="strong">BALANCE<br></span> <span class="bal"><strong>{{selectedAccount.balance
+                      | number: '.3' }} {{selectedAccount.tokenFourSym}}</strong></span></div>
+                <div class="v-div"></div>
+                <div class="col"><span class="strong">PRICE<br></span><span class="bal"><strong>{{1 / todayPrice.USD|
+                      number: '.3'}} USD</strong></span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="topfoot">
+          <div class="recent">
+            <h4 text-center>Recent Activity</h4>
+            <ng-container>
+              <ion-card class="tran_card">
+  
+                <!-- <div class="pad row header trans_date txn-data">
+                                                      <div class="col"><span class="date">Date</span></div>
+                                                      <div class="col" text-right><span class="strong">Amount</span></div>
+                                                      <div class="col" text-left><span class="strong">Type</span></div>
+                                                  </div> -->
+                <div *ngIf="!ethTransaction.length" class="  row header trans_am txn-data " style="color: black"> No
+                  Recent Activity Available. </div>
+                <div class=" pad row header trans_am txn-data" *ngFor="let trans of ethTransaction" (click)="OpenUrl(trans.link)">
+                  <div>
+                    <span class="date">{{trans.date}}</span>
+                    <span class="txs"> <strong [style.color]="trans.mode == 'Sent'? '#2962FF':'#ed2c53'"><span *ngIf="trans.mode == 'Sent'">-</span>
+                        <span *ngIf="trans.mode == 'Received'">+</span>{{trans.amount | number:'.3'}}</strong></span>
+                  </div>
+                  <div>
+                    <span class="pos"><strong>{{trans.mode}}</strong></span>
+                  </div>
+                </div>
+  
+              </ion-card>
+  
+            </ng-container>
+          </div>
+        </div>
+  
+      </div>
   </div>
 
 </ion-content>

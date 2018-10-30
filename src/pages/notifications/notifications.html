@@ -85,7 +85,7 @@
               </div>
             </div> -->
             <div class="col col-40 rmpad">
-              <h3 class="fontWhite item_text" text-right> {{ allBalance.ens / todayPrice.BTT | number:'.3' }} $ </h3>
+              <h3 class="fontWhite item_text" text-right> N.A </h3>
             </div>
           </div>
 
@@ -130,7 +130,7 @@
             </div>
             <div class="hello">
               <div class="col col-50">
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number:'.3' }}&nbsp;&nbsp;ECI</h3>
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenOne | number:'.3' }}&nbsp;&nbsp;{{allBalance.tokenOneSym}}</h3>
               </div>
             </div>
             <!-- <div class="hello">
@@ -157,7 +157,7 @@
             </div>
             <div class="hello">
               <div class="col col-50">
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo | number:'.3' }}&nbsp;&nbsp;ECT</h3>
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenTwo | number:'.3' }}&nbsp;&nbsp;{{allBalance.tokenTwoSym}}</h3>
               </div>
             </div>
             <!-- <div class="hello">
@@ -183,7 +183,7 @@
             </div>
             <div class="hello">
               <div class="col col-50">
-                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree | number:'.3' }}&nbsp;&nbsp;ECK</h3>
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenThree | number:'.3' }}&nbsp;&nbsp;{{allBalance.tokenThreeSym}}</h3>
               </div>
             </div>
             <!-- <div class="hello">
@@ -200,24 +200,26 @@
 
         </ion-item>
       </ion-card>
-      <!-- <ion-card class="card_trans">
-                                        <ion-item>
-                                <div class="row">
-                                        <div>
-                                                        <ion-thumbnail  item-start>
-                                                             <img class="coinimg" src="assets/imgs/inr.png">
-                                                          </ion-thumbnail>
-                                        </div>
-                                        <div class="col"> <h3 class="fontWhite item_text" text-right>480</h3></div>
-                                        <div class="col"> <h3 class="fontWhite item_text" text-left>TOK4</h3></div>
-                                        <div class="col"> <h3 class="fontWhite item_text" text-right> 5073.98 TOK </h3></div>
-                                </div>
-                                      
-                                               
-                                               
-                                            </ion-item>
-                                </ion-card> -->
-
+      <ion-card class="card_trans">
+        <ion-item (click)='openSingleNotification("tokenFour","token")'>
+          <div class="row">
+            <div class="col col-10">
+              <ion-thumbnail item-start>
+                <img class="coinimg" src="assets/imgs/tk4-40.png">
+              </ion-thumbnail>
+            </div>
+            <div class="hello">
+              <div class="col col-50">
+                <h3 class="fontWhite item_text" text-right>{{ allBalance.tokenFour | number:'.3' }}&nbsp;&nbsp;{{allBalance.tokenFourSym}}</h3>
+              </div>
+            </div>
+            <div class="col col-40 rmpad">
+              <h3 class="fontWhite item_text" text-right> {{ allBalance.tokenFour / todayPrice.USD | number:'.3' }} $
+              </h3>
+            </div>
+          </div>
+        </ion-item>
+      </ion-card>
     </ion-list>
 
   </div>
